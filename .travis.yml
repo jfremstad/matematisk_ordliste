@@ -1,0 +1,12 @@
+install: true
+sudo: false
+
+cache:
+  directories:
+    - csvlint-v0.2.0-linux-amd64
+
+before_script:
+  - wget "https://github.com/Clever/csvlint/releases/download/0.2.0/csvlint-v0.2.0-linux-amd64.tar.gz"
+  - tar xvf csvlint-v0.2.0-linux-amd64.tar.gz
+
+script: csvlint-v0.2.0-linux-amd64/csvlint verifiserte_termer.csv || exit 1
