@@ -4,6 +4,7 @@
 - Inger Christin Borge (UiO)
 - Aslak Bakke Buan (NTNU)
 - [Erlend Børve (NTNU)](https://github.com/bervinator)
+- Snorre H. Christiansen (UiO)
 - Olav Gunnarson Dovland (UiA)
 - Geir Ellingsrud (UiO)
 - [Simon Foldvik (UiO)](https://github.com/Qeeku)
@@ -21,4 +22,3 @@
 - John Sølve Tyssedal (NTNU)
 - [Ole Kristian Våge (Språkrådet)](https://github.com/OleVaage)
 - [Anders Wiik (UiA)](https://github.com/AndersWiik92)
-
