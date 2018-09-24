@@ -78,7 +78,7 @@ moment,moment,moment,"Legg merke til at denne oversettelsen gjelder innen statis
 p-primært ideal,p-primært ideal,p-primary ideal,
 kompleks,kompleks,complex,
 åpen overdekning,open overdekking,open cover/open covering,
-topp,topp,peak,"Oversettelsen gjelder bruk innen blant annet statistikk, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+topp,topp,peak,"Oversettelsen gjelder bruk innen blant annet statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 regulært rom,regulært rom,regular space,
 komposisjon/sammensetning,komposisjon/samansetting,composition,
 evalueringshomomorfi,evalueringshomomorfi,evaluation homomorphism,
@@ -162,7 +162,7 @@ bivariat fordeling,bivariat fordeling,bivariate distribution,
 kofaktor,kofaktor,cofactor,
 orientert,orientert,oriented,
 partisjon,partisjon,partition,
-observator,observator,statistic,"Oversettelsen gjelder bruk i statistikk, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+observator,observator,statistic,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 normalt rom,normalt rom,normal space,
 kvotientrom,kvotientrom,quotient space,
 F-test,F-test,F-test/variance ratio test,
@@ -361,7 +361,7 @@ hilbertfunksjon,hilbertfunksjon,Hilbert function,
 koblet hastighet,kopla hastigheit,related rate,
 derivasjon,derivasjon,differentiation,"De engelske termene derivation og differentiation er ikke synonymer, selv om begge oversettes til det samme på norsk. <i>Differentiation</i> brukes om det å derivere en funksjon."
 tilbakelegging,tilbakelegging,replacement,
-midtpunkt,midtpunkt,midrange,"Oversettelsen gjelder bruk i statistikk, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+midtpunkt,midtpunkt,midrange,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 faktorgruppe,faktorgruppe,factor group,
 intervall,intervall,interval,
 kvasiisomorfi,kvasiisomorfi,quasi-isomorphism,
@@ -464,7 +464,7 @@ brøkmodul,brøkmodul,module of fractions,
 betinget sannsynlighet,vilkårsbunde sannsyn,conditional probability,
 yonedaimbedding,yonedaimbedding,Yoneda embedding,
 fri modul,fri modul,free module,
-konfidens,konfidens,confidence,"Oversettelsen gjelder bruk i statistikk, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+konfidens,konfidens,confidence,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 uendeligdimensjonal,uendelegdimensjonal,infinite-dimensional,
 avbildningsrom,avbildingsrom,mapping space,
 båndmatrise,bandmatrise,band matrix,
@@ -761,9 +761,9 @@ konjugert,konjugert,conjugate,"Ordklasse: adjektiv"
 avvikende observasjon,avvikande observasjon,outlier,
 iterasjon,iterasjon,iteration,
 inverst system,inverst system,inverse system,
-sammenslått,samanslege,pooled,"Oversettelsen gjelder bruk i statistikk, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+sammenslått,samanslege,pooled,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 utspenne,utspenne,span,"Ordklasse: verb"
-variasjonsbredde,variasjonsbreidd,range,"Oversettelsen gjelder bruk i statistikk, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+variasjonsbredde,variasjonsbreidd,range,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 injektivt objekt,injektivt objekt,injective object,
 primideal,primideal,prime ideal,
 uavhengig,uavhengig,independent,
@@ -1091,7 +1091,7 @@ assosiert primideal,assosiert primideal,associated prime,
 største nedre skranke,største nedre skranke,greatest lower bound,
 multinomisk fordeling,multinomisk fordeling,multinomial distribution,
 punkt,punkt,point,
-modalverdi/typetall,modalverdi/typetal,mode,"Oversettelsen gjelder bruk i statistikk, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger. Typetall (bokmål) og typetal (nynorsk) anbefales."
+modalverdi/typetall,modalverdi/typetal,mode,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger. Typetall (bokmål) og typetal (nynorsk) anbefales."
 splittepimorfi,splittepimorfi,split epimorphism,
 negativt bestemt,negativt bestemd,negative definite,
 ubestemt integral,ubestemt integral,indefinite integral,
@@ -1268,9 +1268,9 @@ radredusering,radredusering,row reduction,
 kvadratrot,kvadratrot,square root,
 assosiert gradert ring,assosiert gradert ring,associated graded ring,
 simplisiell homologi,simplisiell homologi,simplicial homology,
-forsøksplan,forsøksplan,design,"Oversettelsen gjelder bruk i statistikk, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+forsøksplan,forsøksplan,design,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 invers grense,invers grense,inverse limit,
-klasseskille,klasseskilje,class boundary,"Oversettelsen gjelder bruk i statistikk, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+klasseskille,klasseskilje,class boundary,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 skjema,skjema,scheme,
 mål,mål,measure,
 høyreeksakt,høgreeksakt,right exact,
