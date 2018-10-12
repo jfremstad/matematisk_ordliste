@@ -1,6 +1,7 @@
 # Bidragsytere (alfabetisk)
 
 - Øyvind Bakke (NTNU)
+- [Stine Marie Berge (NTNU)](https://github.com/StineBerge)
 - Inger Christin Borge (UiO)
 - Aslak Bakke Buan (NTNU)
 - [Erlend Børve (NTNU)](https://github.com/bervinator)
@@ -9,7 +10,7 @@
 - Geir Ellingsrud (UiO)
 - [Simon Foldvik (UiO)](https://github.com/Qeeku)
 - [Joakim Fremstad (NTNU)](https://github.com/jfremstad)
-- Harald Hanche-Olsen (NTNU)
+- [Harald Hanche-Olsen (NTNU)](https://github.com/hanche)
 - [Johanne Haugland (NTNU)](https://github.com/johahaug)
 - Sigbjørn Hervik (UiS)
 - Klara Hveberg (UiO)
