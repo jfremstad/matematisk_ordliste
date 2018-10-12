@@ -71,7 +71,7 @@
 
 * Informasjon om kontekst kan f.eks. gis slik:
   ```
-  forsøksplan,forsøksplan,design,"Oversettelsen gjelder bruk i statistikk, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+  forsøksplan,forsøksplan,design,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
   felt,felt,field,"Merk at oversettelsen av <i>field</i> er avhengig av kontekst. Oversettelsen felt brukes for eksempel i forbindelse med vektorfelt."
   kropp,kropp,field,"Merk at oversettelsen av </i>field</i> er avhengig av kontekst. En kropp er en kommutativ ring der ethvert ikke-nullelement har en multiplikativ invers. For eksempel utgjør de reelle tall en kropp."
   ```
