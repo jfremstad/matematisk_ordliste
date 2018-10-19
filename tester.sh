@@ -12,3 +12,5 @@ if [[ "$(grep -Ec ",\s+$|^\s*$" $DATABASE)" -ne 0 ]]; then
   grep -En ",\s+$|^\s*$" "$DATABASE"
   exit 2
 fi
+
+python test.py "$DATABASE"
