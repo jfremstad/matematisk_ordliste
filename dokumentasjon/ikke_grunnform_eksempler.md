@@ -30,6 +30,9 @@
 - utvalgsaksiomet
 
 ## Eksempler på tvilstilfeller som er ført opp i grunnform
+- cantormengde
+- cauchykriterium
+- koblet hastighet
 - komplementvinkel
 - supplementvinkel
 - toppvinkel
