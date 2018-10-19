@@ -13,4 +13,4 @@ if [[ "$(grep -Ec ",\s+$|^\s*$" $DATABASE)" -ne 0 ]]; then
   exit 2
 fi
 
-python test.py "$DATABASE"
+python3 test.py "$DATABASE"
