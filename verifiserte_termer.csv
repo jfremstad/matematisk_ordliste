@@ -151,7 +151,7 @@ radikand,radikand,radicand,
 determinant,determinant,determinant,
 nullvektor,nullvektor,zero vector,
 kumulativ frekvens,kumulativ frekvens,cumulative frequency,
-type II-feil/godtakingsfeil,type II-feil/godtakingsfeil,error of second kind/false negative,"Begge oversettelsene brukes på norsk, men godtakingsfeil anbefales."
+godtakingsfeil/type II-feil,godtakingsfeil/type II-feil,error of second kind/false negative,"Begge oversettelsene brukes på norsk, men godtakingsfeil anbefales."
 kategori,kategori,category,
 randhomomorfi,randhomomorfi,boundary homomorphism,
 likhetstegn,likskapsteikn,equality sign,
@@ -370,7 +370,7 @@ varians,varians,variance,
 initialverdi/startverdi,initialverdi/startverdi,initial value,
 assosiativ,assosiativ,associative,
 parametrisere,parametrisere,parameterize,
-overdekningstransformasjon,overdekkingstransformasjon,deck transformation/covering transformation,
+overdekningstransformasjon,overdekkingstransformasjon,covering transformation/deck transformation,
 aritmetikk,aritmetikk,arithmetic,"Ordklasse: substantiv"
 multiplikativt lukket delmengde,multiplikativt lukka delmengd,multiplicatively closed subset,
 disk,disk,disc,
@@ -788,7 +788,7 @@ generalisert sannsynlighetsforhold,generalisert sannsynsforhold,generalized like
 ringhomomorfi,ringhomomorfi,ring homomorphism,
 tallinje,tallinje,real line,
 radvektor,radvektor,row vector,
-type I-feil/forkastningsfeil,type I-feil/forkastingsfeil,error of first kind/false positive,"Begge oversettelsene brukes på norsk, men forkastningsfeil (bokmål) og forkastingsfeil (nynorsk) anbefales."
+forkastningsfeil/type I-feil,forkastingsfeil/type I-feil,error of first kind/false positive,"Begge oversettelsene brukes på norsk, men forkastningsfeil (bokmål) og forkastingsfeil (nynorsk) anbefales."
 forventningsrett,forventingsrett,unbiased,"Ordklasse: adjektiv"
 heksaeder,heksaeder,hexahedron,
 høyrekoherent,høgrekoherent,right coherent,
