@@ -1,5 +1,7 @@
 # Språklige konvensjoner
 
+Nedenfor følger en oversikt over de språklige konvensjonene som blir brukt i ordlista. I mange tilfeller er flere skrivemåter lovlige, og for å gjøre ordlista mest mulig ryddig er det ofte valgt ut ett alternativ som brukes gjennomgående. Legg merke til at dette <i>ikke</i> betyr at andre tillatte skrivemåter frarådes, men snarere er et valg som er gjort for å gjøre ordlista mer brukervennlig. Hvis du er uenig i noen av de språklige konvensjonene, kan du [komme med innspill](dokumentasjon/innspill.md) om dette. 
+
 ### Generelle retningslinjer
 * Termer føres fortrinnsvis opp i sin grunnform (ubestemt form entall, infinitiv, etc.). Dette fravikes i tilfeller der termen kun gir mening i en annen form, som for eksempel
 

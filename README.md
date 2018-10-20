@@ -18,7 +18,7 @@ Alle innspill settes stor pris på.
 I [diskusjonsforumet](https://github.com/jfremstad/matematisk_ordliste/issues) kan enhver som ønsker det være med på å diskutere saker som angår ordlista.
 Forslag om endringer går til slutt gjennom en verifikasjonsprosess, før de eventuelt publiseres på den offisielle ordlista.
 
-Her kan du lese om hvordan du kan [komme med innspill](dokumentasjon/innspill.md).
+Her kan du lese om hvordan du kan [komme med innspill](dokumentasjon/innspill.md) og om valg av [språklige konvensjoner](dokumentasjon/spraklige_konvensjoner.md).
 
 ### Takk til:
 * Språkrådet for å ha bidratt med igangsetting og finansiering av prosjektet
