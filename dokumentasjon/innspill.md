@@ -1,7 +1,6 @@
 # Hvordan komme med innspill
-Hvis du ikke har bruker på denne plattformen (GitHub), må du
-[opprette](https://github.com/join?return_to=https%3A%2F%2Fgithub.com%2Fjfremstad%2Fmatematisk_ordliste%2Fblob%2Fmaster%2Fdokumentasjon%2Finnspill.md) en.
-Du kan også sende innspill på mail til johanne.haugland@ntnu.no, men det beste er om du deltar direkte her på prosjektsidene.
+Hvis du ikke har bruker på denne plattformen (GitHub), må du [opprette](https://github.com/join?return_to=https%3A%2F%2Fgithub.com%2Fjfremstad%2Fmatematisk_ordliste%2Fblob%2Fmaster%2Fdokumentasjon%2Finnspill.md) en.
+Du kan også sende innspill på mail til [ordliste@matematikkradet.no](mailto:ordliste@matematikkradet.no), men det beste er om du deltar direkte her på prosjektsidene.
 		
 ### Delta i diskusjonsforumet
 1. Sjekk i listen over [åpne diskusjonstråder](https://github.com/jfremstad/matematisk_ordliste/issues)
