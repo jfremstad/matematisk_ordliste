@@ -24,6 +24,10 @@ def checkSorted(data):
     errorlist = []
     for i in data:
         for j in range(3):
+            synonyms = i[j].split("/")
+            for k in synonyms:
+                if " " in k and len(synonyms) != 1 and k[-1] != " " and k[0] != " ":
+                    print(i[j].split("/"))
             if not isSorted(re.sub(" ?/ ?", "/", i[j]).split("/")):
                 errorlist.append(i[j])
                 EXITCODE = 5
