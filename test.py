@@ -3,6 +3,7 @@
 
 import csv
 import sys
+import re
 
 
 # Check if list is sorted
@@ -23,7 +24,7 @@ def checkSorted(data):
     errorlist = []
     for i in data:
         for j in range(3):
-            if not isSorted(i[j].split("/")):
+            if not isSorted(re.sub(" ?/ ?", "/", i[j]).split("/")):
                 errorlist.append(i[j])
                 EXITCODE = 5
     if EXITCODE == 5:
