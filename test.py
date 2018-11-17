@@ -27,6 +27,7 @@ def checkSorted(data):
             synonyms = i[j].split("/")
             for k in synonyms:
                 if " " in k and len(synonyms) != 1 and k[-1] != " " and k[0] != " ":
+                    EXITCODE = 2
                     print(i[j].split("/"))
             if not isSorted(re.sub(" ?/ ?", "/", i[j]).split("/")):
                 errorlist.append(i[j])
@@ -35,7 +36,7 @@ def checkSorted(data):
         print("Endringer som må gjøres:\n")
         for i in errorlist:
             print(i, "-->", "/".join(sorted(i.split("/"))))
-        sys.exit(EXITCODE)
+    sys.exit(EXITCODE)
 
 
 def main():
