@@ -22,9 +22,9 @@ Nedenfor følger en oversikt over de språklige konvensjonene som blir brukt i o
   
   Eksempelet ovenfor faller inn under tredje punkt. Oppføringen blir da
 
-  `Schwarz' ulikhet,Schwarz' ulikskap,Schwarz' inequality,"Schwarz' ulikhet brukes synonymt med schwarzulikheten."`
+  `Schwarz' ulikhet,Schwarz' ulikskap,Schwarz' inequality,"Schwarz' ulikhet benyttes synonymt med schwarzulikheten."`
 
-  `schwarzulikheten,schwarzulikskapen,Schwarz inequality,"Schwarzulikheten brukes synonymt med Schwarz' ulikhet."`.
+  `schwarzulikheten,schwarzulikskapen,Schwarz inequality,"Schwarzulikheten benyttes synonymt med Schwarz' ulikhet."`.
 
   Merk at disse føres opp som to separate oppslag, med merknad om at de betyr det samme.
 
