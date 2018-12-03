@@ -1,5 +1,5 @@
 # Bidragsytere (alfabetisk)
-Personer som har kommet med forslag eller innspill som har ledet til forbedringer av den offisielle [ordlista](https://matematikkradet.no/ordliste), legges til i denne listen over bidragsytere. Send gjerne en mail til [ordliste@matematikkradet.no](mailto:ordliste@matematikkradet.no) dersom du har bidratt til ordlista, men ikke står oppført som bidragsyter.
+Personer som har kommet med forslag eller innspill som har ledet til forbedringer av den offisielle [ordlista](https://matematikkradet.no/ordliste), legges til i denne lista over bidragsytere. Send gjerne en mail til [ordliste@matematikkradet.no](mailto:ordliste@matematikkradet.no) dersom du har bidratt til ordlista, men ikke står oppført som bidragsyter.
 
 - Øyvind Bakke (NTNU)
 - Petter Andreas Bergh (NTNU)
