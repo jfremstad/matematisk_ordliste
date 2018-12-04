@@ -17,9 +17,13 @@
   metrisk,metrisk,metric,"Ordklasse: adjektiv"
   ```
 
-* Informasjon om synonym føres slik: 
+* Synonymer oppgis kun på bokmål. Informasjon om synonym føres slik: 
   ```
   største felles divisor,største felles divisor,greatest common divisor,"Synonym: største felles faktor"
+  ```
+  Dersom en term har flere synonymer, føres merknaden slik: 
+  ```
+  bijeksjon,bijeksjon,bijection,"Synonym: én-entydig korrespondanse / én-til-én-korrespondanse"
   ```
 
 * Informasjon om uttale føres slik (oppsett for føring av uttale er hentet fra [NAOB](https://www.naob.no/)): 
