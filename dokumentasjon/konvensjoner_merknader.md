@@ -23,7 +23,7 @@
   ```
   Dersom en term har flere synonymer, føres merknaden slik: 
   ```
-  bijeksjon,bijeksjon,bijection,"Synonym: én-entydig korrespondanse/én-til-én-korrespondanse"
+  bijeksjon,bijeksjon,bijection,"Synonym: én-entydig korrespondanse / én-til-én-korrespondanse"
   ```
 
 * Informasjon om uttale føres slik (oppsett for føring av uttale er hentet fra [NAOB](https://www.naob.no/)): 
