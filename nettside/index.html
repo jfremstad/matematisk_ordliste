@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="no">
   <head>
+    <script>
+      function searchURL() {
+        var params = location.hash;
+        if (params) {
+          var query = params.slice(1);
+          var table = $('#wordlist').DataTable();
+          table.search(query).draw();
+        }
+      }
+
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125859068-1"></script>
     <script>
@@ -18,6 +29,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.9/jquery.csv.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/plug-ins/1.10.19/sorting/intl.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.19/filtering/type-based/accent-neutralise.js"></script>
     <!-- Buttons -->
 		<style>
 		td.details-control {
@@ -124,6 +136,7 @@
               searchPlaceholder: "Søk..."
             }
 					});
+          searchURL();
         } );
       </script>
   </body>
