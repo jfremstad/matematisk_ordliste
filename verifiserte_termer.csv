@@ -1737,14 +1737,14 @@ engelunderalgebra,engelunderalgebra,Engel subalgebra,
 parabolsk undergruppe,parabolsk undergruppe,parabolic subgroup,
 parabolsk underalgebra,parabolsk underalgebra,parabolic subalgebra,
 adjungert representasjon,adjungert representasjon,adjoint representation,
-dualrepresentasjon,dualrepresentasjon,contragredient representation/dual representation,
+dualrepresentasjon,dualrepresentasjon,contragredient representation / dual representation,
 vekt,vekt,weight,
 vektrom,vektrom,weight space,
 vektgitter,vektgitter,weight lattice,
 knippe,knippe,sheaf,
 senter,senter,centre,
 rimelighetsfunksjon,rimelegheitsfunksjon,likelihood function,
-innbyrdes primisk/relativt primisk,innbyrdes primisk/relativt primisk,coprime/relatively prime,
+innbyrdes primisk / relativt primisk,innbyrdes primisk / relativt primisk,coprime / relatively prime,
 nedadgående kjede,minkande kjede,descending chain,
 oppadgående kjede,aukande kjede,ascending chain,
 global dimensjon,global dimensjon,global dimension,
@@ -1822,7 +1822,7 @@ differensialgradert kategori,differensialgradert kategori,differential graded ca
 dg-algebra,dg-algebra,dg algebra,"Dg-algebra er en forkortelse for differensialgradert algebra."
 dg-modul,dg-modul,dg module,"Dg-modul er en forkortelse for differensialgradert modul."
 dg-kategori,dg-kategori,dg category,"Dg-kategori er en forkortelse for differensialgradert kategori."
-restklasse,restklasse,coset/residue class,
+restklasse,restklasse,coset / residue class,
 restklassekropp,restklassekropp,residue class field,
 ikke-voksende,ikkje-veksande,non-increasing,
 glissen matrise,glisen matrise,sparse matrix,
@@ -1845,7 +1845,7 @@ høyreartinsk,høgreartinsk,right artinian,
 høyrenoethersk,høgrenoethersk,right noetherian,
 ikke-tellbar/overtellbar,ikkje-teljeleg/overteljeleg,uncountable,"Begrepet tellbar blir definert på ulike måter i litteraturen. Legg merke til at dersom ikke-tellbar og overtellbar skal være synonymer, må man definere tellbar til å omfatte <i>både</i> endelige mengder og mengder som er tellbart uendelige."
 basal algebra,basal algebra,basic algebra,"Oversettelsen gjelder bruk i representasjonsteori og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
-injektiv innhylling,injektiv innhylling,injective envelope/injective hull,"Injektiv innhylling kan også omtales som injektivt hylster."
+injektiv innhylling,injektiv innhylling,injective envelope / injective hull,"Injektiv innhylling kan også omtales som injektivt hylster."
 konveks innhylling,konveks innhylling,convex hull,"Konveks innhylling kan også omtales som konvekst hylster."
 skjæringssetningen,skjeringssetninga,intermediate value theorem,"Enkelte skiller mellom skjæringssetningen og mellomverdisetningen, der førstnevnte anses som et spesialtilfelle av sistnevnte. Mellomverdisetningen sier at en kontinuerlig reell funksjon på et lukket og begrenset intervall antar alle verdier mellom funksjonsverdiene i endepunktene, mens skjæringssetningen kan formuleres som at dersom funksjonsverdiene til en slik funksjon har motsatte fortegn i endepunktene, så har funksjonen et nullpunkt. Skjæringssetningen benyttes ofte om begge disse teoremene."
 komplekskonjugert,komplekskonjugert,complex conjugate,
