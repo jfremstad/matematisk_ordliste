@@ -1675,3 +1675,188 @@ sekantmetoden,sekantmetoden,secant method,
 Stone-Weierstrass-teoremet,Stone-Weierstrass-teoremet,Stone-Weierstrass theorem,
 normale koordinater,normale koordinatar,normal coordinates,
 residy,residy,residue,"Oversettelsen gjelder bruk innen blant annet kompleks analyse og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+førsteintegral,førsteintegral,first integral,
+tverrsnittkrumning,tverrsnittkrumming,sectional curvature,"Synonym: snittkrumning"
+liederivert,liederivert,Lie derivative,
+liederivasjon,liederivasjon,Lie differentiation,
+enkel kurve,enkel kurve,simple curve,
+möbiustransformasjon,möbiustransformasjon,Möbius transformation,
+Hamiltons likninger,Hamiltons likningar,Hamilton's equations,
+mangfoldighet,mangfald,manifold,
+undermangfoldighet,undermangfald,submanifold,
+ytrederivering,ytrederivering,exterior differentiation,
+ytrealgebra,ytrealgebra,exterior algebra,
+christoffelsymbol,christoffelsymbol,Christoffel symbol,
+Richardsons metode,Richardsons metode,Richardson's method,
+Jacobis metode,Jacobis metode,Jacobi's method,
+Gauss-Seidel-metoden,Gauss-Seidel-metoden,Gauss-Seidel method,
+Rombergs metode,Rombergs metode,Romberg's method,
+Simpsons regel,Simpsons regel,Simpson's rule,
+Newton-Cotes' regel,Newton-Cotes' regel,Newton-Cotes' rule,
+Runge-Kutta-metode,Runge-Kutta-metode,Runge-Kutta method,
+Kutta-Mersons metode,Kutta-Mersons metode,Kutta-Merson's method,
+trapesmetoden,trapesmetoden,trapezium method,"Legg merke til at uttrykket <i>trapezoid method</i> også er i utstrakt bruk."
+numerisk skjema,numerisk skjema,numerical scheme,
+interpolere,interpolere,interpolate,
+interpolasjon,interpolasjon,interpolation,
+ekstrapolasjon,ekstrapolasjon,extrapolation,
+ekstrapolere,ekstrapolere,extrapolate,
+glatt utvidelse,glatt utviding,smooth extension,
+jordanbasis,jordanbasis,Jordan basis,"<i>Jordan basis</i> kan også omtales som <i>Jordan canonical basis</i> på engelsk."
+jordankanonisk form,jordankanonisk form,Jordan canonical form,"Synonym: jordansk normalform"
+jordansk normalform,jordansk normalform,Jordan normal form,"Synonym: jordankanonisk form"
+choleskydekomponering,choleskydekomponering,Cholesky decomposition,"Oversettelsen dekomponering benyttes i tilfeller der prosessen vektlegges."
+choleskydekomposisjon,choleskydekomposisjon,Cholesky decomposition,"Oversettelsen dekomposisjon benyttes i tilfeller der resultatet vektlegges."
+ortogonal dekomposisjon,ortogonal dekomposisjon,orthogonal decomposition,
+singulærverdidekomposisjon,singulærverdidekomposisjon,singular value decomposition,"Singulærverdidekomposisjon forkortes ofte til SVD."
+egendekomposisjon,eigendekomposisjon,eigendecomposition,
+rotromdekomposisjon,rotromdekomposisjon,root space decomposition,
+spor,spor,trace,"Enkelte benytter oversettelsen trase på norsk."
+kvaternionene,kvaternionane,quaternions,"Kvaternionene er betegnelsen på en bestemt ikke-kommutativ ringutvidelse av de komplekse tallene. Ofte benyttes notasjonen ℍ for denne ringen."
+kvaternion,kvaternion,quaternion,"En kvaternion kan være en kvotient av rettede linjer i tredimensjonalt rom, eller et element i ringen ℍ (se <i>kvaternionene</i>)."
+sentralisator,sentralisator,centralizer,
+kommutator,kommutator,commutator,
+kommutatorundergruppe,kommutatorundergruppe,commutator subgroup,
+løsbar gruppe,løyseleg gruppe,solvable group,
+løsbar liealgebra,løyseleg liealgebra,solvable Lie algebra,
+nilpotent gruppe,nilpotent gruppe,nilpotent group,
+nilpotent liealgebra,nilpotent liealgebra,nilpotent Lie algebra,
+klassefunksjon,klassefunksjon,class function,
+strukturkonstant,strukturkonstant,structure constant,
+diedergruppe,diedergruppe,dihedral group,
+regulærrepresentasjon,regulærrepresentasjon,regular representation,
+rotgitter,rotgitter,root lattice,
+enkel rot,enkel rot,simple root,
+multippel rot,multippel rot,multiple root,
+weylkammer,weylkammer,Weyl chamber,
+cartandekomposisjon,cartandekomposisjon,Cartan decomposition,
+cartanundergruppe,cartanundergruppe,Cartan subgroup,
+borelunderalgebra,borelunderalgebra,Borel subalgebra,
+borelundergruppe,borelundergruppe,Borel subgroup,
+engelunderalgebra,engelunderalgebra,Engel subalgebra,
+parabolsk undergruppe,parabolsk undergruppe,parabolic subgroup,
+parabolsk underalgebra,parabolsk underalgebra,parabolic subalgebra,
+adjungert representasjon,adjungert representasjon,adjoint representation,
+dualrepresentasjon,dualrepresentasjon,contragredient representation/dual representation,
+vekt,vekt,weight,
+vektrom,vektrom,weight space,
+vektgitter,vektgitter,weight lattice,
+knippe,knippe,sheaf,
+senter,senter,centre,
+rimelighetsfunksjon,rimelegheitsfunksjon,likelihood function,
+innbyrdes primisk/relativt primisk,innbyrdes primisk/relativt primisk,coprime/relatively prime,
+nedadgående kjede,minkande kjede,descending chain,
+oppadgående kjede,aukande kjede,ascending chain,
+global dimensjon,global dimensjon,global dimension,
+homologisk dimensjon,homologisk dimensjon,homological dimension,
+tilpasningsgrad,tilpassingsgrad,goodness of fit,
+bevis,bevis/prov,proof,
+motsigelsesbevis,motseiingsbevis/motseiingsprov,proof by contradiction,"<i>Proof by contradiction</i> kan også oversettes til bevis ved motsigelse (bokmål) og bevis ved motseiing / prov ved motseiing (nynorsk)."
+induksjonsbevis,induksjonsbevis/induksjonsprov,proof by induction,"<i>Proof by induction</i> kan også oversettes til bevis ved induksjon (bokmål) og bevis ved induksjon / prov ved induksjon (nynorsk)."
+hendelse,hending,event,"Oversettelsen gjelder bruk i blant annet sannsynlighetsteori og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+sjelden hendelse,sjeldan hending,rare event,
+tilfeldig hendelse,tilfeldig hending,random event,
+parede data,para data,paired data,
+paret t-test,para t-test,paired t-test,
+transponere,transponere,transpose,"Ordklasse: verb"
+transponert matrise,transponert matrise,transposed matrix,"På engelsk sier man typisk <i>the transpose of a matrix</i> i stedet for <i>the transposed matrix</i>. Også på norsk vil man ofte benytte uttrykket <i>den transponerte til en matrise</i> (bokmål) og <i>den transponerte til ei matrise</i> (nynorsk). Kortformene <i>the transpose</i> og <i>den transponerte</i> er også i utstrakt bruk."
+glemmefunktor,gløymefunktor,forgetful functor,
+Schwarz' ulikhet,Schwarz' ulikskap,Schwarz' inequality,"Schwarz' ulikhet benyttes synonymt med schwarzulikheten."
+schwarzulikheten,schwarzulikskapen,Schwarz inequality,"Schwarzulikheten benyttes synonymt med Schwarz' ulikhet."
+Cauchy-Schwarz-ulikheten,Cauchy-Schwarz-ulikskapen,Cauchy-Schwarz inequality,
+formlik,formlik,similar,"Oversettelsen gjelder bruk i geometri og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+nullhomotop,nullhomotop,null-homotopic,
+integral,integral,integral,"Oversettelsen gjelder bruk i blant annet kalkulus og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+trippelintegral,trippelintegral,triple integral,
+omkrets,omkrins,circumference,"Legg merke til at <i>circumference</i> typisk viser til omkretsen av en sirkel, mens <i>perimeter</i> kan benyttes om omkretsen av en mer generell figur. Begge termer oversettes til omkrets."
+omkrets,omkrins,perimeter,"Legg merke til at <i>circumference</i> typisk viser til omkretsen av en sirkel, mens <i>perimeter</i> kan benyttes om omkretsen av en mer generell figur. Begge termer oversettes til omkrets."
+basisbytte,basisbyte,change of basis,
+multiplum,multiplum,multiple,"Ordklasse: substantiv"
+lineært,lineært,linearly,"Ordklasse: adverb"
+lineær algebra,lineær algebra,linear algebra,
+ubetinget sannsynlighet,vilkårslaust sannsyn,unconditional probability,
+ortogonal/vinkelrett,ortogonal/vinkelrett,orthogonal/perpendicular,"Enkelte benytter oversettelsen perpendikulær på norsk, men dette anbefales ikke."
+sentral ringvirkning,sentral ringverknad,central ring action,
+lokaliseringsfunktor,lokaliseringsfunktor,localization functor,
+kolokaliseringsfunktor,kolokaliseringsfunktor,colocalization functor,
+lokaliserende underkategori,lokaliserande underkategori,localizing subcategory,
+tykk underkategori,tjukk underkategori,thick subcategory,
+perfekt kompleks,perfekt kompleks,perfect complex,
+kvantepolynomring,kvantepolynomring,quantum polynomial ring,
+spesialiseringslukket,spesialiseringslukka,specialization closed,
+spesialiseringslukket delmengde,spesialiseringslukka delmengd,specialization closed subset,
+stratifisering,stratifisering,stratification,
+stratifiseringsbetingelse,stratifiseringsvilkår,stratification condition,
+stilk,stilk,stalk,"Oversettelsen gjelder bruk i blant annet kategoriteori og algebraisk geometri og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+stilkkompleks,stilkkompleks,stalk complex,
+triangulert underkategori,triangulert underkategori,triangulated subcategory,
+tett underkategori,tett underkategori,dense subcategory,
+knippehomomorfi,knippehomomorfi,sheaf homomorphism,
+knippifisering,knippifisering,sheafification,
+koszuldualitet,koszuldualitet,Koszul duality,
+koszulalgebra,koszulalgebra,Koszul algebra,
+koszulring,koszulring,Koszul ring,
+kompaktgenerert,kompaktgenerert,compactly generated,
+endeligpresentert,endelegpresentert,finitely presented,
+artinsk algebra,artinsk algebra,artin algebra,
+dekomponering,dekomponering,decomposition,"Oversettelsen dekomponering benyttes i tilfeller der prosessen vektlegges."
+dekomposisjon,dekomposisjon,decomposition,"Oversettelsen dekomposisjon benyttes i tilfeller der resultatet vektlegges."
+uendelig,uendeleg,infinite,
+additiv funktor,additiv funktor,additive functor,
+additiv funksjon,additiv funksjon,additive function,
+eksakt kategori,eksakt kategori,exact category,
+triangulert funktor,triangulert funktor,triangulated functor,
+fri algebra,fri algebra,free algebra,
+fri abelsk gruppe,fri abelsk gruppe,free abelian group,
+selvutvidelse,sjølvutviding,self-extension,
+utvidelsesgruppe,utvidingsgruppe,extension group,
+yonedautvidelse,yonedautviding,Yoneda extension,
+selvinjektiv,sjølvinjektiv,self-injective,
+selvinjektiv algebra,sjølvinjektiv algebra,self-injective algebra,
+selvinjektiv ring,sjølvinjektiv ring,self-injective ring,
+utvidelse,utviding,extension,
+differensialgradert,differensialgradert,differential graded,
+differensialgradert algebra,differensialgradert algebra,differential graded algebra,"Differensialgradert algebra forkortes ofte til dg-algebra."
+differensialgradert modul,differensialgradert modul,differential graded module,"Differensialgradert modul forkortes ofte til dg-modul."
+differensialgradert kategori,differensialgradert kategori,differential graded category,"Differensialgradert kategori forkortes ofte til dg-kategori."
+dg-algebra,dg-algebra,dg algebra,"Dg-algebra er en forkortelse for differensialgradert algebra."
+dg-modul,dg-modul,dg module,"Dg-modul er en forkortelse for differensialgradert modul."
+dg-kategori,dg-kategori,dg category,"Dg-kategori er en forkortelse for differensialgradert kategori."
+restklasse,restklasse,coset/residue class,
+restklassekropp,restklassekropp,residue class field,
+ikke-voksende,ikkje-veksande,non-increasing,
+glissen matrise,glisen matrise,sparse matrix,
+betinget,vilkårsbunden,conditional,
+ubetinget,vilkårslaus,unconditional,
+én-entydig korrespondanse / én-til-én-korrespondanse,éin-eintydig korrespondanse / éin-til-éin-korrespondanse,one-to-one correspondence,"Synonym: bijeksjon"
+bijeksjon,bijeksjon,bijection,"Synonym: én-entydig korrespondanse / én-til-én-korrespondanse"
+injektiv,injektiv,injective,"Synonym: én-entydig/én-til-én"
+multippel,multippel,multiple,"Ordklasse: adjektiv"
+kvadratisk resiprositet,kvadratisk resiprositet,quadratic reciprocity,
+venstreartinsk,venstreartinsk,left artinian,
+artinsk modul,artinsk modul,artinian module,
+noethersk ring,noethersk ring,noetherian ring,
+artinsk,artinsk,artinian,
+noethersk,noethersk,noetherian,
+artinsk ring,artinsk ring,artinian ring,
+noethersk modul,noethersk modul,noetherian module,
+venstrenoethersk,venstrenoethersk,left noetherian,
+høyreartinsk,høgreartinsk,right artinian,
+høyrenoethersk,høgrenoethersk,right noetherian,
+ikke-tellbar/overtellbar,ikkje-teljeleg/overteljeleg,uncountable,"Begrepet tellbar blir definert på ulike måter i litteraturen. Legg merke til at dersom ikke-tellbar og overtellbar skal være synonymer, må man definere tellbar til å omfatte <i>både</i> endelige mengder og mengder som er tellbart uendelige."
+basal algebra,basal algebra,basic algebra,"Oversettelsen gjelder bruk i representasjonsteori og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+injektiv innhylling,injektiv innhylling,injective envelope/injective hull,"Injektiv innhylling kan også omtales som injektivt hylster."
+konveks innhylling,konveks innhylling,convex hull,"Konveks innhylling kan også omtales som konvekst hylster."
+skjæringssetningen,skjeringssetninga,intermediate value theorem,"Enkelte skiller mellom skjæringssetningen og mellomverdisetningen, der førstnevnte anses som et spesialtilfelle av sistnevnte. Mellomverdisetningen sier at en kontinuerlig reell funksjon på et lukket og begrenset intervall antar alle verdier mellom funksjonsverdiene i endepunktene, mens skjæringssetningen kan formuleres som at dersom funksjonsverdiene til en slik funksjon har motsatte fortegn i endepunktene, så har funksjonen et nullpunkt. Skjæringssetningen benyttes ofte om begge disse teoremene."
+komplekskonjugert,komplekskonjugert,complex conjugate,
+minimalpolynom,minimalpolynom,minimal polynomial,
+diagonalmatrise,diagonalmatrise,diagonal matrix,
+øvre bidiagonal matrise,øvre bidiagonal matrise,upper bidiagonal matrix,
+nedre bidiagonal matrise,nedre bidiagonal matrise,lower bidiagonal matrix,
+tridiagonal matrise,tridiagonal matrise,tridiagonal matrix,
+pentadiagonal matrise,pentadiagonal matrise,pentadiagonal matrix,
+triangulær matrise,triangulær matrise,triangular matrix,
+øvre triangulær matrise,øvre triangulær matrise,upper triangular matrix,
+nedre triangulær matrise,nedre triangulær matrise,lower triangular matrix,
+ortogonal matrise,ortogonal matrise,orthogonal matrix,
+ortogonalt komplement,ortogonalt komplement,orthogonal complement,
