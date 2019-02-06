@@ -111,7 +111,7 @@ abelsk kategori,abelsk kategori,abelian category,
 topologisk rom,topologisk rom,topological space,
 studentisert rekkevidde,studentisert rekkjevidde,studentized range,
 uniform konvergens,uniform konvergens,uniform convergence,
-kvotientmodul,kvotientmodul,quotient module,Synonym: faktormodul
+kvotientmodul,kvotientmodul,quotient module,"Synonym: faktormodul"
 inklusjon,inklusjon,inclusion,
 parameter,parameter,parameter,
 homeomorfi,homeomorfi,homeomorphism,
@@ -358,10 +358,10 @@ koblet hastighet,kopla hastigheit,related rate,
 derivasjon,derivasjon,differentiation,"De engelske termene derivation og differentiation er ikke synonymer, selv om begge oversettes til det samme på norsk. <i>Differentiation</i> brukes om det å derivere en funksjon."
 tilbakelegging,tilbakelegging,replacement,
 midtpunkt,midtpunkt,midrange,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
-faktorgruppe,faktorgruppe,factor group,Synonym: kvotientgruppe
+faktorgruppe,faktorgruppe,factor group,"Synonym: kvotientgruppe"
 intervall,intervall,interval,
 kvasiisomorfi,kvasiisomorfi,quasi-isomorphism,
-kvotientring,kvotientring,quotient ring,Synonym: faktorring
+kvotientring,kvotientring,quotient ring,"Synonym: faktorring"
 varians,varians,variance,
 initialverdi/startverdi,initialverdi/startverdi,initial value,
 assosiativ,assosiativ,associative,
@@ -587,7 +587,7 @@ ikke-isomorf,ikkje-isomorf,non-isomorphic,
 kumulativ,kumulativ,cumulative,
 konvergent,konvergent,convergent,
 cosinus,cosinus,cosine,
-faktorring,faktorring,factor ring,Synonym: kvotientring
+faktorring,faktorring,factor ring,"Synonym: kvotientring"
 algebraisk tallkropp,algebraisk talkropp,algebraic number field,
 punktestimering,punktestimering,point estimation,
 partiellderivert,partiellderivert,partial derivative,
@@ -1120,7 +1120,7 @@ algebraisk utvidelse,algebraisk utviding,algebraic extension,
 tensorprodukt,tensorprodukt,tensor product,
 radiell,radiell,radial,
 elementærtensor,elementærtensor,elementary tensor,
-faktormodul,faktormodul,factor module,Synonym: kvotientmodul
+faktormodul,faktormodul,factor module,"Synonym: kvotientmodul"
 polarkoordinater,polarkoordinatar,polar coordinates,
 Artin-Rees-lemmaet,Artin-Rees-lemmaet,Artin-Rees lemma,
 induksjon,induksjon,induction,
@@ -1180,7 +1180,7 @@ diskriminant,diskriminant,discriminant,
 homogent likningssystem,homogent likningssystem,homogeneous system of equations,
 forventningsskjev,forventingsskeiv,biased,
 projektiv,projektiv,projective,
-kvotientgruppe,kvotientgruppe,quotient group,Synonym: faktorgruppe
+kvotientgruppe,kvotientgruppe,quotient group,"Synonym: faktorgruppe"
 idempotent,idempotent,idempotent,
 trigonometrisk,trigonometrisk,trigonometric,
 banachrom,banachrom,Banach space,
