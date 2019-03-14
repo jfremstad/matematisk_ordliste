@@ -4,13 +4,15 @@
 
 - Av tekniske grunner skrives alltid anførselstegn rundt hele merknaden. 
 
-- Alle merknader skal formuleres som helsetninger, med unntak av informasjon om ordklasse, synynom og uttale. 
+- Alle merknader skal formuleres som helsetninger, med unntak av informasjon om ordklasse, synynom, uttale og genus. 
 
 - Når en engelsk term opptrer i merknad, markeres dette med kursiv. Man får kursiv ved å skrive 
 
   `<i>kursivert tekst</i>`.
+  
+- Genus, altså grammatisk kjønn, føres opp i tilfeller der dette kan være nyttig. Spesielt føres dette alltid opp for forkortelser (av substantiv). Genus til en forkortelse settes til å være det samme som genus til det norske uttrykket som forkortes. 
 
-### Informasjon om ordklasse, synonym og uttale 
+### Informasjon om ordklasse, synonym, uttale og genus
 * Informasjon om ordklasse føres slik:
   ```
   metrikk,metrikk,metric,"Ordklasse: substantiv"
@@ -31,8 +33,8 @@
   syzygi,syzygi,syzygy,"Uttale: [sytsygi:´]"
   ```
 
-* Dersom en term skal ha informasjon om både ordklasse, uttale og/eller synonym,
-  skrives ordklasse øverst, deretter uttale og til slutt synonym.
+* Dersom en term skal ha informasjon om både ordklasse, uttale, synonym og/eller genus,
+  skrives ordklasse øverst, deretter uttale, så synonym og til slutt genus.
   Det skilles mellom de ulike typene informasjon ved linjeskift. Man får linjeskift ved å skrive `<br>`.
   Eventuell ytterligere merknad føres etter en tom linje. Oppsettet ser altså slik ut:
 
@@ -40,6 +42,7 @@
   Ordklasse: adjektiv
   Synonym: et synonym til termen
   Uttale: [hvordan uttale termen]
+  Genus: hankjønn
 
   Her kommer en uttypende forklaring (i hele setninger). 
   ```
