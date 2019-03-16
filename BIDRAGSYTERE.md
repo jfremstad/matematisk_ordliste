@@ -27,3 +27,4 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 - John Sølve Tyssedal (NTNU)
 - [Ole Kristian Våge (Språkrådet)](https://github.com/OleVaage)
 - [Anders Wiik (UiA)](https://github.com/AndersWiik92)
+- [Viktor Balch Barth (NTNU)](https://github.com/viktoba)
