@@ -198,7 +198,7 @@ inverterbart ideal,inverterbart ideal,invertible ideal,
 kvotientavbildning,kvotientavbilding,quotient map,
 ideal,ideal,ideal,
 poissonfordeling,poissonfordeling,Poisson distribution,
-PDE,PDE,PDE,"PDE er en forkortelse for partiell differensiallikning, og stammer fra <i>partial differential equation</i>."
+PDE,PDE,PDE,"Genus: hankjønn/hunkjønn<br><br>PDE er en forkortelse for partiell differensiallikning, og stammer fra <i>partial differential equation</i>."
 rekursjonsteori,rekursjonsteori,recursion theory,
 deriverbar,deriverbar,differentiable,
 overdiagonal,overdiagonal,superdiagonal,
@@ -295,7 +295,7 @@ autokorrelasjon,autokorrelasjon,autocorrelation,
 forventning,forventing,expectation,
 indusert,indusert,induced,
 liealgebra,liealgebra,Lie algebra,
-UFD,UFD,UFD,"UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig faktoriseringsområde (nynorsk), og stammer fra <i>unique factorization domain</i>."
+UFD,UFD,UFD,"Genus: intetkjønn<br><br>UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig faktoriseringsområde (nynorsk), og stammer fra <i>unique factorization domain</i>."
 jordankjede,jordankjede,Jordan chain,
 divisjonsring,divisjonsring,division ring,
 ekte delmengde,ekte delmengd,proper subset,
@@ -420,7 +420,7 @@ logistisk funksjon,logistisk funksjon,logistic function,
 separasjon,separasjon,separation,
 venstrekoherent,venstrekoherent,left coherent,
 integrasjon,integrasjon,integration,
-pomengde,pomengd,poset,"Pomengde er en forkortelse for delvis ordnet mengde (bokmål) og delvis ordna mengd (nynorsk), og stammer fra <i>partially ordered set</i>."
+pomengde,pomengd,poset,"Genus: hankjønn<br><br>Pomengde er en forkortelse for delvis ordnet mengde (bokmål) og delvis ordna mengd (nynorsk), og stammer fra <i>partially ordered set</i>."
 direkte produkt,direkte produkt,direct product,
 ortonormal,ortonormal,orthonormal,
 dekomponere,dekomponere,decompose,
@@ -614,7 +614,7 @@ multiplikasjonsregel,multiplikasjonsregel,multiplication rule,
 koenhet,koeining,counit,
 jevnt dekket,jamt dekt,evenly covered,
 primærdekomposisjon,primærdekomposisjon,primary decomposition,
-PID,PID,PID,"PID er en forkortelse for hovedidealområde (bokmål) og hovudidealområde (nynorsk), og stammer fra <i>principal ideal domain</i>."
+PID,PID,PID,"Genus: intetkjønn<br><br>PID er en forkortelse for hovedidealområde (bokmål) og hovudidealområde (nynorsk), og stammer fra <i>principal ideal domain</i>."
 arvelig kategori / hereditær kategori,arveleg kategori / hereditær kategori,hereditary category,
 multivariat fordeling,multivariat fordeling,multivariate distribution,
 blokkmatrise,blokkmatrise,block matrix,
@@ -1101,7 +1101,7 @@ khikvadratfordeling,khikvadratfordeling,chi-squared distribution,
 potensmodell,potensmodell,power model,
 buelengde,bogelengd,arclength,
 produkt,produkt,product,
-ODE,ODE,ODE,"ODE er en forkortelse for ordinær differensiallikning, og stammer fra <i>ordinary differential equation</i>."
+ODE,ODE,ODE,"Genus: hankjønn/hunkjønn<br><br>ODE er en forkortelse for ordinær differensiallikning, og stammer fra <i>ordinary differential equation</i>."
 grensepunkt,grensepunkt,limit point,
 kvadrat,kvadrat,square,
 elliptisk,elliptisk,elliptic,
@@ -1810,9 +1810,9 @@ differensialgradert,differensialgradert,differential graded,
 differensialgradert algebra,differensialgradert algebra,differential graded algebra,"Differensialgradert algebra forkortes ofte til dg-algebra."
 differensialgradert modul,differensialgradert modul,differential graded module,"Differensialgradert modul forkortes ofte til dg-modul."
 differensialgradert kategori,differensialgradert kategori,differential graded category,"Differensialgradert kategori forkortes ofte til dg-kategori."
-dg-algebra,dg-algebra,dg algebra,"Dg-algebra er en forkortelse for differensialgradert algebra."
-dg-modul,dg-modul,dg module,"Dg-modul er en forkortelse for differensialgradert modul."
-dg-kategori,dg-kategori,dg category,"Dg-kategori er en forkortelse for differensialgradert kategori."
+dg-algebra,dg-algebra,dg algebra,"Genus: hankjønn<br><br>Dg-algebra er en forkortelse for differensialgradert algebra."
+dg-modul,dg-modul,dg module,"Genus: hankjønn<br><br>Dg-modul er en forkortelse for differensialgradert modul."
+dg-kategori,dg-kategori,dg category,"Genus: hankjønn<br><br>Dg-kategori er en forkortelse for differensialgradert kategori."
 restklasse,restklasse,coset / residue class,
 restklassekropp,restklassekropp,residue class field,
 ikke-voksende,ikkje-veksande,non-increasing,
