@@ -7,6 +7,9 @@ body {
 
 footer {
   min-height: 100px;
+  font-size: 10px;
+  color: #222222;
+  margin-top: 2em;
 }
 
 /* input is inside this container */
