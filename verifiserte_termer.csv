@@ -420,7 +420,7 @@ logistisk funksjon,logistisk funksjon,logistic function,
 separasjon,separasjon,separation,
 venstrekoherent,venstrekoherent,left coherent,
 integrasjon,integrasjon,integration,
-pomengde,pomengd,poset,"Genus: hankjønn<br><br>Pomengde er en forkortelse for delvis ordnet mengde (bokmål) og delvis ordna mengd (nynorsk), og stammer fra <i>partially ordered set</i>."
+pomengde,pomengd,poset,"Pomengde er en forkortelse for delvis ordnet mengde (bokmål) og delvis ordna mengd (nynorsk), og stammer fra <i>partially ordered set</i>."
 direkte produkt,direkte produkt,direct product,
 ortonormal,ortonormal,orthonormal,
 dekomponere,dekomponere,decompose,
@@ -1810,9 +1810,9 @@ differensialgradert,differensialgradert,differential graded,
 differensialgradert algebra,differensialgradert algebra,differential graded algebra,"Differensialgradert algebra forkortes ofte til dg-algebra."
 differensialgradert modul,differensialgradert modul,differential graded module,"Differensialgradert modul forkortes ofte til dg-modul."
 differensialgradert kategori,differensialgradert kategori,differential graded category,"Differensialgradert kategori forkortes ofte til dg-kategori."
-dg-algebra,dg-algebra,dg algebra,"Genus: hankjønn<br><br>Dg-algebra er en forkortelse for differensialgradert algebra."
-dg-modul,dg-modul,dg module,"Genus: hankjønn<br><br>Dg-modul er en forkortelse for differensialgradert modul."
-dg-kategori,dg-kategori,dg category,"Genus: hankjønn<br><br>Dg-kategori er en forkortelse for differensialgradert kategori."
+dg-algebra,dg-algebra,dg algebra,"Dg-algebra er en forkortelse for differensialgradert algebra."
+dg-modul,dg-modul,dg module,"Dg-modul er en forkortelse for differensialgradert modul."
+dg-kategori,dg-kategori,dg category,"Dg-kategori er en forkortelse for differensialgradert kategori."
 restklasse,restklasse,coset / residue class,
 restklassekropp,restklassekropp,residue class field,
 ikke-voksende,ikkje-veksande,non-increasing,
