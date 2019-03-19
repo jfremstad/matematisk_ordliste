@@ -50,7 +50,7 @@
 ### Informasjon om forkortelser
 * Informasjon om forkortelse føres slik for den forkortede termen: 
   ```
-  ANOVA,ANOVA,ANOVA,"ANOVA er en forkortelse for variansanalyse, og stammer fra <i>analysis of variance</i>."
+  ANOVA,ANOVA,ANOVA,"ANOVA er en forkortelse for variansanalyse og stammer fra <i>analysis of variance</i>."
   ```
 
 * Informasjon om forkortelse føres slik for den ikke-forkortede termen:
