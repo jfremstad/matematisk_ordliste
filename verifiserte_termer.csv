@@ -1450,12 +1450,12 @@ jacobiidentitet,jacobiidentitet,Jacobi identity,
 killingform,killingform,Killing form,
 casimirelement,casimirelement,Casimir element,
 fri gruppe,fri gruppe,free group,
-pivotkoeffisient,pivotkoeffisient,pivot coefficient,
-pivotposisjon,pivotposisjon,pivot position,
-pivotsøking,pivotsøking,pivoting,"Oversettelsen gjelder bruk innen blant annet numerisk lineær algebra, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
-spaltevis pivotsøking,spaltevis pivotsøking,partial pivoting,
-skalert spaltevis pivotsøking,skalert spaltevis pivotsøking,scaled partial pivoting,
-total pivotsøking,total pivotsøking,full pivoting,
+pivotkoeffisient,pivotkoeffisient,pivot coefficient,"Forstavelsen pivot uttales [pivå:’]."
+pivotposisjon,pivotposisjon,pivot position,"Forstavelsen pivot uttales [pivå:’]."
+pivotsøking,pivotsøking,pivoting,"Forstavelsen pivot uttales [pivå:’].<br>Oversettelsen gjelder bruk innen blant annet numerisk lineær algebra, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+spaltevis pivotsøking,spaltevis pivotsøking,partial pivoting,"Forstavelsen pivot uttales [pivå:’]."
+skalert spaltevis pivotsøking,skalert spaltevis pivotsøking,scaled partial pivoting,"Forstavelsen pivot uttales [pivå:’]."
+total pivotsøking,total pivotsøking,full pivoting,"Forstavelsen pivot uttales [pivå:’]."
 fikspunktiterasjon,fikspunktiterasjon,fixed point iteration,
 randverdiproblem,randverdiproblem,boundary value problem,
 dividert differanse,dividert differanse,divided difference,
