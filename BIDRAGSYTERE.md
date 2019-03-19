@@ -10,6 +10,7 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 - Aslak Bakke Buan (NTNU)
 - [Erlend Børve (NTNU)](https://github.com/bervinator)
 - Snorre H. Christiansen (UiO)
+- Sigrid Grepstad (NTNU)
 - Olav Gunnarson Dovland (UiA)
 - Geir Ellingsrud (UiO)
 - [Simon Foldvik (UiO)](https://github.com/Qeeku)
