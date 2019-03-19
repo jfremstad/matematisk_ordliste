@@ -32,6 +32,16 @@
   ```
   syzygi,syzygi,syzygy,"Uttale: [sytsygi:´]"
   ```
+  
+* Informasjon om genus føres slik:
+  ```
+  chiffer,chiffer,cipher,"Genus: intetkjønn"
+  ```
+  I noen tilfeller blir genus forskjellig på bokmål og nynorsk. I slike tilfeller skriver man: 
+  ```
+  FSM,FSM,FSM,"Genus bokmål: hankjønn<br>Genus nynorsk: hankjønn/hunkjønn" 
+  ```
+  Se informasjon om linjeskift nedenfor.
 
 * Dersom en term skal ha informasjon om både ordklasse, uttale, synonym og/eller genus,
   skrives ordklasse øverst, deretter uttale, så synonym og til slutt genus.
