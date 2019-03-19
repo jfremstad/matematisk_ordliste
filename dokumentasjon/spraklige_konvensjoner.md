@@ -32,6 +32,8 @@ Nedenfor følger en oversikt over de språklige konvensjonene som blir brukt i o
 
 ### Om ordvalg og skrivemåter
 
+* For termer der et uttrykk bestående av flere ord (f.eks. stigende kjede) skal brukes som forledd i en sammensetning med et annet ord (f.eks. betingelse), har man innen norsk rettskriving i utgangspunktet to muligheter: Man kan velge å skrive stigende kjede-betingelse eller stigende-kjede-betingelse. I denne ordboka brukes som hovedregel sistnevnte. Dette baserer seg blant annet på at Finn Erik Vinje i Skriveregler (2009) argumenterer for at dette er det mest logisk tilfredsstillende, siden bindestrekene knytter alle enkeltordene sammen til en enhet (og dermed ett begrep). I tilfeller der skrivemåten hvor den (eller de) første bindestrekene utelates er klart mest etablert, kan dette likevel foretrekkes.
+
 * Det brukes fortrinnsvis britisk engelsk, med [www.oed.com](http://www.oed.com) som referanse.
 
 * For utenlandske navn bør man konsultere Språkrådets [rettningslinjer](http://www.sprakradet.no/sprakhjelp/Skriverad/Transkripsjon_av_kyrillisk_og_nygresk/) for transkripsjon av nygresk og kryllisk.
