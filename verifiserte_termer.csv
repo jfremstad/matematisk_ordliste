@@ -197,7 +197,7 @@ inverterbart ideal,inverterbart ideal,invertible ideal,
 kvotientavbildning,kvotientavbilding,quotient map,
 ideal,ideal,ideal,
 poissonfordeling,poissonfordeling,Poisson distribution,
-PDE,PDE,PDE,"Genus: hankjønn/hunkjønn<br><br>PDE er en forkortelse for partiell differensiallikning, og stammer fra <i>partial differential equation</i>."
+PDE,PDE,PDE,"Genus bokmål: hankjønn/hunkjønn<br>Genus nynorsk: hunkjønn<br><br>PDE er en forkortelse for partiell differensiallikning og stammer fra <i>partial differential equation</i>."
 rekursjonsteori,rekursjonsteori,recursion theory,
 deriverbar,deriverbar,differentiable,
 overdiagonal,overdiagonal,superdiagonal,
@@ -294,7 +294,7 @@ autokorrelasjon,autokorrelasjon,autocorrelation,
 forventning,forventing,expectation,
 indusert,indusert,induced,
 liealgebra,liealgebra,Lie algebra,
-UFD,UFD,UFD,"Genus: intetkjønn<br><br>UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig faktoriseringsområde (nynorsk), og stammer fra <i>unique factorization domain</i>."
+UFD,UFD,UFD,"Genus: intetkjønn<br><br>UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig faktoriseringsområde (nynorsk) og stammer fra <i>unique factorization domain</i>."
 jordankjede,jordankjede,Jordan chain,
 divisjonsring,divisjonsring,division ring,
 ekte delmengde,ekte delmengd,proper subset,
@@ -419,7 +419,7 @@ logistisk funksjon,logistisk funksjon,logistic function,
 separasjon,separasjon,separation,
 venstrekoherent,venstrekoherent,left coherent,
 integrasjon,integrasjon,integration,
-pomengde,pomengd,poset,"Pomengde er en forkortelse for delvis ordnet mengde (bokmål) og delvis ordna mengd (nynorsk), og stammer fra <i>partially ordered set</i>."
+pomengde,pomengd,poset,"Pomengde er en forkortelse for delvis ordnet mengde (bokmål) og delvis ordna mengd (nynorsk) og stammer fra <i>partially ordered set</i>."
 direkte produkt,direkte produkt,direct product,
 ortonormal,ortonormal,orthonormal,
 dekomponere,dekomponere,decompose,
@@ -613,7 +613,7 @@ multiplikasjonsregel,multiplikasjonsregel,multiplication rule,
 koenhet,koeining,counit,
 jevnt dekket,jamt dekt,evenly covered,
 primærdekomposisjon,primærdekomposisjon,primary decomposition,
-PID,PID,PID,"Genus: intetkjønn<br><br>PID er en forkortelse for hovedidealområde (bokmål) og hovudidealområde (nynorsk), og stammer fra <i>principal ideal domain</i>."
+PID,PID,PID,"Genus: intetkjønn<br><br>PID er en forkortelse for hovedidealområde (bokmål) og hovudidealområde (nynorsk) og stammer fra <i>principal ideal domain</i>."
 arvelig kategori / hereditær kategori,arveleg kategori / hereditær kategori,hereditary category,
 multivariat fordeling,multivariat fordeling,multivariate distribution,
 blokkmatrise,blokkmatrise,block matrix,
@@ -1100,7 +1100,7 @@ khikvadratfordeling,khikvadratfordeling,chi-squared distribution,
 potensmodell,potensmodell,power model,
 buelengde,bogelengd,arclength,
 produkt,produkt,product,
-ODE,ODE,ODE,"Genus: hankjønn/hunkjønn<br><br>ODE er en forkortelse for ordinær differensiallikning, og stammer fra <i>ordinary differential equation</i>."
+ODE,ODE,ODE,"Genus bokmål: hankjønn/hunkjønn<br>Genus nynorsk: hunkjønn<br><br>ODE er en forkortelse for ordinær differensiallikning og stammer fra <i>ordinary differential equation</i>."
 grensepunkt,grensepunkt,limit point,
 kvadrat,kvadrat,square,
 elliptisk,elliptisk,elliptic,
@@ -1302,7 +1302,7 @@ trappeform,trappeform,row echelon form,
 omskrevet sirkel,omskriven sirkel,circumscribed circle,
 kjedekompleks,kjedekompleks,chain complex,
 rom,rom,space,
-ANOVA,ANOVA,ANOVA,"ANOVA er en forkortelse for variansanalyse, og stammer fra <i>analysis of variance</i>."
+ANOVA,ANOVA,ANOVA,"ANOVA er en forkortelse for variansanalyse og stammer fra <i>analysis of variance</i>."
 absoluttverdi/tallverdi,absoluttverdi/talverdi,absolute value,
 torus,torus,torus,
 dualbasis,dualbasis,dual basis,
@@ -1450,12 +1450,12 @@ jacobiidentitet,jacobiidentitet,Jacobi identity,
 killingform,killingform,Killing form,
 casimirelement,casimirelement,Casimir element,
 fri gruppe,fri gruppe,free group,
-pivotkoeffisient,pivotkoeffisient,pivot coefficient,
-pivotposisjon,pivotposisjon,pivot position,
-pivotsøking,pivotsøking,pivoting,"Oversettelsen gjelder bruk innen blant annet numerisk lineær algebra, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
-spaltevis pivotsøking,spaltevis pivotsøking,partial pivoting,
-skalert spaltevis pivotsøking,skalert spaltevis pivotsøking,scaled partial pivoting,
-total pivotsøking,total pivotsøking,full pivoting,
+pivotkoeffisient,pivotkoeffisient,pivot coefficient,"Forstavelsen pivot uttales [pivå:’]."
+pivotposisjon,pivotposisjon,pivot position,"Forstavelsen pivot uttales [pivå:’]."
+pivotsøking,pivotsøking,pivoting,"Forstavelsen pivot uttales [pivå:’]. Oversettelsen gjelder bruk innen blant annet numerisk lineær algebra, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+spaltevis pivotsøking,spaltevis pivotsøking,partial pivoting,"Forstavelsen pivot uttales [pivå:’]."
+skalert spaltevis pivotsøking,skalert spaltevis pivotsøking,scaled partial pivoting,"Forstavelsen pivot uttales [pivå:’]."
+total pivotsøking,total pivotsøking,full pivoting,"Forstavelsen pivot uttales [pivå:’]."
 fikspunktiterasjon,fikspunktiterasjon,fixed point iteration,
 randverdiproblem,randverdiproblem,boundary value problem,
 dividert differanse,dividert differanse,divided difference,
