@@ -26,7 +26,7 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 - Morten Ravnemyr (NTNU)
 - John Rognes (UiO)
 - Frode Rønning (NTNU)
-- [Øystein I. Skartsæterhagen](http://github.com/oysteins)
+- [Øystein I. Skartsæterhagen (NTNU)](http://github.com/oysteins)
 - Øyvind Solberg (NTNU)
 - Eldar Straume (NTNU)
 - John Sølve Tyssedal (NTNU)
