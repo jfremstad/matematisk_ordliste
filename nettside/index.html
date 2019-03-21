@@ -117,15 +117,21 @@
           // Legg inn bokmål, nynorsk og engelsk
 					for (j = 0; j < 3; j++){
             var td = tr.insertCell(j+1);
+            td.id = jsonobject[i][j];
             var tablecontent = document.createTextNode(jsonobject[i][j]);
             td.appendChild(tablecontent);
 					}
         }
-				// Sort with norwegian characters in mind
         $(document).ready( function () {
-					$.fn.dataTable.ext.order.intl( 'nb' );
+          // Highlight whatever is used as fragment
+          var $target = $('#wordlist td:target');
+          if ( $target.length > 0 || true) {
+            $target.parent().addClass('target');
+          }
+          // Sort with norwegian characters in mind
+          $.fn.dataTable.ext.order.intl( 'nb' );
           commentButton();
-					$('#wordlist').DataTable({
+          $('#wordlist').DataTable({
             "order": [[ 1, "asc" ]],
             "columnDefs": [ { orderable: false, targets: [0] } ],
             "lengthMenu": [ [10, 25, 50, 100, 500, -1], ["10 per side", "25 per side", "50 per side", "100 per side", "500 per side", "alle"] ],
@@ -136,7 +142,7 @@
               url: "js/dataTables_norsk.json",
               searchPlaceholder: "Søk..."
             }
-					});
+          });
           searchURL();
         } );
       </script>
