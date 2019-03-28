@@ -16,26 +16,26 @@ def readcsv(filename):
     with open(filename, encoding='utf-8', errors='ignore') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         for row in reader:
-            data.append(row)
-    return data
+            data.append(list(map(lambda x:x.lower(), row)))
+    return list(filter(None, data)) # Remove empty lists
 
 def checkSorted(data):
     EXITCODE = 0
     errorlist = []
-    for i in data:
-        for j in range(3):
-            synonyms = i[j].split("/")
+    for row in data:
+        for col in range(3):
+            synonyms = row[col].split("/")
             for k in synonyms:
-                if " " in k and len(synonyms) != 1 and k[-1] != " " and k[0] != " ":
+                if " " in k and len(synonyms) != 1 and " / " not in row[col]:
                     EXITCODE = 2
-                    print(i[j].split("/"))
-            if not isSorted(re.sub(" ?/ ?", "/", i[j]).split("/")):
-                errorlist.append(i[j])
+                    print("Mangler mellomrom rundt skråstrek: ", synonyms)
+            if not isSorted(re.sub(" ?/ ?", "/", row[col]).split("/")):
+                errorlist.append(row[col])
                 EXITCODE = 5
     if EXITCODE == 5:
         print("Endringer som må gjøres:\n")
-        for i in errorlist:
-            print(i, "-->", "/".join(sorted(i.split("/"))))
+        for error in errorlist:
+            print(error, "-->", "/".join(sorted(error.split("/"))))
     sys.exit(EXITCODE)
 
 

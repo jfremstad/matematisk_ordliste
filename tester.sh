@@ -1,16 +1,52 @@
 #!/bin/bash
 DATABASE="verifiserte_termer.csv"
+EXITCODE=0
 
 # Check if CSV is valid
-csvlint-v0.2.0-linux-amd64/csvlint "$DATABASE" || exit 1
+csvlint-v0.2.0-linux-amd64/csvlint "${DATABASE}" || EXITCODE=1
 
-# Check for empty comments or empty lines
-if [[ "$(grep -Ec ",\s+$|^\s*$" $DATABASE)" -ne 0 ]]; then
-  echo "======================================================="
-  echo "             Det er feil i følgende linjer             "
-  echo "======================================================="
-  grep -En ",\s+$|^\s*$" "$DATABASE"
-  exit 2
+EMPTYCOMMENT="$(grep ',\s\+$' ${DATABASE})"
+if [[ ${EMPTYCOMMENT} ]]; then
+  echo "====================================="
+  echo "== Følgende linjer har tom merknad =="
+  echo "====================================="
+  echo "${EMPTYCOMMENT}"
+  echo
+  EXITCODE=2
 fi
 
-python3 test.py "$DATABASE"
+if [[ "$(grep -Ec "^\s*$" ${DATABASE})" -ne 0 ]]; then
+  echo "=============================="
+  echo "== Følgende linjer er tomme =="
+  echo "=============================="
+  grep -n '^\s*$' "${DATABASE}"
+  echo
+  EXITCODE=3
+fi
+
+DUPLICATES="$(sort ${DATABASE} | uniq -d)"
+if [[ ${DUPLICATES} ]]; then
+  echo "============================================="
+  echo "== Ordlista inneholder følgende duplikater =="
+  echo "============================================="
+  echo "${DUPLICATES}"
+  echo
+  EXITCODE=4
+fi
+
+MISSINGQUOTES="$(grep -v ',\s\+$' ${DATABASE} | cut -d',' -f 4- | grep -vE '^$|^".*"$')"
+if [[ ${MISSINGQUOTES} ]]; then
+  echo "=============================================="
+  echo "== Følgende merknader mangler anførselstegn =="
+  echo "=============================================="
+  echo "${MISSINGQUOTES}"
+  echo
+  EXITCODE=5
+fi
+
+if [[ ${EXITCODE} -ne 0 ]]; then
+  exit ${EXITCODE}
+fi
+
+# Execute more complicated python tests
+python3 test.py "${DATABASE}"
