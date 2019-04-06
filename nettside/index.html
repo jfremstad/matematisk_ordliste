@@ -29,7 +29,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.9/jquery.csv.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/plug-ins/1.10.19/sorting/intl.js"></script>
-    <script src="https://cdn.datatables.net/plug-ins/1.10.19/filtering/type-based/accent-neutralise.js"></script>
+    <script src="js/accent-neutralise.js"></script>
     <!-- Buttons -->
 		<style>
 		td.details-control {
@@ -125,7 +125,7 @@
         $(document).ready( function () {
 					$.fn.dataTable.ext.order.intl( 'nb' );
           commentButton();
-					$('#wordlist').DataTable({
+					var table = $('#wordlist').DataTable({
             "order": [[ 1, "asc" ]],
             "columnDefs": [ { orderable: false, targets: [0] } ],
             "lengthMenu": [ [10, 25, 50, 100, 500, -1], ["10 per side", "25 per side", "50 per side", "100 per side", "500 per side", "alle"] ],
