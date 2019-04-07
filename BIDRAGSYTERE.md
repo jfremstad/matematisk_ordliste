@@ -12,6 +12,7 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 - Snorre H. Christiansen (UiO)
 - Olav Gunnarson Dovland (UiA)
 - Geir Ellingsrud (UiO)
+- [Robin Fissum (NTNU)](https://github.com/robinfissum) 
 - [Simon Foldvik (UiO)](https://github.com/Qeeku)
 - [Joakim Fremstad (NTNU)](https://github.com/jfremstad)
 - Sigrid Grepstad (NTNU)
