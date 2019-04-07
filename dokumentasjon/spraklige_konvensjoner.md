@@ -11,8 +11,11 @@ Nedenfor følger en oversikt over de språklige konvensjonene som blir brukt i o
 
 * Termer føres som hovedregel opp med liten forbokstav.
 
-* Vær oppmerksom på eponymer, altså ord som er avledet av personnavn. Man skriver f.eks. ikke <i>Fourierrekke</i> eller <i>Fourier rekke</i>. Det er to mulige måter å skrive slike termer, nemlig <i>fourierrekke</i> (med liten forbokstav) eller <i>Fourier-rekke</i> (med stor forbokstav og bindestrek). Les mer om dette [her](http://www.sprakradet.no/sprakhjelp/Skriverad/Ordlister/eponym-i-fysikk-og-kjemi/). I denne ordlista blir skrivemåten med liten bokstav foretrukket, men merk at stor bokstav og bindestrek likevel ikke er feil. I tilfeller der det inngår flere personnavn, vil det som oftest være best å bruke bindestrek (f.eks. <i>Cauchy-Riemann-likningene</i>). 
+* Vær oppmerksom på eponymer, altså ord som er avledet av personnavn. Man skriver f.eks. ikke <i>Fourierrekke</i> eller <i>Fourier rekke</i>. Det er to mulige måter å skrive slike termer, nemlig <i>fourierrekke</i> (med liten forbokstav) eller <i>Fourier-rekke</i> (med stor forbokstav og bindestrek). Les mer om dette [her](http://www.sprakradet.no/sprakhjelp/Skriverad/Ordlister/eponym-i-fysikk-og-kjemi/). I denne ordlista blir skrivemåten med liten bokstav foretrukket, men merk at stor bokstav og bindestrek likevel ikke er feil. I tilfeller der det inngår flere personnavn, vil det som oftest være best å bruke bindestrek (f.eks. <i>Cauchy-Riemann-likningene</i>).
 
+* Pass også på termer som inneholder bindestreker/tankestreker mellom personnavn fra <i>ulike</i> personer. Slike termer skal på norsk føres opp med bindestrek, mens det på engelsk er tradisjon for å bruke tankestrek. Man skal altså føre opp som i følgende eksempel: 
+
+ `Cohen-Macaulay-ring,Cohen-Macaulay-ring,Cohen–Macaulay ring,`.
 
 ### Ulike versjoner av samme term
 * I noen tilfeller vil termer kunne opptre i flere former. Et eksempel er <i>Schwarz' ulikhet</i> og <i>schwarzulikheten</i>. Følgende konvensjoner gjelder i slike tilfeller:
