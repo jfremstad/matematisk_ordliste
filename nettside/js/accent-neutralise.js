@@ -38,7 +38,6 @@
 
 function removeAccents ( data ) {
     return data
-        .replace( /likning/g, 'likningligning' ) // La ligning også gi treff ved søk. Burde egentlig endre søkealgoritme for dette.
         .replace( /frem/g, 'fremfram' )
         .replace( /–/g, '-' )
         .replace( /ό/g, 'ο' )
