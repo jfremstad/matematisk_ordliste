@@ -81,8 +81,8 @@
 
 * Anbefaling av oversettelse/skrivemåte der begge termene er oppført i lista føres slik:
   ```
-  kolineær/kollineær,kolineær/kollineær,colinear/collinear,"Begge skrivemåtene brukes på norsk, men kolineær anbefales."
-  heltallsområde/integritetsområde,heiltalsområde/integritetsområde,integral domain,"Begge oversettelsene brukes på norsk, men heltallsområde anbefales."
+  kolineær<br>kollineær,kolineær<br>kollineær,colinear<br>collinear,"Begge skrivemåtene brukes på norsk, men kolineær anbefales."
+  heltallsområde<br>integritetsområde,heiltalsområde<br>integritetsområde,integral domain,"Begge oversettelsene brukes på norsk, men heltallsområde anbefales."
   prosentil,prosentil,percentile,"Både persentil og percentil forekommer i bruk på norsk, men prosentil anbefales."
   ```
 
