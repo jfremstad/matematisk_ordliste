@@ -1848,3 +1848,279 @@ triangulær matrise,triangulær matrise,triangular matrix,
 nedre triangulær matrise,nedre triangulær matrise,lower triangular matrix,
 ortogonal matrise,ortogonal matrise,orthogonal matrix,
 ortogonalt komplement,ortogonalt komplement,orthogonal complement,
+streng,streng,string,
+bitstreng,bitstreng,bit string,
+formell grammatikk,formell grammatikk,formal grammar,
+chomskyhierarkiet,chomskyhierarkiet,Chomsky hierarchy,
+regulært språk,regulært språk,regular language,
+regulær grammatikk,regulær grammatikk,regular grammar,
+kontekstfri grammatikk,kontekstfri grammatikk,context-free grammar,
+kontekstsensitiv grammatikk,kontekstsensitiv grammatikk,context-sensitive grammar,
+regulært uttrykk,regulært uttrykk,regular expression,"Regulært uttrykk forkortes ofte til regex."
+komprimering,komprimering,compression,
+kompleksitetsklasse,kompleksitetsklasse,complexity class,
+turingmaskin,turingmaskin,Turing machine,
+typeteori,typeteori,type theory,
+homotopitypeteori,homotopitypeteori,homotopy type theory,
+univalensaksiomet,univalensaksiomet,univalence axiom,
+tilstandsdiagram,tilstandsdiagram,state diagram,
+grådig algoritme,grådig algoritme,greedy algorithm,
+approksimasjonsalgoritme<br>tilnærmingsalgoritme,approksimasjonsalgoritme<br>tilnærmingsalgoritme,approximation algorithm,
+dualproblem,dualproblem,dual problem,
+komplementær slakkhet,komplementær slakkheit,complementary slackness,
+heltallsprogrammering,heiltalsprogrammering,integer programming,
+sekvenseringsproblem,sekvenseringsproblem,scheduling problem,
+klyngeanalyse,klyngjeanalyse,cluster analysis,
+matroide,matroide,matroid,
+merkletre,merkletre,Merkle tree,
+dynamisk programmering,dynamisk programmering,dynamic programming,
+primalproblem,primalproblem,primal problem,
+primal-dual-metoden,primal-dual-metoden,primal-dual method,
+hypergraf,hypergraf,hypergraph,
+sykelkritisk nodemengde,sykelkritisk nodemengd,feedback vertex set,
+steinertre,steinertre,Steiner tree,
+heuristikk,heuristikk,heuristic,
+aritet,aritet,arity,
+ryggsekkproblem,ryggsekkproblem,knapsack problem<br>rucksack problem,
+mengdedekkeproblem,mengdedekkeproblem,set cover problem,
+merkealgoritme,merkealgoritme,marking algorithm,
+tilbakesporingsalgoritme,tilbakesporingsalgoritme,backtracking algorithm,
+onlinealgoritme,onlinealgoritme,online algorithm,
+offlinealgoritme,offlinealgoritme,offline algorithm,
+strømmealgoritme,straumealgoritme,streaming algorithm,
+k-tjener-problem,k-tenar-problem,k-server problem,
+skileieproblem,skileieproblem,ski rental problem,
+ytelsesgaranti,ytingsgaranti,performance guarantee,
+amortisert analyse,amortisert analyse,amortised analysis,
+søketre,søkjetre,search tree,
+monade,monade,monad,
+turingkomplett,turingkomplett,Turing complete,
+abstrakt algebra,abstrakt algebra,abstract algebra,
+addisjon,addisjon,addition,
+additiv gruppe,additiv gruppe,additive group,
+algorismus,algorismus,algorism,
+alikvotfølge,alikvotfølgje,aliquot sequence,
+alikvotsum,alikvotsum,aliquot sum,
+reell analyse,reell analyse,real analysis,
+feilkorrigerende kode<br>selvrettende kode,feilkorrigerande kode<br>sjølvrettande kode,error-correcting code,
+paritetssjekkmatrise,paritetssjekkmatrise,parity-check matrix,
+kvantesikker kryptografi,kvantesikker kryptografi,quantum-proof cryptography<br>quantum-safe cryptography,"Synonym: kvanteresistent kryptografi"
+kvanteresistent kryptografi,kvanteresistent kryptografi,post-quantum cryptography<br>quantum resistant cryptography,"Synonym: kvantesikker kryptografi"
+hashfunksjon,hashfunksjon,hash function,"Forstavelsen hash uttales [hæʃ:]."
+flytchiffer<br>strømchiffer,flytchiffer<br>straumchiffer,stream cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
+nøkkelstrøm,nøkkelstraum,keystream,
+elektronisk stemmegivning,elektronisk røysting,electronic voting,"Elektronisk stemmegivning (bokmål) og elektronisk røysting (nynorsk) forkortes ofte til henholdsvis e-valg og e-val."
+hemmelig nøkkel,hemmeleg nøkkel,secret key,
+kollisjonsmotstandsdyktig<br>kollisjonsresistent,kollisjonsmotstandsdyktig<br>kollisjonsresistent,collision resistant,
+kollisjonsmotstandsdyktighet<br>kollisjonsresistens,kollisjonsmotstandsdugleik<br>kollisjonsresistens,collision resistance,
+sertifikatutsteder,sertifikatutferdar,certificate authority,"Sertifikatutsteder (bokmål) og sertifikatutferdar (nynorsk) forkortes ofte til CA."
+digital signaturforfalskning,digital signaturforfalsking,digital signature forgery,
+MAC-deretter-krypter,MAC-deretter-krypter,MAC-then-encrypt,"MAC-deretter-krypter forkortes ofte til MtE."
+krypter-deretter-MAC,krypter-deretter-MAC,encrypt-then-MAC,"Krypter-deretter-MAC forkortes ofte til EtM."
+krypter-og-MAC,krypter-og-MAC,encrypt-and-MAC,"Krypter-og-MAC forkortes ofte til EaM."
+autentiser-deretter-krypter,autentiser-deretter-krypter,authenticate-then-encrypt,"Autentiser-deretter-krypter forkortes ofte til AtE."
+krypter-deretter-autentiser,krypter-deretter-autentiser,encrypt-then-authenticate,"Krypter-deretter-autentiser forkortes ofte til EtA."
+krypter-og-autentiser,krypter-og-autentiser,encrypt-and-authenticate,"Krypter-og-autentiser forkortes ofte til EaA."
+uttømmende angrep<br>uttømmingsangrep,uttømmande åtak<br>uttømmingsåtak,brute-force attack<br>exhaustive search,
+generatormatrise,generatormatrise,generating matrix,
+engangsord<br>engangstall,eingongsord<br>eingongstal,nonce,
+fremtidssikkerhet,framtidssikkerheit,forward secrecy,
+svak fremtidssikkerhet,svak framtidssikkerheit,weak forward secrecy,
+substitusjon-permutasjon-nettverk,substitusjon-permutasjon-nettverk,substitution-permutation network,"Substitusjon-permutasjon-nettverk forkortes ofte til SPN."
+offentlig-nøkkel-kryptografi,offentleg-nøkkel-kryptografi,public key encryption,
+offentlig-nøkkel-infrastruktur,offentleg-nøkkel-infrastruktur,public key infrastructure,"Offentlig-nøkkel-infrastruktur (bokmål) og offentleg-nøkkel-infrastruktur (nynorsk) forkortes ofte til PKI."
+valgt-klartekst-angrep,valt-klartekst-åtak,chosen-plaintext attack,"Valgt-klartekst-angrep (bokmål) og valt-klartekst-åtak (nynorsk) forkortes ofte til CPA."
+valgt-chiffertekst-angrep,valt-chiffertekst-åtak,chosen-ciphertext attack,"Chiffer uttales [ʃi´f:ər].<br><br>Valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak (nynorsk) forkortes ofte til CCA."
+CA,CA,CA,"Genus: hankjønn<br><br>CA er en forkortelse for sertifikatutsteder (bokmål) og sertifikatutferdar (nynorsk) og stammer fra <i>certificate authority</i>."
+OTP,OTP,OTP,"Genus: hankjønn<br><br>OTP er en forkortelse for engangsnøkkel (bokmål) og eingongsnøkkel (nynorsk) og stammer fra <i>one-time pad</i>."
+KE,KE,KE,"Genus bokmål: hankjønn/hunkjønn<br>Genus nynorsk: hunkjønn<br><br>KE er en forkortelse for nøkkelutveksling og stammer fra <i>key exchange</i>."
+MAC,MAC,MAC,"Genus: hankjønn<br><br>MAC er en forkortelse for meldingsautentiseringskode og stammer fra <i>message authentication code</i>."
+DAG,DAG,DAG,"Genus: hankjønn<br><br>DAG er en forkortelse for rettet asyklisk graf (bokmål) og retta asyklisk graf (nynorsk) og stammer fra <i>directed acyclic graph</i>."
+KDF,KDF,KDF,"Genus: hankjønn<br><br>KDF er en forkortelse for nøkkelavledningsfunksjon (bokmål) og nøkkelavleiingsfunksjon (nynorsk) og stammer fra <i>key derivation function</i>."
+PRF,PRF,PRF,"Genus: hankjønn<br><br>PRF er en forkortelse for pseudotilfeldig funksjon og stammer fra <i>pseudorandom function</i>."
+PRNG,PRNG,PRNG,"Genus: hankjønn<br><br>PRNG er en forkortelse for pseudotilfeldig tallgenerator (bokmål) og pseudotilfeldig talgenerator (nynorsk) og stammer fra <i>pseudorandom number generator</i>."
+IV,IV,IV,"Genus: hankjønn<br><br>IV er en forkortelse for initialiseringsvektor (bokmål) og initialiseringsvektor (nynorsk) og stammer fra <i>initialization vector</i>."
+PoW,PoW,PoW,"Genus: intetkjønn<br><br>PoW er en forkortelse for arbeidsbevis (bokmål) og arbeidsbevis/arbeidsprov (nynorsk) og stammer fra <i>proof-of-work</i>."
+CPA,CPA,CPA,"Genus: intetkjønn<br><br>CPA er en forkortelse for valgt-klartekst-angrep (bokmål) og valt-klartekst-åtak (nynorsk) og stammer fra <i>chosen-plaintext attack</i>."
+CCA,CCA,CCA,"Genus: intetkjønn<br><br>CCA er en forkortelse for valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak (nynorsk) og stammer fra <i>chosen-ciphertext attack</i>."
+WoT,WoT,WoT,"Genus: intetkjønn<br><br>WoT er en forkortelse for tillitsnett og stammer fra <i>web of trust</i>."
+PKI,PKI,PKI,"Genus: hankjønn<br><br>PKI er en forkortelse for offentlig-nøkkel-infrastruktur (bokmål) og offentleg-nøkkel-infrastruktur (nynorsk) og stammer fra <i>public key infrastructure</i>."
+SPN,SPN,SPN,"Genus: intetkjønn<br><br>SPN er en forkortelse for substitusjon-permutasjon-nettverk."
+MtE,MtE,MtE,"MtE er en forkortelse for MAC-deretter-krypter og stammer fra <i>MAC-then-encrypt</i>."
+EtM,EtM,EtM,"EtM er en forkortelse for krypter-deretter-MAC og stammer fra <i>encrypt-then-MAC</i>."
+EaM,EaM,EaM,"EaM er en forkortelse for krypter-og-MAC og stammer fra <i>encrypt-and-MAC</i>."
+AtE,AtE,AtE,"AtE er en forkortelse for autentiser-deretter-krypter og stammer fra <i>authenticate-then-encrypt</i>."
+EtA,EtA,EtA,"EtA er en forkortelse for krypter-deretter-autentiser og stammer fra <i>encrypt-then-authenticate</i>."
+EaA,EaA,EaA,"EaA er en forkortelse for krypter-og-autentiser og stammer fra <i>encrypt-and-authenticate</i>."
+AE,AE,AE,"AE er en forkortelse for autentisert kryptering og stammer fra <i>authenticated encryption</i>."
+AEAD,AEAD,AEAD,"AEAD er en forkortelse for autentisert kryptering med tilhørende data (bokmål) og autentisert kryptering med tilhøyrande data (nynorsk) og stammer fra <i>authenticated encryption with associated data</i>."
+E2EE,E2EE,E2EE,"E2EE er en forkortelse for ende-til-ende-kryptering/endepunktskryptering og stammer fra <i>end-to-end encryption</i>."
+EUF,EUF,EUF,"EUF er en forkortelse for eksistensiell uforfalskbarhet (bokmål) og eksistensiell uforfalskbarheit (nynorsk) og stammer fra <i>existential unforgeability</i>."
+SUF,SUF,SUF,"SUF er en forkortelse for selektiv uforfalskbarhet (bokmål) og selektiv uforfalskbarheit (nynorsk) og stammer fra <i>selective unforgeability</i>."
+UUF,UUF,UUF,"UUF er en forkortelse for universell uforfalskbarhet (bokmål) og universell uforfalskbarheit (nynorsk) og stammer fra <i>universal unforgeability</i>."
+CBC-modus,CBC-modus,CBC mode,"CBC-modus er en forkortelse for kjedet chifferblokkmodus (bokmål) og kjeda chifferblokkmodus (nynorsk) og stammer fra <i>cipher block chaining mode</i>."
+CTR-modus,CTR-modus,CTR mode,"CTR-modus er en forkortelse for tellemodus (bokmål) og teljemodus (nynorsk) og stammer fra <i>counter mode</i>."
+ECB-modus,ECB-modus,ECB mode,"ECB-modus er en forkortelse for elektronisk kodebokmodus og stammer fra <i>electronic codebook mode</i>."
+kode,kode,code,
+kodeord,kodeord,codeword,
+feiloppdagende kode,feiloppdagande kode,error-detecting code,
+selvortogonal kode,sjølvortogonal kode,self-orthogonal code,
+selvdual kode,sjølvdual kode,self-dual code,
+paritet,paritet,parity,
+engangsnøkkel,eingongsnøkkel,one-time pad,"Engangsnøkkel (bokmål) og eingongsnøkkel (nynorsk) forkortes ofte til OTP."
+chiffer,chiffer,cipher,"Uttale: [ʃi´f:ər]<br>Genus: intetkjønn"
+cæsarchiffer,cæsarchiffer,Caesar cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
+symmetrisk kryptografi,symmetrisk kryptografi,symmetric cryptography,
+asymmetrisk kryptografi,asymmetrisk kryptografi,asymmetric cryptography,
+kryptografi,kryptografi,cryptography,"I dagligtale forkortes ofte kryptografi til krypto."
+kryptere,kryptere,encrypt,
+dekryptere,dekryptere,decrypt,
+kryptering,kryptering,encryption,
+dekryptering,dekryptering,decryption,
+gitterbasert kryptografi,gitterbasert kryptografi,lattice-based cryptography,
+nøkkelutveksling,nøkkelutveksling,key exchange,"Nøkkelutveksling forkortes ofte til KE."
+klartekst,klartekst,plaintext,
+chiffertekst,chiffertekst,ciphertext,"Chiffer uttales [ʃi´f:ər]."
+blokkchiffer,blokkchiffer,block cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
+kryptosystem,kryptosystem,crypto system,
+nøkkelgenerering,nøkkelgenerering,key generation,
+elliptisk kurve,elliptisk kurve,elliptic curve,
+meldingsautentiseringskode,meldingsautentiseringskode,message authentication code,"Meldingsautentiseringskode forkortes ofte til MAC."
+delt nøkkel,delt nøkkel,shared key,
+digital signatur,digital signatur,digital signature,
+meldingsintegritet,meldingsintegritet,message integrity,
+forpliktelse,forplikting,commitment,
+digitalt sertifikat,digitalt sertifikat,digital certificate,
+blokkjede,blokkjede,blockchain,
+rettet asyklisk graf,retta asyklisk graf,directed acyclic graph,"Rettet asyklisk graf (bokmål) og retta asyklisk graf (nynorsk) forkortes ofte til DAG."
+frekvensanalyse,frekvensanalyse,frequency analysis,
+n-gram,n-gram,n-gram,
+transposisjonschiffer,transposisjonschiffer,transposition cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
+substitusjonschiffer,substitusjonschiffer,substitution cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
+polyalfabetisk chiffer,polyalfabetisk chiffer,polyalphabetic cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
+kryptoanalyse,kryptoanalyse,cryptanalysis,
+autentisert kryptering,autentisert kryptering,authenticated encryption,"Autentisert kryptering forkortes ofte til AE."
+autentisert kryptering med tilhørende data,autentisert kryptering med tilhøyrande data,authenticated encryption with associated data,"Autentisert kryptering med tilhørende data (bokmål) og autentisert kryptering med tilhøyrande data (nynorsk) forkortes ofte til AEAD."
+blindsignatur,blindsignatur,blind signature,
+nøkkelavledningsfunksjon,nøkkelavleiingsfunksjon,key derivation function,"Nøkkelavledningsfunksjon (bokmål) og nøkkelavleiingsfunksjon (nynorsk) forkortes ofte til KDF."
+salt,salt,salt,"Oversettelsen gjelder bruk i kryptografi."
+orakel,orakel,oracle,
+pseudotilfeldig funksjon,pseudotilfeldig funksjon,pseudorandom function,"Pseudotilfeldig funksjon forkortes ofte til PRF."
+pseudotilfeldig tallgenerator,pseudotilfeldig talgenerator,pseudorandom number generator,"Pseudotilfeldig tallgenerator (bokmål) og pseudotilfeldig talgenerator (nynorsk) forkortes ofte til PRNG."
+polstring,polstring,padding,
+kortvarig nøkkel,kortvarig nøkkel,ephemeral key,
+nøkkeldeponering,nøkkeldeponering,key escrow,
+initialiseringsvektor,initialiseringsvektor,initialization vector,"Initialiseringsvektor forkortes ofte til IV."
+arbeidsbevis,arbeidsbevis<br>arbeidsprov,proof-of-work,"Arbeidsbevis (bokmål) og arbeidsbevis/arbeidsprov (nynorsk) forkortes ofte til PoW."
+gjentagelsesangrep,gjentakingsåtak,replay attack,
+gjentagelsesbeskyttelse,gjentakingsvern,replay prevention,
+skredeffekt,skredeffekt,avalanche effect,
+differensiell kryptoanalyse,differensiell kryptoanalyse,differential cryptanalysis,
+sidekanalangrep,sidekanalåtak,side-channel attack,
+mann-i-midten-angrep<br>mellommannsangrep,mann-i-midten-åtak<br>mellommannsåtak,man-in-the-middle attack,
+konkatenere<br>sammenføye<br>sammensette,føye saman<br>konkatenere<br>setje saman,concatenate,"Ordklasse: verb"
+ende-til-ende-kryptering<br>endepunktskryptering,ende-til-ende-kryptering<br>endepunktskryptering,end-to-end encryption,"Ende-til-ende-kryptering/endepunktskryptering forkortes ofte til E2EE."
+spillhopping,spelhopping,game-hopping,
+eksistensiell uforfalskbarhet,eksistensiell uforfalskbarheit,existential unforgeability,"Eksistensiell uforfalskbarhet (bokmål) og eksistensiell uforfalskbarheit (nynorsk) forkortes ofte til EUF."
+selektiv uforfalskbarhet,selektiv uforfalskbarheit,selective unforgeability,"Selektiv uforfalskbarhet (bokmål) og selektiv uforfalskbarheit (nynorsk) forkortes ofte til SUF."
+universell uforfalskbarhet,universell uforfalskbarheit,universal unforgeability,"Universell uforfalskbarhet (bokmål) og universell uforfalskbarheit (nynorsk) forkortes ofte til UUF."
+tillitsnett,tillitsnett,web of trust,"Tillitsnett forkortes ofte til WoT."
+krypteringsmodus,krypteringsmodus,encryption mode,
+dekrypteringsmodus,dekrypteringsmodus,decryption mode,
+elektronisk kodebokmodus,elektronisk kodebokmodus,electronic codebook mode,"Elektronisk kodebokmodus forkortes ofte til ECB-modus."
+tellemodus,teljemodus,counter mode,"Tellemodus (bokmål) og teljemodus (nynorsk) forkortes ofte til CTR-modus."
+kjedet chifferblokkmodus,kjeda chifferblokkmodus,cipher block chaining mode,"Chiffer uttales [ʃi´f:ər].<br><br>Kjedet chifferblokkmodus (bokmål) og kjeda chifferblokkmodus (nynorsk) forkortes ofte til CBC-modus."
+anstendig avbildning,anstendig avbilding,proper map,"Oversettelsen proper avbildning (bokmål) og proper avbilding (nynorsk) er også i bruk."
+anstendig funksjon,anstendig funksjon,proper function,"Oversettelsen proper funksjon er også i bruk."
+distingvert triangel,distingvert triangel,distinguished triangle,"Deler av faglitteraturen benytter uttrykket <i>exact triangle</i> i stedet for <i>distinguished triangle</i>. Dette oversettes til eksakt triangel."
+eksakt triangel,eksakt triangel,exact triangle,"Deler av faglitteraturen benytter uttrykket <i>distinguished triangle</i> i stedet for <i>exact triangle</i>. Dette oversettes til distingvert triangel."
+nedadgående-kjede-betingelse,minkande-kjede-vilkår,descending chain condition,
+oppadgående-kjede-betingelse,aukande-kjede-vilkår,ascending chain condition,
+pivot,pivot,pivot,"Ordklasse: substantiv<br>Uttale: [pivå:´]"
+fouriersinusrekke,fouriersinusrekkje,Fourier sine series,
+fouriercosinusrekke,fouriercosinusrekkje,Fourier cosine series,
+definisjonsmengde<br>definisjonsområde,definisjonsmengd<br>definisjonsområde,domain,"Oversettelsen gjelder blant annet når det er snakk om funksjoner og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+spektralfølge,spektralfølgje,spectral sequence,
+dedekindgruppe,dedekindgruppe,Dedekind group,
+teleskoprekke,teleskoprekkje,telescoping series,
+gradkommutativ,gradkommutativ,graded-commutative,
+gradkommutativ ring,gradkommutativ ring,graded-commutative ring,
+Auslanders defektformel,Auslanders defektformel,Auslander's defect formula,
+isotropiundergruppe,isotropiundergruppe,isotropy subgroup,"Synonym: stabilisator"
+Burnsides formel,Burnsides formel,Burnside's formula,
+rotkropp,rotkropp,splitting field,
+p-undergruppe,p-undergruppe,p-subgroup,
+like funksjon,like funksjon,even function,"Oversettelsen jevn funksjon (bokmål) og jamn funksjon (nynorsk) er også i bruk."
+orden,orden,order,
+like permutasjon,like permutasjon,even permutation,"Oversettelsen jevn permutasjon (bokmål) og jamn permutasjon (nynorsk) er også i bruk."
+odde permutasjon,odde permutasjon,odd permutation,
+indeks,indeks,index,
+karakteristikk,karakteristikk,characteristic,
+topologisk rom med basispunkt,topologisk rom med basispunkt,pointed topological space<br>topological space with base point,
+mangfoldighet med basispunkt,mangfald med basispunkt,manifold with base point<br>pointed manifold,
+basispunkt,basispunkt,base point,
+punktert omegn,punktert omegn,deleted neighbourhood<br>punctured neighbourhood,
+punktert intervall,punktert intervall,deleted interval<br>punctured interval,
+underordnet,underordna,subordinate,
+vesentlig singularitet,vesentleg singularitet,essential singularity,
+likedannet<br>similær,likedanna<br>similær,similar,"Oversettelsen gjelder bruk i lineær algebra og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+likedannet matrise<br>similær matrise,likedanna matrise<br>similær matrise,similar matrix,
+isospektral,isospektral,isospectral,
+venstreinvers,venstreinvers,left inverse,
+høyreinvers,høgreinvers,right inverse,
+løsbar,løyseleg,solvable,
+kontrapositivt bevis,kontrapositivt bevis<br>kontrapositivt prov,proof by contraposition,"På engelsk kan man bruke <i>contrapositive proof</i> som synonym til <i>proof by contraposition</i>."
+kontrapositiv,kontrapositiv,contrapositive,
+langeksakt,langeksakt,long exact,
+langeksakt følge,langeksakt følgje,long exact sequence,
+korteksakt,korteksakt,short exact,
+galoiskropp,galoiskropp,Galois field,
+galoisgruppe,galoisgruppe,Galois group,
+galoisutvidelse,galoisutviding,Galois extension,
+hassediagram,hassediagram,Hasse diagram,
+deduksjon,deduksjon,deduction,
+krumningsradius,krummingsradius,radius of curvature,
+dele<br>gå opp i,dele<br>gå opp i,divide,"Et heltall <i>n</i> deler eller går opp i et heltall <i>m</i> dersom <i>n</i> er en faktor i <i>m</i>."
+antipodalt punkt,antipodalt punkt,antipodal point,"Synonym: antipode"
+endelig tilstandsmaskin,endeleg tilstandsmaskin,finite-state machine,"Synonym: endelig tilstandsautomat<br><br>Endelig tilstandsmaskin forkortes ofte til FSM."
+endelig tilstandsautomat,endeleg tilstandsautomat,finite-state automaton,"Synonym: endelig tilstandsmaskin<br><br>Endelig tilstandsautomat forkortes ofte til FSA."
+FSM,FSM,FSM,"Genus bokmål: hankjønn<br>Genus nynorsk: hankjønn/hunkjønn<br><br>FSM er en forkortelse for endelig tilstandsmaskin (bokmål) og endeleg tilstandsmaskin (nynorsk) og stammer fra <i>finite-state machine</i>."
+FSA,FSA,FSA,"Genus: hankjønn<br><br>FSA er en forkortelse for endelig tilstandsautomat (bokmål) og endeleg tilstandsautomat (nynorsk) og stammer fra <i>finite-state automaton</i>."
+verdiområde,verdiområde,codomain,"Oversettelsen gjelder blant annet når det er snakk om funksjoner og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+vektorflyt,vektorflyt,vector flow,
+symmetri,symmetri,symmetry,
+virkning,verknad,action,
+kompleksanalytisk,kompleksanalytisk,complex analytic,
+divergensteoremet,divergensteoremet,divergence theorem,
+algebraens fundamentalteorem,fundamentalteoremet i algebra,fundamental theorem of algebra,
+aritmetikkens fundamentalteorem,fundamentalteoremet i aritmetikk,fundamental theorem of arithmetic,
+analysens fundamentalteorem,fundamentalteoremet i analyse,fundamental theorem of calculus,
+indreregulær,indreregulær,inner regular,
+ordningstopologi,ordningstopologi,order topology,
+ytreregulær,ytreregulær,outer regular,
+reellanalytisk,reellanalytisk,real analytic,
+cauchyproblem,cauchyproblem,Cauchy problem,
+dirichletproblem,dirichletproblem,Dirichlet problem,
+energiestimat,energiestimat,energy estimate,
+fundamentalløsning,fundamentalløysing,fundamental solution,
+Gagliardo-Nirenberg-Sobolev-ulikheten,Gagliardo-Nirenberg-Sobolev-ulikskapen,Gagliardo–Nirenberg–Sobolev inequality,
+höldernorm,höldernorm,Hölder norm,
+hölderrom,hölderrom,Hölder space,
+laplacelikning,laplacelikning,Laplace equation,
+laplaceoperator,laplaceoperator,Laplace operator,
+maksimumsprinsipp,maksimumsprinsipp,maximum principle,
+middelverdiegenskap,middelverdieigenskap,mean value property,
+multiindeks,multiindeks,multiindex,
+poincaréulikhet,poincaréulikskap,Poincaré inequality,
+poissonlikning,poissonlikning,Poisson equation,
+kvasilineær,kvasilineær,quasilinear,
+regularitet,regularitet,regularity,
+Rellich-Kondrachov-kompakthet,Rellich-Kondrachov-kompaktheit,Rellich–Kondrachov compactness,
+schrödingerlikning,schrödingerlikning,Schrödinger equation,
+semilineær,semilineær,semilinear,
+sobolevfunksjon,sobolevfunksjon,Sobolev function,
+sobolevulikhet,sobolevulikskap,Sobolev inequality,
+sobolevrom,sobolevrom,Sobolev space,
+transportlikning,transportlikning,transport equation,
+svak derivert,svak derivert,weak derivative,
+svak løsning,svak løysing,weak solution,
