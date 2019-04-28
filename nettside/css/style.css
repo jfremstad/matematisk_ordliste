@@ -71,3 +71,11 @@ table.dataTable thead .sorting_desc {
   padding-left: 25px !important;
   padding-right: 0px !important;
 }
+
+table.dataTable tr.odd {
+  background-color: #F2F2F2;
+}
+
+table.dataTable tr.even {
+  background-color: #FFFFFF;
+}

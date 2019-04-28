@@ -88,7 +88,7 @@
 				// Import CSV to JSON
         var jsonobject;
         $.ajax({
-        url: "https://raw.githubusercontent.com/jfremstad/matematisk_ordliste/master/verifiserte_termer.csv",
+        url: "ordliste/verifiserte_termer.csv",
         async: false,
         success: function (csvd) {
             var items = $.csv.toArrays(csvd);
@@ -117,8 +117,7 @@
           // Legg inn bokmål, nynorsk og engelsk
 					for (j = 0; j < 3; j++){
             var td = tr.insertCell(j+1);
-            var tablecontent = document.createTextNode(jsonobject[i][j]);
-            td.appendChild(tablecontent);
+            td.innerHTML=jsonobject[i][j];
 					}
         }
 				// Sort with norwegian characters in mind
