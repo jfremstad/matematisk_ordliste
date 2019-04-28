@@ -65,7 +65,7 @@
 
 * Informasjon om forkortelse føres slik for den ikke-forkortede termen:
   ```
-  variansanalyse,variansanalyse,analysis of variance/variance analysis,"Variansanalyse forkortes ofte til ANOVA."
+  variansanalyse,variansanalyse,analysis of variance<br>variance analysis,"Variansanalyse forkortes ofte til ANOVA."
   ```
 
 ### Andre eksempler
