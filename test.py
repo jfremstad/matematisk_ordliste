@@ -24,18 +24,14 @@ def checkSorted(data):
     errorlist = []
     for row in data:
         for col in range(3):
-            synonyms = row[col].split("/")
-            for k in synonyms:
-                if " " in k and len(synonyms) != 1 and " / " not in row[col]:
-                    EXITCODE = 2
-                    print("Mangler mellomrom rundt skråstrek: ", synonyms)
-            if not isSorted(re.sub(" ?/ ?", "/", row[col]).split("/")):
+            synonyms = row[col].split("<br>")
+            if not isSorted(row[col].split("<br>")):
                 errorlist.append(row[col])
                 EXITCODE = 5
     if EXITCODE == 5:
         print("Endringer som må gjøres:\n")
         for error in errorlist:
-            print(error, "-->", "/".join(sorted(error.split("/"))))
+            print(error, "-->", "<br>".join(sorted(error.split("<br>"))))
     sys.exit(EXITCODE)
 
 
