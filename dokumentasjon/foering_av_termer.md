@@ -16,9 +16,11 @@ algebraisk,algebraisk,algebraically,"Ordklasse: adverb"
  
 Synonyme oversettelser føres slik (i alfabetisk rekkefølge): 
 
-`initialverdi<br>startverdi,initialverdi<br>startverdi,initial value,`.
-`variansanalyse,variansanalyse,analysis of variance<br>variance analysis,`
-`avvikende observasjon<br>utligger,avvikande observasjon<br>utliggjar,outlier,`
+```
+initialverdi<br>startverdi,initialverdi<br>startverdi,initial value,
+variansanalyse,variansanalyse,analysis of variance<br>variance analysis,
+avvikende observasjon<br>utligger,avvikande observasjon<br>utliggjar,outlier,
+```
 
 Dersom den ene oversettelsen er anbefalt fremfor den andre, kan dette presiseres i en merknad.
 Se også de mer detaljerte [konvensjonene](konvensjoner_merknader.md) for føring av merknader.
