@@ -24,7 +24,7 @@ Her kan du lese om hvordan du kan [komme med innspill](dokumentasjon/innspill.md
 * Språkrådet for å ha bidratt med igangsetting og finansiering av prosjektet
 * Ole Kristian Våge m.fl. i Språkrådet for å ha bidratt med fagkompetanse og kvalitetssikring
 * Klara Hveberg (UiO), John Rognes (UiO), Harald Hanche-Olsen (NTNU) m.fl. for å ha opprettet ordlister som har dannet et utgangspunkt for dette arbeidet
-* Norsk matematikkråd for være vert for den offisielle [ordlista](https://matematikkradet.no/ordliste)
+* Norsk matematikkråd for å være vert for den offisielle [ordlista](https://matematikkradet.no/ordliste)
 * Den opprinnelige prosjektgruppa, bestående av Inger Christin Borge (UiO), Aslak Bakke Buan (NTNU), Olav Gunnarson Dovland (UiA), Frode Rønning (NTNU), Erlend Due Børve (NTNU), Simon Foldvik (UiO), Joakim Fremstad (NTNU), Johanne Haugland (NTNU) og Anders Wiik (UiA)
 * [Alle bidragsytere](BIDRAGSYTERE.md)
 

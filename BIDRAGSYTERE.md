@@ -15,6 +15,7 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 - [Robin Fissum (NTNU)](https://github.com/robinfissum) 
 - [Simon Foldvik (UiO)](https://github.com/Qeeku)
 - [Joakim Fremstad (NTNU)](https://github.com/jfremstad)
+- [Søren Gammelgaard (Oxford/UiO)](https://github.com/sorengam)
 - Sigrid Grepstad (NTNU)
 - [Harald Hanche-Olsen (NTNU)](https://github.com/hanche)
 - [Johanne Haugland (NTNU)](https://github.com/johahaug)
