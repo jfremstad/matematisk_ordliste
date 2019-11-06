@@ -22,6 +22,7 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 - Sigbjørn Hervik (UiS)
 - [Helge Holden (NTNU)](https://github.com/helgeholden)
 - Klara Hveberg (UiO)
+- [Egil Krystad (NTNU)](https://github.com/egilkrystad)
 - [Ann-Helen Langaker (Språkrådet)](https://github.com/Langaker)
 - [Håkon Marthinsen (SINTEF)](http://github.com/hmarthinsen)
 - Mona-Lena Norheim (NTNU)
