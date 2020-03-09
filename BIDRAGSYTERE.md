@@ -29,6 +29,7 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 - [Brynjulf Owren (NTNU)](http://github.com/bowre)
 - Cecilie Bjørnsdotter Raustein (NTNU)
 - Morten Ravnemyr (NTNU)
+- [Magnus Ringerud (NTNU)](http://github.com/magnudr)
 - John Rognes (UiO)
 - Frode Rønning (NTNU)
 - [Øystein I. Skartsæterhagen (NTNU)](http://github.com/oysteins)
