@@ -17,6 +17,7 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 - [Joakim Fremstad (NTNU)](https://github.com/jfremstad)
 - [Søren Gammelgaard (Oxford/UiO)](https://github.com/sorengam)
 - Sigrid Grepstad (NTNU)
+- [Morten Grønbech (NTNU)](https://github.com/MortGron)
 - [Harald Hanche-Olsen (NTNU)](https://github.com/hanche)
 - [Johanne Haugland (NTNU)](https://github.com/johahaug)
 - Sigbjørn Hervik (UiS)
