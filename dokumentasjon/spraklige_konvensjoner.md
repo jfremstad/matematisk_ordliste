@@ -45,6 +45,7 @@ Nedenfor følger en oversikt over de språklige konvensjonene som blir brukt i o
 
 * **Konvensjoner bokmål:**
   * *Frem* benyttes i stedet for *fram*.
+  * *Tro* benyttes i stedet for *tru*.
 
 * **Konvensjoner nynorsk:**
   * Pass på at man i nynorsk tradisjonelt ønsker å unngå genitiv av substantiv i bestemt form, mens genitiv kan brukes i ubestemt form.
