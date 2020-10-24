@@ -7,75 +7,20 @@ body {
 
 footer {
   min-height: 100px;
-  font-size: 10px;
+  font-size: 0.5em;
   color: #222222;
   margin-top: 2em;
 }
 
-/* input is inside this container */
-.dataTables_filter {
-  width: 30%;
-  min-width: 200px;
-  max-width: 300px;
+h1 {
+  margin-top: 0.5em;
+  margin-bottom: -1em;
 }
 
-/* Push paginator down */
-#wordlist_length {
-  margin-top: 15px;
+.project-summary {
+  font-size: 1.7em;
 }
 
-input {
-    background-image: url('../img/searchicon.png'); /* Add a search icon to input */
-    background-position: 10px 12px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 90%; /* Small search bar */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 2px solid #ddd; /* Add a border */
-    margin-bottom: 8px; /* Add some space below the input */
-}
-
-input:focus {
-  border: 2px solid #b2d3e8;
-}
-
-#wordlist {
-    /*border-collapse: collapse; /* Collapse borders */
-    width: 100%; /* Full-width */
-    /*border: 3px solid #ddd; /* Add a border */
-    font-size: 18px; /* Increase font-size */
-    margin: auto;
-}
-
-#wordlist th, #wordlist td {
-    text-align: left; /* Left-align text */
-    padding: 12px; /* Add padding */
-}
-
-#wordlist .comment {
-  background-color: #b2d3e8;
-}
-
-#wordlist tr.header {
-    background-color: #b2d3e8;
-}
-
-#wordlist tr:hover {
-    background-color: #b3cbe3;
-}
-
-table.dataTable thead .sorting,
-table.dataTable thead .sorting_asc,
-table.dataTable thead .sorting_desc {
-  background-position: center left !important;
-  padding-left: 25px !important;
-  padding-right: 0px !important;
-}
-
-table.dataTable tr.odd {
-  background-color: #F2F2F2;
-}
-
-table.dataTable tr.even {
-  background-color: #FFFFFF;
+.table {
+  background-color: white;
 }

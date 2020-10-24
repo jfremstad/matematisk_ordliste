@@ -1,90 +1,90 @@
 <!DOCTYPE html>
 <html lang="no">
   <head>
-    <script>
-      function searchURL() {
-        var params = location.hash;
-        if (params) {
-          var query = params.slice(1);
-          var table = $("#wordlist").DataTable();
-          table.search(query).draw();
-        }
-      }
-    </script>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"
-    />
     <title>Matematisk ordliste</title>
     <meta charset="UTF-8" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.9/jquery.csv.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/plug-ins/1.10.19/sorting/intl.js"></script>
-    <script src="js/accent-neutralise.js"></script>
-    <!-- Buttons -->
-    <style>
-      td.details-control {
-        background: url("img/details_open.png") no-repeat center center;
-        cursor: pointer;
-      }
-      tr.shown td.details-control {
-        background: url("img/details_close.png") no-repeat center center;
-      }
-    </style>
-
-    <script>
-      function commentButton() {
-        $(".details-control").click(function (e) {
-          var thisrow = $(this).closest("tr");
-          var button = $(this);
-          var commentrowid = "comment-" + button.attr("id");
-          if ($("#" + commentrowid).length) {
-            $("#" + commentrowid).remove();
-            thisrow.removeClass("shown");
-          } else {
-            var insertData =
-              '<tr id="' +
-              commentrowid +
-              '" class="comment"><td colspan="4">' +
-              jsonobject[this.id][3] +
-              "</td>";
-            thisrow.after(insertData);
-            thisrow.addClass("shown");
-          }
-        });
-      }
-    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.js"></script>
+    <script src="js/bootstrap-table-nb-NO.js"></script>
   </head>
+
   <body>
     <h1>Matematisk ordliste</h1>
-    <p>
-      Ordlista er utarbeidet i samarbeid mellom NTNU, UiO og UiA, og prosjektet
-      har mottatt støtte fra Språkrådet. Termbasen er under stadig utvikling, og
-      det er ønskelig at flest mulig kommer med forslag til endringer og nye
-      oversettelser. På
-      <a
-        href="https://github.com/jfremstad/matematisk_ordliste#prosjektside---matematisk-ordliste"
-        >prosjektsiden</a
-      >
-      finner du informasjon om hvordan du kan komme med innspill, samt en
-      oversikt over bidragsytere og valg av språklige konvensjoner.
-    </p>
-
-    <table id="wordlist" class="stripe">
-      <thead>
-        <tr class="header">
-          <th></th>
-          <th>Bokmål</th>
-          <th>Nynorsk</th>
-          <th>Engelsk</th>
+    <!--data-search-accent-neutralise="true"-->
+    <table
+      data-toggle="table"
+      data-search="true"
+      data-pagination="true"
+      data-pagination-parts="['pageSize', 'pageList']"
+      data-page-list="[5, 10, 25, 50, 100, 200, All]"
+      data-page-size="10"
+      data-sort-name="0"
+      data-sort-reset="true"
+      data-trim-on-search="false"
+      data-search-time-out="250"
+      data-show-search-clear-button="true"
+      data-detail-view="true"
+      data-detail-filter="detailFilter"
+      data-detail-formatter="detailFormatter"
+      data-detail-view-by-click="true"
+      data-custom-search="customSearch"
+      id="table"
+      class="table table-striped"
+    >
+      <thead class="thead-dark">
+        <tr>
+          <th data-sortable="true">Bokmål</th>
+          <th data-sortable="true">Nynorsk</th>
+          <th data-sortable="true">Engelsk</th>
         </tr>
       </thead>
-      <tbody id="tablecontents"></tbody>
     </table>
+
     <footer>
+      <div class="project-summary">
+        <p>
+          Ordlista er utarbeidet i samarbeid mellom NTNU, UiO og UiA, og
+          prosjektet har mottatt støtte fra Språkrådet. Termbasen er under
+          stadig utvikling, og det er ønskelig at flest mulig kommer med forslag
+          til endringer og nye oversettelser. På
+          <a
+            href="https://github.com/jfremstad/matematisk_ordliste#prosjektside---matematisk-ordliste"
+            >prosjektsiden</a
+          >
+          finner du informasjon om hvordan du kan komme med innspill, samt en
+          oversikt over bidragsytere og valg av språklige konvensjoner.
+        </p>
+      </div>
       <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
         ><img
           alt="Creative Commons-lisens"
@@ -110,56 +110,169 @@
       });
       // Remove header
       jsonobject = jsonobject.slice(1);
+      console.log(jsonobject);
 
-      var tablecontents = document.getElementById("tablecontents");
+      var $table = $("#table");
+      $table.bootstrapTable({ data: jsonobject });
 
-      // Fill in table
-      for (var i in jsonobject) {
-        var hasComment = jsonobject[i][3] !== "";
-        var tr = tablecontents.insertRow(-1);
-        tr.className = "oppslag";
-        var td = tr.insertCell(0);
+      // Only expand rows with additional info (merknad)
+      function detailFilter(index, row) {
+        return row[3] !== "";
+      }
 
-        // Create button if row has comment
-        if (hasComment) {
-          td.className = "details-control";
-          td.id = i;
+      // How to display the additional info
+      function detailFormatter(index, row) {
+        return "<p>" + row[3] + "</p>";
+      }
+
+      function lengthToMaxDistance(length) {
+        // Exact match on small words
+        if (length <= 4) {
+          return 0;
         }
+        if (length <= 8) {
+          return 1;
+        }
+        return 2;
+      }
 
-        // Legg inn bokmål, nynorsk og engelsk
-        for (j = 0; j < 3; j++) {
-          var td = tr.insertCell(j + 1);
-          td.innerHTML = jsonobject[i][j];
+      function lowerCase(s, i) {
+        return s.toLowerCase();
+      }
+      function matchInWords(cellWords, text) {
+        for (var j = 0; j < cellWords.length; j++) {
+          if (
+            levenshtein(cellWords[j].slice(0, text.length), text) <=
+            lengthToMaxDistance(text.length)
+          ) {
+            return true;
+          }
         }
       }
-      // Sort with norwegian characters in mind
-      $(document).ready(function () {
-        $.fn.dataTable.ext.order.intl("nb");
-        commentButton();
-        var table = $("#wordlist").DataTable({
-          order: [[1, "asc"]],
-          columnDefs: [{ orderable: false, targets: [0] }],
-          lengthMenu: [
-            [10, 25, 50, 100, 500, -1],
-            [
-              "10 per side",
-              "25 per side",
-              "50 per side",
-              "100 per side",
-              "500 per side",
-              "alle",
-            ],
-          ],
-          preDrawCallback: function (settings) {
-            $(".shown").removeClass("shown");
-          },
-          language: {
-            url: "js/dataTables_norsk.json",
-            searchPlaceholder: "Søk...",
-          },
+
+      function customSearch(data, text) {
+        return data.filter(function (row) {
+          const lowerCaseRow = $.map(row, lowerCase);
+          text = text.toLowerCase();
+          searchWords = text.split(" ");
+          var matches = 0;
+
+          for (var k = 0; k < searchWords.length; k++) {
+            for (var i = 0; i < lowerCaseRow.length - 1; i++) {
+              // Exact match
+              if (lowerCaseRow[i].includes(searchWords[k])) {
+                matches += 1;
+                break;
+              }
+              const cellWords = lowerCaseRow[i].split(" ");
+              if (matchInWords(cellWords, searchWords[k])) {
+                matches += 1;
+                break;
+              }
+            }
+          }
+          return matches === searchWords.length;
         });
-        searchURL();
-      });
+      }
+
+      function _min(d0, d1, d2, bx, ay) {
+        return d0 < d1 || d2 < d1
+          ? d0 > d2
+            ? d2 + 1
+            : d0 + 1
+          : bx === ay
+          ? d1
+          : d1 + 1;
+      }
+
+      function levenshtein(a, b) {
+        if (a === b) {
+          return 0;
+        }
+
+        if (a.length > b.length) {
+          var tmp = a;
+          a = b;
+          b = tmp;
+        }
+
+        var la = a.length;
+        var lb = b.length;
+
+        while (la > 0 && a.charCodeAt(la - 1) === b.charCodeAt(lb - 1)) {
+          la--;
+          lb--;
+        }
+
+        var offset = 0;
+
+        while (offset < la && a.charCodeAt(offset) === b.charCodeAt(offset)) {
+          offset++;
+        }
+
+        la -= offset;
+        lb -= offset;
+
+        if (la === 0 || lb < 3) {
+          return lb;
+        }
+
+        var x = 0;
+        var y;
+        var d0;
+        var d1;
+        var d2;
+        var d3;
+        var dd;
+        var dy;
+        var ay;
+        var bx0;
+        var bx1;
+        var bx2;
+        var bx3;
+
+        var vector = [];
+
+        for (y = 0; y < la; y++) {
+          vector.push(y + 1);
+          vector.push(a.charCodeAt(offset + y));
+        }
+
+        var len = vector.length - 1;
+
+        for (; x < lb - 3; ) {
+          bx0 = b.charCodeAt(offset + (d0 = x));
+          bx1 = b.charCodeAt(offset + (d1 = x + 1));
+          bx2 = b.charCodeAt(offset + (d2 = x + 2));
+          bx3 = b.charCodeAt(offset + (d3 = x + 3));
+          dd = x += 4;
+          for (y = 0; y < len; y += 2) {
+            dy = vector[y];
+            ay = vector[y + 1];
+            d0 = _min(dy, d0, d1, bx0, ay);
+            d1 = _min(d0, d1, d2, bx1, ay);
+            d2 = _min(d1, d2, d3, bx2, ay);
+            dd = _min(d2, d3, dd, bx3, ay);
+            vector[y] = dd;
+            d3 = d2;
+            d2 = d1;
+            d1 = d0;
+            d0 = dy;
+          }
+        }
+
+        for (; x < lb; ) {
+          bx0 = b.charCodeAt(offset + (d0 = x));
+          dd = ++x;
+          for (y = 0; y < len; y += 2) {
+            dy = vector[y];
+            vector[y] = dd = _min(dy, d0, dd, bx0, vector[y + 1]);
+            d0 = dy;
+          }
+        }
+
+        return dd;
+      }
     </script>
   </body>
 </html>
