@@ -35,6 +35,7 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 - Frode Rønning (NTNU)
 - [Øystein I. Skartsæterhagen (NTNU)](http://github.com/oysteins)
 - Øyvind Solberg (NTNU)
+- [Daniel Kjellevold Steinsland (NTNU)](https://github.com/danielKSt)
 - Eldar Straume (NTNU)
 - John Sølve Tyssedal (NTNU)
 - [Ole Kristian Våge (Språkrådet)](https://github.com/OleVaage)
