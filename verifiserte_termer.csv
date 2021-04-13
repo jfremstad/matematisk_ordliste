@@ -625,7 +625,6 @@ analytisk,analytisk,analytic,
 rasjonal funksjon,rasjonal funksjon,rational function,
 maksimum,maksimum,maximum,
 komplettering,komplettering,completion,
-Students t-forhold,Students t-forhold,Student's t-ratio,
 komplekst tall,komplekst tal,complex number,
 gaussisk,gaussisk,Gaussian,
 grensepunktkompakt,grensepunktkompakt,limit point compact,
@@ -1773,8 +1772,8 @@ perfekt kompleks,perfekt kompleks,perfect complex,
 kvantepolynomring,kvantepolynomring,quantum polynomial ring,
 spesialiseringslukket,spesialiseringslukka,specialization closed,
 spesialiseringslukket delmengde,spesialiseringslukka delmengd,specialization closed subset,
-stratifisering,stratifisering,stratification,
-stratifiseringsbetingelse,stratifiseringsvilkår,stratification condition,
+lagdeling,lagdeling,stratification,
+lagdelingsbetingelse,lagdelingsvilkår,stratification condition,
 stilk,stilk,stalk,"Oversettelsen gjelder bruk i blant annet kategoriteori og algebraisk geometri og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 stilkkompleks,stilkkompleks,stalk complex,
 triangulert underkategori,triangulert underkategori,triangulated subcategory,
@@ -2687,7 +2686,6 @@ kosylinderobjekt<br>veiobjekt,kosylinderobjekt<br>vegobjekt,path object,
 sylinderobjekt,sylinderobjekt,cylinder object,
 fibrant tilnærming,fibrant tilnærming,fibrant approximation,
 kofibrant tilnærming,kofibrant tilnærming,cofibrant approximation,
-fiberprodukt,fiberprodukt,fibre product,
 endelig type,endeleg type,finite type,
 serrefibrasjon,serrefibrasjon,Serre fibration,
 dehnvridning,dehnvriding,Dehn twist,
@@ -2700,7 +2698,7 @@ løft,lyft,lift,
 løfting,lyfting,lifting,
 pukkelfunksjon,pukkelfunksjon,bump function,"Pukkelfunksjoner kan også omtales som testfunksjoner, men termene <i>pukkelfunksjon</i> og <i>testfunksjon</i> er ikke synonymer."
 testfunksjon,testfunksjon,test function,
-geodetisk kurve,geodetisk kurve,geodesic,"Synonym: geodete"
+geodetisk kurve,geodetisk kurve,geodesic,"Synonym: geoded/geodete"
 fullstendig geodetisk,fullstendig geodetisk,totally geodesic,
 normal geodetisk kurve,normal geodetisk kurve,normal geodesic,
 unormal geodetisk kurve,unormal geodetisk kurve,abnormal geodesic,
@@ -2914,3 +2912,78 @@ rigor<br>rigorøsitet<br>stringens,rigor<br>rigorøsitet<br>stringens,rigour,"Or
 rigorøs<br>stringent,rigorøs<br>stringent,rigourous,"Ordklasse: Adjektiv"
 eulergraf,eulergraf,Eulerian graph,
 hamiltongraf,hamiltongraf,Hamiltonian graph,
+differansekjerne,differansekjerne,difference kernel,"I noen tilfeller kan termene differansekjerne og forliker brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
+differansekokjerne,differansekokjerne,difference cokernel,"I noen tilfeller kan termene differansekokjerne og koforliker brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
+forliker,forliker,equalizer,"I noen tilfeller kan termene differansekjerne og forliker brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
+koforliker,koforliker,coequalizer,"I noen tilfeller kan termene differansekokjerne og koforliker brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
+nek,nek,gerbe,
+geoded<br>geodete,geoded<br>geodete,geodesic,"Synonym: geodetisk kurve"
+perspektivitet,perspektivitet,perspectivity,
+kollineasjon,kollineasjon,collineation,
+lag,lag,stratum,"Engelsk flertall: strata"
+lagdelt,lagdelt,stratified,
+lagfoldighet,lagfald,stratifold,
+banefoldighet,banefald,orbifold,
+konisk,konisk,conic,"Ordklasse: adjektiv"
+jet,jet,jet,
+spektrifisering,spektrifisering,spectrification,
+klypepunkt,klypepunkt,pinch point,
+kilesum,kilesum,wedge sum,
+homografi,homografi,homography,
+kransprodukt,kransprodukt,wreath product,
+radikalisering,radikalisering,radicalization,
+abelisering,abelisering,abelianization,
+løkkerom,lykkjerom,loop space,
+uendelig løkkerom,uendeleg lykkjerom,infinite loop space,
+spiss-,spiss-,cuspidal,"Denne termen brukes som et adjektiv på engelsk, men som forstavelse på norsk."
+skjelett-<br>skjelettal-,skjelett-<br>skjelettal-,skeletal,"Denne termen brukes som et adjektiv på engelsk, men som forstavelse på norsk."
+veiintegral,vegintegral,path integral,"Synonym: linjeintegral"
+linjeintegral,linjeintegral,line integral,"Synonym: veiintegral"
+konturintegral<br>kurveintegral<br>omrissintegral,konturintegral<br>kurveintegral<br>omrissintegral,contour integral,
+kovariantderivert,kovariantderivert,covariant derivative,
+kartesisk kvadrat,kartesisk kvadrat,Cartesian square,"Synonym: pullbackkvadrat"
+pullbackkvadrat,pullbackkvadrat,pullback square,"Synonym: kartesisk kvadrat"
+kokartesisk kvadrat,kokartesisk kvadrat,co-Cartesian square,"Synonym: pushoutkvadrat"
+pushoutkvadrat,pushoutkvadrat,pushout square,"Synonym: kokartesisk kvadrat"
+fiberprodukt,fiberprodukt,fibre product,
+homotopiløftingsegenskap,homotopilyfteigenskap,homotopy lifting property,
+minste øvre skranke,minste øvre skranke,meet,"Oversettelsen gjelder når det er snakk om gitterordninger og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+største nedre skranke,største nedre skranke,join,"Oversettelsen gjelder når det er snakk om gitterordninger og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+fortegnsmetrikk,forteiknmetrikk,signed metric,
+avstandsfunksjon,avstandfunksjon,distance function,
+justering,justering,gauge,"Ordklasse: substantiv"
+justertransformasjon,justertransformasjon,gauge transformation,
+justerinvarians,justerinvarians,gauge invariance,
+kryssledd,kryssledd,cross term,
+uten tap av generalitet,utan tap av generalitet,without loss of generality,
+skolemisering,skolemisering,skolemization,
+skolemfunksjon,skolemfunksjon,Skolem function,
+skolemkonstant,skolemkonstant,Skolem constant,
+tingliggjøring,tingleggjering,reification,"Tingliggjøring kan også omtales som reifisering på norsk."
+tingliggjøre,tingleggjere,reify,"Tingliggjøre også omtales som reifisere på norsk."
+klausul,klausul,clause,
+hornklausul,hornklausul,Horn clause,
+konjunktiv normalform,konjunktiv normalform,conjunctive normal form,
+punktet rom,punkta rom,pointed space,
+punktet topologisk rom,punkta topologisk rom,pointed topological space,
+punktet mangfoldighet,punkta mangfald,pointed manifold,
+punktet kategori,punkta kategori,pointed category,
+uavhengighetsanalyse,uavhengnadanalyse,independent component analysis,
+hovedkomponentanalyse,hovudkomponentanalyse,principal component analysis,
+formbevarende avbildning,formbevarande avbilding,similarity transformation,"Oversettelsen gjelder bruk i geometri og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+similaritetstransformasjon<br>similærtransformasjon,similaritetstransformasjon<br>similærtransformasjon,similarity transformation,"Oversettelsen gjelder bruk i lineær algebra og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+vindingstall,vindingstal,winding number,
+påfølgende tall,etterfølgjande tal,consecutive numbers,
+regulator,regulator,regulator,
+forgrene,forgreine,ramify,"Ordklasse: verb"
+forgrening,forgreining,ramification,"Ordklasse: substantiv"
+forgreningsindeks,forgreiningindeks,ramification index,
+tallenes geometri,tala sin geometri,geometry of numbers,
+minkowskibegrensning,minkowskiavgrensing,Minkowski bound,
+fundamentalenhet,fundamentaleining,fundamental unit,
+klassetallsformel,klassetalformel,class number formula,
+dirichletkarakter,dirichletkarakter,Dirichlet character,
+koersiv,koersiv,coercive,"Oversettelsen benyttes når det er snakk om funksjoner og utelukker ikke at den benyttes ulikt i andre sammenhenger."
+firhjørning,firhjørning,quadrangle,
+t-observator,t-observator,t-statistic,
+Z-observator,Z-observator,Z-statistic,
