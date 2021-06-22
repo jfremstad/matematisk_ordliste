@@ -19,7 +19,7 @@ kolonnevektor<br>søylevektor,kolonnevektor<br>søylevektor,column vector,
 hypotesetesting,hypotesetesting,hypothesis testing,
 oktaederaksiomet,oktaederaksiomet,octahedral axiom,
 kontingenstabell,kontingenstabell,contingency table,
-restriksjon,restriksjon,restriction,
+begrensning<br>restriksjon,avgrensing<br>restriksjon,restriction,
 basis,basis,basis,"De engelske termene <i>base</i> og <i>basis</i> brukes ikke helt synonymt. For eksempel vil <i>base</i> foretrekkes i topologi, mens <i>basis</i> brukes i lineær algebra. Merk at begge oversettes til basis på norsk."
 multinomisk koeffisient,multinomisk koeffisient,multinomial coefficient,
 formodning,førehandstru,conjecture,
@@ -449,7 +449,7 @@ matriserepresentasjon,matriserepresentasjon,matrix representation,
 brøkkropp,brøkkropp,field of fractions,
 hypergeometrisk sannsynlighetsfordeling,hypergeometrisk sannsynsfordeling,hypergeometric probability distribution,
 diagonalisering,diagonalisering,diagonalization,
-korestriksjon,korestriksjon,corestriction,
+kobegrensning<br>korestriksjon,koavgrensing<br>korestriksjon,corestriction,
 modulus,modulus,modulus,
 enhetsrot,einingsrot,root of unity,
 potensial,potensial,potential,
@@ -557,7 +557,7 @@ gruppe,gruppe,group,
 geometrisk sted,geometrisk stad,locus,
 logistisk kurve,logistisk kurve,logistic curve,
 utsagnslogikk,utsegnslogikk,propositional logic,
-parallellforskyvning,parallellforskyving,translation,
+forskyvning<br>translasjon,forskyving<br>translasjon,translation,
 ellipse,ellipse,ellipse,
 kombinatorisk,kombinatorisk,combinatorial,
 underdiagonal,underdiagonal,subdiagonal,
@@ -755,7 +755,7 @@ primideal,primideal,prime ideal,
 uavhengig,uavhengig,independent,
 kurvetilpasning<br>regresjonsanalyse,kurvetilpassing<br>regresjonsanalyse,regression analysis,
 integralkurve,integralkurve,integral curve,
-inversbilde,inversbilete,inverse image,
+inversbilde,inversbilete,inverse image,"I noen tilfeller kan termene inversbilde og urbilde brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
 brownsk bevegelse,brownsk rørsle,Brownian motion,
 sammentrekkbar,samantrekkbar,contractible,
 gruppealgebra,gruppealgebra,group algebra,
@@ -783,7 +783,7 @@ hyperbel,hyperbel,hyperbola,
 imaginær enhet,imaginær eining,imaginary unit,
 radoperasjon,radoperasjon,row operation,
 heliks,heliks,helix,
-kubisk,kubisk,cubic,
+kubisk,kubisk,cubic,"Ordklasse: adjektiv"
 gradskivepostulatet<br>vinkelmålspostulatet,gradskivepostulatet<br>vinkelmålspostulatet,protractor postulate,
 beregnbar,bereknbar,computable,
 gjennomsnittsavvik,gjennomsnittsavvik,mean deviation,
@@ -929,7 +929,6 @@ hovedidealområde,hovudidealområde,principal ideal domain,"Hovedidealområde fo
 polarform,polarform,polar form,
 ikosaeder,ikosaeder,icosahedron,
 derivasjon,derivasjon,derivation,"De engelske termene <i>derivation</i> og <i>differentiation</i> er ikke synonymer, selv om begge oversettes til det samme på norsk. En derivasjon er en en lineæravbildning som tilfredsstiller Leibniz' regel."
-motsatt kategori,motsett kategori,opposite category,
 analytisk funksjon,analytisk funksjon,analytic function,
 fourierkoeffisient,fourierkoeffisient,Fourier coefficient,
 gaussfordeling<br>normalfordeling,gaussfordeling<br>normalfordeling,Gaussian distribution<br>normal distribution,
@@ -2986,3 +2985,57 @@ koersiv,koersiv,coercive,"Oversettelsen benyttes når det er snakk om funksjoner
 firhjørning,firhjørning,quadrangle,
 t-observator,t-observator,t-statistic,
 Z-observator,Z-observator,Z-statistic,
+nedenforkategori,nedanforkategori,under category,
+ovenforkategori,ovanforkategori,over category,
+initial,initial,initial,"Ordklasse: adjektiv"
+koinitial,koinitial,coinitial,"Ordklasse: adjektiv"
+final,final,final,"Ordklasse: adjektiv"
+kofinal,kofinal,cofinal,"Ordklasse: adjektiv"
+analytisk fortsettelse,analytisk fortsetjing,analytic continuation,
+urbilde,urbilete,preimage,"I noen tilfeller kan termene inversbilde og urbilde brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
+varifoldighet,varifald,varifold,
+sammenhengende sum,samanhengande sum,connected sum,
+horn,horn,horn,
+hornfyllingsbetingelse,hornfyllingsvilkår,horn filling condition,
+parallellforskyvning,parallellforskyving,parallel translation,
+ende,ende,end,
+koende,koende,coend,
+vridd kohomologi,vridd kohomologi,twisted cohomology,
+orientifoldighet,orientifald,orientifold,
+åsted,åstad,site,
+stabel<br>stakk,stabel<br>stakk,stack,
+prestabel<br>prestakk,prestabel<br>prestakk,prestack,
+hodgediamant,hodgediamant,Hodge diamond,
+såld,såld,sieve,"Ordklasse: substantiv"
+motsattkateogri,motsettkategori,opposite category,
+isokrystall,isokrystall,isocrystal,
+krystall,krystall,crystal,
+modulirom<br>modulrom,modulirom<br>modulrom,moduli space,
+bikategori,bikategori,bicategory,
+ekstranaturlig transformasjon,ekstranaturleg transformasjon,extranatural transformation,
+kvadratisk,kvadratisk,quadratic,"Ordklasse: adjektiv"
+kvadrikk,kvadrikk,quadric,"Ordklasse: substantiv"
+kubikk,kubikk,cubic,"Ordklasse: substantiv"
+kvartikk,kvartikk,quartic,"Ordklasse: substantiv"
+kvintikk,kvintikk,quintic,"Ordklasse: substantiv"
+sekstikk,sekstikk,sextic,"Ordklasse: substantiv"
+septikk,septikk,septic,"Ordklasse: substantiv"
+oktikk,oktikk,octic,"Ordklasse: substantiv"
+nonikk,nonikk,nonic,"Ordklasse: substantiv"
+desikk,desikk,decic,"Ordklasse: substantiv"
+andregradspolynom,andregradspolynom,quadratic polynomial,
+tredjegradsligning,tredjegradslikning,cubic equation,
+fjerdegradspolynom,fjerdegradspolynom,quartic polynomial,
+fjerdegradsligning,fjerdegradslikning,quartic equation,
+femtegradspolynom,femtegradspolynom,quintic polynomial,
+femtegradsligning,femtegradslikning,quintic equation,
+klassifikasjonsrom,klassifikasjonsrom,classification space,
+klassifiseringsrom,klassifiseringsrom,classifying space,
+vinkelhastighet,vinkelhastigheit,angular velocity,
+vinkelfart,vinkelfart,angular speed,
+stykkekategori,stykkekategori,slice category,
+stykke,stykke,slice,"Ordklasse: substantiv"
+foliert,foliert,foliated,
+blad,blad,leaf,
+plakett,plakett,plaque,
+laminering,laminering,lamination,
