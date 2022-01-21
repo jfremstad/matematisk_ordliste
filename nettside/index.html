@@ -6,67 +6,71 @@
         var params = location.hash;
         if (params) {
           var query = params.slice(1);
-          var table = $('#wordlist').DataTable();
+          var table = $("#wordlist").DataTable();
           table.search(query).draw();
         }
       }
-
     </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125859068-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-125859068-1');
-    </script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"
+    />
     <title>Matematisk ordliste</title>
-	  <meta charset="UTF-8"> 
+    <meta charset="UTF-8" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.9/jquery.csv.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/plug-ins/1.10.19/sorting/intl.js"></script>
     <script src="js/accent-neutralise.js"></script>
     <!-- Buttons -->
-		<style>
-		td.details-control {
-			background: url('img/details_open.png') no-repeat center center;
-			cursor: pointer;
-		}
-		tr.shown td.details-control {
-			background: url('img/details_close.png') no-repeat center center;
-		}
-		</style>
+    <style>
+      td.details-control {
+        background: url("img/details_open.png") no-repeat center center;
+        cursor: pointer;
+      }
+      tr.shown td.details-control {
+        background: url("img/details_close.png") no-repeat center center;
+      }
+    </style>
 
     <script>
       function commentButton() {
-        $(".details-control").click(function(e){
+        $(".details-control").click(function (e) {
           var thisrow = $(this).closest("tr");
           var button = $(this);
-          var commentrowid = "comment-"+button.attr('id');
-          if ( $( "#"+commentrowid ).length ) {
-            $("#"+commentrowid).remove();
+          var commentrowid = "comment-" + button.attr("id");
+          if ($("#" + commentrowid).length) {
+            $("#" + commentrowid).remove();
             thisrow.removeClass("shown");
           } else {
-            var insertData = '<tr id="'+commentrowid+'" class="comment"><td colspan="4">'+jsonobject[this.id][3]+'</td>';
+            var insertData =
+              '<tr id="' +
+              commentrowid +
+              '" class="comment"><td colspan="4">' +
+              jsonobject[this.id][3] +
+              "</td>";
             thisrow.after(insertData);
             thisrow.addClass("shown");
           }
         });
       }
     </script>
-
   </head>
   <body>
     <h1>Matematisk ordliste</h1>
-    <p>Ordlista er utarbeidet i samarbeid mellom NTNU, UiO og UiA,
-      og prosjektet har mottatt støtte fra Språkrådet. Termbasen er under stadig utvikling,
-      og det er ønskelig at flest mulig kommer med forslag til endringer og nye oversettelser.
-      På <a href="https://github.com/jfremstad/matematisk_ordliste#prosjektside---matematisk-ordliste">prosjektsiden</a> finner du informasjon om hvordan du kan komme med innspill,
-      samt en oversikt over bidragsytere og valg av språklige konvensjoner.
+    <p>
+      Ordlista er utarbeidet i samarbeid mellom NTNU, UiO og UiA, og prosjektet
+      har mottatt støtte fra Språkrådet. Termbasen er under stadig utvikling, og
+      det er ønskelig at flest mulig kommer med forslag til endringer og nye
+      oversettelser. På
+      <a
+        href="https://github.com/jfremstad/matematisk_ordliste#prosjektside---matematisk-ordliste"
+        >prosjektsiden</a
+      >
+      finner du informasjon om hvordan du kan komme med innspill, samt en
+      oversikt over bidragsytere og valg av språklige konvensjoner.
     </p>
 
     <table id="wordlist" class="stripe">
@@ -78,66 +82,84 @@
           <th>Engelsk</th>
         </tr>
       </thead>
-      <tbody id="tablecontents">
-      </tbody>
-		</table>
-     <footer>
-       <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons-lisens" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />Ordlista er lisensiert under en <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens</a>.
-     </footer>
-      <script>
-				// Import CSV to JSON
-        var jsonobject;
-        $.ajax({
+      <tbody id="tablecontents"></tbody>
+    </table>
+    <footer>
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+        ><img
+          alt="Creative Commons-lisens"
+          style="border-width: 0"
+          src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a
+      ><br />Ordlista er lisensiert under en
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+        >Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal
+        lisens</a
+      >.
+    </footer>
+    <script>
+      // Import CSV to JSON
+      var jsonobject;
+      $.ajax({
         url: "ordliste/verifiserte_termer.csv",
         async: false,
         success: function (csvd) {
-            var items = $.csv.toArrays(csvd);
-            jsonobject = items;
+          var items = $.csv.toArrays(csvd);
+          jsonobject = items;
         },
-        dataType: "text"
-        });
-				// Remove header
-				jsonobject = jsonobject.slice(1)
+        dataType: "text",
+      });
+      // Remove header
+      jsonobject = jsonobject.slice(1);
 
-				var tablecontents = document.getElementById("tablecontents");
+      var tablecontents = document.getElementById("tablecontents");
 
-				// Fill in table
-        for (var i in jsonobject) {
-					var hasComment = jsonobject[i][3] !== "";
-					var tr = tablecontents.insertRow(-1);
-          tr.className = "oppslag";
-          var td = tr.insertCell(0);
+      // Fill in table
+      for (var i in jsonobject) {
+        var hasComment = jsonobject[i][3] !== "";
+        var tr = tablecontents.insertRow(-1);
+        tr.className = "oppslag";
+        var td = tr.insertCell(0);
 
-					// Create button if row has comment
-					if (hasComment){
-						td.className = "details-control";
-						td.id = i;
-					}
-
-          // Legg inn bokmål, nynorsk og engelsk
-					for (j = 0; j < 3; j++){
-            var td = tr.insertCell(j+1);
-            td.innerHTML=jsonobject[i][j];
-					}
+        // Create button if row has comment
+        if (hasComment) {
+          td.className = "details-control";
+          td.id = i;
         }
-				// Sort with norwegian characters in mind
-        $(document).ready( function () {
-					$.fn.dataTable.ext.order.intl( 'nb' );
-          commentButton();
-					var table = $('#wordlist').DataTable({
-            "order": [[ 1, "asc" ]],
-            "columnDefs": [ { orderable: false, targets: [0] } ],
-            "lengthMenu": [ [10, 25, 50, 100, 500, -1], ["10 per side", "25 per side", "50 per side", "100 per side", "500 per side", "alle"] ],
-            "preDrawCallback": function( settings ) {
-              $('.shown').removeClass('shown');
-            },
-            "language": {
-              url: "js/dataTables_norsk.json",
-              searchPlaceholder: "Søk..."
-            }
-					});
-          searchURL();
-        } );
-      </script>
+
+        // Legg inn bokmål, nynorsk og engelsk
+        for (j = 0; j < 3; j++) {
+          var td = tr.insertCell(j + 1);
+          td.innerHTML = jsonobject[i][j];
+        }
+      }
+      // Sort with norwegian characters in mind
+      $(document).ready(function () {
+        $.fn.dataTable.ext.order.intl("nb");
+        commentButton();
+        var table = $("#wordlist").DataTable({
+          order: [[1, "asc"]],
+          columnDefs: [{ orderable: false, targets: [0] }],
+          lengthMenu: [
+            [10, 25, 50, 100, 500, -1],
+            [
+              "10 per side",
+              "25 per side",
+              "50 per side",
+              "100 per side",
+              "500 per side",
+              "alle",
+            ],
+          ],
+          preDrawCallback: function (settings) {
+            $(".shown").removeClass("shown");
+          },
+          language: {
+            url: "js/dataTables_norsk.json",
+            searchPlaceholder: "Søk...",
+          },
+        });
+        searchURL();
+      });
+    </script>
   </body>
 </html>
