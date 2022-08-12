@@ -3,6 +3,7 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 
 - Øyvind Bakke (NTNU)
 - [Viktor Balch Barth (NTNU)](https://github.com/viktoba)
+- [Fredrik Bakke (NTNU)](https://github.com/fredrik-bakke)
 - [Stine Marie Berge (NTNU)](https://github.com/StineBerge)
 - Petter Andreas Bergh (NTNU)
 - [Håvard Bakke Bjerkevik (NTNU)](https://github.com/bjerkevik)
@@ -38,6 +39,7 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 - Øyvind Solberg (NTNU)
 - [Daniel Kjellevold Steinsland (NTNU)](https://github.com/danielKSt)
 - Eldar Straume (NTNU)
+- [Jarle Tufto (NTNU)](https://github.com/jtufto)
 - John Sølve Tyssedal (NTNU)
 - [Ole Kristian Våge (Språkrådet)](https://github.com/OleVaage)
 - [Anders Wiik (UiA)](https://github.com/AndersWiik92)
