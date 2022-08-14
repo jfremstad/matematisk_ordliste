@@ -16,6 +16,10 @@ Nedenfor følger en oversikt over de språklige konvensjonene som blir brukt i o
 * Pass også på termer som inneholder bindestreker/tankestreker mellom personnavn fra *ulike* personer. Slike termer skal på norsk føres opp med bindestrek, mens det på engelsk er tradisjon for å bruke tankestrek. Man skal altså føre opp som i følgende eksempel: 
 
  `Cohen-Macaulay-ring,Cohen-Macaulay-ring,Cohen–Macaulay ring,`.
+ 
+ * Eponymer tas med dersom forstavelsen endrer betydningen vesentlig. For eksempel er det ikke innlysende i ordlyden at et kankompleks er en simplisiell mengde, og ikke et (kjede-/simplisielt) kompleks. Dessuten er et pertinett ikke nødvendigvis et nett.
+ 
+ * Forkortelser tas med dersom de er godt innarbeidet i fagfeltet, og ikke dannes av oppfinnernes etternavn. Særlig engelske forkortelser som er godt innarbeidet i norsk (deriblant PID for hovedidealområde) er fullt akseptable.
 
 ### Ulike versjoner av samme term
 * I noen tilfeller vil termer kunne opptre i flere former. Et eksempel er *Schwarz' ulikhet* og *schwarzulikheten*. Følgende konvensjoner gjelder i slike tilfeller:
