@@ -21,7 +21,7 @@ def readCsv(filename):
 # Standardiserer en celle
 def standardizeCell(cell):
   # Fjern alternative linjebytter
-  cell = cell.replace("\r\n", lineBreak).replace("\n", lineBreak).replace("<br/>", lineBreak)
+  cell = cell.replace("\r\n", lineBreak).replace("\n", lineBreak).replace("<br/>", lineBreak).replace("<br />", lineBreak).replace("<br></br>", lineBreak)
   # Del opp
   synonyms = cell.split(lineBreak)
   # Trim mellomrom
