@@ -33,7 +33,7 @@ def standardizeCell(cell):
   # Sorter
   synonyms = sorted(synonyms)
   # Sett sammen
-  return lineBreak.join(sorted(set(synonyms)))
+  return lineBreak.join(synonyms)
 
 # Sjekker om alle celler er standardiserte
 def checkStandardized(data):
