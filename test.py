@@ -15,7 +15,7 @@ def readCsv(filename):
   with open(filename, encoding='utf-8', errors='ignore') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
     for row in reader:
-      data.append(list(map(lambda x: x.lower(), row)))
+      data.append(list(map(str.casefold, row)))
   return list(filter(None, data)) # Remove empty rows
 
 # Standardiserer en celle
