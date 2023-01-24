@@ -27,8 +27,9 @@ def checkSorted(data):
             synonyms = row[col].split("<br>")
             if not isSorted(row[col].split("<br>")):
                 errorlist.append(row[col])
-                EXITCODE = 5
-    if EXITCODE == 5:
+                EXITCODE = 32
+
+    if EXITCODE == 32:
         print("Endringer som må gjøres:\n")
         for error in errorlist:
             print(error, "-->", "<br>".join(sorted(error.split("<br>"))))
