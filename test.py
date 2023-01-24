@@ -4,7 +4,6 @@
 import csv
 import sys
 
-
 # Check if list is sorted
 def isSorted(a):
     return all(a[i] <= a[i+1] for i in range(len(a)-1))
@@ -15,24 +14,23 @@ def readCsv(filename):
     with open(filename, encoding='utf-8', errors='ignore') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         for row in reader:
-            data.append(list(map(lambda x:x.lower(), row)))
+            data.append(list(map(lambda x: x.lower(), row)))
     return list(filter(None, data)) # Remove empty lists
 
 def checkSorted(data):
-    EXITCODE = 0
-    errorlist = []
+    errorList = []
     for row in data:
         for col in range(3):
-            synonyms = row[col].split("<br>")
             if not isSorted(row[col].split("<br>")):
-                errorlist.append(row[col])
-                EXITCODE = 32
+                errorList.append(row[col])
 
-    if EXITCODE == 32:
+    if len(errorList) > 0:
         print("Endringer som må gjøres:\n")
-        for error in errorlist:
+        for error in errorList:
             print(error, "-->", "<br>".join(sorted(error.split("<br>"))))
-    sys.exit(EXITCODE)
+    
+    exitCode = 32 if len(errorList) > 0 else 0
+    sys.exit(exitCode)
 
 
 def main():
