@@ -4,9 +4,10 @@
 import csv
 import sys
 
+lineBreak = "<br>"
+
 # Check if list is sorted
-def isSorted(a):
-    return all(a[i] <= a[i+1] for i in range(len(a)-1))
+isSorted = lambda l: all(l[i] <= l[i+1] for i in range(len(l) - 1))
 
 # Returns a list of lists. Each list is one row.
 def readCsv(filename):
@@ -15,26 +16,32 @@ def readCsv(filename):
         reader = csv.reader(csvfile, delimiter=',')
         for row in reader:
             data.append(list(map(lambda x: x.lower(), row)))
-    return list(filter(None, data)) # Remove empty lists
+    return list(filter(None, data)) # Remove empty rows
+
 
 def checkSorted(data):
-    errorList = []
-    for row in data:
-        for col in range(3):
-            if not isSorted(row[col].split("<br>")):
-                errorList.append(row[col])
-
-    if len(errorList) > 0:
-        print("Endringer som må gjøres:\n")
-        for error in errorList:
-            print(error, "-->", "<br>".join(sorted(error.split("<br>"))))
-    
-    exitCode = 32 if len(errorList) > 0 else 0
-    sys.exit(exitCode)
+    unsortedList = []
+    for r, row in enumerate(data):
+        for c in range(3):
+            synonymer = row[c].split(lineBreak)
+            if not isSorted(synonymer):
+                unsortedList.append((r, c, row[c], synonymer, lineBreak.join(sorted(synonymer))))
+    return unsortedList
 
 
 def main():
+    exitCode = 0
     data = readCsv(sys.argv[1])
-    checkSorted(data)
+
+    unsorted = checkSorted(data)
+
+    if len(unsorted) > 0:
+        exitCode |= 32
+        print("Følgende endringer må gjøres pga. usorterte oppføringer:\n")
+        for r, c, error, correct in unsorted:
+            print("Rad", r + 1, "kolonne", c + 1, ":", error, "-->", correct)
+
+    sys.exit(exitCode)
+
 
 main()
