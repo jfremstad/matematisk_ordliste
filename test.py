@@ -11,7 +11,7 @@ def isSorted(a):
     return all(a[i] <= a[i+1] for i in range(len(a)-1))
 
 # Returns a list of lists. Each list is one row.
-def readcsv(filename):
+def readCsv(filename):
     data = []
     with open(filename, encoding='utf-8', errors='ignore') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
@@ -37,7 +37,7 @@ def checkSorted(data):
 
 
 def main():
-    data = readcsv(sys.argv[1])
+    data = readCsv(sys.argv[1])
     checkSorted(data)
 
 main()
