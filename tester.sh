@@ -12,7 +12,7 @@ if [[ ${EMPTYCOMMENT} ]]; then
   echo "====================================="
   echo "${EMPTYCOMMENT}"
   echo
-  EXITCODE=2
+  EXITCODE=$((EXITCODE | 1))
 fi
 
 if [[ "$(grep -Ec "^\s*$" ${DATABASE})" -ne 0 ]]; then
@@ -21,7 +21,7 @@ if [[ "$(grep -Ec "^\s*$" ${DATABASE})" -ne 0 ]]; then
   echo "=============================="
   grep -n '^\s*$' "${DATABASE}"
   echo
-  EXITCODE=3
+  EXITCODE=$((EXITCODE | 2))
 fi
 
 DUPLICATES="$(sort ${DATABASE} | uniq -d)"
@@ -31,7 +31,7 @@ if [[ ${DUPLICATES} ]]; then
   echo "============================================="
   echo "${DUPLICATES}"
   echo
-  EXITCODE=4
+  EXITCODE=$((EXITCODE | 4))
 fi
 
 MISSINGQUOTES="$(grep -v ',\s\+$' ${DATABASE} | cut -d',' -f 4- | grep -vE '^$|^".*"$')"
@@ -41,7 +41,7 @@ if [[ ${MISSINGQUOTES} ]]; then
   echo "=============================================="
   echo "${MISSINGQUOTES}"
   echo
-  EXITCODE=5
+  EXITCODE=$((EXITCODE | 8))
 fi
 
 if [[ ${EXITCODE} -ne 0 ]]; then
