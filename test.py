@@ -59,7 +59,7 @@ def main():
 
   nonstandard = checkStandardized(data)
 
-  if len(nonstandard) > 0:
+  if nonstandard:
     exitCode |= 32
     print("\nFølgende endringer må gjøres (merk mulig fjerning av mellomrom):\n")
     for r, c, error, correct in nonstandard:
@@ -68,7 +68,7 @@ def main():
 
   duplicateRows = checkDuplicateRows(data)
   
-  if len(duplicateRows) > 0:
+  if duplicateRows:
     exitCode |= 64
     print("\nFølgende rader er duplikater opp til kommentar:\n")
     for row in duplicateRows:
