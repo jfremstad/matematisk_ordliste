@@ -3,7 +3,7 @@ DATABASE="verifiserte_termer.csv"
 EXITCODE=0
 
 # Check if CSV is valid
-csvlint-v0.2.0-linux-amd64/csvlint "${DATABASE}" || EXITCODE=1
+csvlint-v0.2.0-linux-amd64/csvlint "${DATABASE}" || EXITCODE=$((EXITCODE | 1))
 
 EMPTYCOMMENT="$(grep ',\s\+$' ${DATABASE})"
 if [[ ${EMPTYCOMMENT} ]]; then
@@ -12,7 +12,7 @@ if [[ ${EMPTYCOMMENT} ]]; then
   echo "====================================="
   echo "${EMPTYCOMMENT}"
   echo
-  EXITCODE=$((EXITCODE | 1))
+  EXITCODE=$((EXITCODE | 2))
 fi
 
 if [[ "$(grep -Ec "^\s*$" ${DATABASE})" -ne 0 ]]; then
@@ -21,7 +21,7 @@ if [[ "$(grep -Ec "^\s*$" ${DATABASE})" -ne 0 ]]; then
   echo "=============================="
   grep -n '^\s*$' "${DATABASE}"
   echo
-  EXITCODE=$((EXITCODE | 2))
+  EXITCODE=$((EXITCODE | 4))
 fi
 
 DUPLICATES="$(sort ${DATABASE} | uniq -d)"
@@ -31,7 +31,7 @@ if [[ ${DUPLICATES} ]]; then
   echo "============================================="
   echo "${DUPLICATES}"
   echo
-  EXITCODE=$((EXITCODE | 4))
+  EXITCODE=$((EXITCODE | 8))
 fi
 
 MISSINGQUOTES="$(grep -v ',\s\+$' ${DATABASE} | cut -d',' -f 4- | grep -vE '^$|^".*"$')"
@@ -41,7 +41,7 @@ if [[ ${MISSINGQUOTES} ]]; then
   echo "=============================================="
   echo "${MISSINGQUOTES}"
   echo
-  EXITCODE=$((EXITCODE | 8))
+  EXITCODE=$((EXITCODE | 16))
 fi
 
 if [[ ${EXITCODE} -ne 0 ]]; then
