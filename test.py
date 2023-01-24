@@ -3,7 +3,6 @@
 
 import csv
 import sys
-import re
 
 
 # Check if list is sorted
