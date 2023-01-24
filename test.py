@@ -5,6 +5,7 @@ import csv
 import sys
 
 lineBreak = "<br>"
+numberOfLanguageColumns = 3
 
 # Fjerner gjentatte mellomrom og trimmer endene
 trim = lambda s: ' '.join(s.split())
@@ -39,7 +40,7 @@ def standardizeCell(cell):
 def checkStandardized(data):
   errors = []
   for r, row in enumerate(data):
-    for c in range(3):
+    for c in range(numberOfLanguageColumns):
       std = standardizeCell(row[c])
       if std != row[c]:
         errors.append((r, c, row[c], std))
@@ -47,7 +48,7 @@ def checkStandardized(data):
 
 # Sjekk for duplikate rader ved ignorering av kommentar
 def checkDuplicateRows(data):
-  rows = tuple(",".join(row[:3]) for row in data)
+  rows = tuple(",".join(row[:numberOfLanguageColumns]) for row in data)
   duplicates = set(row for row in rows if rows.count(row) > 1)
   return duplicates
 
