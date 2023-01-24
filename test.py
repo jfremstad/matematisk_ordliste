@@ -35,7 +35,6 @@ def standardizeCell(cell):
   # Sett sammen
   return lineBreak.join(sorted(set(synonyms)))
 
-
 # Sjekker om alle celler er standardiserte
 def checkStandardized(data):
   errors = []
@@ -45,6 +44,13 @@ def checkStandardized(data):
       if std != row[c]:
         errors.append((r, c, row[c], std))
   return errors
+
+# Sjekk for duplikate rader ved ignorering av kommentar
+def checkDuplicateRows(data):
+  rows = tuple(",".join(row[:3]) for row in data)
+  duplicates = set(row for row in rows if rows.count(row) > 1)
+  return duplicates
+
 
 def main():
   exitCode = 0
@@ -58,6 +64,14 @@ def main():
     for r, c, error, correct in nonstandard:
       print("Rad", r + 1, "kolonne", c + 1 , ":", error, "-->", correct)
     print()
+
+  duplicateRows = checkDuplicateRows(data)
+  
+  if len(duplicateRows) > 0:
+    exitCode |= 64
+    print("\nFølgende rader er duplikater opp til kommentar:\n")
+    for row in duplicateRows:
+      print(row)
 
   sys.exit(exitCode)
 
