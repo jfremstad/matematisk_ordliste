@@ -17,11 +17,12 @@ kommer med forslag til endringer og nye oversettelser.
 Alle innspill settes stor pris på.
 I [diskusjonsforumet](https://github.com/jfremstad/matematisk_ordliste/issues) kan enhver som ønsker det være med på å diskutere saker som angår ordlista.
 Forslag om endringer går til slutt gjennom en verifikasjonsprosess, før de eventuelt publiseres på den offisielle ordlista.
+Dersom du ønsker å ta en aktiv rolle i ordlistens vedlikehold, ta gjerne kontakt på epost ([ordliste@matematikkradet.no](mailto:ordliste@matematikkradet.no)).
 
 Her kan du lese om hvordan du kan [komme med innspill](dokumentasjon/innspill.md) og om valg av [språklige konvensjoner](dokumentasjon/spraklige_konvensjoner.md).
 
 ### Takk til:
-* Språkrådet for å ha bidratt med igangsetting og finansiering av prosjektet
+* [Språkrådet](https://www.sprakradet.no/) og [Institutt for matematiske fag](https://www.ntnu.no/imf) for å ha bidratt med igangsetting og finansiering av prosjektet
 * Ole Kristian Våge, Ann-Helen Langaker m.fl. i Språkrådet for å ha bidratt med fagkompetanse og kvalitetssikring
 * Klara Hveberg (UiO), John Rognes (UiO), Harald Hanche-Olsen (NTNU) m.fl. for å ha opprettet ordlister som har dannet et utgangspunkt for dette arbeidet
 * Norsk matematikkråd for å være vert for den offisielle [ordlista](https://matematikkradet.no/ordliste)
