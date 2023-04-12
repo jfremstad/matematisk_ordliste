@@ -22,6 +22,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.9/jquery.csv.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.11.3/features/fuzzySearch/dataTables.fuzzySearch.js"></script>
     <script src="https://cdn.datatables.net/plug-ins/1.10.19/sorting/intl.js"></script>
     <script src="js/accent-neutralise.js"></script>
     <!-- Buttons -->
@@ -157,6 +158,7 @@
             url: "js/dataTables_norsk.json",
             searchPlaceholder: "Søk...",
           },
+          fuzzySearch: true,
         });
         searchURL();
       });
