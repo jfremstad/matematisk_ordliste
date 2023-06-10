@@ -16,8 +16,8 @@ def readCsv(filename):
   with open(filename, encoding='utf-8', errors='ignore') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
     for row in reader:
-      data.append(list(map(str.casefold, row)))
-  return list(filter(None, data)) # Remove empty rows
+      data.append(row)
+  return data # Remove empty rows
 
 # Standardiserer en celle
 def standardizeCell(cell):
@@ -32,7 +32,7 @@ def standardizeCell(cell):
   # Fjern duplikater
   synonyms = set(synonyms)
   # Sorter
-  synonyms = sorted(synonyms)
+  synonyms = sorted(synonyms, key=str.casefold)
   # Sett sammen
   return lineBreak.join(synonyms)
 
@@ -52,6 +52,10 @@ def checkDuplicateRows(data):
   duplicates = set(row for row in rows if rows.count(row) > 1)
   return duplicates
 
+# Sjekk om radene er sortert
+def checkSortedRows(data):
+  lines = [','.join(row).casefold() for row in data[1:]]
+  return [(i, a, b) for i, (a, b) in enumerate(zip(lines, lines[1:])) if a > b]
 
 def main():
   exitCode = 0
@@ -73,6 +77,13 @@ def main():
     print("\nFølgende rader er duplikater opp til kommentar:\n")
     for row in duplicateRows:
       print(row)
+
+  unsortedRows = checkSortedRows(data)
+  if unsortedRows:
+    exitCode |= 128
+    print("\nFølgende rader er ikke sortert:\n")
+    for r, a, b in unsortedRows:
+      print(f"Rad {r + 1}: {a}\nRad {r + 2}: {b}\n")
 
   sys.exit(exitCode)
 
