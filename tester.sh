@@ -1,5 +1,5 @@
 #!/bin/bash
-DATABASE="verifiserte_termer.csv"
+DATABASE="./verifiserte_termer.csv"
 EXITCODE=0
 
 # Check if CSV is valid
@@ -44,9 +44,7 @@ if [[ ${MISSINGQUOTES} ]]; then
   EXITCODE=$((EXITCODE | 16))
 fi
 
-if [[ ${EXITCODE} -ne 0 ]]; then
-  exit ${EXITCODE}
-fi
-
 # Execute more complicated python tests
-python3 test.py "${DATABASE}"
+python3 ./test.py "${DATABASE}"
+
+exit ${EXITCODE}
