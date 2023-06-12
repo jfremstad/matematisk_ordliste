@@ -45,6 +45,6 @@ if [[ ${MISSINGQUOTES} ]]; then
 fi
 
 # Execute more complicated python tests
-python3 ./test.py "${DATABASE}"
+python3 ./skript/test.py "${DATABASE}"
 
 exit ${EXITCODE}

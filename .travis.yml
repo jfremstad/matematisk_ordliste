@@ -10,4 +10,4 @@ before_script:
   - tar xvf csvlint-v0.2.0-linux-amd64.tar.gz
 
 script:
-  - bash tester.sh
+  - bash ./skript/tester.sh

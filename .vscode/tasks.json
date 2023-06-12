@@ -7,7 +7,7 @@
       "label": "test",
       "type": "shell",
       "command": "bash",
-      "args": ["./tester.sh"],
+      "args": ["./skript/tester.sh"],
       "group": {
         "kind": "test",
         "isDefault": true

@@ -5,10 +5,7 @@
     "shell": true
   },
 
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.unicodeHighlight.invisibleCharacters": true,
-
-  // Autoformatering and file type specific settings
+  // Autoformatering
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.configPath": ".prettierrc.json",
@@ -21,6 +18,7 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
 
+  // Filtypespesifikt
   "[markdown]": {
     "editor.tabSize": 2,
     "editor.rulers": [80]
