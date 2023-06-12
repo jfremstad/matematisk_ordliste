@@ -1,0 +1,34 @@
+{
+  "json.schemaDownload.enable": true,
+
+  "task.problemMatchers.neverPrompt": {
+    "shell": true
+  },
+
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": true,
+
+  // Autoformatering and file type specific settings
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.configPath": ".prettierrc.json",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+
+  "[markdown]": {
+    "editor.tabSize": 2,
+    "editor.rulers": [80]
+  },
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4,
+    "editor.rulers": [80]
+  }
+}
