@@ -2625,7 +2625,7 @@ kokjedekompleks,kokjedekompleks,cochain complex,
 skjøt,skøyt,join,"Oversettelsen gjelder bruk i topologi og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 kile,kile,wedge,"Oversettelsen gjelder bruk i topologi og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 kileprodukt,kileprodukt,wedge product,
-topos,topos,topos,
+topos,topos,topos,"Genus: hankjønn"
 quillenekvivalent,quillenekvivalent,Quillen equivalent,
 quillenadjungert,quillenadjungert,Quillen adjoint,
 semilokalt,semilokalt,semi-locally,
@@ -3065,3 +3065,294 @@ overmengde,overmengd,superset,
 martingal,martingal,martingale,
 ombyttbare stokastiske variabler<br>ombyttbare tilfeldige variabler,ombytbare stokastiske variablar<br>ombytbare tilfeldige variablar,exchangeable random variables,
 konform,konform,conformal,
+assosiert,assosiert,associate,"Ordklasse: substantiv"
+monom,monom,monomial,
+syllogisme,syllogisme,syllogism,
+syllogismelov,syllogismelov,law of syllogism,
+Echmann-Hilton-argument,Echmann-Hilton-argument,Eckmann–Hilton argument,
+algebraiker,algebraikar,algebraist,
+topolog,topolog,topologist,
+statistiker,statistikar,statistician,
+logiker,logikar,logician,
+teoretiker,teoretikar,theorist,
+professor,professor,professor,
+førsteamanuensis,førsteamanuensis,associate professor,
+postdok,postdok,postdoc,"<i>Postdok<i/> brukes som en forkortelse for <i>postdoktor</i>."
+postdoktor,postdoktor,postdoctor,"<i>Postdoktor</i> forkortes ofte til <i>postdok</i>."
+PhD-kandidat<br>PhD-stipendiat<br>stipendiat,PhD-kandidat<br>PhD-stipendiat<br>stipendiat,PhD-candidate<br>research candidate,
+student,student,student,
+elev,elev,pupil,
+lærer,lærar,teacher,
+undervisning,undervisning,teaching,
+pedagogikk,pedagogikk,pedagogy,
+didaktikk,didaktikk,didactics,
+didaktiker,didaktikar,didactic,"Ordklasse: substantiv"
+didaktisk,didaktisk,didactic,"Ordklasse: adjektiv"
+forelesning,forelesing,lecture,
+foreleser,forelesar,lecturer,
+instruktør,instruktør,instructor,
+instruksjon,instruksjon,instruction,
+avhandling,avhandling,dissertation<br>thesis,
+bacheloroppgave,bacheloroppgåve,bachelor's thesis,
+masteroppgave,masteroppgåve,master's thesis,
+doktorgradsavhandling,doktorgradsavhandling,doctoral thesis<br>PhD thesis,
+bachelorgrad,bachelorgrad,bachelor's degree,
+mastergrad,mastergrad,master's degree,
+doktorgrad,doktorgrad,doctoral degree<br>doctorate<br>PhD degree,
+transitiv tillukning,transitiv tillukking,transitive closure,
+refleksiv tillukning,refleksiv tillukking,reflexive closure,
+symmetrisk tillukning,symmetrisk tillukking,symmetric closure,
+additiv tillukning,additiv tillukking,additive closure,
+multiplikativ tillukning,multiplikativ tillukking,multiplicative closure,
+førstetellbar,førsteteljeleg,first-countable,
+andretellbar,andreteljeleg,second-countable,
+undertellbar,underteljeleg,subcountable,
+høyere modalitet,høgare modalitet,higher modality,
+reflektivt underunivers,reflektivt underunivers,reflective subuniverse,
+koreflektivt underunivers,koreflektivt underunivers,coreflective subuniverse,
+reflektiv underkategori,reflektiv underkategori,reflective subcategory,
+koreflektiv underkategori,koreflektiv underkategori,coreflective subcategory,
+eksplisitt formel,eksplisitt formel,explicit formula,
+implisitt formel,implisitt formel,implicit formula,
+skjære,skjere,intersect,
+fraktur,fraktur,fracture,"Ordklasse: substantiv"
+Brouwers fikspunktteorem,Brouwers fikspunktteorem,Brouwer's fixed-point theorem,
+naboliste,naboliste,adjacency list,
+eulerkrets,eulerkrets,Euler circuit,"Synonym: eulersk krets"
+eulersk krets,eulersk krets,Eulerian circuit,"Synonym: eulerkrets"
+hamiltonkrets,hamiltonkrets,Hamilton circuit,"Synonym: hamiltonsk krets"
+hamiltonsk krets,hamiltonsk krets,Hamiltonian circuit,"Synonym: hamiltonkrets"
+triviell sykel,triviell sykel,trivial cycle,
+ikke-triviell sykel,ikkje-triviell sykel,non-trivial cycle,
+triviell sti<br>triviell vei,triviell sti<br>triviell veg,trivial path,
+ikke-triviell sti<br>ikke-triviell vei,ikkje-triviell sti<br>ikkje-triviell veg,non-trivial path,
+triviell ring,triviell ring,trivial ring,
+ikke-triviell ring,ikkje-triviell ring,non-trivial ring,
+triviell gruppe,triviell gruppe,trivial group,
+ikke-triviell gruppe,ikkje-triviell gruppe,non-trivial group,
+trivielt vektorrom,trivielt vektorrom,trivial vector space,
+ikke-trivielt vektorrom,ikkje-trivielt vektorrom,non-trivial vector space,
+triviell modul,triviell modul,trivial module,
+ikke-triviell modul,ikkje-triviell modul,non-trivial module,
+triviell algebra,triviell algebra,trivial algebra,
+ikke-triviell algebra,ikkje-triviell algebra,non-trivial algebra,
+triviell graf,triviell graf,trivial graph,
+ikke-triviell graf,ikkje-triviell graf,non-trivial graph,
+endelig graf,endeleg graf,finite graph,
+uendelig graf,uendeleg graf,infinite graph,
+endelig rettet graf,endeleg retta graf,finite digraph<br>finite directed graph,
+uendelig rettet graf,uendeleg retta graf,infinite digraph<br>infinite directed graph,
+null,null,zero,"Termen brukes om grunntallet 0."
+en<br>én,ein<br>éin,one,"Termen brukes om grunntallet 1."
+to,to,two,"Termen brukes om grunntallet 2."
+tre,tre,three,"Termen brukes om grunntallet 3."
+fire,fire,four,"Termen brukes om grunntallet 4."
+fem,fem,five,"Termen brukes om grunntallet 5."
+seks,seks,six,"Termen brukes om grunntallet 6."
+sju<br>syv,sju,seven,"Termen brukes om grunntallet 7."
+åtte,åtte,eight,"Termen brukes om grunntallet 8."
+ni,ni,nine,"Termen brukes om grunntallet 9."
+ti,ti,ten,"Termen brukes om grunntallet 10."
+elleve,elleve,eleven,"Termen brukes om grunntallet 11."
+tolv,tolv,twelve,"Termen brukes om grunntallet 12."
+tretten,tretten,thirteen,"Termen brukes om grunntallet 13."
+fjorten,fjorten,fourteen,"Termen brukes om grunntallet 14."
+femten,femten,fifteen,"Termen brukes om grunntallet 15."
+seksten,seksten,sixteen,"Termen brukes om grunntallet 16."
+sytten<br>søtten,sytten,seventeen,"Termen brukes om grunntallet 17."
+atten,atten,eighteen,"Termen brukes om grunntallet 18."
+nitten,nitten,nineteen,"Termen brukes om grunntallet 19."
+tjue<br>tyve,tjue,twenty,"Termen brukes om grunntallet 20."
+tretti,tretti,thirty,"Termen brukes om grunntallet 30."
+førti,førti,forty,"Termen brukes om grunntallet 40."
+femti,femti,fifty,"Termen brukes om grunntallet 50."
+seksti,seksti,sixty,"Termen brukes om grunntallet 60."
+sytti,sytti,seventy,"Termen brukes om grunntallet 70."
+åtti,åtti,eighty,"Termen brukes om grunntallet 80."
+nitti,nitti,ninety,"Termen brukes om grunntallet 90."
+hundre,hundre,hundred,"Termen brukes om grunntallet 100."
+tusen,tusen,thousand,"Termen brukes om grunntallet 1000."
+million,million,million,"Termen brukes om den numeriske verdien 10^6."
+milliard,milliard,billion,"Termen brukes om den numeriske verdien 10^9."
+billion,billion,trillion,"Termen brukes om den numeriske verdien 10^12."
+billiard,billiard,quadrillion,"Termen brukes om den numeriske verdien 10^15."
+trillion,trillion,quintillion,"Termen brukes om den numeriske verdien 10^18."
+trilliard,trilliard,sextillion,"Termen brukes om den numeriske verdien 10^21."
+kvadrillion,kvadrillion,septillion,"Termen brukes om den numeriske verdien 10^24."
+første,første,first,"Termen brukes om ordenstallet 1."
+andre,andre,second,"Termen brukes om ordenstallet 2."
+tredje,tredje,third,"Termen brukes om ordenstallet 3."
+fjerde,fjerde,fourth,"Termen brukes om ordenstallet 4."
+femte,femte,fifth,"Termen brukes om ordenstallet 5."
+sjette,sjette,sixth,"Termen brukes om ordenstallet 6."
+sjuende<br>syvende,sjuande,seventh,"Termen brukes om ordenstallet 7."
+åttende,åttande,eigth,"Termen brukes om ordenstallet 8."
+niende,niande,ninth,"Termen brukes om ordenstallet 9."
+tiende,tiande,tenth,"Termen brukes om ordenstallet 10."
+ellevte,ellevte,eleventh,"Termen brukes om ordenstallet 11."
+tolvte,tolvte,twelvth,"Termen brukes om ordenstallet 12."
+trettende,trettande,thirteenth,"Termen brukes om ordenstallet 13."
+fjortende,fjortande,fourteenth,"Termen brukes om ordenstallet 14."
+femtende,femtande,fifteenth,"Termen brukes om ordenstallet 15."
+sekstende,sekstande,sixteenth,"Termen brukes om ordenstallet 16."
+syttende<br>søttende,syttande,seventeenth,"Termen brukes om ordenstallet 17."
+attende,attande,eighteenth,"Termen brukes om ordenstallet 18."
+nittende,nittande,nineteenth,"Termen brukes om ordenstallet 19."
+tjuende<br>tyvende,tjuande,twentieth,"Termen brukes om ordenstallet 20."
+trettiende,trettiande,thirtieth,"Termen brukes om ordenstallet 30."
+førtiende,førtiande,fortieth,"Termen brukes om ordenstallet 40."
+femtiende,femtiande,fiftieth,"Termen brukes om ordenstallet 50."
+sekstiende,sekstiande,sixtieth,"Termen brukes om ordenstallet 60."
+syttiende,syttiande,seventieth,"Termen brukes om ordenstallet 70."
+åttiende,åttiande,eigthieth,"Termen brukes om ordenstallet 80."
+nittiende,nittiande,ninetieth,"Termen brukes om ordenstallet 90."
+hundrede,hundrede,hundredth,"Termen brukes om ordenstallet 100."
+tusende,tusande,thousandth,"Termen brukes om ordenstallet 1000."
+vitenskapelig notasjon,vitskapleg notasjon,scientific notation,
+notasjon,notasjon,notation,
+prefiksnotasjon,prefiksnotasjon,prefix notation,
+infiksnotasjon,infiksnotasjon,infix notation,
+indeksmengde,indeksmengd,index set,
+indekskategori,indekskategori,index category,
+annullere,annullere,nullify,
+annullering,annullering,nullification,
+whitneyimbeddingteorem,whitneyimbeddingteorem,Whitney embedding theorem,
+kolokalisering,kolokalisering,colocalization,
+bousfieldlokalisering,bousfieldlokalisering,Bousfield localization,"<i>Bousfieldlokalisering</i> refererer oftest til <i>venstre bousfieldlokalisering</i>."
+venstre bousfieldlokalisering,venstre bousfieldlokalisering,left Bousfield localization,"<i>Venstre bousfieldlokalisering</i> refereres ofte til som kun <i>bousfieldlokalisering</i>."
+høyre bousfieldlokalisering,høyre bousfieldlokalisering,right Bousfield localization,
+vandring,vandring,walk,
+naboforhold<br>naboskap,naboforhold<br>naboskap,adjacency,"Oversettelsen gjelder bruk i grafteori og utelukker ikke at termen kan brukes ulikt i andre sammenhenger."
+auslanderalgebra,auslanderalgebra,Auslander algebra,
+Auslander-Reiten-triangel,Auslander-Reiten-triangel,Auslander–Reiten triangle,
+utvidelseskategori,utvidingskategori,category of extensions,
+konflasjon,konflasjon,conflation,
+deflasjon,deflasjon,deflation,
+frobeniusalgebra,frobeniusalgebra,Frobenius algebra,
+frobeniuskategori,frobeniuskategori,Frobenius category,
+funktorielt endelig,funktorielt endeleg,functorially finite,
+kovariant endelig,kovariant endeleg,covariantly finite,
+kontravariant endelig,kontravariant endeleg,contravariantly finite,
+homologisk algebra,homologisk algebra,homological algebra,
+høyere homologisk algebra,høgare homologisk algebra,higher homological algebra,
+mild algebra,mild algebra,gentle algebra,
+inflasjon,inflasjon,inflation,
+koszuldual,koszuldual,Koszul dual,
+serrefunktor,serrefunktor,Serre functor,
+vippemodul,vippemodul,tilting module,
+vippeobjekt,vippeobjekt,tilting object,
+preprojektiv,preprojektiv,preprojective,
+preinjektiv,preinjektiv,preinjective,
+preprojektiv algebra,preprojektiv algebra,preprojective algebra,
+romlig,romleg,spatial,
+konvers<br>omvendt,konvers<br>omvend,converse,"Ordklasse: substantiv"
+omvendt,omvend,conversely,"Ordklasse: adverb"
+tolke,tolke,interpret,
+tolkning,tolking,interpretation,
+tolkbar<br>tolkelig,tolkbar<br>tolkeleg,interpretable,
+grammatikk,grammatikk,grammar,
+sortere,sortere,sort,"Ordklasse: verb"
+strukturbevarende,strukturbevarande,structure-preserving,
+gyldighet<br>validitet,gyldigheit<br>validitet,validity,
+validere,validere,validate,
+delbar<br>delelig,delbar<br>deleleg,divisible,
+bevise,bevise<br>prove,prove,
+bevisbar<br>beviselig,bevisbar<br>beviseleg<br>provbar<br>proveleg,provable,
+utledbar<br>utledelig,utleibar<br>utleieleg,derivable,
+hende,hende,occur,
+oppstå,oppstå,occur,
+forekomst<br>hendelse,førekomst<br>hending,occurence,
+komplementere,komplementere,complement,"Ordklasse: verb"
+finitær,finitær,finitary,
+nullær,nullær,nullary,
+ternær,ternær,ternary,
+kvartær,kvartær,quaternary,
+oktal,oktal,octal,
+heksadesimal,heksadesimal,hexadecimal,
+passende,passande,suitable,
+konstant,konstant,constant,
+lokalt konstant,lokalt konstant,locally constant,
+algoritmisk,algoritmisk,algorithmic,
+automatisere,automatisere,automate,
+automatisering,automatisering,automation,
+automatisert teorembevising,automatisert teorembevising<br>automatisert teoremproving,automated theorem-proving,
+taktikk,taktikk,tactic,
+ny,ny,novel,
+parametrisitet,parametrisitet,parametricity,
+kanonitet,kanonitet,canonicity,
+aksiomatisere,aksiomatisere,axiomatize,
+aksiomatisering,aksiomatisering,axiomatization,
+aksiomatiserbar,aksiomatiserbar,axiomatizable,
+forskning,forsking,research,"Ordklasse: substantiv"
+forske,forske,research,"Ordklasse: verb"
+undersøke,undersøkje,investigate,
+undersøkelse,undersøking,investigation,
+utforske,utforske,explore,
+utforskende,utforskande,explorative,
+utforskning,utforsking,exploration,
+innovere<br>nyskape,innovere<br>nyskape,innovate,
+innovativ<br>nyskapende,innovativ<br>nyskapande,innovative,
+innovasjon<br>nyskapning,innovasjon<br>nyskaping,innovation,
+fart,fart,speed,
+hastighet,hastigheit,velocity,
+massesenter,massesenter,centre of mass,
+forksjellige<br>ulike,forskjellige<br>ulike,distinct,
+forskjell,forskjell<br>skilnad,distinction,
+skille,skilje,distinguish,
+omdefinere<br>redefinere,omdefinere<br>redefinere,redefine,
+bundet variabel,bunden variabel,bound variable,
+fri variabel,fri variabel,free variable,
+imbedde,imbedde,embed,
+imbedbar,imbedbar,embeddable,
+dom,dom,judgment,
+dømme,dømme,judge,
+dømmende,dømande,judgmental,
+definisjonell likhet,definisjonell likskap,definitional equality,
+definisjonelt like,definisjonelt like,definitionally equal,
+kontekst,kontekst,context,
+kontekstuell,kontekstuell,contextual,
+kategori av kontekster,kategori av kontekster,category of contexts,
+kontekstuell kategori,kontekstuell kategori,contextual category,
+applikativ,applikativ,applicative,
+applikativ funktor,applikativ funktor,applicative functor,
+anvende,anvende,apply,
+anvendelse,anvending,application,
+akkumulere<br>kumulere<br>opphope,akkumulere<br>kumulere<br>opphope,accumulate,
+akkumulativ<br>kumulativ<br>opphopende,akkumulativ<br>kumulativ<br>opphopande,accumulative,
+akkumulering<br>kumulering<br>opphoping,akkumulering<br>kumulering<br>opphoping,accumulation,
+evaluere,evaluere,evaluate,
+evaluering,evaluering,evaluation,
+informere,informere,inform,
+informasjon,informasjon,information,
+kunnskap,kunnskap,knowledge,
+kunnskapsrik,kunnskapsrik,knowledgable,
+presentasjon,presentasjon,presentation,
+halvering,halvering,halving,
+halveringstid,halveringstid,half-life,
+logisk,logisk,logical,
+logisk funktor,logisk funktor,logical functor,
+funktorkategori,funktorkategori,functor category,
+homotopikogrense,homotopikogrense,homotopy colimit,
+homotopiforliker,homotopiforliker,homotopy equalizer,
+homotopikoforliker,homotopikoforliker,homotopy coequalizer,
+homotopikartesisk,homotopikartesisk,homotopy Cartesian,"Synonym: homotopipullback"
+homotopipullback,homotopipullback,homotopy pullback,"Synonym: homotopikartesisk"
+homotopikokartesisk,homotopikokartesisk,homotopy co-Cartesian,"Synonym: homotopipushout"
+homotopipushout,homotopipushout,homotopy pushout,"Synonym: homotopikokartesisk"
+svak homotopiekvivalens,svak homotopiekvivalens,weak homotopy equivalence,"<i>Weak homotopy equivalence<i/> og <i>homotopy equivalence</i> brukes noen steder synonymt. Hva som er vanlig ordbruk, avhenger av kontekst."
+whiteheadprinsippet,whiteheadprinsippet,Whitehead principle,
+Whiteheads teorem,Whiteheads teorem,Whitehead's theorem,
+hyperkomplett,hyperkomplett,hypercomplete,
+elementærmorfi,elementærmorfi,elementary morphism,
+elementærimbedding,elementærimbedding,elementary embedding,
+elementærtopos,elementærtopos,elementary topos,
+delstruktur<br>understruktur,delstruktur<br>understruktur,substructure,
+art<br>sort,art<br>sort,sort,"Ordklasse: substantiv"
+slag,slag,kind,"Ordklasse: substantiv"
+mangeartet<br>mangesortet,mangeartet<br>mangesortet,many-sorted,"<i>Many-sorted</i> og <i>multi-sorted</i> brukes av og til synonymt."
+flerartet<br>flersortet,fleirarta<br>fleirsorta,multi-sorted,"<i>Multi-sorted</i> og <i>many-sorted</i> brukes av og til synonymt."
+ensartet<br>enssortet,einsarta<br>einssorta,single-sorted,
+flerartet signatur<br>flersortet signatur,fleirarta signatur<br>fleirsorta signatur,multi-sorted signature,
+ensartet signatur<br>enssortet signatur,einsarta signatur<br>einssorta signatur,single-sorted signature,
+proposisjonell signatur,proposisjonell signatur,propositional signature,
+utilfredsstillbar,utilfredsstillbar,unsatisfiable,
