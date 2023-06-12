@@ -40,6 +40,7 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 - [Daniel Kjellevold Steinsland (NTNU)](https://github.com/danielKSt)
 - Eldar Straume (NTNU)
 - [Jarle Tufto (NTNU)](https://github.com/jtufto)
+- [Lars Tveito (UiO)](https://github.com/larstvei)
 - John Sølve Tyssedal (NTNU)
 - [Ole Kristian Våge (Språkrådet)](https://github.com/OleVaage)
 - [Anders Wiik (UiA)](https://github.com/AndersWiik92)
