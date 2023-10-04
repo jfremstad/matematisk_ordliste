@@ -5,7 +5,7 @@
   "tasks": [
     {
       "label": "test",
-      "type": "shell",
+      "type": "process",
       "command": "bash",
       "args": ["./skript/tester.sh"],
       "group": {

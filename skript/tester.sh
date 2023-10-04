@@ -75,6 +75,10 @@ fi
 # Execute more complicated Python tests
 if command_exists python3; then
   python3 ./skript/test.py "${DATABASE}"
+  # Capture the exit code of the Python script
+  PYTHON_SCRIPT_EXITCODE=$?
+  # OR it with the existing EXITCODE
+  EXITCODE=$((EXITCODE | PYTHON_SCRIPT_EXITCODE))
 else
   echo "Feil: Python3 ikke funnet."
   EXITCODE=$((EXITCODE | ERR_PYTHON_NOT_FOUND))

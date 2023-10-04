@@ -4,98 +4,91 @@
 import csv
 import sys
 
-lineBreak = "<br>"
-numberOfLanguageColumns = 3
+LINE_BREAK = "<br>"
+NUMBER_OF_LANGUAGE_COLUMNS = 3
 
-# Fjerner gjentatte mellomrom og trimmer endene
+ERR_DUPLICATE_ROW = 32
+ERR_NONSTANDARD_ROW = 128
 
 
 def trim(s):
+    """Removes repeated spaces and trims the ends of the string."""
     return " ".join(s.split())
 
 
-# Returns a list of lists. Each list is one row.
-
-
-def readCsv(filename):
-    data = []
+def read_csv(filename):
+    """Reads a CSV file and returns a list of lists, each representing a row."""
     with open(filename, encoding="utf-8", errors="ignore") as csvfile:
         reader = csv.reader(csvfile, delimiter=",")
-        for row in reader:
-            data.append(list(map(str.casefold, row)))
+        data = [list(map(str.casefold, row)) for row in reader]
     return list(filter(None, data))  # Remove empty rows
 
 
-# Standardiserer en celle
-
-
-def standardizeCell(cell):
-    # Fjern alternative linjebytter
+def standardize_cell(cell):
+    """Standardizes a cell's content."""
+    # Remove alternate line breaks
     cell = (
-        cell.replace("\r\n", lineBreak)
-        .replace("\n", lineBreak)
-        .replace("<br/>", lineBreak)
-        .replace("<br />", lineBreak)
-        .replace("<br></br>", lineBreak)
+        cell.replace("\r\n", LINE_BREAK)
+        .replace("\n", LINE_BREAK)
+        .replace("<br/>", LINE_BREAK)
+        .replace("<br />", LINE_BREAK)
+        .replace("<br></br>", LINE_BREAK)
     )
-    # Del opp
-    synonyms = cell.split(lineBreak)
-    # Trim mellomrom
+    # Split up
+    synonyms = cell.split(LINE_BREAK)
+    # Trim spaces
     synonyms = map(trim, synonyms)
-    # Fjern tomme synonymer
+    # Remove empty synonyms
     synonyms = filter(lambda x: x != "", synonyms)
-    # Fjern duplikater
+    # Remove duplicates
     synonyms = set(synonyms)
-    # Sorter
+    # Sort
     synonyms = sorted(synonyms)
-    # Sett sammen
-    return lineBreak.join(synonyms)
+    # Combine
+    return LINE_BREAK.join(synonyms)
 
 
-# Sjekker om alle celler er standardiserte
-
-
-def checkStandardized(data):
+def check_standardized(data):
+    """Checks if all cells are standardized and returns a list of non-standard cells."""
     errors = []
     for r, row in enumerate(data):
-        for c in range(numberOfLanguageColumns):
-            std = standardizeCell(row[c])
+        for c in range(NUMBER_OF_LANGUAGE_COLUMNS):
+            std = standardize_cell(row[c])
             if std != row[c]:
                 errors.append((r, c, row[c], std))
     return errors
 
 
-# Sjekk for duplikate rader ved ignorering av kommentar
-
-
-def checkDuplicateRows(data):
-    rows = tuple(",".join(row[:numberOfLanguageColumns]) for row in data)
+def check_duplicate_rows(data):
+    """Checks for duplicate rows ignoring the comment."""
+    rows = tuple(",".join(row[:NUMBER_OF_LANGUAGE_COLUMNS]) for row in data)
     duplicates = set(row for row in rows if rows.count(row) > 1)
     return duplicates
 
 
 def main():
-    exitCode = 0
-    data = readCsv(sys.argv[1])
+    exit_code = 0
+    data = read_csv(sys.argv[1])
 
-    nonstandard = checkStandardized(data)
+    nonstandard = check_standardized(data)
 
     if nonstandard:
-        exitCode |= 32
+        exit_code |= ERR_NONSTANDARD_ROW
         print("\nFølgende endringer må gjøres (merk mulig fjerning av mellomrom):\n")
         for r, c, error, correct in nonstandard:
             print("Rad", r + 1, "kolonne", c + 1, ":", error, "-->", correct)
         print()
 
-    duplicateRows = checkDuplicateRows(data)
+    duplicate_rows = check_duplicate_rows(data)
 
-    if duplicateRows:
-        exitCode |= 64
+    if duplicate_rows:
+        exit_code |= ERR_DUPLICATE_ROW
         print("\nFølgende rader er duplikater opp til kommentar:\n")
-        for row in duplicateRows:
+        for row in duplicate_rows:
             print(row)
 
-    sys.exit(exitCode)
+    sys.exit(exit_code)
 
 
-main()
+if __name__ == "__main__":
+    main()
