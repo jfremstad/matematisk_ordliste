@@ -94,20 +94,12 @@ def standardize_translation(translation, c):
 
 def standardize_comment(comment):
     """Standardizes a comment's contents."""
-    comment = comment.strip()
+    comment = comment.strip().strip('"')
 
     if not comment:
         return comment
 
-    if not comment.startswith('"'):
-        comment = '"' + comment
-    if not comment.endswith('"'):
-        comment = comment + '"'
-
-    if comment == '""':
-        return ""
-
-    return comment
+    return '"' + comment + '"'
 
 
 def check_standardized(data):
