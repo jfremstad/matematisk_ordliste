@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Hent kode
         uses: actions/checkout@v2
 
       - name: Termtabell kvalitetskontroll
