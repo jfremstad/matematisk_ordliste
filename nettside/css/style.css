@@ -25,14 +25,14 @@ footer {
 }
 
 input {
-    background-image: url('../img/searchicon.png'); /* Add a search icon to input */
-    background-position: 10px 12px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 90%; /* Small search bar */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 2px solid #ddd; /* Add a border */
-    margin-bottom: 8px; /* Add some space below the input */
+  background-image: url('../img/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 90%; /* Small search bar */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 2px solid #ddd; /* Add a border */
+  margin-bottom: 8px; /* Add some space below the input */
 }
 
 input:focus {
@@ -40,16 +40,17 @@ input:focus {
 }
 
 #wordlist {
-    /*border-collapse: collapse; /* Collapse borders */
-    width: 100%; /* Full-width */
-    /*border: 3px solid #ddd; /* Add a border */
-    font-size: 18px; /* Increase font-size */
-    margin: auto;
+  /*border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  /*border: 3px solid #ddd; /* Add a border */
+  font-size: 18px; /* Increase font-size */
+  margin: auto;
 }
 
-#wordlist th, #wordlist td {
-    text-align: left; /* Left-align text */
-    padding: 12px; /* Add padding */
+#wordlist th,
+#wordlist td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
 }
 
 #wordlist .comment {
@@ -57,11 +58,11 @@ input:focus {
 }
 
 #wordlist tr.header {
-    background-color: #b2d3e8;
+  background-color: #b2d3e8;
 }
 
 #wordlist tr:hover {
-    background-color: #b3cbe3;
+  background-color: #b3cbe3;
 }
 
 table.dataTable thead .sorting,
@@ -73,9 +74,9 @@ table.dataTable thead .sorting_desc {
 }
 
 table.dataTable tr.odd {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 table.dataTable tr.even {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }

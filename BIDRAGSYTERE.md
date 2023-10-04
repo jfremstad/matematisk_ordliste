@@ -1,5 +1,10 @@
 # Bidragsytere (alfabetisk)
-Personer som har kommet med forslag eller innspill som har ledet til forbedringer av den offisielle [ordlista](https://matematikkradet.no/ordliste), legges til i denne lista over bidragsytere. Send gjerne en mail til [ordliste@matematikkradet.no](mailto:ordliste@matematikkradet.no) dersom du har bidratt til ordlista, men ikke står oppført som bidragsyter.
+
+Personer som har kommet med forslag eller innspill som har ledet til
+forbedringer av den offisielle [ordlista](https://matematikkradet.no/ordliste),
+legges til i denne lista over bidragsytere. Send gjerne en mail til
+[ordliste@matematikkradet.no](mailto:ordliste@matematikkradet.no) dersom du har
+bidratt til ordlista, men ikke står oppført som bidragsyter.
 
 - Øyvind Bakke (NTNU)
 - [Viktor Balch Barth (NTNU)](https://github.com/viktoba)
@@ -13,7 +18,7 @@ Personer som har kommet med forslag eller innspill som har ledet til forbedringe
 - Snorre H. Christiansen (UiO)
 - Olav Gunnarson Dovland (UiA)
 - Geir Ellingsrud (UiO)
-- [Robin Fissum (NTNU)](https://github.com/robinfissum) 
+- [Robin Fissum (NTNU)](https://github.com/robinfissum)
 - [Simon Foldvik (UiO)](https://github.com/simonfoldvik)
 - [Joakim Fremstad (NTNU)](https://github.com/jfremstad)
 - [Søren Gammelgaard (Oxford/UiO)](https://github.com/sorengam)

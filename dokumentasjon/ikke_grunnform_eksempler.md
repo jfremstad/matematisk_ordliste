@@ -1,6 +1,7 @@
 ## Eksempler på termer som ikke står oppført i grunnform
 
 **Termer som er ført opp i flertallsform:**
+
 - barysentriske koordinater
 - Cauchy-Riemann-likningene
 - kartesiske koordinater
@@ -9,6 +10,7 @@
 - sylinderkoordinater
 
 **Termer som er ført opp i bestemt form:**
+
 - Artin-Rees-lemmaet
 - binomialformelen
 - femlemmaet
@@ -30,6 +32,7 @@
 - utvalgsaksiomet
 
 ## Eksempler på tvilstilfeller som er ført opp i grunnform
+
 - cantormengde
 - cauchykriterium
 - koblet hastighet
