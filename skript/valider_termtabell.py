@@ -3,6 +3,7 @@
 
 import csv
 import sys
+from collections import defaultdict
 
 LINE_BREAK = "<br>"
 
@@ -13,7 +14,7 @@ COMMENT_COLUMN = NUMBER_OF_LANGUAGE_COLUMNS
 ERR_INVALID_CSV = 128
 ERR_INCOMPLETE_ROW = 64
 ERR_NONSTANDARD_ROW = 32
-ERR_DUPLICATE_ROW = 16
+ERR_DUPLICATE_TRANSLATION = 16
 
 
 def trim(s):
@@ -41,7 +42,7 @@ def read_csv(filename):
             )
             raw_data = tuple(reader)
         except:
-            print("Feil: ugyldig CSV-fil.")
+            print("FEIL: ugyldig CSV-fil.")
             sys.exit(ERR_INVALID_CSV)
         data = list(map(process_csv_row, raw_data))
     return data
@@ -121,11 +122,52 @@ def check_standardized(data):
     return errors
 
 
-def check_duplicate_rows(data):
-    """Checks for duplicate rows ignoring the comment."""
-    rows = tuple(",".join(row[:NUMBER_OF_LANGUAGE_COLUMNS]) for row in data)
-    duplicates = set(row for row in rows if rows.count(row) > 1)
-    return duplicates
+def check_duplicate_translations(data):
+    """Checks for duplicate translations."""
+    duplicates_groups = []
+    columns_to_rows = [defaultdict(set) for _ in range(NUMBER_OF_LANGUAGE_COLUMNS)]
+
+    checked_rows = set()
+
+    for i, row in enumerate(data):
+        if i in checked_rows:
+            continue
+
+        possible_duplicates = set()
+        duplicate_group = []
+
+        # Update tracking and find the set of possible duplicates for this row
+        for c, cell in enumerate(row[:NUMBER_OF_LANGUAGE_COLUMNS]):
+            translation_set = set(cell.split(LINE_BREAK))
+            for translation in translation_set:
+                possible_duplicates.update(columns_to_rows[c][translation])
+
+                # Add this row to the set of rows that have this translation in column c
+                columns_to_rows[c][translation].add(i)
+
+        # Remove the row itself from possible duplicates
+        possible_duplicates.discard(i)
+
+        for j in possible_duplicates:
+            other_row = data[j]
+            if all(
+                set(cell.split(LINE_BREAK)) & set(other_cell.split(LINE_BREAK))
+                for cell, other_cell in zip(
+                    row[:NUMBER_OF_LANGUAGE_COLUMNS],
+                    other_row[:NUMBER_OF_LANGUAGE_COLUMNS],
+                )
+            ):
+                duplicate_group.append((i, row))
+                duplicate_group.append((j, other_row))
+                checked_rows.add(i)
+                checked_rows.add(j)
+
+        if duplicate_group:
+            duplicates_groups.append(
+                list(set(duplicate_group))
+            )  # Remove duplicate tuples
+
+    return duplicates_groups
 
 
 def main():
@@ -137,9 +179,9 @@ def main():
     incomplete_rows = check_incomplete_rows(data)
 
     if incomplete_rows:
-        print("\nFeil: følgende rader er ufullstendige:")
-        print(*(i + 1 for i in incomplete_rows), sep=",")
         exit_code |= ERR_INCOMPLETE_ROW
+        print("\nFEIL: følgende rader er ufullstendige:")
+        print(*(i + 1 for i in incomplete_rows), sep=", ")
 
     # Compare to standardization
     nonstandard = check_standardized(data)
@@ -147,20 +189,25 @@ def main():
     if nonstandard:
         exit_code |= ERR_NONSTANDARD_ROW
         print(
-            "\nFeil: følgende endringer må gjøres (merk mulig fjerning av mellomrom):\n"
+            "\nFEIL: følgende endringer må gjøres (merk mulig fjerning av mellomrom):\n"
         )
         for r, c, error, correct in nonstandard:
             print("Rad", r + 1, "kolonne", c + 1, ":", error, "-->", correct)
         print()
 
-    # Check for duplicates
-    duplicate_rows = check_duplicate_rows(data)
+    # Check for duplicate translations
+    duplicate_translations = check_duplicate_translations(data)
 
-    if duplicate_rows:
-        exit_code |= ERR_DUPLICATE_ROW
-        print("\nFeil: følgende rader er duplikater sett bort ifra kommentar:\n")
-        for row in duplicate_rows:
-            print(row)
+    if duplicate_translations:
+        exit_code |= ERR_DUPLICATE_TRANSLATION
+        print(
+            f"\nFEIL: følgende duplikate oversettelser ({len(duplicate_translations)}) ble funnet:\n"
+        )
+        for g, duplicate_group in enumerate(duplicate_translations, 1):
+            print(f"Gruppe {g} av duplikater:")
+            for r, row in duplicate_group:
+                print(f"Rad {r + 1}: {','.join(row)}")
+            print()
 
     sys.exit(exit_code)
 
