@@ -3,12 +3,7 @@
 DATABASE="./verifiserte_termer.csv"
 
 ERR_DB_NOT_FOUND=1
-ERR_CSVLINT_NOT_FOUND=2
-ERR_PYTHON_NOT_FOUND=4
-ERR_EMPTY_COMMENT=8
-ERR_EMPTY_LINE=16
-ERR_DUPLICATE=32
-ERR_MISSING_QUOTES=64
+ERR_PYTHON_NOT_FOUND=2
 
 EXITCODE=0
 
@@ -24,57 +19,9 @@ if [[ ! -f "${DATABASE}" ]]; then
   exit ${EXITCODE}
 fi
 
-
-# Check if CSV is valid
-if command_exists csvlint; then
-  csvlint "${DATABASE}" || EXITCODE=$((EXITCODE | ERR_CSVLINT_NOT_FOUND))
-else
-  echo "Feil: csvlint ikke funnet."
-  EXITCODE=$((EXITCODE | ERR_CSVLINT_NOT_FOUND))
-fi
-
-EMPTYCOMMENT="$(grep ',\s\+$' "${DATABASE}")"
-if [[ ${EMPTYCOMMENT} ]]; then
-  echo "====================================="
-  echo "== Følgende linjer har tom merknad =="
-  echo "====================================="
-  echo "${EMPTYCOMMENT}"
-  echo
-  EXITCODE=$((EXITCODE | ERR_EMPTY_COMMENT))
-fi
-
-if [[ "$(grep -Ec "^\s*$" "${DATABASE}")" -ne 0 ]]; then
-  echo "=============================="
-  echo "== Følgende linjer er tomme =="
-  echo "=============================="
-  grep -n '^\s*$' "${DATABASE}"
-  echo
-  EXITCODE=$((EXITCODE | ERR_EMPTY_LINE))
-fi
-
-DUPLICATES="$(sort "${DATABASE}" | uniq -d)"
-if [[ ${DUPLICATES} ]]; then
-  echo "============================================="
-  echo "== Ordlista inneholder følgende duplikater =="
-  echo "============================================="
-  echo "${DUPLICATES}"
-  echo
-  EXITCODE=$((EXITCODE | ERR_DUPLICATE))
-fi
-
-MISSINGQUOTES="$(grep -v ',\s\+$' "${DATABASE}" | cut -d',' -f 4- | grep -vE '^$|^".*"$')"
-if [[ ${MISSINGQUOTES} ]]; then
-  echo "=============================================="
-  echo "== Følgende merknader mangler anførselstegn =="
-  echo "=============================================="
-  echo "${MISSINGQUOTES}"
-  echo
-  EXITCODE=$((EXITCODE | ERR_MISSING_QUOTES))
-fi
-
-# Execute more complicated Python tests
+# Validate term table with python script
 if command_exists python3; then
-  python3 ./skript/valider_term_tabell.py "${DATABASE}"
+  python3 ./skript/valider_termtabell.py "${DATABASE}"
   # Capture the exit code of the Python script
   PYTHON_SCRIPT_EXITCODE=$?
   # OR it with the existing EXITCODE
