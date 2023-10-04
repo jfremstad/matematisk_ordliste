@@ -16,5 +16,10 @@ jobs:
       - name: Hent kode
         uses: actions/checkout@v2
 
+      - name: Sett opp Python 3
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
       - name: Termtabell kvalitetskontroll
         run: bash ./skript/kjor_sjekker.sh
