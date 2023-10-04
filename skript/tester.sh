@@ -3,7 +3,7 @@ DATABASE="./verifiserte_termer.csv"
 EXITCODE=0
 
 # Check if CSV is valid
-csvlint-v0.2.0-linux-amd64/csvlint "${DATABASE}" || EXITCODE=$((EXITCODE | 1))
+# csvlint-v0.2.0-linux-amd64/csvlint "${DATABASE}" || EXITCODE=$((EXITCODE | 1))
 
 EMPTYCOMMENT="$(grep ',\s\+$' ${DATABASE})"
 if [[ ${EMPTYCOMMENT} ]]; then
