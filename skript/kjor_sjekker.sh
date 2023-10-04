@@ -74,7 +74,7 @@ fi
 
 # Execute more complicated Python tests
 if command_exists python3; then
-  python3 ./skript/test.py "${DATABASE}"
+  python3 ./skript/valider_term_tabell.py "${DATABASE}"
   # Capture the exit code of the Python script
   PYTHON_SCRIPT_EXITCODE=$?
   # OR it with the existing EXITCODE
