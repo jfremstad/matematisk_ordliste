@@ -3,6 +3,7 @@
 
 import csv
 import sys
+import re
 from collections import defaultdict
 
 LINE_BREAK = "<br>"
@@ -20,6 +21,15 @@ ERR_DUPLICATE_TRANSLATION = 16
 def trim(s):
     """Removes repeated spaces and trims the ends of the string."""
     return " ".join(s.split())
+
+
+line_break_pattern = re.compile(
+    r"((\\r)?\\n|<\s*(br|BR)\s*/>|<\s*(br|BR)\s*></\s*(br|BR)\s*>)"
+)
+
+
+def standardize_line_breaks(s):
+    return line_break_pattern.sub(LINE_BREAK, s)
 
 
 def process_csv_row(row):
@@ -71,13 +81,7 @@ def standardize_cell(cell, c):
 def standardize_translation(translation, c):
     """Standardizes a translation cell's content."""
     # Remove alternate line breaks
-    cell = (
-        translation.replace("\r\n", LINE_BREAK)
-        .replace("\n", LINE_BREAK)
-        .replace("<br/>", LINE_BREAK)
-        .replace("<br />", LINE_BREAK)
-        .replace("<br></br>", LINE_BREAK)
-    )
+    cell = standardize_line_breaks(translation)
     # Split up
     synonyms = cell.split(LINE_BREAK)
     # Trim spaces
@@ -99,6 +103,8 @@ def standardize_comment(comment):
     if not comment:
         return comment
 
+    comment = standardize_line_breaks(comment)
+
     return '"' + comment + '"'
 
 
@@ -115,7 +121,7 @@ def check_standardized(data):
 
 
 def check_duplicate_translations(data):
-    """Checks for duplicate translations."""
+    """Checks for duplicate translations by searching for overlap in terms in every column."""
     duplicates_groups = []
     columns_to_rows = [defaultdict(set) for _ in range(NUMBER_OF_LANGUAGE_COLUMNS)]
 
@@ -172,7 +178,7 @@ def main():
 
     if incomplete_rows:
         exit_code |= ERR_INCOMPLETE_ROW
-        print("\nFEIL: følgende rader er ufullstendige:")
+        print(f"\nFEIL: følgende rader ({len(incomplete_rows)}) er ufullstendige:")
         print(*(i + 1 for i in incomplete_rows), sep=", ")
 
     # Compare to standardization
@@ -180,11 +186,11 @@ def main():
 
     if nonstandard:
         exit_code |= ERR_NONSTANDARD_ROW
-        print(
-            "\nFEIL: følgende endringer må gjøres (merk mulig fjerning av mellomrom):\n"
-        )
+        print(f"\nFEIL: følgende korreksjoner ({len(nonstandard)}) må gjøres:\n")
         for r, c, error, correct in nonstandard:
-            print("Rad", r + 1, "kolonne", c + 1, ":", error, "-->", correct)
+            print(
+                f"Rad {r + 1} kolonne {c + 1}:\n  Nåværende: {error}\n  Korrigert: {correct}"
+            )
         print()
 
     # Check for duplicate translations

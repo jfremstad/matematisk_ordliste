@@ -14,7 +14,7 @@ command_exists () {
 
 # Check if database exists
 if [[ ! -f "${DATABASE}" ]]; then
-  echo "Feil: Databasefilen '${DATABASE}' ikke funnet."
+  echo "FEIL: Databasefilen '${DATABASE}' ikke funnet."
   EXITCODE=$((EXITCODE | ERR_DB_NOT_FOUND))
   exit ${EXITCODE}
 fi
@@ -27,7 +27,7 @@ if command_exists python3; then
   # OR it with the existing EXITCODE
   EXITCODE=$((EXITCODE | PYTHON_SCRIPT_EXITCODE))
 else
-  echo "Feil: Python3 ikke funnet."
+  echo "FEIL: Python3 ikke funnet."
   EXITCODE=$((EXITCODE | ERR_PYTHON_NOT_FOUND))
 fi
 
