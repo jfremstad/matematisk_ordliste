@@ -5,9 +5,9 @@
   "tasks": [
     {
       "label": "test",
-      "type": "shell",
+      "type": "process",
       "command": "bash",
-      "args": ["./skript/tester.sh"],
+      "args": ["./skript/kjor_sjekker.sh"],
       "group": {
         "kind": "test",
         "isDefault": true

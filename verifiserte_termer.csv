@@ -323,7 +323,7 @@ moritaekvivalens,moritaekvivalens,Morita equivalence,
 avhengig variabel,avhengig variabel,dependent variable,
 ikke-tom,ikkje-tom,non-empty,
 eksponentiell vekst,eksponentiell vekst,exponential growth,
-spredningsplott,spreiingsplott,scatter diagram,
+spredningsplott,spreiingsplott,scatter diagram<br>scatter plot,
 prøvetakingsfordeling,prøvetakingsfordeling,sampling distribution,
 polynomiell vekst,polynomiell vekst,polynomial growth,
 preknippe,preknippe,presheaf,
@@ -710,7 +710,7 @@ differensial,differensial,differential,
 variabel,variabel,variable,
 fornyelsesteori,fornyingsteori,renewal theory,
 pivotelement,pivotelement,pivot element,"Forstavelsen pivot uttales [pivå:’]."
-stokastisk variabel<br>tilfeldig variabel,stokastisk variabel<br>tilfeldig variabel,random variable<br>stochastic variable,
+tilfeldig variabel,tilfeldig variabel,random variable,"Synonym: stokastisk variabel"
 reduktiv liegruppe,reduktiv liegruppe,reductive Lie group,
 derivert kategori,derivert kategori,derived category,
 tak,tak,roof,
@@ -864,7 +864,7 @@ binæroperasjon,binæroperasjon,binary operation,
 integraltransformasjon,integraltransformasjon,integral transform,
 prinsipalverdi,prinsipalverdi,principal value,
 lengde,lengd,length,
-normalfordeling,normalfordeling,normal distribution,
+normalfordeling,normalfordeling,normal distribution,"Synonym: gaussfordeling"
 diagonalisere,diagonalisere,diagonalize,
 wronskideterminant,wronskideterminant,Wronski determinant,"Wronskideterminant kalles ofte bare <i>Wronskian</i> på engelsk."
 fullstendig regulært rom,fullstendig regulært rom,completely regular space,
@@ -908,7 +908,7 @@ p-adisk heltall,p-adisk heiltal,p-adic integer,
 kryssprodukt,kryssprodukt,cross product<br>vector product,
 beregnbarhet,bereknbarheit,computability,
 delhypotese,delhypotese,subhypothesis,
-stokastisk variabel,stokastisk variabel,stochastic variable,
+stokastisk variabel,stokastisk variabel,stochastic variable,"Synonym: tilfeldig variabel"
 transendent funksjon,transendent funksjon,transcendental function,
 invers,invers,inverse,
 glidespeiling,glidespegling,glide reflection,
@@ -929,7 +929,7 @@ ikosaeder,ikosaeder,icosahedron,
 derivasjon,derivasjon,derivation,"De engelske termene <i>derivation</i> og <i>differentiation</i> er ikke synonymer, selv om begge oversettes til det samme på norsk. En derivasjon er en en lineæravbildning som tilfredsstiller Leibniz' regel."
 analytisk funksjon,analytisk funksjon,analytic function,
 fourierkoeffisient,fourierkoeffisient,Fourier coefficient,
-gaussfordeling<br>normalfordeling,gaussfordeling<br>normalfordeling,Gaussian distribution<br>normal distribution,
+gaussfordeling,gaussfordeling,Gaussian distribution,"Synonym: normalfordeling"
 gradert,gradert,graded,
 algebraisk gruppe,algebraisk gruppe,algebraic group,
 homotopigruppe,homotopigruppe,homotopy group,
@@ -1469,7 +1469,7 @@ kvadratur,kvadratur,quadrature,
 gaussisk kvadraturmetode,gaussisk kvadraturmetode,Gaussian quadrature method,
 konvergensorden,konvergensorden,order of convergence,
 skrittlengde<br>steglengde,skrittlengd<br>steglengd,stepsize,
-ettskrittsmetode<br>ettstegsmetode,eittskrittsmetode<br>eittstegsmetode,single step method,
+ettskrittsmetode<br>ettstegsmetode,eittskrittsmetode<br>eittstegsmetode,one step method<br>single step method,
 flerskrittsmetode<br>flerstegsmetode,fleirskrittsmetode<br>fleirstegsmetode,multistep method,
 diagonaldominant matrise,diagonaldominant matrise,diagonally dominant matrix,
 strengt diagonaldominant matrise,strengt diagonaldominant matrise,strictly diagonally dominant matrix,
@@ -1804,7 +1804,7 @@ differensialgradert kategori,differensialgradert kategori,differential graded ca
 dg-algebra,dg-algebra,dg algebra,"Dg-algebra er en forkortelse for differensialgradert algebra."
 dg-modul,dg-modul,dg module,"Dg-modul er en forkortelse for differensialgradert modul."
 dg-kategori,dg-kategori,dg category,"Dg-kategori er en forkortelse for differensialgradert kategori."
-restklasse,restklasse,coset<br>residue class,
+restklasse<br>sideklasse,restklasse<br>sideklasse,coset<br>residue class,"Både restklasse og sideklasse kan brukes på norsk, men restklasse er vesentlig mer utbredt."
 restklassekropp,restklassekropp,residue class field,
 ikke-voksende,ikkje-veksande,non-increasing,
 glissen matrise,glisen matrise,sparse matrix,
@@ -2306,7 +2306,6 @@ ganging<br>multiplikasjon,ganging<br>multiplikasjon,multiplication,
 multiplikativ gruppe,multiplikativ gruppe,multiplicative group,
 divisor,divisor,divisor,"I mange tilfeller kan termene divisor og faktor brukes synonymt."
 faktor,faktor,factor,"I mange tilfeller kan termene faktor og divisor brukes synonymt."
-restklasse<br>sideklasse,restklasse<br>sideklasse,coset<br>residue class,"Både restklasse og sideklasse kan brukes på norsk, men restklasse er vesentlig mer utbredt."
 legendresymbol,legendresymbol,Legendre symbol,
 dg-funktor,dg-funktor,dg functor,"Dg-funktor er en forkortelse for differensialgradert funktor."
 pivot,pivot,pivot,"Ordklasse: substantiv<br>Uttale: [pivå:´]<br>Genus: hankjønn"
@@ -2525,7 +2524,8 @@ lognormalfordeling,lognormalfordeling,lognormal distribution,
 cauchyfordeling,cauchyfordeling,Cauchy distribution,
 dobbel-eksponentialfordeling<br>laplacefordeling,dobbel-eksponentialfordeling<br>laplacefordeling,double exponential distribution<br>Laplace distribution,
 logistisk fordeling,logistisk fordeling,logistical distribution,
-invers gaussfordeling<br>invers normalfordeling,invers gaussfordeling<br>invers normalfordeling,inverse Gaussian distribution<br>inverse normal distribution,
+invers gaussfordeling,invers gaussfordeling,inverse Gaussian distribution,"Synonym: invers normalfordeling"
+invers normalfordeling,invers normalfordeling,inverse normal distribution,"Synonym: invers gaussfordeling"
 invers gammafordeling,invers gammafordeling,inverse gammadistribution,
 Jensens ulikhet,Jensens ulikskap,Jensen's inequality,
 skarp ulikhet,skarp ulikskap,tight inequality,
@@ -2811,7 +2811,7 @@ venstrederivert,venstrederivert,left derivative,"Oversettelsen gjelder bruk i nu
 nedrederivert,nedrederivert,lower derivative,
 øvre semikontinuitet,øvre semikontinuitet,upper semicontinuity,
 nedre semikontinuitet,nedre semikontinuitet,lower semicontinuity,
-linjeintegral,linjeintegral,curve integral<br>line integral<br>path integral,
+linjeintegral,linjeintegral,curve integral<br>line integral,"Synonym: veiintegral"
 endelig variasjon,endeleg variasjon,bounded variation,
 perturbasjon,perturbasjon,perturbation,
 neglisjerbar,neglisjerbar,negligible,
@@ -2864,8 +2864,6 @@ nivåkurve,nivåkurve,level curve,
 fargeplott,fargeplott,heat map<br>heatmap,
 fasediagram,fasediagram,phase diagram,
 bodeplott,bodeplott,Bode plot,
-spredningsplott,spreiingsplott,scatter diagram<br>scatter plot,
-ettskrittsmetode<br>ettstegsmetode,eittskrittsmetode<br>eittstegsmetode,one step method<br>single step method,
 mellomverdisetningen,mellomverdisetninga,intermediate value theorem,"Enkelte skiller mellom skjæringssetningen og mellomverdisetningen, der førstnevnte anses som et spesialtilfelle av sistnevnte. Mellomverdisetningen sier at en kontinuerlig reell funksjon på et lukket og begrenset intervall antar alle verdier mellom funksjonsverdiene i endepunktene, mens skjæringssetningen kan formuleres som at dersom funksjonsverdiene til en slik funksjon har motsatte fortegn i endepunktene, så har funksjonen et nullpunkt i intervallet. Skjæringssetningen benyttes ofte om begge disse teoremene."
 skrå asymptote,skrå asymptote,oblique asymptote<br>slant asymptote,
 lukket under utvidelser,lukka under utvidingar,closed under extensions,"Synonym: utvidelseslukket"
@@ -2929,7 +2927,6 @@ uendelig løkkerom,uendeleg lykkjerom,infinite loop space,
 spiss-,spiss-,cuspidal,"Denne termen brukes som et adjektiv på engelsk, men som forstavelse på norsk."
 skjelett-<br>skjelettal-,skjelett-<br>skjelettal-,skeletal,"Denne termen brukes som et adjektiv på engelsk, men som forstavelse på norsk."
 veiintegral,vegintegral,path integral,"Synonym: linjeintegral"
-linjeintegral,linjeintegral,line integral,"Synonym: veiintegral"
 konturintegral<br>kurveintegral<br>omrissintegral,konturintegral<br>kurveintegral<br>omrissintegral,contour integral,
 kovariantderivert,kovariantderivert,covariant derivative,
 kartesisk kvadrat,kartesisk kvadrat,Cartesian square,"Synonym: pullbackkvadrat"
@@ -3021,7 +3018,6 @@ tredjegradsligning,tredjegradslikning,cubic equation,
 fjerdegradspolynom,fjerdegradspolynom,quartic polynomial,
 fjerdegradsligning,fjerdegradslikning,quartic equation,
 femtegradspolynom,femtegradspolynom,quintic polynomial,
-femtegradsligning,femtegradslikning,quintic equation,
 klassifikasjonsrom,klassifikasjonsrom,classification space,
 klassifiseringsrom,klassifiseringsrom,classifying space,
 vinkelhastighet,vinkelhastigheit,angular velocity,

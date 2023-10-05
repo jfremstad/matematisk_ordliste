@@ -22,4 +22,4 @@ jobs:
           python-version: '3.x'
 
       - name: Termtabell kvalitetskontroll
-        run: bash ./skript/tester.sh
+        run: bash ./skript/kjor_sjekker.sh
