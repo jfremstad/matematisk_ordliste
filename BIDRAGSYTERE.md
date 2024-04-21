@@ -33,6 +33,7 @@ bidratt til ordlista, men ikke står oppført som bidragsyter.
 - [Ann-Helen Langaker (Språkrådet)](https://github.com/Langaker)
 - [Karl Kristian Ladegård Lockert (NTNU)](https://github.com/kklocker)
 - [Håkon Marthinsen (SINTEF)](https://github.com/hmarthinsen)
+- [Rasmus Anker Fossen Nordal (NTNU)](https://github.com/AFNordal)
 - Mona-Lena Norheim (NTNU)
 - [Brynjulf Owren (NTNU)](https://github.com/bowre)
 - Cecilie Bjørnsdotter Raustein (NTNU)
