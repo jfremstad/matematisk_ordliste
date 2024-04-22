@@ -23,6 +23,7 @@ bidratt til ordlista, men ikke står oppført som bidragsyter.
 - [Joakim Fremstad (NTNU)](https://github.com/jfremstad)
 - [Søren Gammelgaard (Oxford/UiO)](https://github.com/sorengam)
 - Sigrid Grepstad (NTNU)
+- [Jacob Fjeld Grevstad (NTNU)](https://github.com/jagr2808)
 - [Morten Grønbech (NTNU)](https://github.com/MortGron)
 - [Harald Hanche-Olsen (NTNU)](https://github.com/hanche)
 - [Johanne Haugland (NTNU)](https://github.com/johahaug)
