@@ -2069,7 +2069,7 @@ galoisutvidelse,galoisutviding,Galois extension,
 hassediagram,hassediagram,Hasse diagram,
 deduksjon,deduksjon,deduction,
 krumningsradius,krummingsradius,radius of curvature,
-dele<br>gå opp i,dele<br>gå opp i,divide,"Et heltall <i>n</i> deler eller går opp i et heltall <i>m</i> dersom <i>n</i> er en faktor i <i>m</i>."
+dele<br>gå opp i,dele<br>gå opp i,divide,"Et heltall 𝓃 deler eller går opp i et heltall 𝓂 dersom 𝓃 er en faktor i 𝓂."
 endelig tilstandsmaskin,endeleg tilstandsmaskin,finite-state machine,"Synonym: endelig tilstandsautomat<br><br>Endelig tilstandsmaskin forkortes ofte til FSM."
 endelig tilstandsautomat,endeleg tilstandsautomat,finite-state automaton,"Synonym: endelig tilstandsmaskin<br><br>Endelig tilstandsautomat forkortes ofte til FSA."
 FSM,FSM,FSM,"Genus bokmål: hankjønn<br>Genus nynorsk: hankjønn/hunkjønn<br><br>FSM er en forkortelse for endelig tilstandsmaskin (bokmål) og endeleg tilstandsmaskin (nynorsk) og stammer fra <i>finite-state machine</i>."
@@ -2127,7 +2127,7 @@ segreklasse,segreklasse,Segre class,
 chowring,chowring,Chow ring,
 kohomologiring,kohomologiring,cohomology ring,
 coxring,coxring,Cox ring,"Synonym: total koordinatring"
-total koordinatring,total koordinatring,total coordinate ring,"Synonym: Cox ring"
+total koordinatring,total koordinatring,total coordinate ring,"Synonym: coxring"
 weildivisor,weildivisor,Weil divisor,
 cartierdivisor,cartierdivisor,Cartier divisor,
 klassegruppe,klassegruppe,class group,
@@ -2233,7 +2233,7 @@ underknippe,underknippe,subsheaf,
 veroneseflate,veroneseflate,Veronese surface,
 hodgeformodningen,hodgeførehandstrua,Hodge conjecture,
 hodgedekomposisjon,hodgedekomposisjon,Hodge decomposition,
-hodgelokus,hodgelokus,Hodge locus,"Engelsk flertallsform: Hodge loci."
+hodgelokus,hodgelokus,Hodge locus,"Engelsk flertallsform: Hodge loci"
 hodgestruktur,hodgestruktur,Hodge structure,
 blandet hodgestruktur,blanda hodgestruktur,mixed Hodge structure,
 tam,tam,tame,
@@ -2686,7 +2686,7 @@ overgangsfunksjon,overgangsfunksjon,transition function,
 plan graf,plan graf,plane graph,
 løft,lyft,lift,
 løfting,lyfting,lifting,
-pukkelfunksjon,pukkelfunksjon,bump function,"Pukkelfunksjoner kan også omtales som testfunksjoner, men termene <i>pukkelfunksjon</i> og <i>testfunksjon</i> er ikke synonymer."
+pukkelfunksjon,pukkelfunksjon,bump function,"Pukkelfunksjoner kan også omtales som testfunksjoner, men termene pukkelfunksjon og testfunksjon er ikke synonymer."
 testfunksjon,testfunksjon,test function,
 geodetisk kurve,geodetisk kurve,geodesic,"Synonym: geoded/geodete"
 fullstendig geodetisk,fullstendig geodetisk,totally geodesic,
@@ -2874,7 +2874,7 @@ undermatrise,undermatrise,submatrix,
 trippelprodukt,trippelprodukt,triple product,
 totalt usammenhengende,totalt usamanhengande,totally disconnected,
 ingensteds tett,ingenstad tett,nowhere dense,
-antesedent,antesedent,antecedent,"Både <i>antecedent</i> og <i>antesedent</i> forekommer også i bruk på norsk, men <i>antesedent</i> anbefales."
+antesedent,antesedent,antecedent,"Både antecedent og antesedent forekommer også i bruk på norsk, men antesedent anbefales."
 konsekvens,konsekvens,consequent,"Oversettelsen gjelder bruk i logikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 teststyrke,teststyrke,power,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 styrkefunksjon,styrkefunksjon,power curve<br>power function,"Oversettelsen <i>power curve</i> brukes når det er snakk om grafen til styrkefunksjonen."
@@ -2908,7 +2908,7 @@ nek,nek,gerbe,
 geoded<br>geodete,geoded<br>geodete,geodesic,"Synonym: geodetisk kurve"
 perspektivitet,perspektivitet,perspectivity,
 kollineasjon,kollineasjon,collineation,
-lag,lag,stratum,"Engelsk flertall: strata"
+lag,lag,stratum,"Engelsk flertallsform: strata"
 lagdelt,lagdelt,stratified,
 lagfoldighet,lagfald,stratifold,
 banefoldighet,banefald,orbifold,
@@ -2923,8 +2923,8 @@ radikalisering,radikalisering,radicalization,
 abelisering,abelisering,abelianization,
 løkkerom,lykkjerom,loop space,
 uendelig løkkerom,uendeleg lykkjerom,infinite loop space,
-spiss-,spiss-,cuspidal,"Denne termen brukes som et adjektiv på engelsk, men som forstavelse på norsk."
-skjelett-<br>skjelettal-,skjelett-<br>skjelettal-,skeletal,"Denne termen brukes som et adjektiv på engelsk, men som forstavelse på norsk."
+spiss-,spiss-,cuspidal,"Denne termen brukes som et adjektiv på engelsk, men som forstavelse på norsk."
+skjelett-<br>skjelettal-,skjelett-<br>skjelettal-,skeletal,"Denne termen brukes som et adjektiv på engelsk, men som forstavelse på norsk."
 veiintegral,vegintegral,path integral,"Synonym: linjeintegral"
 konturintegral<br>kurveintegral<br>omrissintegral,konturintegral<br>kurveintegral<br>omrissintegral,contour integral,
 kovariantderivert,kovariantderivert,covariant derivative,
@@ -2947,7 +2947,7 @@ skolemisering,skolemisering,skolemization,
 skolemfunksjon,skolemfunksjon,Skolem function,
 skolemkonstant,skolemkonstant,Skolem constant,
 tingliggjøring,tingleggjering,reification,"Tingliggjøring kan også omtales som reifisering på norsk."
-tingliggjøre,tingleggjere,reify,"Tingliggjøre også omtales som reifisere på norsk."
+tingliggjøre,tingleggjere,reify,"Tingliggjøre kan også omtales som reifisere på norsk."
 klausul,klausul,clause,
 hornklausul,hornklausul,Horn clause,
 konjunktiv normalform,konjunktiv normalform,conjunctive normal form,
@@ -3072,8 +3072,8 @@ logiker,logikar,logician,
 teoretiker,teoretikar,theorist,
 professor,professor,professor,
 førsteamanuensis,førsteamanuensis,associate professor,
-postdok,postdok,postdoc,"<i>Postdok<i/> brukes som en forkortelse for <i>postdoktor</i>."
-postdoktor,postdoktor,postdoctor,"<i>Postdoktor</i> forkortes ofte til <i>postdok</i>."
+postdok,postdok,postdoc,"Postdok brukes som en forkortelse for postdoktor."
+postdoktor,postdoktor,postdoctor,"Postdoktor forkortes ofte til postdok<."
 PhD-kandidat<br>PhD-stipendiat<br>stipendiat,PhD-kandidat<br>PhD-stipendiat<br>stipendiat,PhD-candidate<br>research candidate,
 student,student,student,
 elev,elev,pupil,
@@ -3213,8 +3213,8 @@ annullere,annullere,nullify,
 annullering,annullering,nullification,
 whitneyimbeddingteorem,whitneyimbeddingteorem,Whitney embedding theorem,
 kolokalisering,kolokalisering,colocalization,
-bousfieldlokalisering,bousfieldlokalisering,Bousfield localization,"<i>Bousfieldlokalisering</i> refererer oftest til <i>venstre bousfieldlokalisering</i>."
-venstre bousfieldlokalisering,venstre bousfieldlokalisering,left Bousfield localization,"<i>Venstre bousfieldlokalisering</i> refereres ofte til som kun <i>bousfieldlokalisering</i>."
+bousfieldlokalisering,bousfieldlokalisering,Bousfield localization,"Bousfieldlokalisering refererer oftest til venstre bousfieldlokalisering."
+venstre bousfieldlokalisering,venstre bousfieldlokalisering,left Bousfield localization,"Venstre bousfieldlokalisering refereres ofte til som kun bousfieldlokalisering<."
 høyre bousfieldlokalisering,høyre bousfieldlokalisering,right Bousfield localization,
 vandring,vandring,walk,
 naboforhold<br>naboskap,naboforhold<br>naboskap,adjacency,"Oversettelsen gjelder bruk i grafteori og utelukker ikke at termen kan brukes ulikt i andre sammenhenger."
@@ -3380,8 +3380,8 @@ Diaconescus ekvivalens,Diaconescus ekvivalens,Diaconescu's equivalence,
 syntaks,syntaks,syntax,
 syntaktisk,syntaktisk,syntactic,
 syntaktisk kategori,syntaktisk kategori,syntactic category,
-Mitchells imbeddingteorem,Mitchells imbeddingteorem,Mitchell's embedding theorem,"Dette teoremet kalles i noen kontekster også for <i>Freyd-Mitchell-teoremet</i>."
-Freyd-Mitchell-teoremet,Freyd-Mitchell-teoremet,Freyd–Mitchell theorem,"Dette teoremet kalles i noen kontekster også for <i>Mitchells imbeddingteorem</i>."
+Mitchells imbeddingteorem,Mitchells imbeddingteorem,Mitchell's embedding theorem,"Dette teoremet kalles i noen kontekster også for Freyd-Mitchell-teoremet."
+Freyd-Mitchell-teoremet,Freyd-Mitchell-teoremet,Freyd–Mitchell theorem,"Dette teoremet kalles i noen kontekster også for Mitchells imbeddingteorem."
 rotasjonsgrind,rotasjonsgrind,turnstile,
 fragment,fragment,fragment,"Ordklasse: substantiv"
 fragmentere,fragmentere,fragment,"Ordklasse: verb"
