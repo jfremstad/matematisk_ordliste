@@ -13,7 +13,6 @@ patterns_remove = {
     "genus": r"[Gg]enus:\s*(.*?)\s*($|,|;|\.|<br>)",
     "genus bokmål": r"[Gg]enus [Bb]okmål:\s*(.*?)\s*($|,|;|\.|<br>)",
     "genus nynorsk": r"[Gg]enus [Nn]ynorsk:\s*(.*?)\s*($|,|;|\.|<br>)",
-    "genus engelsk": r"[Gg]enus [Ee]ngelsk:\s*(.*?)\s*($|,|;|\.|<br>)",
     "uttale": r"[Uu]ttale:\s*\[(.*?)\]\s*($|,|;|\.|<br>)",
     "uttale bokmål": r"[Uu]ttale [Bb]okmål:\s*\[(.*?)\]\s*($|,|;|\.|<br>)",
     "uttale nynorsk": r"[Uu]ttale [Nn]ynorsk:\s*\[(.*?)\]\s*($|,|;|\.|<br>)",
@@ -55,7 +54,6 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
         "flertallsform engelsk",
         "genus bokmål",
         "genus nynorsk",
-        "genus engelsk",
         "uttale bokmål",
         "uttale nynorsk",
         "uttale engelsk",
@@ -172,7 +170,6 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
                 + extracted_data["genus"],
                 "genus nynorsk": extracted_data["genus nynorsk"]
                 + extracted_data["genus"],
-                "genus engelsk": extracted_data["genus engelsk"],
                 "uttale bokmål": extracted_data["uttale bokmål"]
                 + extracted_data["uttale"],
                 "uttale nynorsk": extracted_data["uttale nynorsk"],
