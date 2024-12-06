@@ -148,7 +148,7 @@ radikand,radikand,radicand,,,,,,,,,,,,,,,
 determinant,determinant,determinant,,,,,,,,,,,,,,,
 nullvektor,nullvektor,zero vector,,,,,,,,,,,,,,,
 kumulativ frekvens,kumulativ frekvens,cumulative frequency,,,,,,,,,,,,,,,
-godtakingsfeil<br>type II-feil,godtakingsfeil<br>type II-feil,error of second kind<br>false negative,godtakingsfeil,godtakingsfeil,,,,,,,,,,,,,"Begge oversettelsene brukes på norsk, men godtakingsfeil anbefales."
+type II-feil,type II-feil,error of second kind<br>false negative,godtakingsfeil,godtakingsfeil,,,,,,,,,,,,,"Begge oversettelsene brukes på norsk, men godtakingsfeil anbefales."
 kategori,kategori,category,,,,,,,,,,,,,,,
 randhomomorfi,randhomomorfi,boundary homomorphism,,,,,,,,,,,,,,,
 likhetstegn,likskapsteikn,equality sign,,,,,,,,,,,,,,,
@@ -233,7 +233,7 @@ gruppestruktur,gruppestruktur,group structure,,,,,,,,,,,,,,,
 kvasiregulær,kvasiregulær,quasiregular,,,,,,,,,,,,,,,
 abscisse,abscisse,abscissa,,,,,,,,,,,,,,,
 kjedebrøk,kjedebrøk,continued fraction,,,,,,,,,,,,,,,
-sadelpunkt<br>salpunkt,salpunkt,saddle point,salpunkt,,,,,,,,,,,,,,"Begge skrivemåtene brukes på bokmål, men salpunkt anbefales."
+sadelpunkt,salpunkt,saddle point,salpunkt,,,,,,,,,,,,,,"Begge skrivemåtene brukes på bokmål, men salpunkt anbefales."
 varmeligning<br>varmelikning,varmelikning,heat equation,,,,,,,,,,,,,,,
 essensielt surjektiv,essensielt surjektiv,essentially surjective,,,,,,,,,,,,,,,
 tillatelig ideal,tillateleg ideal,admissible ideal,,,,,,,,,,,,,,,
@@ -269,7 +269,7 @@ basiselement,basiselement,basis element,,,,,,,,,,,,,,,"De engelske termene <i>ba
 Diracs deltafunksjon,Diracs deltafunksjon,Dirac's delta function,,,,,,,,,,,,,,,
 standardavvik,standardavvik,standard deviation,,,,,,,,,,,,,,,
 korrelasjonskoeffisient,korrelasjonskoeffisient,correlation coefficient,,,,,,,,,,,,,,,
-prosentilskjema,prosentilskjema,percentile graph,prosentilskjema,prosentilskjema,,,,,,,,,,,,,"Både persentilskjema og percentilskjema forekommer også i bruk på norsk, men prosentilskjema anbefales."
+,,percentile graph,prosentilskjema,prosentilskjema,,,,,,,,,,,,,"Både persentilskjema og percentilskjema forekommer også i bruk på norsk, men prosentilskjema anbefales."
 reduktiv liealgebra,reduktiv liealgebra,reductive Lie algebra,,,,,,,,,,,,,,,
 reell,reell,real,,,,,,,,,,,,,,,
 fordeling,fordeling,distribution,,,,,,,,,,,,,,,
@@ -401,7 +401,7 @@ enhetspartisjon,einingspartisjon,partition of unity,,,,,,,,,,,,,,,
 sfære,sfære,sphere,,,,,,,,,,,,,,,
 kokjerne,kokjerne,cokernel,,,,,,,,,,,,,,,
 koordinatfunksjon,koordinatfunksjon,coordinate function,,,,,,,,,,,,,,,
-rotasjon,rotasjon,curl,rotasjon,rotasjon,,,,,,,,,,,,,"Curl brukes også på norsk, men rotasjon anbefales."
+,,curl,rotasjon,rotasjon,,,,,,,,,,,,,"Curl brukes også på norsk, men rotasjon anbefales."
 kofaktormatrise,kofaktormatrise,cofactor matrix<br>matrix of cofactors,,,,,,,,,,,,,,,
 potenskurve,potenskurve,power curve,,,,,,,,,,,,,,,
 matriseligning<br>matriselikning,matriselikning,matrix equation,,,,,,,,,,,,,,,
@@ -838,7 +838,7 @@ nabovinkler,nabovinklar,linear pair,,,,,,,,,,,,,,,
 fritt produkt,fritt produkt,free product,,,,,,,,,,,,,,,
 periodisk funksjon,periodisk funksjon,periodic function,,,,,,,,,,,,,,,
 delvis ordnet mengde,delvis ordna mengd,partially ordered set,,,,,,,,,,,,,,,Delvis ordnet mengde forkortes ofte til pomengde (bokmål) og pomengd (nynorsk).
-prosentil,prosentil,percentile,prosentil,prosentil,,,,,,,,,,,,,"Både persentil og percentil forekommer også i bruk på norsk, men prosentil anbefales."
+,,percentile,prosentil,prosentil,,,,,,,,,,,,,"Både persentil og percentil forekommer også i bruk på norsk, men prosentil anbefales."
 delvis integrasjon,delvis integrasjon,integration by parts,,,,,,,,,,,,,,,
 univariat fordeling,univariat fordeling,univariate distribution,,,,,,,,,,,,,,,
 underkompleks,underkompleks,subcomplex,,,,,,,,,,,,,,,
@@ -1320,7 +1320,7 @@ komponent,komponent,component,,,,,,,,,,,,,,,
 monisk,monisk,monic,,,,,,,,,,,,,,,
 veldefinert,veldefinert,well-defined,,,,,,,,,,,,,,,
 differensialligning<br>differensiallikning,differensiallikning,differential equation,,,,,,,,,,,,,,,
-kolineær<br>kollineær,kolineær<br>kollineær,colinear<br>collinear,kolineær,kolineær,,,,,,,,,,,,,"Begge skrivemåtene brukes på norsk, men kolineær anbefales."
+kollineær,kollineær,colinear<br>collinear,kolineær,kolineær,,,,,,,,,,,,,"Begge skrivemåtene brukes på norsk, men kolineær anbefales."
 rekurrensrelasjon,rekurrensrelasjon,recurrence relation,,,,,,,,,,,,,,,
 representasjonstype,representasjonstype,representation type,,,,,,,,,,,,,,,
 innsirkel,innsirkel,incircle,,,,,,,,,,,,,,,
@@ -2325,7 +2325,7 @@ homoteti,homoteti,homothety,,,,,,,,,,,,,,,
 homotetisk vektorfelt,homotetisk vektorfelt,homothetic vector field,,,,,,,,,,,,,,,
 homotetisk,homotetisk,homothetic,,,,,,,,,,,,,,,
 hevbar singularitet,hevbar singularitet,removable singularity,,,,,,,,,,,,,,,
-spiss,spiss,cusp,spiss,spiss,,,,,,,,,,substantiv,,,"Cusp brukes også på norsk, men spiss anbefales."
+,,cusp,spiss,spiss,,,,,,,,,,substantiv,,,"Cusp brukes også på norsk, men spiss anbefales."
 antipodalt punkt<br>diametralt motsatt punkt,antipodalt punkt<br>diametralt motsett punkt,antipodal point,,,,,,,,,,,,,,antipode,
 antipode,antipode,antipode,,,,,,,,,,,,,,antipodalt punkt<br>diametralt motsatt punkt,
 de Rham-kompleks,de Rham-kompleks,de Rham complex,,,,,,,,,,,,,,,
@@ -2825,7 +2825,7 @@ additivt separabel funksjon,additivt separabel funksjon,additively separable fun
 multiplikativt separabel funksjon,multiplikativt separabel funksjon,multiplicatively separable function,,,,,,,,,,,,,,,
 dynamisk system,dynamisk system,dynamical system,,,,,,,,,,,,,,,
 stabilitet,stabilitet,stability,,,,,,,,,,,,,,,
-overføringsfunksjon<br>transferfunksjon,overføringsfunksjon<br>transferfunksjon,transfer function,overføringsfunksjon,overføringsfunksjon,,,,,,,,,,,,,"Begge oversettelsene brukes på norsk, men overføringsfunksjon anbefales."
+transferfunksjon,transferfunksjon,transfer function,overføringsfunksjon,overføringsfunksjon,,,,,,,,,,,,,"Begge oversettelsene brukes på norsk, men overføringsfunksjon anbefales."
 impulsrespons,impulsrespons,impulse response,,,,,,,,,,,,,,,
 oppdeling,oppdeling,grid,,,,,,,,,,,,,numerikk,,Oversettelsen gjelder bruk i numerikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 regulær oppdeling,regulær oppdeling,regular grid,,,,,,,,,,,,,,,
@@ -2874,7 +2874,7 @@ undermatrise,undermatrise,submatrix,,,,,,,,,,,,,,,
 trippelprodukt,trippelprodukt,triple product,,,,,,,,,,,,,,,
 totalt usammenhengende,totalt usamanhengande,totally disconnected,,,,,,,,,,,,,,,
 ingensteds tett,ingenstad tett,nowhere dense,,,,,,,,,,,,,,,
-antesedent,antesedent,antecedent,antesedent,antesedent,,,,,,,,,,,,,"Både antecedent og antesedent forekommer også i bruk på norsk, men antesedent anbefales."
+,,antecedent,antesedent,antesedent,,,,,,,,,,,,,"Både antecedent og antesedent forekommer også i bruk på norsk, men antesedent anbefales."
 konsekvens,konsekvens,consequent,,,,,,,,,,,,,logikk,,Oversettelsen gjelder bruk i logikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 teststyrke,teststyrke,power,,,,,,,,,,,,,statistikk,,Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 styrkefunksjon,styrkefunksjon,power curve<br>power function,,,,,,,,,,,,,,,Oversettelsen <i>power curve</i> brukes når det er snakk om grafen til styrkefunksjonen.

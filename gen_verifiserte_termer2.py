@@ -98,12 +98,12 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
         )
         if anbefalt_norsk_match:
             anbefalt_norsk = anbefalt_norsk_match.group(1).strip()
-            # tillatt_bokmaal = re.sub(
-            #     anbefalt_norsk, "", tillatt_bokmaal, flags=re.IGNORECASE
-            # )
-            # tillatt_nynorsk = re.sub(
-            #     anbefalt_norsk, "", tillatt_nynorsk, flags=re.IGNORECASE
-            # )
+            tillatt_bokmaal = re.sub(
+                anbefalt_norsk, "", tillatt_bokmaal, flags=re.IGNORECASE
+            )
+            tillatt_nynorsk = re.sub(
+                anbefalt_norsk, "", tillatt_nynorsk, flags=re.IGNORECASE
+            )
         else:
             anbefalt_norsk = ""
 
@@ -116,7 +116,7 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
         )
         if anbefalt_bokmaal_match:
             anbefalt_bokmaal = anbefalt_bokmaal_match.group(1).strip()
-            # tillatt_bokmaal = re.sub(anbefalt_bokmaal, "", tillatt_bokmaal, flags=re.IGNORECASE)
+            tillatt_bokmaal = re.sub(anbefalt_bokmaal, "", tillatt_bokmaal, flags=re.IGNORECASE)
         else:
             anbefalt_bokmaal = ""
 
@@ -129,9 +129,9 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
         )
         if anbefalt_nynorsk_match:
             anbefalt_nynorsk = anbefalt_nynorsk_match.group(1).strip()
-            # tillatt_nynorsk = re.sub(
-            #     anbefalt_nynorsk, "", tillatt_nynorsk, flags=re.IGNORECASE
-            # )
+            tillatt_nynorsk = re.sub(
+                anbefalt_nynorsk, "", tillatt_nynorsk, flags=re.IGNORECASE
+            )
         else:
             anbefalt_nynorsk = ""
 
@@ -144,9 +144,9 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
         )
         if anbefalt_engelsk_match:
             anbefalt_engelsk = anbefalt_engelsk_match.group(1).strip()
-            # tillatt_engelsk = re.sub(
-            #     anbefalt_engelsk, "", tillatt_engelsk, flags=re.IGNORECASE
-            # )
+            tillatt_engelsk = re.sub(
+                anbefalt_engelsk, "", tillatt_engelsk, flags=re.IGNORECASE
+            )
         else:
             anbefalt_engelsk = ""
 
