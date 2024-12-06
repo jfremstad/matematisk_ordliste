@@ -148,7 +148,7 @@ radikand,radikand,radicand,,,,,,,,,,,,,,,
 determinant,determinant,determinant,,,,,,,,,,,,,,,
 nullvektor,nullvektor,zero vector,,,,,,,,,,,,,,,
 kumulativ frekvens,kumulativ frekvens,cumulative frequency,,,,,,,,,,,,,,,
-type II-feil,type II-feil,error of second kind<br>false negative,godtakingsfeil,godtakingsfeil,,,,,,,,,,,,,"Begge oversettelsene brukes på norsk, men godtakingsfeil anbefales."
+godtakingsfeil<br>type II-feil,godtakingsfeil<br>type II-feil,error of second kind<br>false negative,godtakingsfeil,godtakingsfeil,,,,,,,,,,,,,"Begge oversettelsene brukes på norsk, men godtakingsfeil anbefales."
 kategori,kategori,category,,,,,,,,,,,,,,,
 randhomomorfi,randhomomorfi,boundary homomorphism,,,,,,,,,,,,,,,
 likhetstegn,likskapsteikn,equality sign,,,,,,,,,,,,,,,
@@ -196,7 +196,7 @@ inverterbart ideal,inverterbart ideal,invertible ideal,,,,,,,,,,,,,,,
 kvotientavbildning,kvotientavbilding,quotient map,,,,,,,,,,,,,,,
 ideal,ideal,ideal,,,,,,,,,,,,,,,
 poissonfordeling,poissonfordeling,Poisson distribution,,,,,,,,,,,,,,,
-PDE,PDE,PDE,,,,,,,hankjønn/hunkjønn,hunkjønn,,,,,,,PDE er en forkortelse for partiell differensiallikning og stammer fra <i>partial differential equation</i>.
+PDE,PDE,PDE,,,,,,,hankjønn<br>hunkjønn,hunkjønn,,,,,,,PDE er en forkortelse for partiell differensiallikning og stammer fra <i>partial differential equation</i>.
 rekursjonsteori,rekursjonsteori,recursion theory,,,,,,,,,,,,,,,
 deriverbar,deriverbar,differentiable,,,,,,,,,,,,,,,
 overdiagonal,overdiagonal,superdiagonal,,,,,,,,,,,,,,,
@@ -233,7 +233,7 @@ gruppestruktur,gruppestruktur,group structure,,,,,,,,,,,,,,,
 kvasiregulær,kvasiregulær,quasiregular,,,,,,,,,,,,,,,
 abscisse,abscisse,abscissa,,,,,,,,,,,,,,,
 kjedebrøk,kjedebrøk,continued fraction,,,,,,,,,,,,,,,
-sadelpunkt,salpunkt,saddle point,salpunkt,,,,,,,,,,,,,,"Begge skrivemåtene brukes på bokmål, men salpunkt anbefales."
+sadelpunkt<br>salpunkt,salpunkt,saddle point,salpunkt,,,,,,,,,,,,,,"Begge skrivemåtene brukes på bokmål, men salpunkt anbefales."
 varmeligning<br>varmelikning,varmelikning,heat equation,,,,,,,,,,,,,,,
 essensielt surjektiv,essensielt surjektiv,essentially surjective,,,,,,,,,,,,,,,
 tillatelig ideal,tillateleg ideal,admissible ideal,,,,,,,,,,,,,,,
@@ -269,7 +269,7 @@ basiselement,basiselement,basis element,,,,,,,,,,,,,,,"De engelske termene <i>ba
 Diracs deltafunksjon,Diracs deltafunksjon,Dirac's delta function,,,,,,,,,,,,,,,
 standardavvik,standardavvik,standard deviation,,,,,,,,,,,,,,,
 korrelasjonskoeffisient,korrelasjonskoeffisient,correlation coefficient,,,,,,,,,,,,,,,
-,,percentile graph,prosentilskjema,prosentilskjema,,,,,,,,,,,,,"Både persentilskjema og percentilskjema forekommer også i bruk på norsk, men prosentilskjema anbefales."
+prosentilskjema,prosentilskjema,percentile graph,prosentilskjema,prosentilskjema,,,,,,,,,,,,,"Både persentilskjema og percentilskjema forekommer også i bruk på norsk, men prosentilskjema anbefales."
 reduktiv liealgebra,reduktiv liealgebra,reductive Lie algebra,,,,,,,,,,,,,,,
 reell,reell,real,,,,,,,,,,,,,,,
 fordeling,fordeling,distribution,,,,,,,,,,,,,,,
@@ -401,7 +401,7 @@ enhetspartisjon,einingspartisjon,partition of unity,,,,,,,,,,,,,,,
 sfære,sfære,sphere,,,,,,,,,,,,,,,
 kokjerne,kokjerne,cokernel,,,,,,,,,,,,,,,
 koordinatfunksjon,koordinatfunksjon,coordinate function,,,,,,,,,,,,,,,
-,,curl,rotasjon,rotasjon,,,,,,,,,,,,,"Curl brukes også på norsk, men rotasjon anbefales."
+rotasjon,rotasjon,curl,rotasjon,rotasjon,,,,,,,,,,,,,"Curl brukes også på norsk, men rotasjon anbefales."
 kofaktormatrise,kofaktormatrise,cofactor matrix<br>matrix of cofactors,,,,,,,,,,,,,,,
 potenskurve,potenskurve,power curve,,,,,,,,,,,,,,,
 matriseligning<br>matriselikning,matriselikning,matrix equation,,,,,,,,,,,,,,,
@@ -838,7 +838,7 @@ nabovinkler,nabovinklar,linear pair,,,,,,,,,,,,,,,
 fritt produkt,fritt produkt,free product,,,,,,,,,,,,,,,
 periodisk funksjon,periodisk funksjon,periodic function,,,,,,,,,,,,,,,
 delvis ordnet mengde,delvis ordna mengd,partially ordered set,,,,,,,,,,,,,,,Delvis ordnet mengde forkortes ofte til pomengde (bokmål) og pomengd (nynorsk).
-,,percentile,prosentil,prosentil,,,,,,,,,,,,,"Både persentil og percentil forekommer også i bruk på norsk, men prosentil anbefales."
+prosentil,prosentil,percentile,prosentil,prosentil,,,,,,,,,,,,,"Både persentil og percentil forekommer også i bruk på norsk, men prosentil anbefales."
 delvis integrasjon,delvis integrasjon,integration by parts,,,,,,,,,,,,,,,
 univariat fordeling,univariat fordeling,univariate distribution,,,,,,,,,,,,,,,
 underkompleks,underkompleks,subcomplex,,,,,,,,,,,,,,,
@@ -1094,7 +1094,7 @@ khikvadratfordeling,khikvadratfordeling,chi-squared distribution,,,,,,,,,,,,,,,
 potensmodell,potensmodell,power model,,,,,,,,,,,,,,,
 buelengde,bogelengd,arclength,,,,,,,,,,,,,,,
 produkt,produkt,product,,,,,,,,,,,,,,,
-ODE,ODE,ODE,,,,,,,hankjønn/hunkjønn,hunkjønn,,,,,,,ODE er en forkortelse for ordinær differensiallikning og stammer fra <i>ordinary differential equation</i>.
+ODE,ODE,ODE,,,,,,,hankjønn<br>hunkjønn,hunkjønn,,,,,,,ODE er en forkortelse for ordinær differensiallikning og stammer fra <i>ordinary differential equation</i>.
 grensepunkt,grensepunkt,limit point,,,,,,,,,,,,,,,"I noen tilfeller kan termene grensepunkt, klyngepunkt og opphopningspunkt brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
 kvadrat,kvadrat,square,,,,,,,,,,,,,,,
 elliptisk,elliptisk,elliptic,,,,,,,,,,,,,,,
@@ -1320,7 +1320,7 @@ komponent,komponent,component,,,,,,,,,,,,,,,
 monisk,monisk,monic,,,,,,,,,,,,,,,
 veldefinert,veldefinert,well-defined,,,,,,,,,,,,,,,
 differensialligning<br>differensiallikning,differensiallikning,differential equation,,,,,,,,,,,,,,,
-kollineær,kollineær,colinear<br>collinear,kolineær,kolineær,,,,,,,,,,,,,"Begge skrivemåtene brukes på norsk, men kolineær anbefales."
+kolineær<br>kollineær,kolineær<br>kollineær,colinear<br>collinear,kolineær,kolineær,,,,,,,,,,,,,"Begge skrivemåtene brukes på norsk, men kolineær anbefales."
 rekurrensrelasjon,rekurrensrelasjon,recurrence relation,,,,,,,,,,,,,,,
 representasjonstype,representasjonstype,representation type,,,,,,,,,,,,,,,
 innsirkel,innsirkel,incircle,,,,,,,,,,,,,,,
@@ -1736,7 +1736,7 @@ tilpasningsgrad,tilpassingsgrad,goodness of fit,,,,,,,,,,,,,,,
 bevis,bevis<br>prov,proof,,,,,,,,,,,,,,,
 motsigelsesbevis,motseiingsbevis<br>motseiingsprov,proof by contradiction,,,,,,,,,,,,,,,<i>Proof by contradiction</i> kan også oversettes til bevis ved motsigelse (bokmål) og bevis ved motseiing<br>prov ved motseiing (nynorsk).
 induksjonsbevis,induksjonsbevis<br>induksjonsprov,proof by induction,,,,,,,,,,,,,,,<i>Proof by induction</i> kan også oversettes til bevis ved induksjon (bokmål) og bevis ved induksjon<br>prov ved induksjon (nynorsk).
-hendelse,hending,event,,,,,,,,,,,,,sannsynlighetsteoriblant annet sannsynlighetsteori,,Oversettelsen gjelder bruk i blant annet sannsynlighetsteori og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
+hendelse,hending,event,,,,,,,,,,,,,sannsynlighetsteori,,Oversettelsen gjelder bruk i blant annet sannsynlighetsteori og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 sjelden hendelse,sjeldan hending,rare event,,,,,,,,,,,,,,,
 tilfeldig hendelse,tilfeldig hending,random event,,,,,,,,,,,,,,,
 parede data,para data,paired data,,,,,,,,,,,,,,,
@@ -1749,7 +1749,7 @@ schwarzulikheten,schwarzulikskapen,Schwarz inequality,,,,,,,,,,,,,,,Schwarzulikh
 Cauchy-Schwarz-ulikheten,Cauchy-Schwarz-ulikskapen,Cauchy–Schwarz inequality,,,,,,,,,,,,,,,
 formlik,formlik,similar,,,,,,,,,,,,,geometri,,Oversettelsen gjelder bruk i geometri og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 nullhomotop,nullhomotop,null-homotopic,,,,,,,,,,,,,,,
-integral,integral,integral,,,,,,,,,,,,,kalkulusblant annet kalkulus,,Oversettelsen gjelder bruk i blant annet kalkulus og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
+integral,integral,integral,,,,,,,,,,,,,kalkulus,,Oversettelsen gjelder bruk i blant annet kalkulus og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 trippelintegral,trippelintegral,triple integral,,,,,,,,,,,,,,,
 omkrets,omkrins,circumference,,,,,,,,,,,,,,,"Legg merke til at <i>circumference</i> typisk viser til omkretsen av en sirkel, mens <i>perimeter</i> kan benyttes om omkretsen av en mer generell figur. Begge termer oversettes til omkrets."
 omkrets,omkrins,perimeter,,,,,,,,,,,,,,,"Legg merke til at <i>circumference</i> typisk viser til omkretsen av en sirkel, mens <i>perimeter</i> kan benyttes om omkretsen av en mer generell figur. Begge termer oversettes til omkrets."
@@ -1770,7 +1770,7 @@ spesialiseringslukket,spesialiseringslukka,specialization closed,,,,,,,,,,,,,,,
 spesialiseringslukket delmengde,spesialiseringslukka delmengd,specialization closed subset,,,,,,,,,,,,,,,
 lagdeling,lagdeling,stratification,,,,,,,,,,,,,,,
 lagdelingsbetingelse,lagdelingsvilkår,stratification condition,,,,,,,,,,,,,,,
-stilk,stilk,stalk,,,,,,,,,,,,,kategoriteori og algebraisk geometriblant annet kategoriteori og algebraisk geometri,,Oversettelsen gjelder bruk i blant annet kategoriteori og algebraisk geometri og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
+stilk,stilk,stalk,,,,,,,,,,,,,kategoriteori og algebraisk geometri,,Oversettelsen gjelder bruk i blant annet kategoriteori og algebraisk geometri og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 stilkkompleks,stilkkompleks,stalk complex,,,,,,,,,,,,,,,
 triangulert underkategori,triangulert underkategori,triangulated subcategory,,,,,,,,,,,,,,,
 tett underkategori,tett underkategori,dense subcategory,,,,,,,,,,,,,,,
@@ -1811,8 +1811,8 @@ glissen matrise,glisen matrise,sparse matrix,,,,,,,,,,,,,,,
 betinget,vilkårsbunden,conditional,,,,,,,,,,,,,,,
 ubetinget,vilkårslaus,unconditional,,,,,,,,,,,,,,,
 én-entydig korrespondanse<br>én-til-én-korrespondanse,éin-eintydig korrespondanse<br>éin-til-éin-korrespondanse,one-to-one correspondence,,,,,,,,,,,,,,bijeksjon,
-bijeksjon,bijeksjon,bijection,,,,,,,,,,,,,,én-entydig korrespondanse/én-til-én-korrespondanse,
-injektiv,injektiv,injective,,,,,,,,,,,,,,én-entydig/én-til-én,
+bijeksjon,bijeksjon,bijection,,,,,,,,,,,,,,én-entydig korrespondanse<br>én-til-én-korrespondanse,
+injektiv,injektiv,injective,,,,,,,,,,,,,,én-entydig<br>én-til-én,
 multippel,multippel,multiple,,,,,,,,,,,,adjektiv,,,
 kvadratisk gjensidighet<br>kvadratisk resiprositet,kvadratisk gjensidigheit<br>kvadratisk resiprositet,quadratic reciprocity,,,,,,,,,,,,,,,
 venstreartinsk,venstreartinsk,left artinian,,,,,,,,,,,,,,,
@@ -1927,7 +1927,7 @@ valgt-klartekst-angrep,valt-klartekst-åtak,chosen-plaintext attack,,,,,,,,,,,,,
 valgt-chiffertekst-angrep,valt-chiffertekst-åtak,chosen-ciphertext attack,,,,,,,,,,,,,,,Chiffer uttales [ʃi´f:ər].Valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak (nynorsk) forkortes ofte til CCA.
 CA,CA,CA,,,,,,,hankjønn,hankjønn,,,,,,,CA er en forkortelse for sertifikatutsteder (bokmål) og sertifikatutferdar (nynorsk) og stammer fra <i>certificate authority</i>.
 OTP,OTP,OTP,,,,,,,hankjønn,hankjønn,,,,,,,OTP er en forkortelse for engangsnøkkel (bokmål) og eingongsnøkkel (nynorsk) og stammer fra <i>one-time pad</i>.
-KE,KE,KE,,,,,,,hankjønn/hunkjønn,hunkjønn,,,,,,,KE er en forkortelse for nøkkelutveksling og stammer fra <i>key exchange</i>.
+KE,KE,KE,,,,,,,hankjønn<br>hunkjønn,hunkjønn,,,,,,,KE er en forkortelse for nøkkelutveksling og stammer fra <i>key exchange</i>.
 MAC,MAC,MAC,,,,,,,hankjønn,hankjønn,,,,,,,MAC er en forkortelse for meldingsautentiseringskode og stammer fra <i>message authentication code</i>.
 DAG,DAG,DAG,,,,,,,hankjønn,hankjønn,,,,,,,DAG er en forkortelse for rettet asyklisk graf (bokmål) og retta asyklisk graf (nynorsk) og stammer fra <i>directed acyclic graph</i>.
 KDF,KDF,KDF,,,,,,,hankjønn,hankjønn,,,,,,,KDF er en forkortelse for nøkkelavledningsfunksjon (bokmål) og nøkkelavleiingsfunksjon (nynorsk) og stammer fra <i>key derivation function</i>.
@@ -2072,7 +2072,7 @@ krumningsradius,krummingsradius,radius of curvature,,,,,,,,,,,,,,,
 dele<br>gå opp i,dele<br>gå opp i,divide,,,,,,,,,,,,,,,Et heltall 𝓃 deler eller går opp i et heltall 𝓂 dersom 𝓃 er en faktor i 𝓂.
 endelig tilstandsmaskin,endeleg tilstandsmaskin,finite-state machine,,,,,,,,,,,,,,endelig tilstandsautomat,Endelig tilstandsmaskin forkortes ofte til FSM.
 endelig tilstandsautomat,endeleg tilstandsautomat,finite-state automaton,,,,,,,,,,,,,,endelig tilstandsmaskin,Endelig tilstandsautomat forkortes ofte til FSA.
-FSM,FSM,FSM,,,,,,,hankjønn,hankjønn/hunkjønn,,,,,,,FSM er en forkortelse for endelig tilstandsmaskin (bokmål) og endeleg tilstandsmaskin (nynorsk) og stammer fra <i>finite-state machine</i>.
+FSM,FSM,FSM,,,,,,,hankjønn,hankjønn<br>hunkjønn,,,,,,,FSM er en forkortelse for endelig tilstandsmaskin (bokmål) og endeleg tilstandsmaskin (nynorsk) og stammer fra <i>finite-state machine</i>.
 FSA,FSA,FSA,,,,,,,hankjønn,hankjønn,,,,,,,FSA er en forkortelse for endelig tilstandsautomat (bokmål) og endeleg tilstandsautomat (nynorsk) og stammer fra <i>finite-state automaton</i>.
 verdiområde,verdiområde,codomain,,,,,,,,,,,,,,,Oversettelsen gjelder blant annet når det er snakk om funksjoner og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 vektorflyt,vektorflyt,vector flow,,,,,,,,,,,,,,,
@@ -2279,7 +2279,7 @@ oppblåsning,oppblåsing,blowup,,,,,,,,,,,,substantiv,,,
 dobbeltpunkt,dobbelpunkt,double point,,,,,,,,,,,,,,,
 dybde,djupn,depth,,,,,,,,,,,,,,,
 supersingulær,supersingulær,supersingular,,,,,,,,,,,,,,,
-skrue,skrue,scroll,,,,,,,,,,,,,for eksempel algebraisk geometri,,Oversettelsen gjelder bruk i for eksempel algebraisk geometri og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
+skrue,skrue,scroll,,,,,,,,,,,,,algebraisk geometri,,Oversettelsen gjelder bruk i for eksempel algebraisk geometri og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 enriquesflate,enriquesflate,Enriques surface,,,,,,,,,,,,,,,
 eksisjon,eksisjon,excision,,,,,,,,,,,,,,,
 eliminasjonsteori,eliminasjonsteori,elimination theory,,,,,,,,,,,,,,,
@@ -2325,9 +2325,9 @@ homoteti,homoteti,homothety,,,,,,,,,,,,,,,
 homotetisk vektorfelt,homotetisk vektorfelt,homothetic vector field,,,,,,,,,,,,,,,
 homotetisk,homotetisk,homothetic,,,,,,,,,,,,,,,
 hevbar singularitet,hevbar singularitet,removable singularity,,,,,,,,,,,,,,,
-,,cusp,spiss,spiss,,,,,,,,,,substantiv,,,"Cusp brukes også på norsk, men spiss anbefales."
+spiss,spiss,cusp,spiss,spiss,,,,,,,,,,substantiv,,,"Cusp brukes også på norsk, men spiss anbefales."
 antipodalt punkt<br>diametralt motsatt punkt,antipodalt punkt<br>diametralt motsett punkt,antipodal point,,,,,,,,,,,,,,antipode,
-antipode,antipode,antipode,,,,,,,,,,,,,,antipodalt punkt / diametralt motsatt punkt,
+antipode,antipode,antipode,,,,,,,,,,,,,,antipodalt punkt<br>diametralt motsatt punkt,
 de Rham-kompleks,de Rham-kompleks,de Rham complex,,,,,,,,,,,,,,,
 innskrive,innskrive,inscribe,,,,,,,,,,,,,,,
 omskrive,omskrive,circumscribe,,,,,,,,,,,,,,,
@@ -2461,7 +2461,7 @@ interpolasjonsfunksjon,interpolasjonsfunksjon,interpolating function,,,,,,,,,,,,
 tensorspline,tensorspline,tensor spline,,,,,,,,,,,,,,,Spline uttales [spli:`nə].
 boksspline,boksspline,box spline,,,,,,,,,,,,,,,Spline uttales [spli:`nə].
 splinerom,splinerom,spline space,,,,,,,,,,,,,,,Spline uttales [spli:`nə].
-skjøt,skøyt,knot,,,,,,,,,,,,,for eksempel numerikk,,Oversettelsen gjelder bruk i for eksempel numerikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
+skjøt,skøyt,knot,,,,,,,,,,,,,numerikk,,Oversettelsen gjelder bruk i for eksempel numerikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 skjøtefølge,skøytefølgje,knot sequence,,,,,,,,,,,,,,skjøtevektor,
 skjøtevektor,skøytevektor,knot vector,,,,,,,,,,,,,,skjøtefølge,
 skjøtemultiplisitet,skøytemultiplisitet,knot multiplicity,,,,,,,,,,,,,,,
@@ -2688,7 +2688,7 @@ løft,lyft,lift,,,,,,,,,,,,,,,
 løfting,lyfting,lifting,,,,,,,,,,,,,,,
 pukkelfunksjon,pukkelfunksjon,bump function,,,,,,,,,,,,,,,"Pukkelfunksjoner kan også omtales som testfunksjoner, men termene pukkelfunksjon og testfunksjon er ikke synonymer."
 testfunksjon,testfunksjon,test function,,,,,,,,,,,,,,,
-geodetisk kurve,geodetisk kurve,geodesic,,,,,,,,,,,,,,geoded/geodete,
+geodetisk kurve,geodetisk kurve,geodesic,,,,,,,,,,,,,,geoded<br>geodete,
 fullstendig geodetisk,fullstendig geodetisk,totally geodesic,,,,,,,,,,,,,,,
 normal geodetisk kurve,normal geodetisk kurve,normal geodesic,,,,,,,,,,,,,,,
 unormal geodetisk kurve,unormal geodetisk kurve,abnormal geodesic,,,,,,,,,,,,,,,
@@ -2825,7 +2825,7 @@ additivt separabel funksjon,additivt separabel funksjon,additively separable fun
 multiplikativt separabel funksjon,multiplikativt separabel funksjon,multiplicatively separable function,,,,,,,,,,,,,,,
 dynamisk system,dynamisk system,dynamical system,,,,,,,,,,,,,,,
 stabilitet,stabilitet,stability,,,,,,,,,,,,,,,
-transferfunksjon,transferfunksjon,transfer function,overføringsfunksjon,overføringsfunksjon,,,,,,,,,,,,,"Begge oversettelsene brukes på norsk, men overføringsfunksjon anbefales."
+overføringsfunksjon<br>transferfunksjon,overføringsfunksjon<br>transferfunksjon,transfer function,overføringsfunksjon,overføringsfunksjon,,,,,,,,,,,,,"Begge oversettelsene brukes på norsk, men overføringsfunksjon anbefales."
 impulsrespons,impulsrespons,impulse response,,,,,,,,,,,,,,,
 oppdeling,oppdeling,grid,,,,,,,,,,,,,numerikk,,Oversettelsen gjelder bruk i numerikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 regulær oppdeling,regulær oppdeling,regular grid,,,,,,,,,,,,,,,
@@ -2874,7 +2874,7 @@ undermatrise,undermatrise,submatrix,,,,,,,,,,,,,,,
 trippelprodukt,trippelprodukt,triple product,,,,,,,,,,,,,,,
 totalt usammenhengende,totalt usamanhengande,totally disconnected,,,,,,,,,,,,,,,
 ingensteds tett,ingenstad tett,nowhere dense,,,,,,,,,,,,,,,
-,,antecedent,antesedent,antesedent,,,,,,,,,,,,,"Både antecedent og antesedent forekommer også i bruk på norsk, men antesedent anbefales."
+antesedent,antesedent,antecedent,antesedent,antesedent,,,,,,,,,,,,,"Både antecedent og antesedent forekommer også i bruk på norsk, men antesedent anbefales."
 konsekvens,konsekvens,consequent,,,,,,,,,,,,,logikk,,Oversettelsen gjelder bruk i logikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 teststyrke,teststyrke,power,,,,,,,,,,,,,statistikk,,Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 styrkefunksjon,styrkefunksjon,power curve<br>power function,,,,,,,,,,,,,,,Oversettelsen <i>power curve</i> brukes når det er snakk om grafen til styrkefunksjonen.

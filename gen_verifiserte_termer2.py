@@ -22,9 +22,9 @@ patterns_remove = {
 }
 
 patterns_dont_remove = {
-    "bruksområde1": r"Oversettelsen gjelder bruk i(?:nnen)? (?:blant annet)? ([^\.]+) og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger\.",
+    "bruksområde1": r"Oversettelsen gjelder bruk i(?:nnen)? (?:blant annet|for eksempel)? (?!blant annet|for eksempel)([^\.]+) og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger\.",
     "bruksområde2": r"Legg merke til at denne oversettelsen gjelder innen ([^\.]+)\.",
-    "bruksområde3": r"Oversettelsen gjelder bruk i ([^\.]+) og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger\."
+    "bruksområde3": r"Oversettelsen gjelder bruk i (?!blant annet|for eksempel)([^\.]+) og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger\.",
 }
 
 def custom_strip(s :str) -> str:
@@ -98,12 +98,12 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
         )
         if anbefalt_norsk_match:
             anbefalt_norsk = anbefalt_norsk_match.group(1).strip()
-            tillatt_bokmaal = re.sub(
-                anbefalt_norsk, "", tillatt_bokmaal, flags=re.IGNORECASE
-            )
-            tillatt_nynorsk = re.sub(
-                anbefalt_norsk, "", tillatt_nynorsk, flags=re.IGNORECASE
-            )
+            # tillatt_bokmaal = re.sub(
+            #     anbefalt_norsk, "", tillatt_bokmaal, flags=re.IGNORECASE
+            # )
+            # tillatt_nynorsk = re.sub(
+            #     anbefalt_norsk, "", tillatt_nynorsk, flags=re.IGNORECASE
+            # )
         else:
             anbefalt_norsk = ""
 
@@ -116,7 +116,7 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
         )
         if anbefalt_bokmaal_match:
             anbefalt_bokmaal = anbefalt_bokmaal_match.group(1).strip()
-            tillatt_bokmaal = re.sub(anbefalt_bokmaal, "", tillatt_bokmaal, flags=re.IGNORECASE)
+            # tillatt_bokmaal = re.sub(anbefalt_bokmaal, "", tillatt_bokmaal, flags=re.IGNORECASE)
         else:
             anbefalt_bokmaal = ""
 
@@ -129,9 +129,9 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
         )
         if anbefalt_nynorsk_match:
             anbefalt_nynorsk = anbefalt_nynorsk_match.group(1).strip()
-            tillatt_nynorsk = re.sub(
-                anbefalt_nynorsk, "", tillatt_nynorsk, flags=re.IGNORECASE
-            )
+            # tillatt_nynorsk = re.sub(
+            #     anbefalt_nynorsk, "", tillatt_nynorsk, flags=re.IGNORECASE
+            # )
         else:
             anbefalt_nynorsk = ""
 
@@ -144,9 +144,9 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
         )
         if anbefalt_engelsk_match:
             anbefalt_engelsk = anbefalt_engelsk_match.group(1).strip()
-            tillatt_engelsk = re.sub(
-                anbefalt_engelsk, "", tillatt_engelsk, flags=re.IGNORECASE
-            )
+            # tillatt_engelsk = re.sub(
+            #     anbefalt_engelsk, "", tillatt_engelsk, flags=re.IGNORECASE
+            # )
         else:
             anbefalt_engelsk = ""
 
@@ -161,24 +161,44 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
                 "tillatt term bokmål": custom_strip(tillatt_bokmaal),
                 "tillatt term nynorsk": custom_strip(tillatt_nynorsk),
                 "tillatt term engelsk": custom_strip(tillatt_engelsk),
-                "flertallsform bokmål": extracted_data["flertallsform bokmål"]
-                + extracted_data["flertallsform norsk"],
-                "flertallsform nynorsk": extracted_data["flertallsform nynorsk"]
-                + extracted_data["flertallsform norsk"],
-                "flertallsform engelsk": extracted_data["flertallsform engelsk"],
-                "genus bokmål": extracted_data["genus bokmål"]
-                + extracted_data["genus"],
-                "genus nynorsk": extracted_data["genus nynorsk"]
-                + extracted_data["genus"],
+                "flertallsform bokmål": re.sub(
+                    r"\s*/\s*",
+                    "<br>",
+                    extracted_data["flertallsform bokmål"]
+                    + extracted_data["flertallsform norsk"],
+                ),
+                "flertallsform nynorsk": re.sub(
+                    r"\s*/\s*",
+                    "<br>",
+                    extracted_data["flertallsform nynorsk"]
+                    + extracted_data["flertallsform norsk"],
+                ),
+                "flertallsform engelsk": re.sub(
+                    r"\s*/\s*", "<br>", extracted_data["flertallsform engelsk"]
+                ),
+                "genus bokmål": re.sub(
+                    r"\s*/\s*",
+                    "<br>",
+                    extracted_data["genus bokmål"] + extracted_data["genus"],
+                ),
+                "genus nynorsk": re.sub(
+                    r"\s*/\s*",
+                    "<br>",
+                    extracted_data["genus nynorsk"] + extracted_data["genus"],
+                ),
                 "uttale bokmål": extracted_data["uttale bokmål"]
                 + extracted_data["uttale"],
                 "uttale nynorsk": extracted_data["uttale nynorsk"],
                 "uttale engelsk": extracted_data["uttale engelsk"],
-                "ordklasse": extracted_data["ordklasse"],
-                "bruksområde": extracted_data["bruksområde1"]
-                + extracted_data["bruksområde2"]
-                + extracted_data["bruksområde3"],
-                "synonym": extracted_data["synonym"],
+                "ordklasse": re.sub("/", "<br>", extracted_data["ordklasse"]),
+                "bruksområde": re.sub(
+                    r"\s*/\s*",
+                    "<br>",
+                    extracted_data["bruksområde1"]
+                    + extracted_data["bruksområde2"]
+                    + extracted_data["bruksområde3"],
+                ),
+                "synonym": re.sub(r"\s*/\s*", "<br>", extracted_data["synonym"]),
                 "merknad": custom_strip(merknad),
             }
         )
