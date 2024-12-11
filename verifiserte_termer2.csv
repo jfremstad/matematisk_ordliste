@@ -237,7 +237,7 @@ sadelpunkt,salpunkt,saddle point,salpunkt,,,,,,,,,,,,,,"Begge skrivemåtene bruk
 varmeligning<br>varmelikning,varmelikning,heat equation,,,,,,,,,,,,,,,
 essensielt surjektiv,essensielt surjektiv,essentially surjective,,,,,,,,,,,,,,,
 tillatelig ideal,tillateleg ideal,admissible ideal,,,,,,,,,,,,,,,
-eksponentielt,eksponentielt,exponentially,,,,,,,,,eksponentsie´lt,,,adverb,,, 
+eksponentielt,eksponentielt,exponentially,,,,,,,,,eksponentsie´lt,,,adverb,,,
 hermitisk matrise,hermitisk matrise,Hermitian matrix,,,,,,,,,,,,,,,
 kritisk verdi,kritisk verdi,critical value,,,,,,,,,,,,,,,
 mangekant<br>polygon,mangekant<br>polygon,polygon,,,,,,,,,,,,,,,
@@ -1261,7 +1261,7 @@ grad,grad,degree,,,,,,,,,,,,,,,
 plan,plan,plane,,,,,,,,,,,,,,,
 strengt avtagende,strengt minkande,strictly decreasing,,,,,,,,,,,,,,,
 reversibel prosess,reversibel prosess,reversible process,,,,,,,,,,,,,,,
-eksponentiell,eksponentiell,exponential,,,,,,,,,eksponentsie´l:,,,adjektiv,,, 
+eksponentiell,eksponentiell,exponential,,,,,,,,,eksponentsie´l:,,,adjektiv,,,
 underalgebra,underalgebra,subalgebra,,,,,,,,,,,,,,,
 additivt identitetselement,additivt identitetselement,additive identity element,,,,,,,,,,,,,,,
 rekursjon,rekursjon,recursion,,,,,,,,,,,,,,,
@@ -1296,7 +1296,7 @@ trappeform,trappeform,row echelon form,,,,,,,,,,,,,,,
 omskrevet sirkel,omskriven sirkel,circumscribed circle,,,,,,,,,,,,,,,
 kjedekompleks,kjedekompleks,chain complex,,,,,,,,,,,,,,,
 rom,rom,space,,,,,,,,,,,,,,,
-ANOVA,ANOVA,ANOVA,,,,,,,,,,,,,,,ANOVA er en forkortelse for variansanalyse og stammer fra <i>analysis of variance</i>.
+ANOVA,ANOVA,ANOVA,,,,,,,,,,,,,,,ANOVA er en forkortelse for variansanalyse og stammer fra <i>analysis of variance</i>.,<i>analysis of variance</i>
 absoluttverdi<br>tallverdi,absoluttverdi<br>talverdi,absolute value,,,,,,,,,,,,,,,
 torus,torus,torus,,,,,,,,,,,,,,,
 dualbasis,dualbasis,dual basis,,,,,,,,,,,,,,,
@@ -1446,7 +1446,7 @@ casimirelement,casimirelement,Casimir element,,,,,,,,,,,,,,,
 fri gruppe,fri gruppe,free group,,,,,,,,,,,,,,,
 pivotkoeffisient,pivotkoeffisient,pivot coefficient,,,,,,,,,,,,,,,Forstavelsen pivot uttales [pivå:’].
 pivotposisjon,pivotposisjon,pivot position,,,,,,,,,,,,,,,Forstavelsen pivot uttales [pivå:’].
-pivotsøking,pivotsøking,pivoting,,,,,,,,,,,,,"numerisk lineær algebra,",,"Forstavelsen pivot uttales [pivå:’]. Oversettelsen gjelder bruk innen blant annet numerisk lineær algebra, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+pivotsøking,pivotsøking,pivoting,,,,,,,,,,,,,numerisk lineær algebra,,"Forstavelsen pivot uttales [pivå:’]. Oversettelsen gjelder bruk innen blant annet numerisk lineær algebra, og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 spaltevis pivotsøking,spaltevis pivotsøking,partial pivoting,,,,,,,,,,,,,,,Forstavelsen pivot uttales [pivå:’].
 skalert spaltevis pivotsøking,skalert spaltevis pivotsøking,scaled partial pivoting,,,,,,,,,,,,,,,Forstavelsen pivot uttales [pivå:’].
 total pivotsøking,total pivotsøking,full pivoting,,,,,,,,,,,,,,,Forstavelsen pivot uttales [pivå:’].
