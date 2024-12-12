@@ -22,15 +22,17 @@ patterns_remove = {
 }
 
 patterns_dont_remove = {
-    "bruksområde1": r"Oversettelsen gjelder bruk i(?:nnen)? (?:blant annet|for eksempel)? (?!blant annet|for eksempel)([^\.]+) og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger\.",
-    "bruksområde2": r"Legg merke til at denne oversettelsen gjelder innen ([^\.]+)\.",
-    "bruksområde3": r"Oversettelsen gjelder bruk i (?!blant annet|for eksempel)([^\.]+) og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger\.",
+    "bruksområde1": r"Oversettelsen gjelder bruk i(?:nnen)?(?: blant annet| for eksempel)? (?!blant annet|for eksempel)([^\.,]+),? og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger\.",
+    "bruksområde2": r"Legg merke til at denne oversettelsen gjelder innen ([^\.,]+)\.",
+    "bruksområde3": r"Oversettelsen gjelder bruk i ([^\.,]+),? og må ikke",
+    "bruksområde4": r"Oversettelsen gjelder(?: blant annet| for eksempel)? (?:omhandlende|når det er snakk om) ([^\.,]+),? og utelukker ikke",
 }
 
 def custom_strip(s :str) -> str:
     s = re.sub(r"^(\s*<br>\s*)+", "", s, flags=re.IGNORECASE)
     s = re.sub(r"(\s*<br>\s*)+$", "", s, flags=re.IGNORECASE)
-    s = re.sub(r"(\s*<br>\s*<br>)+", "", s, flags=re.IGNORECASE)
+    s = re.sub(r"\s*<br>(\s*<br>)+", "", s, flags=re.IGNORECASE)
+    s = s.strip()
     return s
 
 input_file = "verifiserte_termer.csv"
@@ -92,7 +94,7 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
         # Check if the merknad contains the recommended Bokmål term sentence
         # Pattern: Begge skrivemåtene brukes på norsk, men X anbefales.
         anbefalt_norsk_match = re.search(
-            r"norsk,\s*men\s+(.*?)\s+anbefales\.",
+            r"norsk,\s*men\s+(.*?)\s+(anbefales|er vesentlig mer utbredt)\.",
             merknad,
             flags=re.IGNORECASE,
         )
@@ -192,11 +194,12 @@ with open(input_file, "r", encoding="utf-8") as infile, open(
                 "uttale engelsk": extracted_data["uttale engelsk"],
                 "ordklasse": re.sub("/", "<br>", extracted_data["ordklasse"]),
                 "bruksområde": re.sub(
-                    r"\s*/\s*",
+                    r"\s*(/| og )\s*",
                     "<br>",
                     extracted_data["bruksområde1"]
                     + extracted_data["bruksområde2"]
-                    + extracted_data["bruksområde3"],
+                    + extracted_data["bruksområde3"]
+                    + extracted_data["bruksområde4"],
                 ),
                 "synonym": re.sub(r"\s*/\s*", "<br>", extracted_data["synonym"]),
                 "merknad": custom_strip(merknad),
