@@ -1782,13 +1782,11 @@ selvinjektiv,sjølvinjektiv,self-injective,
 selvinjektiv algebra,sjølvinjektiv algebra,self-injective algebra,
 selvinjektiv ring,sjølvinjektiv ring,self-injective ring,
 utvidelse,utviding,extension,
-differensialgradert,differensialgradert,differential graded,
-differensialgradert algebra,differensialgradert algebra,differential graded algebra,"Differensialgradert algebra forkortes ofte til dg-algebra."
-differensialgradert modul,differensialgradert modul,differential graded module,"Differensialgradert modul forkortes ofte til dg-modul."
-differensialgradert kategori,differensialgradert kategori,differential graded category,"Differensialgradert kategori forkortes ofte til dg-kategori."
-dg-algebra,dg-algebra,dg algebra,"Dg-algebra er en forkortelse for differensialgradert algebra."
-dg-modul,dg-modul,dg module,"Dg-modul er en forkortelse for differensialgradert modul."
-dg-kategori,dg-kategori,dg category,"Dg-kategori er en forkortelse for differensialgradert kategori."
+differensialgradert,differensialgradert,differential graded,"Forkortelsen dg brukes ofte for differensialgradert."
+differensialgradert algebra<br>dg-algebra,differensialgradert algebra<br>dg-algebra,differential graded algebra<br>dg algebra,"Forkortelsen dg brukes ofte for differensialgradert."
+differensialgradert modul<br>dg-modul,differensialgradert modul<br>dg-modul,differential graded module<br>dg module,"Forkortelsen dg brukes ofte for differensialgradert."
+differensialgradert kategori<br>dg-kategori,differensialgradert kategori<br>dg-kategori,differential graded category<br>dg category,"Forkortelsen dg brukes ofte for differensialgradert."
+differensialgradert funktor<br>dg-funktor,differensialgradert funktor<br>dg-funktor,differential graded funktor<br>dg functor,"Forkortelsen dg brukes ofte for differensialgradert."
 restklasse<br>sideklasse,restklasse<br>sideklasse,coset<br>residue class,"Både restklasse og sideklasse kan brukes på norsk, men restklasse er vesentlig mer utbredt."
 restklassekropp,restklassekropp,residue class field,
 ikke-voksende,ikkje-veksande,non-increasing,
@@ -1932,7 +1930,6 @@ EaM,EaM,EaM,"EaM er en forkortelse for krypter-og-MAC og stammer fra <i>encrypt-
 AtE,AtE,AtE,"AtE er en forkortelse for autentiser-deretter-krypter og stammer fra <i>authenticate-then-encrypt</i>."
 EtA,EtA,EtA,"EtA er en forkortelse for krypter-deretter-autentiser og stammer fra <i>encrypt-then-authenticate</i>."
 EaA,EaA,EaA,"EaA er en forkortelse for krypter-og-autentiser og stammer fra <i>encrypt-and-authenticate</i>."
-AE,AE,AE,"AE er en forkortelse for autentisert kryptering og stammer fra <i>authenticated encryption</i>."
 AEAD,AEAD,AEAD,"AEAD er en forkortelse for autentisert kryptering med tilhørende data (bokmål) og autentisert kryptering med tilhøyrande data (nynorsk) og stammer fra <i>authenticated encryption with associated data</i>."
 E2EE,E2EE,E2EE,"E2EE er en forkortelse for ende-til-ende-kryptering/endepunktskryptering og stammer fra <i>end-to-end encryption</i>."
 EUF,EUF,EUF,"EUF er en forkortelse for eksistensiell uforfalskbarhet (bokmål) og eksistensiell uforfalskbarheit (nynorsk) og stammer fra <i>existential unforgeability</i>."
@@ -1979,7 +1976,7 @@ transposisjonschiffer,transposisjonschiffer,transposition cipher,"Genus: intetkj
 substitusjonschiffer,substitusjonschiffer,substitution cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
 polyalfabetisk chiffer,polyalfabetisk chiffer,polyalphabetic cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
 kryptoanalyse,kryptoanalyse,cryptanalysis,
-autentisert kryptering,autentisert kryptering,authenticated encryption,"Autentisert kryptering forkortes ofte til AE."
+AE<br>autentisert kryptering,AE<br>autentisert kryptering,AE<br>authenticated encryption,"AE er en forkortelse for autentisert kryptering og stammer fra <i>authenticated encryption</i>."
 autentisert kryptering med tilhørende data,autentisert kryptering med tilhøyrande data,authenticated encryption with associated data,"Autentisert kryptering med tilhørende data (bokmål) og autentisert kryptering med tilhøyrande data (nynorsk) forkortes ofte til AEAD."
 blindsignatur,blindsignatur,blind signature,
 nøkkelavledningsfunksjon,nøkkelavleiingsfunksjon,key derivation function,"Nøkkelavledningsfunksjon (bokmål) og nøkkelavleiingsfunksjon (nynorsk) forkortes ofte til KDF."
@@ -2290,7 +2287,6 @@ multiplikativ gruppe,multiplikativ gruppe,multiplicative group,
 divisor,divisor,divisor,"I mange tilfeller kan termene divisor og faktor brukes synonymt."
 faktor,faktor,factor,"I mange tilfeller kan termene faktor og divisor brukes synonymt."
 legendresymbol,legendresymbol,Legendre symbol,
-dg-funktor,dg-funktor,dg functor,"Dg-funktor er en forkortelse for differensialgradert funktor."
 pivot,pivot,pivot,"Ordklasse: substantiv<br>Uttale: [pivå:´]<br>Genus: hankjønn"
 ordning,ordning,order,"Merk at oversettelsen av <i>order</i> er avhengig av kontekst. Oversettelsen ordning brukes for eksempel i forbindelse med binærrelasjoner."
 orden,orden,order,"Merk at oversettelsen av <i>order</i> er avhengig av kontekst. Oversettelsen orden brukes for eksempel i gruppeteori."
