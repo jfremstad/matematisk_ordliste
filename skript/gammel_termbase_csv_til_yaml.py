@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import csv
@@ -142,7 +142,6 @@ with open(input_file, "r", encoding="utf-8") as infile, open(output_file, "w", e
         #     if is_empty_term(a) and is_singleton(t):
         #         entry["anbefalt"][lang] = t
         #         entry["tillatt"][lang] = ""
-
 
         def normalize_to_list(x):
             if x in ("", None):

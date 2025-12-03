@@ -6509,13 +6509,6 @@
     nynorsk: Cauchys middelverdisetning
     engelsk: Cauchy's mean value theorem
 - tillatt:
-    bokmål: karakteristisk funksjon
-    nynorsk: karakteristisk funksjon
-    engelsk: characteristic function
-  bruksområde: sannsynlighetsteori
-  merknad: Oversettelsen gjelder bruk i sannsynlighetsteori og utelukker ikke at termen
-    kan benyttes ulikt i andre sammenhenger.
-- tillatt:
     bokmål: kontinuerlig utvidelse
     nynorsk: kontinuerleg utviding
     engelsk: continuous extension
@@ -6789,6 +6782,9 @@
     engelsk:
     - characteristic function
     - indicator function
+  bruksområde: sannsynlighetsteori
+  merknad: Oversettelsen gjelder bruk i sannsynlighetsteori og utelukker ikke at termen
+    kan benyttes ulikt i andre sammenhenger.
 - tillatt:
     bokmål: komplekst mål
     nynorsk: komplekst mål

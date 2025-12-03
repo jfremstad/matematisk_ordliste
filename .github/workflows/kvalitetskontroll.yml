@@ -25,5 +25,5 @@ jobs:
         run: |
           pip install pyyaml jsonschema
 
-      - name: Kjør kvalitetskontroll
-        run: bash ./skript/kvalitetskontroll.sh
+      - name: Kvalitetssjekk termbase
+        run: python ./skript/kvalitetssjekk_termbase.py ./termbase.yaml

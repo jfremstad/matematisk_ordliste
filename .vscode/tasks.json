@@ -6,8 +6,8 @@
     {
       "label": "kvalitetskontroll",
       "type": "process",
-      "command": "bash",
-      "args": ["./skript/kvalitetskontroll.sh"],
+      "command": "python3",
+      "args": ["./skript/kvalitetssjekk_termbase.py", "./termbase_skjema.json", "./termbase.yaml"],
       "group": {
         "kind": "test",
         "isDefault": true

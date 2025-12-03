@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # Bruk:
 #     python termbase_yaml_til_csv.py INN_YAML SKJEMA_JSON UT_CSV
 #
