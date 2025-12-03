@@ -5,7 +5,7 @@ import csv
 import re
 import yaml
 
-input_file = "termbase.csv"
+input_file = "verifiserte_termer.csv"
 output_file = "termbase.yaml"
 schema_file = "termbase_skjema.json"
 

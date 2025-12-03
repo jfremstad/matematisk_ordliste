@@ -101,7 +101,7 @@
       // Import CSV to JSON
       var jsonobject;
       $.ajax({
-        url: "ordliste/termbase.csv",
+        url: "ordliste/verifiserte_termer.csv",
         async: false,
         success: function (csvd) {
           var items = $.csv.toArrays(csvd);

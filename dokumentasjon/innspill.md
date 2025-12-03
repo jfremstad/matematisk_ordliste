@@ -23,7 +23,7 @@ Du kan også sende innspill på mail til
    skulle være uenig i disse, kan du opprette en diskusjonstråd.
 1. Sjekk at du skriver ned oversettelsen eller endringen i
    [riktig format](foering_av_termer.md).
-1. [Her](https://github.com/jfremstad/matematisk_ordliste/edit/master/termbase.csv)
+1. [Her](https://github.com/jfremstad/matematisk_ordliste/edit/master/verifiserte_termer.csv)
    kan du endre fila og lagre. Du oppretter da et endringsforslag som andre kan
    se på, før det eventuelt publiseres på den offisielle ordlista. Hvis du
    legger til nye termer, skal disse alltid legges til på enden av dokumentet
