@@ -112,6 +112,24 @@
       // Remove header
       jsonobject = jsonobject.slice(1);
 
+      function normalizeAccent(s) {
+        return s
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "");
+      }
+      // Secondary-key sort: first accent/case-insensitive, then full string
+      jQuery.fn.dataTable.ext.order['accent-case'] = function (settings, col) {
+        return this.api()
+          .column(col, {order: 'index'})
+          .data()
+          .map(function (data) {
+            var str = data || "";
+            var primary   = normalizeAccent(str).toLowerCase();
+            var secondary = str;
+            return primary + "\u0000" + secondary;
+          });
+      };
+
       var tablecontents = document.getElementById("tablecontents");
 
       // Fill in table
@@ -139,7 +157,10 @@
         commentButton();
         var table = $("#wordlist").DataTable({
           order: [[1, "asc"]],
-          columnDefs: [{ orderable: false, targets: [0] }],
+          columnDefs: [
+            { orderable: false, targets: [0] },
+            { targets: [1,2,3], orderDataType: "accent-case" }
+          ],
           lengthMenu: [
             [10, 25, 50, 100, 500, -1],
             [
