@@ -1,6 +1,7 @@
 #!/bin/bash
 
-DATABASE="./verifiserte_termer.csv"
+DATABASE="./termbase.yaml"
+DATABASE_SCHEMA="./termbase_skjema.json"
 
 ERR_DB_NOT_FOUND=1
 ERR_PYTHON_NOT_FOUND=2
@@ -21,7 +22,13 @@ fi
 
 # Validate term table with python script
 if command_exists python3; then
-  python3 ./skript/valider_termtabell.py "${DATABASE}"
+  python3 ./skript/valider_skjema.py "${DATABASE_SCHEMA}" "${DATABASE}"
+  # Capture the exit code of the Python script
+  PYTHON_SCRIPT_EXITCODE=$?
+  # OR it with the existing EXITCODE
+  EXITCODE=$((EXITCODE | PYTHON_SCRIPT_EXITCODE))
+
+  python3 ./skript/valider_termbase.py "${DATABASE}"
   # Capture the exit code of the Python script
   PYTHON_SCRIPT_EXITCODE=$?
   # OR it with the existing EXITCODE

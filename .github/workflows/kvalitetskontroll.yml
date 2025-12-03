@@ -1,4 +1,4 @@
-name: Termtabell kvalitetskontroll
+name: Termbase kvalitetskontroll
 
 on:
   push:
@@ -14,12 +14,12 @@ jobs:
 
     steps:
       - name: Hent kode
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
 
       - name: Sett opp Python 3
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v6
         with:
           python-version: '3.x'
 
-      - name: Termtabell kvalitetskontroll
-        run: bash ./skript/kjor_sjekker.sh
+      - name: Termbase kvalitetskontroll
+        run: bash ./skript/kvalitetskontroll.sh
