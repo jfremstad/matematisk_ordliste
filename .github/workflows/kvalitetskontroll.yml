@@ -21,5 +21,9 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Termbase kvalitetskontroll
+      - name: Installer Python bibliotek
+        run: |
+          pip install pyyaml jsonschema
+
+      - name: Kjør kvalitetskontroll
         run: bash ./skript/kvalitetskontroll.sh
