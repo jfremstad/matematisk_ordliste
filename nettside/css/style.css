@@ -1,3 +1,6 @@
+/* ------------------------------------------------------------
+   GLOBAL LAYOUT & TYPOGRAPHY
+------------------------------------------------------------ */
 body {
   width: 90%;
   max-width: 1200px;
@@ -7,6 +10,9 @@ body {
     Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* ------------------------------------------------------------
+   FOOTER
+------------------------------------------------------------ */
 footer {
   min-height: 100px;
   font-size: 10px;
@@ -14,14 +20,35 @@ footer {
   margin-top: 2em;
 }
 
-/* input is inside this container */
+/* ------------------------------------------------------------
+   SEARCH INPUT
+------------------------------------------------------------ */
 .dataTables_filter {
   width: 30%;
   min-width: 200px;
   max-width: 300px;
 }
 
-/* Push paginator down */
+input {
+  background-image: url('../img/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 90%;
+  font-size: 16px;
+  padding: 10px 18px 10px 38px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #8cb3d9;
+}
+
+/* ------------------------------------------------------------
+   LENGTH SELECTOR (“ANTALL TERMER”)
+------------------------------------------------------------ */
 #wordlist_length {
   margin-top: 15px;
   font-size: 16px;
@@ -37,27 +64,15 @@ footer {
   outline: none;
 }
 
+#wordlist_length select:hover,
 #wordlist_length select:focus {
-  border-color: #8cb3d9;
-}
-
-#wordlist_length select:hover {
   border-color: #8cb3d9;
   cursor: pointer;
 }
 
-input {
-  background-image: url('../img/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 90%; /* Small search bar */
-  font-size: 16px;
-  padding: 10px 18px 10px 38px;
-  border: 2px solid transparent;
-  margin-bottom: 8px; /* Add some space below the input */
-  border-radius: 8px;
-}
-
+/* ------------------------------------------------------------
+   PAGINATION BUTTONS
+------------------------------------------------------------ */
 .dataTables_paginate .paginate_button {
   border-radius: 16px !important;
   padding: 4px 10px !important;
@@ -70,11 +85,9 @@ input {
   border: none;
 }
 
-input:focus {
-  outline: none;
-  border: 2px solid #8cb3d9;
-}
-
+/* ------------------------------------------------------------
+   TABLE WRAPPER
+------------------------------------------------------------ */
 #wordlist {
   width: 100%;
   font-size: 18px;
@@ -86,17 +99,13 @@ input:focus {
 #wordlist th,
 #wordlist td {
   text-align: left;
-  padding: 12px;
+  padding: 12px 14px;
+  border: none;
 }
 
-#wordlist tr.comment td {
-  background-color: #eaf3fa;
-  border-left: 5px solid #6fa4cd;
-  border-top: none;
-  box-shadow: 0 0 0 3px rgba(140, 179, 217, 0.25);
-  margin: 6px 0;
-}
-
+/* ------------------------------------------------------------
+   TABLE HEADER
+------------------------------------------------------------ */
 #wordlist tr.header {
   background-color: #506d86;
   color: #ffffff;
@@ -105,12 +114,22 @@ input:focus {
   padding: 14px 12px;
   letter-spacing: 0.6px;
 }
-#wordlist td,
-#wordlist th {
-  border: none;
+
+/* ------------------------------------------------------------
+   COMMENT ROWS
+------------------------------------------------------------ */
+#wordlist tr.comment td {
+  background-color: #eaf3fa;
+  border-left: 5px solid #6fa4cd;
+  border-top: none;
+  box-shadow: 0 0 0 3px rgba(140, 179, 217, 0.25);
+  margin: 6px 0;
   padding: 12px 14px;
 }
 
+/* ------------------------------------------------------------
+   DATATABLES OVERRIDES
+------------------------------------------------------------ */
 table.dataTable {
   border: none !important;
 }
@@ -124,14 +143,18 @@ table.dataTable thead td {
   border-bottom: none !important;
 }
 
+/* sorting icons positioning */
 table.dataTable thead .sorting,
 table.dataTable thead .sorting_asc,
 table.dataTable thead .sorting_desc {
   background-position: center left !important;
   padding-left: 25px !important;
-  padding-right: 0px !important;
+  padding-right: 0 !important;
 }
 
+/* ------------------------------------------------------------
+   DATATABLE STRIPING
+------------------------------------------------------------ */
 table.dataTable tr.odd {
   background-color: #f7f9fc;
 }
