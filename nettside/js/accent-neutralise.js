@@ -37,26 +37,25 @@
 (function () {
 
   function removeAccents(data) {
-    // Normalize to NFD and remove all combining diacritical marks
     return data
+      // Normalize to NFD and remove all combining diacritical marks
       .normalize('NFD')
+      // Remove all combining diacritical marps
       .replace(/[\u0300-\u036f]/g, '')
-
-      // Custom mappings that are not diacritics
-      .replace(/–/g, '-')
-      .replace(/frem/g, 'fremfram');
+      // Replace dashes by hyphens
+      .replace(/[–—]/g, '-')
+      // Equate 'fram' and 'frem' spelling
+      .replace(/fr[ae]m/g, 'fremfram');
   }
 
   var searchType = jQuery.fn.DataTable.ext.type.search;
 
   searchType.string = function (data) {
-    if (!data) {
-      return '';
-    }
-    if (typeof data === 'string') {
-      return removeAccents(data);
-    }
-    return data;
+    return !data ?
+      '' :
+      typeof data === 'string' ?
+        removeAccents(data) :
+        data;
   };
 
 }());
