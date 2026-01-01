@@ -1204,6 +1204,8 @@
     bokmål: prosentilskjema
     nynorsk: prosentilskjema
   tillatt:
+    bokmål: percentilskjema
+    nynorsk: percentilskjema
     engelsk: percentile graph
   merknad: Både persentilskjema og percentilskjema forekommer også i bruk på norsk,
     men prosentilskjema anbefales.
@@ -1802,6 +1804,8 @@
     bokmål: rotasjon
     nynorsk: rotasjon
   tillatt:
+    bokmål: curl
+    nynorsk: curl
     engelsk: curl
   merknad: Curl brukes også på norsk, men rotasjon anbefales.
 - tillatt:
@@ -2860,15 +2864,11 @@
     nynorsk: naturleg isomorfi
     engelsk: natural isomorphism
 - anbefalt:
-    bokmål: heltallsområde (bokmål) og heiltalsområde (nynorsk)
-    nynorsk: heltallsområde (bokmål) og heiltalsområde (nynorsk)
+    bokmål: heltallsområde
+    nynorsk: heiltalsområde
   tillatt:
-    bokmål:
-    - heltallsområde
-    - integritetsområde
-    nynorsk:
-    - heiltalsområde
-    - integritetsområde
+    bokmål: integritetsområde
+    nynorsk: integritetsområde
     engelsk: integral domain
   merknad: Begge oversettelsene brukes på norsk, men heltallsområde (bokmål) og heiltalsområde
     (nynorsk) anbefales.
@@ -3435,15 +3435,11 @@
     nynorsk: radvektor
     engelsk: row vector
 - anbefalt:
-    bokmål: forkastningsfeil (bokmål) og forkastingsfeil (nynorsk)
-    nynorsk: forkastningsfeil (bokmål) og forkastingsfeil (nynorsk)
+    bokmål: forkastningsfeil
+    nynorsk: forkastingsfeil
   tillatt:
-    bokmål:
-    - forkastningsfeil
-    - type I-feil
-    nynorsk:
-    - forkastingsfeil
-    - type I-feil
+    bokmål: type I-feil
+    nynorsk: type I-feil
     engelsk:
     - error of first kind
     - false positive
@@ -3728,6 +3724,8 @@
     bokmål: prosentil
     nynorsk: prosentil
   tillatt:
+    bokmål: percentil
+    nynorsk: percentil
     engelsk: percentile
   merknad: Både persentil og percentil forekommer også i bruk på norsk, men prosentil
     anbefales.
