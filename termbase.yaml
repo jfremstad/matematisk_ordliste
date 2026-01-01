@@ -1304,15 +1304,15 @@
     nynorsk: jordankjede
     engelsk: Jordan chain
 - tillatt:
-    bokmål: divisjonsring
-    nynorsk: divisjonsring
-    engelsk: division ring
-  synonym: skjevkropp
-- tillatt:
-    bokmål: skjevkropp
-    nynorsk: skeivkropp
-    engelsk: skew-field
-  synonym: divisjonsring
+    bokmål:
+    - divisjonsring
+    - skjevkropp
+    nynorsk:
+    - divisjonsring
+    - skeivkropp
+    engelsk:
+    - division ring
+    - skew-field
 - tillatt:
     bokmål: ekte delmengde
     nynorsk: ekte delmengd
@@ -8364,19 +8364,17 @@
     nynorsk: paritetssjekkmatrise
     engelsk: parity-check matrix
 - tillatt:
-    bokmål: kvantesikker kryptografi
-    nynorsk: kvantesikker kryptografi
-    engelsk:
-    - quantum-proof cryptography
-    - quantum-safe cryptography
-  synonym: kvanteresistent kryptografi
-- tillatt:
-    bokmål: kvanteresistent kryptografi
-    nynorsk: kvanteresistent kryptografi
+    bokmål:
+    - kvantesikker kryptografi
+    - kvanteresistent kryptografi
+    nynorsk:
+    - kvantesikker kryptografi
+    - kvanteresistent kryptografi
     engelsk:
     - post-quantum cryptography
+    - quantum-proof cryptography
+    - quantum-safe cryptography
     - quantum resistant cryptography
-  synonym: kvantesikker kryptografi
 - tillatt:
     bokmål: hashfunksjon
     nynorsk: hashfunksjon
@@ -11038,15 +11036,15 @@
     engelsk: spline interpolation
   merknad: Spline uttales [spli:`nə].
 - tillatt:
-    bokmål: interpolant
-    nynorsk: interpolant
-    engelsk: interpolant
-  synonym: interpolasjonsfunksjon
-- tillatt:
-    bokmål: interpolasjonsfunksjon
-    nynorsk: interpolasjonsfunksjon
-    engelsk: interpolating function
-  synonym: interpolant
+    bokmål:
+    - interpolant
+    - interpolasjonsfunksjon
+    nynorsk:
+    - interpolant
+    - interpolasjonsfunksjon
+    engelsk:
+    - interpolant
+    - interpolating function
 - tillatt:
     bokmål: tensorspline
     nynorsk: tensorspline
@@ -11073,12 +11071,10 @@
     bokmål: skjøtefølge
     nynorsk: skøytefølgje
     engelsk: knot sequence
-  synonym: skjøtevektor
 - tillatt:
     bokmål: skjøtevektor
     nynorsk: skøytevektor
     engelsk: knot vector
-  synonym: skjøtefølge
 - tillatt:
     bokmål: skjøtemultiplisitet
     nynorsk: skøytemultiplisitet
@@ -11384,10 +11380,15 @@
     engelsk: data mining
   merknad: Termen datagruvedrift er også i bruk.
 - tillatt:
-    bokmål: alikvot
-    nynorsk: alikvot
-    engelsk: aliquot
-  synonym: ekte divisor
+    bokmål:
+    - alikvot
+    - ekte divisor
+    nynorsk:
+    - alikvot
+    - ekte divisor
+    engelsk:
+    - aliquot
+    - proper divisor
 - tillatt:
     bokmål: brøkpakking
     nynorsk: brøkpakking
@@ -11469,11 +11470,6 @@
     - eksistensbevis
     - eksistensprov
     engelsk: proof of existence
-- tillatt:
-    bokmål: ekte divisor
-    nynorsk: ekte divisor
-    engelsk: proper divisor
-  synonym: alikvot
 - tillatt:
     bokmål: Euklids algoritme
     nynorsk: Euklids algoritme
@@ -12085,12 +12081,15 @@
     nynorsk: testfunksjon
     engelsk: test function
 - tillatt:
-    bokmål: geodetisk kurve
-    nynorsk: geodetisk kurve
+    bokmål:
+    - geoded
+    - geodete
+    - geodetisk kurve
+    nynorsk:
+    - geoded
+    - geodete
+    - geodetisk kurve
     engelsk: geodesic
-  synonym:
-  - geoded
-  - geodete
 - tillatt:
     bokmål: fullstendig geodetisk
     nynorsk: fullstendig geodetisk
@@ -13095,15 +13094,6 @@
     bokmål: nek
     nynorsk: nek
     engelsk: gerbe
-- tillatt:
-    bokmål:
-    - geoded
-    - geodete
-    nynorsk:
-    - geoded
-    - geodete
-    engelsk: geodesic
-  synonym: geodetisk kurve
 - tillatt:
     bokmål: perspektivitet
     nynorsk: perspektivitet
