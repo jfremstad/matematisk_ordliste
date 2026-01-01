@@ -136,11 +136,19 @@
     bokmål: minimum
     nynorsk: minimum
     engelsk: minimum
-- tillatt:
+- anbefalt:
     bokmål: entydig faktoriseringsområde
     nynorsk: eintydig faktoriseringsområde
     engelsk: unique factorization domain
-  merknad: Entydig faktoriseringsområde forkortes ofte til UFD.
+  tillatt:
+    bokmål: UFD
+    nynorsk: UFD
+    engelsk: UFD
+  genus:
+    bokmål: intetkjønn
+    nynorsk: intetkjønn
+  merknad: UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig
+    faktoriseringsområde (nynorsk) og stammer fra <i>unique factorization domain</i>.
 - tillatt:
     bokmål: indreprodukt
     nynorsk: indreprodukt
@@ -873,17 +881,6 @@
     nynorsk: poissonfordeling
     engelsk: Poisson distribution
 - tillatt:
-    bokmål: PDE
-    nynorsk: PDE
-    engelsk: PDE
-  genus:
-    bokmål:
-    - hankjønn
-    - hunkjønn
-    nynorsk: hunkjønn
-  merknad: PDE er en forkortelse for partiell differensiallikning og stammer fra <i>partial
-    differential equation</i>.
-- tillatt:
     bokmål: rekursjonsteori
     nynorsk: rekursjonsteori
     engelsk: recursion theory
@@ -1303,15 +1300,6 @@
     nynorsk: liealgebra
     engelsk: Lie algebra
 - tillatt:
-    bokmål: UFD
-    nynorsk: UFD
-    engelsk: UFD
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig
-    faktoriseringsområde (nynorsk) og stammer fra <i>unique factorization domain</i>.
-- tillatt:
     bokmål: jordankjede
     nynorsk: jordankjede
     engelsk: Jordan chain
@@ -1529,6 +1517,16 @@
     nynorsk: partiell differensiallikning
     engelsk: partial differential equation
   merknad: Partiell differensiallikning forkortes ofte til PDE.
+- tillatt:
+    bokmål: PDE
+    nynorsk: PDE
+    engelsk: PDE
+  genus:
+    bokmål:
+    - hankjønn
+    - hunkjønn
+    nynorsk: hunkjønn
+  merknad: PDE er en forkortelse for partiell differensiallikning og stammer fra <i>partial differential equation</i>.
 - tillatt:
     bokmål: kompletthet
     nynorsk: komplettheit
@@ -2715,6 +2713,11 @@
     nynorsk: primærdekomposisjon
     engelsk: primary decomposition
 - tillatt:
+    bokmål: hovedidealområde
+    nynorsk: hovudidealområde
+    engelsk: principal ideal domain
+  merknad: Hovedidealområde forkortes ofte til PID.
+- tillatt:
     bokmål: PID
     nynorsk: PID
     engelsk: PID
@@ -2866,10 +2869,10 @@
 - anbefalt:
     bokmål: heltallsområde
     nynorsk: heiltalsområde
+    engelsk: integral domain
   tillatt:
     bokmål: integritetsområde
     nynorsk: integritetsområde
-    engelsk: integral domain
   merknad: Begge oversettelsene brukes på norsk, men heltallsområde (bokmål) og heiltalsområde
     (nynorsk) anbefales.
 - tillatt:
@@ -4077,11 +4080,6 @@
     bokmål: bijektiv
     nynorsk: bijektiv
     engelsk: bijective
-- tillatt:
-    bokmål: hovedidealområde
-    nynorsk: hovudidealområde
-    engelsk: principal ideal domain
-  merknad: Hovedidealområde forkortes ofte til PID.
 - tillatt:
     bokmål: polarform
     nynorsk: polarform
@@ -9946,10 +9944,13 @@
     bokmål: zetafunksjon
     nynorsk: zetafunksjon
     engelsk: zeta function
-- tillatt:
+- anbefalt:
     bokmål: separerende transendensbasis
     nynorsk: separerande transendensbasis
     engelsk: separating transcendence base
+  tillatt:
+    bokmål: separerende transcendensbasis
+    nynorsk: separerande transcendensbasis
   merknad: Skrivemåtene transcendens og transendens er sidestilte på både bokmål og
     nynorsk.
 - tillatt:
@@ -10448,8 +10449,10 @@
 - anbefalt:
     bokmål: spiss
     nynorsk: spiss
-  tillatt:
     engelsk: cusp
+  tillatt:
+    bokmål: cusp
+    nynorsk: cusp
   ordklasse: substantiv
   merknad: Cusp brukes også på norsk, men spiss anbefales.
 - tillatt:
