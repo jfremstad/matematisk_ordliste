@@ -37,17 +37,9 @@
           "engelsk": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] }
         }
       },
+
       "ordklasse": { "type": "string" },
-      "synonym": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
-      "uttale": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "bokmål": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
-          "nynorsk": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
-          "engelsk": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] }
-        }
-      },
+
       "genus": {
         "type": "object",
         "additionalProperties": false,
@@ -56,7 +48,9 @@
           "nynorsk": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] }
         }
       },
+
       "bruksområde": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
+
       "merknad": { "type": "string" }
     }
   }
