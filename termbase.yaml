@@ -1410,14 +1410,18 @@
     nynorsk:
     - feilmargin
     - feiltoleranse
-- anbefalt:
-    nynorsk: ordinær differensiallikning
-    engelsk: ordinary differential equation
-  tillatt:
+- tillatt:
     bokmål:
     - ordinær differensialligning
     - ordinær differensiallikning
-  merknad: Ordinær differensiallikning forkortes ofte til ODE.
+    - ODE
+    nynorsk:
+    - ordinær differensiallikning
+    - ODE
+    engelsk:
+    - ordinary differential equation
+    - ODE
+  merknad: Ordinær differensiallikning forkortes ofte til ODE, som stammer fra <i>ordinary differential equation</i>. Forkortelsen ODE er både hankjønn og hunkjønn på bokmål og hunkjønn på nynorsk.
 - anbefalt:
     bokmål: funksjonal
     nynorsk: funksjonal
@@ -1536,25 +1540,19 @@
     bokmål: randverdi
     nynorsk: randverdi
     engelsk: boundary value
-- anbefalt:
-    nynorsk: partiell differensiallikning
-    engelsk: partial differential equation
-  tillatt:
+- tillatt:
     bokmål:
     - partiell differensialligning
     - partiell differensiallikning
-  merknad: Partiell differensiallikning forkortes ofte til PDE.
-- anbefalt:
-    bokmål: PDE
-    nynorsk: PDE
-    engelsk: PDE
-  genus:
-    bokmål:
-    - hankjønn
-    - hunkjønn
-    nynorsk: hunkjønn
-  merknad: PDE er en forkortelse for partiell differensiallikning og stammer fra <i>partial
-    differential equation</i>.
+    - PDE
+    nynorsk:
+    - partiell differensiallikning
+    - PDE
+    engelsk:
+    - partial differential equation
+    - PDE
+  merknad: Partiell differensiallikning forkortes ofte til PDE, som stammer fra <i>partial differential equation</i>. Forkortelsen PDE er
+    både hankjønn og hunkjønn på bokmål og hunkjønn på nynorsk.
 - anbefalt:
     bokmål: kompletthet
     nynorsk: komplettheit
@@ -2759,20 +2757,20 @@
     bokmål: primærdekomposisjon
     nynorsk: primærdekomposisjon
     engelsk: primary decomposition
-- anbefalt:
-    bokmål: hovedidealområde
-    nynorsk: hovudidealområde
-    engelsk: principal ideal domain
-  merknad: Hovedidealområde forkortes ofte til PID.
-- anbefalt:
-    bokmål: PID
-    nynorsk: PID
-    engelsk: PID
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: PID er en forkortelse for hovedidealområde (bokmål) og hovudidealområde
-    (nynorsk) og stammer fra <i>principal ideal domain</i>.
+- tillatt:
+    bokmål:
+    - hovedidealområde
+    - PID
+    nynorsk:
+    - hovudidealområde
+    - PID
+    engelsk:
+    - principal ideal domain
+    - PID
+  merknad:
+    PID er en forkortelse for hovedidealområde
+    (bokmål) og hovudidealområde (nynorsk) og stammer fra <i>principal ideal domain</i>.
+    Forkortelsen PID har intetkjønn på bokmål og nynorsk.
 - anbefalt:
     engelsk: hereditary category
   tillatt:
@@ -4000,14 +3998,18 @@
     bokmål: funktoriell egenskap
     nynorsk: funktoriell eigenskap
     engelsk: functorial property
-- anbefalt:
-    bokmål: variansanalyse
-    nynorsk: variansanalyse
-  tillatt:
+- tillatt:
+    bokmål:
+    - variansanalyse
+    - ANOVA
+    nynorsk:
+    - variansanalyse
+    - ANOVA
     engelsk:
     - analysis of variance
     - variance analysis
-  merknad: Variansanalyse forkortes ofte til ANOVA.
+    - ANOVA
+  merknad: Variansanalyse forkortes ofte til ANOVA, som stammer fra <i>analysis of variance</i>.
 - anbefalt:
     bokmål: ikke-nullelement
     nynorsk: ikkje-nullelement
@@ -4873,17 +4875,6 @@
     bokmål: produkt
     nynorsk: produkt
     engelsk: product
-- anbefalt:
-    bokmål: ODE
-    nynorsk: ODE
-    engelsk: ODE
-  genus:
-    bokmål:
-    - hankjønn
-    - hunkjønn
-    nynorsk: hunkjønn
-  merknad: ODE er en forkortelse for ordinær differensiallikning og stammer fra <i>ordinary
-    differential equation</i>.
 - anbefalt:
     bokmål: grensepunkt
     nynorsk: grensepunkt
@@ -5758,12 +5749,6 @@
     bokmål: rom
     nynorsk: rom
     engelsk: space
-- anbefalt:
-    bokmål: ANOVA
-    nynorsk: ANOVA
-    engelsk: ANOVA
-  merknad: ANOVA er en forkortelse for variansanalyse og stammer fra <i>analysis of
-    variance</i>.
 - anbefalt:
     engelsk: absolute value
   tillatt:
@@ -7480,16 +7465,17 @@
     bokmål: ortogonal dekomposisjon
     nynorsk: ortogonal dekomposisjon
     engelsk: orthogonal decomposition
-- anbefalt:
-    bokmål: singulærverdidekomposisjon
-    nynorsk: singulærverdidekomposisjon
-    engelsk: singular value decomposition
+- tillatt:
+    bokmål:
+    - singulærverdidekomposisjon
+    - SVD
+    nynorsk:
+    - singulærverdidekomposisjon
+    - SVD
+    engelsk:
+    - singular value decomposition
+    - SVD
   merknad: Singulærverdidekomposisjon forkortes ofte til SVD.
-- anbefalt:
-    bokmål: SVD
-    nynorsk: SVD
-    engelsk: SVD
-  merknad: SVD er en forkortelse for singulærverdidekomposisjon.
 - anbefalt:
     bokmål: egendekomposisjon
     nynorsk: eigendekomposisjon
@@ -8277,17 +8263,17 @@
     bokmål: kontekstsensitiv grammatikk
     nynorsk: kontekstsensitiv grammatikk
     engelsk: context-sensitive grammar
-- anbefalt:
-    bokmål: regulært uttrykk
-    nynorsk: regulært uttrykk
-    engelsk: regular expression
+- tillatt:
+    bokmål:
+    - regulært uttrykk
+    - regex
+    nynorsk:
+    - regulært uttrykk
+    - regex
+    engelsk:
+    - regular expression
+    - regex
   merknad: Regulært uttrykk forkortes ofte til regex, som stammer fra <i>regular expression</i>.
-- anbefalt:
-    bokmål: regex
-    nynorsk: regex
-    engelsk: regex
-  merknad: Regex er en forkortelse for regulært uttrykk og stammer fra <i>regular
-    expression</i>.
 - anbefalt:
     bokmål: komprimering
     nynorsk: komprimering
@@ -8556,46 +8542,88 @@
     nynorsk:
     - kollisjonsmotstandsdugleik
     - kollisjonsresistens
-- anbefalt:
-    bokmål: sertifikatutsteder
-    nynorsk: sertifikatutferdar
-    engelsk: certificate authority
-  merknad: Sertifikatutsteder (bokmål) og sertifikatutferdar (nynorsk) forkortes ofte
-    til CA.
+- tillatt:
+    bokmål:
+    - sertifikatutsteder
+    - CA
+    nynorsk:
+    - sertifikatutferdar
+    - CA
+    engelsk:
+    - certificate authority
+    - CA
+  merknad: Sertifikatutsteder (bokmål) og sertifikatutferdar (nynorsk) forkortes ofte til CA, som stammer fra
+    <i>certificate authority</i>. Forkortelsen CA har hankjønn på bokmål og nynorsk.
 - anbefalt:
     bokmål: digital signaturforfalskning
     nynorsk: digital signaturforfalsking
     engelsk: digital signature forgery
-- anbefalt:
-    bokmål: MAC-deretter-krypter
-    nynorsk: MAC-deretter-krypter
-    engelsk: MAC-then-encrypt
-  merknad: MAC-deretter-krypter forkortes ofte til MtE.
-- anbefalt:
-    bokmål: krypter-deretter-MAC
-    nynorsk: krypter-deretter-MAC
-    engelsk: encrypt-then-MAC
-  merknad: Krypter-deretter-MAC forkortes ofte til EtM.
-- anbefalt:
-    bokmål: krypter-og-MAC
-    nynorsk: krypter-og-MAC
-    engelsk: encrypt-and-MAC
-  merknad: Krypter-og-MAC forkortes ofte til EaM.
-- anbefalt:
-    bokmål: autentiser-deretter-krypter
-    nynorsk: autentiser-deretter-krypter
-    engelsk: authenticate-then-encrypt
-  merknad: Autentiser-deretter-krypter forkortes ofte til AtE.
-- anbefalt:
-    bokmål: krypter-deretter-autentiser
-    nynorsk: krypter-deretter-autentiser
-    engelsk: encrypt-then-authenticate
-  merknad: Krypter-deretter-autentiser forkortes ofte til EtA.
-- anbefalt:
-    bokmål: krypter-og-autentiser
-    nynorsk: krypter-og-autentiser
-    engelsk: encrypt-and-authenticate
-  merknad: Krypter-og-autentiser forkortes ofte til EaA.
+- tillatt:
+    bokmål:
+    - MAC-deretter-krypter
+    - MtE
+    nynorsk:
+    - MAC-deretter-krypter
+    - MtE
+    engelsk:
+    - MAC-then-encrypt
+    - MtE
+  merknad: MAC-deretter-krypter forkortes ofte til MtE, som stammer fra <i>MAC-then-encrypt</i>.
+- tillatt:
+    bokmål:
+    - krypter-deretter-MAC
+    - EtM
+    nynorsk:
+    - krypter-deretter-MAC
+    - EtM
+    engelsk:
+    - encrypt-then-MAC
+    - EtM
+  merknad: Krypter-deretter-MAC forkortes ofte til EtM, som stammer fra <i>encrypt-then-MAC</i>.
+- tillatt:
+    bokmål:
+    - krypter-og-MAC
+    - EaM
+    nynorsk:
+    - krypter-og-MAC
+    - EaM
+    engelsk:
+    - encrypt-and-MAC
+    - EaM
+  merknad: Krypter-og-MAC forkortes ofte til EaM, som stammer fra <i>encrypt-and-MAC</i>.
+- tillatt:
+    bokmål:
+    - autentiser-deretter-krypter
+    - AtE
+    nynorsk:
+    - autentiser-deretter-krypter
+    - AtE
+    engelsk:
+    - authenticate-then-encrypt
+    - AtE
+  merknad: Autentiser-deretter-krypter forkortes ofte til AtE, som stammer fra <i>authenticate-then-encrypt</i>.
+- tillatt:
+    bokmål:
+    - krypter-deretter-autentiser
+    - EtA
+    nynorsk:
+    - krypter-deretter-autentiser
+    - EtA
+    engelsk:
+    - encrypt-then-authenticate
+    - EtA
+  merknad: Krypter-deretter-autentiser forkortes ofte til EtA, som stammer fra <i>encrypt-then-authenticate</i>.
+- tillatt:
+    bokmål:
+    - krypter-og-autentiser
+    - EaA
+    nynorsk:
+    - krypter-og-autentiser
+    - EaA
+    engelsk:
+    - encrypt-and-authenticate
+    - EaA
+  merknad: Krypter-og-autentiser forkortes ofte til EaA, som stammer fra <i>encrypt-and-authenticate</i>.
 - tillatt:
     bokmål:
     - uttømmende angrep
@@ -8627,246 +8655,60 @@
     bokmål: svak fremtidssikkerhet
     nynorsk: svak framtidssikkerheit
     engelsk: weak forward secrecy
-- anbefalt:
-    bokmål: substitusjon-permutasjon-nettverk
-    nynorsk: substitusjon-permutasjon-nettverk
-    engelsk: substitution-permutation network
-  merknad: Substitusjon-permutasjon-nettverk forkortes ofte til SPN.
+- tillatt:
+    bokmål:
+    - substitusjon-permutasjon-nettverk
+    - SPN
+    nynorsk:
+    - substitusjon-permutasjon-nettverk
+    - SPN
+    engelsk:
+    - substitution-permutation network
+    - SPN
+  merknad: Substitusjon-permutasjon-nettverk forkortes ofte til SPN. Forkortelsen SPN har intetkjønn på bokmål og nynorsk.
 - anbefalt:
     bokmål: offentlig-nøkkel-kryptografi
     nynorsk: offentleg-nøkkel-kryptografi
     engelsk: public key encryption
-- anbefalt:
-    bokmål: offentlig-nøkkel-infrastruktur
-    nynorsk: offentleg-nøkkel-infrastruktur
-    engelsk: public key infrastructure
-  merknad: Offentlig-nøkkel-infrastruktur (bokmål) og offentleg-nøkkel-infrastruktur
-    (nynorsk) forkortes ofte til PKI.
-- anbefalt:
-    bokmål: valgt-klartekst-angrep
-    nynorsk: valt-klartekst-åtak
-    engelsk: chosen-plaintext attack
-  merknad: Valgt-klartekst-angrep (bokmål) og valt-klartekst-åtak (nynorsk) forkortes
-    ofte til CPA.
-- anbefalt:
-    bokmål: valgt-chiffertekst-angrep
-    nynorsk: valt-chiffertekst-åtak
-    engelsk: chosen-ciphertext attack
-  merknad: Chiffer uttales [ʃi´f:ər].Valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak
-    (nynorsk) forkortes ofte til CCA.
-- anbefalt:
-    bokmål: CA
-    nynorsk: CA
-    engelsk: CA
-  genus:
-    bokmål: hankjønn
-    nynorsk: hankjønn
-  merknad: CA er en forkortelse for sertifikatutsteder (bokmål) og sertifikatutferdar
-    (nynorsk) og stammer fra <i>certificate authority</i>.
-- anbefalt:
-    bokmål: OTP
-    nynorsk: OTP
-    engelsk: OTP
-  genus:
-    bokmål: hankjønn
-    nynorsk: hankjønn
-  merknad: OTP er en forkortelse for engangsnøkkel (bokmål) og eingongsnøkkel (nynorsk)
-    og stammer fra <i>one-time pad</i>.
-- anbefalt:
-    bokmål: KE
-    nynorsk: KE
-    engelsk: KE
-  genus:
+- tillatt:
     bokmål:
-    - hankjønn
-    - hunkjønn
-    nynorsk: hunkjønn
-  merknad: KE er en forkortelse for nøkkelutveksling og stammer fra <i>key exchange</i>.
-- anbefalt:
-    bokmål: MAC
-    nynorsk: MAC
-    engelsk: MAC
-  genus:
-    bokmål: hankjønn
-    nynorsk: hankjønn
-  merknad: MAC er en forkortelse for meldingsautentiseringskode og stammer fra <i>message
-    authentication code</i>.
-- anbefalt:
-    bokmål: DAG
-    nynorsk: DAG
-    engelsk: DAG
-  genus:
-    bokmål: hankjønn
-    nynorsk: hankjønn
-  merknad: DAG er en forkortelse for rettet asyklisk graf (bokmål) og retta asyklisk
-    graf (nynorsk) og stammer fra <i>directed acyclic graph</i>.
-- anbefalt:
-    bokmål: KDF
-    nynorsk: KDF
-    engelsk: KDF
-  genus:
-    bokmål: hankjønn
-    nynorsk: hankjønn
-  merknad: KDF er en forkortelse for nøkkelavledningsfunksjon (bokmål) og nøkkelavleiingsfunksjon
-    (nynorsk) og stammer fra <i>key derivation function</i>.
-- anbefalt:
-    bokmål: PRF
-    nynorsk: PRF
-    engelsk: PRF
-  genus:
-    bokmål: hankjønn
-    nynorsk: hankjønn
-  merknad: PRF er en forkortelse for pseudotilfeldig funksjon og stammer fra <i>pseudorandom
-    function</i>.
-- anbefalt:
-    bokmål: PRNG
-    nynorsk: PRNG
-    engelsk: PRNG
-  genus:
-    bokmål: hankjønn
-    nynorsk: hankjønn
-  merknad: PRNG er en forkortelse for pseudotilfeldig tallgenerator (bokmål) og pseudotilfeldig
-    talgenerator (nynorsk) og stammer fra <i>pseudorandom number generator</i>.
-- anbefalt:
-    bokmål: IV
-    nynorsk: IV
-    engelsk: IV
-  genus:
-    bokmål: hankjønn
-    nynorsk: hankjønn
-  merknad: IV er en forkortelse for initialiseringsvektor (bokmål) og initialiseringsvektor
-    (nynorsk) og stammer fra <i>initialization vector</i>.
-- anbefalt:
-    bokmål: PoW
-    nynorsk: PoW
-    engelsk: PoW
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: PoW er en forkortelse for arbeidsbevis (bokmål) og arbeidsbevis/arbeidsprov
-    (nynorsk) og stammer fra <i>proof-of-work</i>.
-- anbefalt:
-    bokmål: CPA
-    nynorsk: CPA
-    engelsk: CPA
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: CPA er en forkortelse for valgt-klartekst-angrep (bokmål) og valt-klartekst-åtak
-    (nynorsk) og stammer fra <i>chosen-plaintext attack</i>.
-- anbefalt:
-    bokmål: CCA
-    nynorsk: CCA
-    engelsk: CCA
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: CCA er en forkortelse for valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak
-    (nynorsk) og stammer fra <i>chosen-ciphertext attack</i>.
-- anbefalt:
-    bokmål: WoT
-    nynorsk: WoT
-    engelsk: WoT
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: WoT er en forkortelse for tillitsnett og stammer fra <i>web of trust</i>.
-- anbefalt:
-    bokmål: PKI
-    nynorsk: PKI
-    engelsk: PKI
-  genus:
-    bokmål: hankjønn
-    nynorsk: hankjønn
-  merknad: PKI er en forkortelse for offentlig-nøkkel-infrastruktur (bokmål) og offentleg-nøkkel-infrastruktur
-    (nynorsk) og stammer fra <i>public key infrastructure</i>.
-- anbefalt:
-    bokmål: SPN
-    nynorsk: SPN
-    engelsk: SPN
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: SPN er en forkortelse for substitusjon-permutasjon-nettverk.
-- anbefalt:
-    bokmål: MtE
-    nynorsk: MtE
-    engelsk: MtE
-  merknad: MtE er en forkortelse for MAC-deretter-krypter og stammer fra <i>MAC-then-encrypt</i>.
-- anbefalt:
-    bokmål: EtM
-    nynorsk: EtM
-    engelsk: EtM
-  merknad: EtM er en forkortelse for krypter-deretter-MAC og stammer fra <i>encrypt-then-MAC</i>.
-- anbefalt:
-    bokmål: EaM
-    nynorsk: EaM
-    engelsk: EaM
-  merknad: EaM er en forkortelse for krypter-og-MAC og stammer fra <i>encrypt-and-MAC</i>.
-- anbefalt:
-    bokmål: AtE
-    nynorsk: AtE
-    engelsk: AtE
-  merknad: AtE er en forkortelse for autentiser-deretter-krypter og stammer fra <i>authenticate-then-encrypt</i>.
-- anbefalt:
-    bokmål: EtA
-    nynorsk: EtA
-    engelsk: EtA
-  merknad: EtA er en forkortelse for krypter-deretter-autentiser og stammer fra <i>encrypt-then-authenticate</i>.
-- anbefalt:
-    bokmål: EaA
-    nynorsk: EaA
-    engelsk: EaA
-  merknad: EaA er en forkortelse for krypter-og-autentiser og stammer fra <i>encrypt-and-authenticate</i>.
-- anbefalt:
-    bokmål: AEAD
-    nynorsk: AEAD
-    engelsk: AEAD
-  merknad: AEAD er en forkortelse for autentisert kryptering med tilhørende data (bokmål)
-    og autentisert kryptering med tilhøyrande data (nynorsk) og stammer fra <i>authenticated
-    encryption with associated data</i>.
-- anbefalt:
-    bokmål: E2EE
-    nynorsk: E2EE
-    engelsk: E2EE
-  merknad: E2EE er en forkortelse for ende-til-ende-kryptering/endepunktskryptering
-    og stammer fra <i>end-to-end encryption</i>.
-- anbefalt:
-    bokmål: EUF
-    nynorsk: EUF
-    engelsk: EUF
-  merknad: EUF er en forkortelse for eksistensiell uforfalskbarhet (bokmål) og eksistensiell
-    uforfalskbarheit (nynorsk) og stammer fra <i>existential unforgeability</i>.
-- anbefalt:
-    bokmål: SUF
-    nynorsk: SUF
-    engelsk: SUF
-  merknad: SUF er en forkortelse for selektiv uforfalskbarhet (bokmål) og selektiv
-    uforfalskbarheit (nynorsk) og stammer fra <i>selective unforgeability</i>.
-- anbefalt:
-    bokmål: UUF
-    nynorsk: UUF
-    engelsk: UUF
-  merknad: UUF er en forkortelse for universell uforfalskbarhet (bokmål) og universell
-    uforfalskbarheit (nynorsk) og stammer fra <i>universal unforgeability</i>.
-- anbefalt:
-    bokmål: CBC-modus
-    nynorsk: CBC-modus
-    engelsk: CBC mode
-  merknad: CBC-modus er en forkortelse for kjedet chifferblokkmodus (bokmål) og kjeda
-    chifferblokkmodus (nynorsk) og stammer fra <i>cipher block chaining mode</i>.
-- anbefalt:
-    bokmål: CTR-modus
-    nynorsk: CTR-modus
-    engelsk: CTR mode
-  merknad: CTR-modus er en forkortelse for tellemodus (bokmål) og teljemodus (nynorsk)
-    og stammer fra <i>counter mode</i>.
-- anbefalt:
-    bokmål: ECB-modus
-    nynorsk: ECB-modus
-    engelsk: ECB mode
-  merknad: ECB-modus er en forkortelse for elektronisk kodebokmodus og stammer fra
-    <i>electronic codebook mode</i>.
+    - offentlig-nøkkel-infrastruktur
+    - PKI
+    nynorsk:
+    - offentleg-nøkkel-infrastruktur
+    - PKI
+    engelsk:
+    - public key infrastructure
+    - PKI
+  merknad: Offentlig-nøkkel-infrastruktur (bokmål) og offentleg-nøkkel-infrastruktur (nynorsk)
+    forkortes ofte til PKI, som stammer fra <i>public key infrastructure</i>.
+    Forkortelsen PKI har hankjønn på bokmål og nynorsk.
+- tillatt:
+    bokmål:
+    - valgt-klartekst-angrep
+    - CPA
+    nynorsk:
+    - valt-klartekst-åtak
+    - CPA
+    engelsk:
+    - chosen-plaintext attack
+    - CPA
+  merknad: Valgt-klartekst-angrep (bokmål) og valt-klartekst-åtak (nynorsk) forkortes ofte til CPA, som
+    stammer fra <i>chosen-plaintext attack</i>. Forkortelsen CPA har intetkjønn på bokmål og nynorsk.
+- tillatt:
+    bokmål:
+    - valgt-chiffertekst-angrep
+    - CCA
+    nynorsk:
+    - valt-chiffertekst-åtak
+    - CCA
+    engelsk:
+    - chosen-ciphertext attack
+    - CCA
+  merknad: Chiffer uttales [ʃi´f:ər]. Valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak
+    (nynorsk) forkortes ofte til CCA.
+    og valt-chiffertekst-åtak (nynorsk) og stammer fra <i>chosen-ciphertext attack</i>. Forkortelsen
+    CCA har intetkjønn på bokmål og nynorsk.
 - anbefalt:
     bokmål: kode
     nynorsk: kode
@@ -8891,11 +8733,17 @@
     bokmål: paritet
     nynorsk: paritet
     engelsk: parity
-- anbefalt:
-    bokmål: engangsnøkkel
-    nynorsk: eingongsnøkkel
-    engelsk: one-time pad
-  merknad: Engangsnøkkel (bokmål) og eingongsnøkkel (nynorsk) forkortes ofte til OTP.
+- tillatt:
+    bokmål:
+    - engangsnøkkel
+    - OTP
+    nynorsk:
+    - eingongsnøkkel
+    - OTP
+    engelsk:
+    - one-time pad
+    - OTP
+  merknad: Engangsnøkkel (bokmål) og eingongsnøkkel (nynorsk) forkortes ofte til OTP, som stammer fra <i>one-time pad</i>. Forkortelsen OTP har hankjønn på bokmål og nynorsk.
 - anbefalt:
     bokmål: chiffer
     nynorsk: chiffer
@@ -8945,11 +8793,17 @@
     bokmål: gitterbasert kryptografi
     nynorsk: gitterbasert kryptografi
     engelsk: lattice-based cryptography
-- anbefalt:
-    bokmål: nøkkelutveksling
-    nynorsk: nøkkelutveksling
-    engelsk: key exchange
-  merknad: Nøkkelutveksling forkortes ofte til KE.
+- tillatt:
+    bokmål:
+    - nøkkelutveksling
+    - KE
+    nynorsk:
+    - nøkkelutveksling
+    - KE
+    engelsk:
+    - key exchange
+    - KE
+  merknad: Nøkkelutveksling forkortes ofte til KE, som stammer fra <i>key exchange</i>. Forkortelsen KE har både hankjønn og hunkjønn på bokmål og hunkjønn på nynorsk.
 - anbefalt:
     bokmål: klartekst
     nynorsk: klartekst
@@ -8979,11 +8833,18 @@
     bokmål: elliptisk kurve
     nynorsk: elliptisk kurve
     engelsk: elliptic curve
-- anbefalt:
-    bokmål: meldingsautentiseringskode
-    nynorsk: meldingsautentiseringskode
-    engelsk: message authentication code
-  merknad: Meldingsautentiseringskode forkortes ofte til MAC.
+- tillatt:
+    bokmål:
+    - meldingsautentiseringskode
+    - MAC
+    nynorsk:
+    - meldingsautentiseringskode
+    - MAC
+    engelsk:
+    - message authentication code
+    - MAC
+  merknad: Meldingsautentiseringskode forkortes ofte til MAC, som stammer fra <i>message authentication code</i>. Forkortelsen MAC
+    har hankjønn på bokmål og nynorsk.
 - anbefalt:
     bokmål: delt nøkkel
     nynorsk: delt nøkkel
@@ -9008,12 +8869,18 @@
     bokmål: blokkjede
     nynorsk: blokkjede
     engelsk: blockchain
-- anbefalt:
-    bokmål: rettet asyklisk graf
-    nynorsk: retta asyklisk graf
-    engelsk: directed acyclic graph
-  merknad: Rettet asyklisk graf (bokmål) og retta asyklisk graf (nynorsk) forkortes
-    ofte til DAG.
+- tillatt:
+    bokmål:
+    - rettet asyklisk graf
+    - DAG
+    nynorsk:
+    - retta asyklisk graf
+    - DAG
+    engelsk:
+    - directed acyclic graph
+    - DAG
+  merknad: Rettet asyklisk graf (bokmål) og retta asyklisk graf (nynorsk) forkortes ofte til DAG, som
+    stammer fra <i>directed acyclic graph</i>. Forkortelsen DAG har hankjønn på bokmål og nynorsk.
 - anbefalt:
     bokmål: frekvensanalyse
     nynorsk: frekvensanalyse
@@ -9060,24 +8927,33 @@
     engelsk:
     - AE
     - authenticated encryption
-  merknad: AE er en forkortelse for autentisert kryptering og stammer fra <i>authenticated
-    encryption</i>.
-- anbefalt:
-    bokmål: autentisert kryptering med tilhørende data
-    nynorsk: autentisert kryptering med tilhøyrande data
-    engelsk: authenticated encryption with associated data
-  merknad: Autentisert kryptering med tilhørende data (bokmål) og autentisert kryptering
-    med tilhøyrande data (nynorsk) forkortes ofte til AEAD.
+  merknad: AE er en forkortelse for autentisert kryptering og stammer fra <i>authenticated encryption</i>.
+- tillatt:
+    bokmål:
+    - autentisert kryptering med tilhørende data
+    - AEAD
+    nynorsk:
+    - autentisert kryptering med tilhøyrande data
+    - AEAD
+    engelsk:
+    - authenticated encryption with associated data
+    - AEAD
+  merknad: Autentisert kryptering med tilhørende data (bokmål) og autentisert kryptering med tilhøyrande data (nynorsk) forkortes ofte til AEAD, som stammer fra <i>authenticated encryption with associated data</i>.
 - anbefalt:
     bokmål: blindsignatur
     nynorsk: blindsignatur
     engelsk: blind signature
-- anbefalt:
-    bokmål: nøkkelavledningsfunksjon
-    nynorsk: nøkkelavleiingsfunksjon
-    engelsk: key derivation function
-  merknad: Nøkkelavledningsfunksjon (bokmål) og nøkkelavleiingsfunksjon (nynorsk)
-    forkortes ofte til KDF.
+- tillatt:
+    bokmål:
+    - nøkkelavledningsfunksjon
+    - KDF
+    nynorsk:
+    - nøkkelavleiingsfunksjon
+    - KDF
+    engelsk:
+    - key derivation function
+    - KDF
+  merknad: Nøkkelavledningsfunksjon (bokmål) og nøkkelavleiingsfunksjon (nynorsk) forkortes ofte til KDF, som stammer fra <i>key derivation function</i>. Forkortelsen KDF har hankjønn på bokmål og nynorsk.
 - anbefalt:
     bokmål: salt
     nynorsk: salt
@@ -9087,17 +8963,28 @@
     bokmål: orakel
     nynorsk: orakel
     engelsk: oracle
-- anbefalt:
-    bokmål: pseudotilfeldig funksjon
-    nynorsk: pseudotilfeldig funksjon
-    engelsk: pseudorandom function
-  merknad: Pseudotilfeldig funksjon forkortes ofte til PRF.
-- anbefalt:
-    bokmål: pseudotilfeldig tallgenerator
-    nynorsk: pseudotilfeldig talgenerator
-    engelsk: pseudorandom number generator
-  merknad: Pseudotilfeldig tallgenerator (bokmål) og pseudotilfeldig talgenerator
-    (nynorsk) forkortes ofte til PRNG.
+- tillatt:
+    bokmål:
+    - pseudotilfeldig funksjon
+    - PRF
+    nynorsk:
+    - pseudotilfeldig funksjon
+    - PRF
+    engelsk:
+    - pseudorandom function
+    - PRF
+  merknad: Pseudotilfeldig funksjon forkortes ofte til PRF, som stammer fra <i>pseudorandom function</i>. Forkortelsen PRF har hankjønn på bokmål og nynorsk.
+- tillatt:
+    bokmål:
+    - pseudotilfeldig tallgenerator
+    - PRNG
+    nynorsk:
+    - pseudotilfeldig talgenerator
+    - PRNG
+    engelsk:
+    - pseudorandom number generator
+    - PRNG
+  merknad: Pseudotilfeldig tallgenerator (bokmål) og pseudotilfeldig talgenerator (nynorsk) forkortes ofte til PRNG, som stammer fra <i>pseudorandom number generator</i>. Forkortelsen PRNG har hankjønn på bokmål og nynorsk.
 - anbefalt:
     bokmål: polstring
     nynorsk: polstring
@@ -9110,20 +8997,29 @@
     bokmål: nøkkeldeponering
     nynorsk: nøkkeldeponering
     engelsk: key escrow
-- anbefalt:
-    bokmål: initialiseringsvektor
-    nynorsk: initialiseringsvektor
-    engelsk: initialization vector
-  merknad: Initialiseringsvektor forkortes ofte til IV.
-- anbefalt:
-    bokmål: arbeidsbevis
-    engelsk: proof-of-work
-  tillatt:
+- tillatt:
+    bokmål:
+    - initialiseringsvektor
+    - IV
+    nynorsk:
+    - initialiseringsvektor
+    - IV
+    engelsk:
+    - initialization vector
+    - IV
+  merknad: Initialiseringsvektor forkortes ofte til IV, som stammer fra <i>initialization vector</i>. Forkortelsen IV har hankjønn på bokmål og nynorsk.
+- tillatt:
+    bokmål:
+    - arbeidsbevis
+    - PoW
     nynorsk:
     - arbeidsbevis
     - arbeidsprov
-  merknad: Arbeidsbevis (bokmål) og arbeidsbevis/arbeidsprov (nynorsk) forkortes ofte
-    til PoW.
+    - PoW
+    engelsk:
+    - proof-of-work
+    - PoW
+  merknad: Arbeidsbevis (bokmål) og arbeidsbevis/arbeidsprov (nynorsk) forkortes ofte til PoW, som stammer fra <i>proof-of-work</i>. Forkortelsen PoW har intetkjønn på bokmål og nynorsk.
 - anbefalt:
     bokmål: gjentagelsesangrep
     nynorsk: gjentakingsåtak
@@ -9165,43 +9061,67 @@
     - konkatenere
     - setje saman
   ordklasse: verb
-- anbefalt:
-    engelsk: end-to-end encryption
-  tillatt:
+- tillatt:
     bokmål:
     - ende-til-ende-kryptering
     - endepunktskryptering
+    - E2EE
     nynorsk:
     - ende-til-ende-kryptering
     - endepunktskryptering
-  merknad: Ende-til-ende-kryptering/endepunktskryptering forkortes ofte til E2EE.
+    - E2EE
+    engelsk:
+    - end-to-end encryption
+    - E2EE
+  merknad: Ende-til-ende-kryptering/endepunktskryptering forkortes ofte til E2EE, som stammer fra <i>end-to-end encryption</i>.
 - anbefalt:
     bokmål: spillhopping
     nynorsk: spelhopping
     engelsk: game-hopping
-- anbefalt:
-    bokmål: eksistensiell uforfalskbarhet
-    nynorsk: eksistensiell uforfalskbarheit
-    engelsk: existential unforgeability
-  merknad: Eksistensiell uforfalskbarhet (bokmål) og eksistensiell uforfalskbarheit
-    (nynorsk) forkortes ofte til EUF.
-- anbefalt:
-    bokmål: selektiv uforfalskbarhet
-    nynorsk: selektiv uforfalskbarheit
-    engelsk: selective unforgeability
-  merknad: Selektiv uforfalskbarhet (bokmål) og selektiv uforfalskbarheit (nynorsk)
-    forkortes ofte til SUF.
-- anbefalt:
-    bokmål: universell uforfalskbarhet
-    nynorsk: universell uforfalskbarheit
-    engelsk: universal unforgeability
-  merknad: Universell uforfalskbarhet (bokmål) og universell uforfalskbarheit (nynorsk)
-    forkortes ofte til UUF.
-- anbefalt:
-    bokmål: tillitsnett
-    nynorsk: tillitsnett
-    engelsk: web of trust
-  merknad: Tillitsnett forkortes ofte til WoT.
+- tillatt:
+    bokmål:
+    - eksistensiell uforfalskbarhet
+    - EUF
+    nynorsk:
+    - eksistensiell uforfalskbarheit
+    - EUF
+    engelsk:
+    - existential unforgeability
+    - EUF
+  merknad: Eksistensiell uforfalskbarhet (bokmål) og eksistensiell uforfalskbarheit (nynorsk) forkortes ofte til EUF, som stammer fra <i>existential unforgeability</i>.
+- tillatt:
+    bokmål:
+    - selektiv uforfalskbarhet
+    - SUF
+    nynorsk:
+    - selektiv uforfalskbarheit
+    - SUF
+    engelsk:
+    - selective unforgeability
+    - SUF
+  merknad: Selektiv uforfalskbarhet (bokmål) og selektiv uforfalskbarheit (nynorsk) forkortes ofte til SUF, som stammer fra <i>selective unforgeability</i>.
+- tillatt:
+    bokmål:
+    - universell uforfalskbarhet
+    - UUF
+    nynorsk:
+    - universell uforfalskbarheit
+    - UUF
+    engelsk:
+    - universal unforgeability
+    - UUF
+  merknad: Universell uforfalskbarhet (bokmål) og universell uforfalskbarheit (nynorsk) forkortes ofte til UUF, som stammer fra <i>universal unforgeability</i>.
+- tillatt:
+    bokmål:
+    - tillitsnett
+    - WoT
+    nynorsk:
+    - tillitsnett
+    - WoT
+    engelsk:
+    - web of trust
+    - WoT
+  merknad: Tillitsnett forkortes ofte til WoT, som stammer fra <i>web of trust</i>. Forkortelsen WoT har intetkjønn på bokmål og nynorsk.
 - anbefalt:
     bokmål: krypteringsmodus
     nynorsk: krypteringsmodus
@@ -9210,28 +9130,44 @@
     bokmål: dekrypteringsmodus
     nynorsk: dekrypteringsmodus
     engelsk: decryption mode
-- anbefalt:
-    bokmål: elektronisk kodebokmodus
-    nynorsk: elektronisk kodebokmodus
-    engelsk: electronic codebook mode
-  merknad: Elektronisk kodebokmodus forkortes ofte til ECB-modus.
-- anbefalt:
-    bokmål: tellemodus
-    nynorsk: teljemodus
-    engelsk: counter mode
-  merknad: Tellemodus (bokmål) og teljemodus (nynorsk) forkortes ofte til CTR-modus.
-- anbefalt:
-    bokmål: kjedet chifferblokkmodus
-    nynorsk: kjeda chifferblokkmodus
-    engelsk: cipher block chaining mode
-  merknad: Chiffer uttales [ʃi´f:ər].Kjedet chifferblokkmodus (bokmål) og kjeda chifferblokkmodus
-    (nynorsk) forkortes ofte til CBC-modus.
+- tillatt:
+    bokmål:
+    - elektronisk kodebokmodus
+    - ECB-modus
+    nynorsk:
+    - elektronisk kodebokmodus
+    - ECB-modus
+    engelsk:
+    - electronic codebook mode
+    - ECB mode
+  merknad: Elektronisk kodebokmodus forkortes ofte til ECB-modus, som stammer fra <i>electronic codebook mode</i>.
+- tillatt:
+    bokmål:
+    - tellemodus
+    - CTR-modus
+    nynorsk:
+    - teljemodus
+    - CTR-modus
+    engelsk:
+    - counter mode
+    - CTR mode
+  merknad: Tellemodus (bokmål) og teljemodus (nynorsk) forkortes ofte til CTR-modus, som stammer fra <i>counter mode</i>.
+- tillatt:
+    bokmål:
+    - kjedet chifferblokkmodus
+    - CBC-modus
+    nynorsk:
+    - kjeda chifferblokkmodus
+    - CBC-modus
+    engelsk:
+    - cipher block chaining mode
+    - CBC mode
+  merknad: Chiffer uttales [ʃi´f:ər]. Kjedet chifferblokkmodus (bokmål) og kjeda chifferblokkmodus (nynorsk) forkortes ofte til CBC-modus, som stammer fra <i>cipher block chaining mode</i>.
 - anbefalt:
     bokmål: anstendig avbildning
     nynorsk: anstendig avbilding
     engelsk: proper map
-  merknad: Oversettelsen proper avbildning (bokmål) og proper avbilding (nynorsk)
-    er også i bruk.
+  merknad: Oversettelsen proper avbildning (bokmål) og proper avbilding (nynorsk) er også i bruk.
 - anbefalt:
     bokmål: anstendig funksjon
     nynorsk: anstendig funksjon
@@ -9241,14 +9177,12 @@
     bokmål: distingvert triangel
     nynorsk: distingvert triangel
     engelsk: distinguished triangle
-  merknad: Deler av faglitteraturen benytter uttrykket <i>exact triangle</i> i stedet
-    for <i>distinguished triangle</i>. Dette oversettes til eksakt triangel.
+  merknad: Deler av faglitteraturen benytter uttrykket <i>exact triangle</i> i stedet for <i>distinguished triangle</i>. Dette oversettes til eksakt triangel.
 - anbefalt:
     bokmål: eksakt triangel
     nynorsk: eksakt triangel
     engelsk: exact triangle
-  merknad: Deler av faglitteraturen benytter uttrykket <i>distinguished triangle</i>
-    i stedet for <i>exact triangle</i>. Dette oversettes til distingvert triangel.
+  merknad: Deler av faglitteraturen benytter uttrykket <i>distinguished triangle</i> i stedet for <i>exact triangle</i>. Dette oversettes til distingvert triangel.
 - anbefalt:
     bokmål: nedadgående-kjede-betingelse
     nynorsk: minkande-kjede-vilkår
@@ -9275,8 +9209,7 @@
     - definisjonsmengd
     - definisjonsområde
   bruksområde: funksjoner
-  merknad: Oversettelsen gjelder blant annet omhandlende funksjoner og utelukker ikke
-    at termen kan benyttes ulikt i andre sammenhenger.
+  merknad: Oversettelsen gjelder blant annet omhandlende funksjoner og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 - anbefalt:
     bokmål: spektralfølge
     nynorsk: spektralfølgje
@@ -9305,8 +9238,7 @@
     bokmål: isotropiundergruppe
     nynorsk: isotropiundergruppe
     engelsk: isotropy subgroup
-  merknad: I noen tilfeller kan termene isotropiundergruppe og stabilisator brukes
-    synonymt. Hva som er vanlig ordvalg, avhenger av kontekst.
+  merknad: I noen tilfeller kan termene isotropiundergruppe og stabilisator brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst.
 - anbefalt:
     bokmål: Burnsides formel
     nynorsk: Burnsides formel
@@ -9323,14 +9255,12 @@
     bokmål: like funksjon
     nynorsk: like funksjon
     engelsk: even function
-  merknad: Oversettelsen jevn funksjon (bokmål) og jamn funksjon (nynorsk) er også
-    i bruk.
+  merknad: Oversettelsen jevn funksjon (bokmål) og jamn funksjon (nynorsk) er også i bruk.
 - anbefalt:
     bokmål: like permutasjon
     nynorsk: like permutasjon
     engelsk: even permutation
-  merknad: Oversettelsen jevn permutasjon (bokmål) og jamn permutasjon (nynorsk) er
-    også i bruk.
+  merknad: Oversettelsen jevn permutasjon (bokmål) og jamn permutasjon (nynorsk) er også i bruk.
 - anbefalt:
     bokmål: odde permutasjon
     nynorsk: odde permutasjon
@@ -9453,40 +9383,28 @@
     nynorsk:
     - dele
     - gå opp i
-  merknad: Et heltall 𝓃 deler eller går opp i et heltall 𝓂 dersom 𝓃 er en faktor i
-    𝓂.
+  merknad: Et heltall 𝓃 deler eller går opp i et heltall 𝓂 dersom 𝓃 er en faktor i 𝓂.
 - tillatt:
     bokmål:
     - endelig tilstandsautomat
     - endelig tilstandsmaskin
+    - FSM
+    - FSA
     nynorsk:
     - endeleg tilstandsautomat
     - endeleg tilstandsmaskin
+    - FSM
+    - FSA
     engelsk:
     - finite-state automaton
     - finite-state machine
-- anbefalt:
-    bokmål: FSM
-    nynorsk: FSM
-    engelsk: FSM
-  genus:
-    bokmål: hankjønn
-    nynorsk:
-    - hankjønn
-    - hunkjønn
-  synonym: endelig tilstandsmaskin
+    - FSM
+    - FSA
   merknad: FSM er en forkortelse for endelig tilstandsmaskin (bokmål) og endeleg tilstandsmaskin
-    (nynorsk) og stammer fra <i>finite-state machine</i>.
-- anbefalt:
-    bokmål: FSA
-    nynorsk: FSA
-    engelsk: FSA
-  genus:
-    bokmål: hankjønn
-    nynorsk: hankjønn
-  synonym: endelig tilstandsautomat
-  merknad: FSA er en forkortelse for endelig tilstandsautomat (bokmål) og endeleg
-    tilstandsautomat (nynorsk) og stammer fra <i>finite-state automaton</i>.
+    (nynorsk) og stammer fra <i>finite-state machine</i>. FSA er en forkortelse for endelig
+    tilstandsautomat (bokmål) og endeleg tilstandsautomat (nynorsk) og stammer fra <i>finite-state
+    automaton</i>. Forkortelsen FSM har hankjønn på bokmål og både hankjønn og hunkjønn på nynorsk.
+    Forkortelsen FSA har hankjønn på bokmål og nynorsk.
 - anbefalt:
     bokmål: verdiområde
     nynorsk: verdiområde
@@ -10507,10 +10425,10 @@
     bokmål: pivot
     nynorsk: pivot
     engelsk: pivot
+  ordklasse: substantiv
   genus:
     bokmål: hankjønn
     nynorsk: hankjønn
-  ordklasse: substantiv
   merknad: 'Uttale: [pivå:´]'
 - anbefalt:
     bokmål: ordning
@@ -11889,17 +11807,18 @@
     bokmål: polsk rom
     nynorsk: polsk rom
     engelsk: Polish space
-- anbefalt:
-    bokmål: omvendt polsk notasjon
-    nynorsk: omvend polsk notasjon
-    engelsk: reverse Polish notation
-  merknad: Omvendt polsk notasjon (bokmål) og omvend polsk notasjon (nynorsk) forkortes
-    ofte til OPN eller RPN.
-- anbefalt:
-    bokmål: OPN
-    nynorsk: OPN
-    engelsk: RPN
-  merknad: OPN er en forkortelse for omvendt polsk notasjon.
+- tillatt:
+    bokmål:
+    - omvendt polsk notasjon
+    - OPN
+    nynorsk:
+    - omvend polsk notasjon
+    - OPN
+    engelsk:
+    - reverse Polish notation
+    - RPN
+  merknad: Omvendt polsk notasjon (bokmål) og omvend polsk notasjon (nynorsk) forkortes ofte til OPN
+    eller RPN. OPN er en forkortelse for omvendt polsk notasjon.
 - anbefalt:
     bokmål: eselbroen
     nynorsk: eselbrua
@@ -14064,15 +13983,16 @@
     bokmål: førsteamanuensis
     nynorsk: førsteamanuensis
     engelsk: associate professor
-- anbefalt:
-    bokmål: postdok
-    nynorsk: postdok
-    engelsk: postdoc
-  merknad: Postdok brukes som en forkortelse for postdoktor.
-- anbefalt:
-    bokmål: postdoktor
-    nynorsk: postdoktor
-    engelsk: postdoctor
+- tillatt:
+    bokmål:
+    - postdoktor
+    - postdok
+    nynorsk:
+    - postdoktor
+    - postdok
+    engelsk:
+    - postdoctor
+    - postdoc
   merknad: Postdoktor forkortes ofte til postdok.
 - tillatt:
     bokmål:
@@ -15739,17 +15659,17 @@
     bokmål: tellbart uendelig
     nynorsk: teljeleg uendeleg
     engelsk: countably infinite
-- anbefalt:
-    bokmål: disjunktiv normalform
-    nynorsk: disjunktiv normalform
-    engelsk: disjunctive normal form
-  merknad: Disjunktiv normalform forkortes ofte til DNF.
-- anbefalt:
-    bokmål: DNF
-    nynorsk: DNF
-    engelsk: DNF
-  merknad: DNF er en forkortelse for disjunktiv normalform og stammer fra <i>disjunctive
-    normal form</i>.
+- tillatt:
+    bokmål:
+    - disjunktiv normalform
+    - DNF
+    nynorsk:
+    - disjunktiv normalform
+    - DNF
+    engelsk:
+    - disjunctive normal form
+    - DNF
+  merknad: Disjunktiv normalform forkortes ofte til DNF, som stammer fra <i>disjunctive normal form</i>.
 - anbefalt:
     bokmål: unik
     nynorsk: unik
