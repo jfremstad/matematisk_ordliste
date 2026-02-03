@@ -336,8 +336,8 @@
     nynorsk: moment
     engelsk: moment
   bruksområde: statistikk
-  merknad: Legg merke til at denne oversettelsen gjelder innen statistikk. I fysikk
-    kan <i>moment</i> referere til det som på norsk kalles bevegelsesmengde (bokmål)
+  merknad: Legg merke til at termen moment brukes innen statistikk. I fysikk kan
+    <i>moment</i> referere til det som på norsk kalles bevegelsesmengde (bokmål)
     og rørslemengd (nynorsk).
 - anbefalt:
     bokmål: p-primært ideal
@@ -11274,55 +11274,57 @@
     bokmål: generell lineær gruppe
     nynorsk: generell lineær gruppe
     engelsk: general linear group
-  merknad: For en slik gruppe brukes ofte notasjonen GL(n,k), der n er et positivt
-    heltall og k er en kropp.
+  merknad: For en generell lineær gruppe brukes ofte notasjonen GL(n,k), der n er
+    et positivt heltall og k er en kropp.
 - anbefalt:
     bokmål: spesiell lineær gruppe
     nynorsk: spesiell lineær gruppe
     engelsk: special linear group
-  merknad: For en slik gruppe brukes ofte notasjonen SL(n,k), der n er et positivt
-    heltall og k er en kropp.
+  merknad: For en spesiell lineær gruppe brukes ofte notasjonen SL(n,k), der n er
+    et positivt heltall og k er en kropp.
 - anbefalt:
     bokmål: ortogonal gruppe
     nynorsk: ortogonal gruppe
     engelsk: orthogonal group
-  merknad: For en slik gruppe brukes ofte notasjonen O(n,k), der n er et positivt
+  merknad: For en ortogonal gruppe brukes ofte notasjonen O(n,k), der n er et positivt
     heltall og k er en kropp.
 - anbefalt:
     bokmål: spesiell ortogonal gruppe
     nynorsk: spesiell ortogonal gruppe
     engelsk: special orthogonal group
-  merknad: For en slik gruppe brukes ofte notasjonen SO(n,k), der n er et positivt
-    heltall og k er en kropp.
+  merknad: For en spesiell ortogonal gruppe brukes ofte notasjonen SO(n,k), der n
+    er et positivt heltall og k er en kropp.
 - anbefalt:
     bokmål: unitær gruppe
     nynorsk: unitær gruppe
     engelsk: unitary group
-  merknad: For en slik gruppe brukes ofte notasjonen U(n), der n er et positivt heltall.
+  merknad: For en unitær gruppe brukes ofte notasjonen U(n), der n er et positivt
+    heltall.
 - anbefalt:
     bokmål: spesiell unitær gruppe
     nynorsk: spesiell unitær gruppe
     engelsk: special unitary group
-  merknad: For en slik gruppe brukes ofte notasjonen SU(n), der n er et positivt heltall.
+  merknad: For en spesiell unitær gruppe brukes ofte notasjonen SU(n), der n er et
+    positivt heltall.
 - anbefalt:
     bokmål: eksepsjonell gruppe
     nynorsk: eksepsjonell gruppe
     engelsk: exceptional group
-  merknad: For en slik gruppe brukes ofte notasjonen E_n, der n er et heltall slik
-    at 6 ≤ n ≤ 8.
+  merknad: For en eksepsjonell gruppe brukes ofte notasjonen E_n, der n er et heltall
+    slik at 6 ≤ n ≤ 8.
 - anbefalt:
     bokmål: symplektisk gruppe
     nynorsk: symplektisk gruppe
     engelsk: symplectic group
-  merknad: For en slik gruppe brukes ofte notasjonen Sp(2n,k), der n er et positivt
-    heltall og k er en kropp.
+  merknad: For en symplektisk gruppe brukes ofte notasjonen Sp(2n,k), der n er et
+    positivt heltall og k er en kropp.
 - anbefalt:
     bokmål: kompakt symplektisk gruppe
     nynorsk: kompakt symplektisk gruppe
     engelsk: compact symplectic group
-  merknad: For en slik gruppe brukes ofte notasjonen Sp(n). Den defineres som snittet
-    av den symplektiske gruppen Sp(2n,C) med den unitære gruppen U(2n,C), der C er
-    de komplekse tallene.
+  merknad: For en kompakt symplektisk gruppe brukes ofte notasjonen Sp(n). Den defineres
+    som snittet av den symplektiske gruppen Sp(2n,C) med den unitære gruppen U(2n,C),
+    der C er de komplekse tallene.
 - anbefalt:
     bokmål: semisimpel gruppe
     nynorsk: semisimpel gruppe
@@ -13291,8 +13293,7 @@
     bokmål: spiss-
     nynorsk: spiss-
     engelsk: cuspidal
-  merknad: Denne termen brukes som et adjektiv på engelsk, men som forstavelse på
-    norsk.
+  merknad: Spiss- brukes som en forstavelse på norsk, men <i>cuspidal</i> brukes som et adjektiv på engelsk.
 - anbefalt:
     engelsk: skeletal
   tillatt:
@@ -13302,8 +13303,7 @@
     nynorsk:
     - skjelett-
     - skjelettal-
-  merknad: Denne termen brukes som et adjektiv på engelsk, men som forstavelse på
-    norsk.
+  merknad: Skjelettal- brukes som en forstavelse på norsk, men <i>skeletal</i> brukes som et adjektiv på engelsk.
 - anbefalt:
     engelsk: contour integral
   tillatt:
@@ -13525,8 +13525,8 @@
     bokmål: koersiv
     nynorsk: koersiv
     engelsk: coercive
-  merknad: Oversettelsen benyttes når det er snakk om funksjoner og utelukker ikke
-    at den benyttes ulikt i andre sammenhenger.
+  merknad: Koersiv benyttes når det er snakk om funksjoner og utelukker ikke at termen
+    benyttes ulikt i andre sammenhenger.
 - anbefalt:
     bokmål: firhjørning
     nynorsk: firhjørning
@@ -15548,7 +15548,7 @@
     engelsk:
     - Freyd–Mitchell theorem
     - Mitchell's embedding theorem
-  merknad: Dette teoremet kalles i noen kontekster også for Freyd-Mitchell-teoremet.
+  merknad: Mitchells imbeddingteorem kalles i noen kontekster også for Freyd-Mitchell-teoremet.
 - anbefalt:
     bokmål: rotasjonsgrind
     nynorsk: rotasjonsgrind
@@ -15980,12 +15980,14 @@
     bokmål: plasskompleksitet
     nynorsk: plasskompleksitet
     engelsk: space complexity
-  merknad: Termen <i>memory complexity</i> brukes også om dette konseptet i noen sammenhenger.
+  merknad: Termen <i>memory complexity</i> brukes også om plasskompleksitet i noen
+    sammenhenger.
 - anbefalt:
     bokmål: minnekompleksitet
     nynorsk: minnekompleksitet
     engelsk: memory complexity
-  merknad: Termen <i>space complexity</i> brukes også om dette konseptet i noen sammenhenger.
+  merknad: Termen <i>space complexity</i> brukes også om minnekompleksitet i noen
+    sammenhenger.
 - anbefalt:
     bokmål: regularisere
     nynorsk: regularisere
