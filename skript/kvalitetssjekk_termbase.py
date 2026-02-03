@@ -13,6 +13,7 @@
 
 import json
 import yaml
+from yaml.nodes import SequenceNode
 from jsonschema import validate, ValidationError
 from itertools import combinations
 
@@ -30,10 +31,21 @@ def load_schema(schema_path):
         return json.load(f)
 
 
-def load_yaml(yaml_path):
-    """Les inn YAML-filen som skal valideres."""
+def load_yaml_with_lines(yaml_path):
+    """Les inn YAML-filen og returner data og linjenummer per oppføring."""
     with open(yaml_path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        content = f.read()
+
+    data = yaml.safe_load(content)
+    node = yaml.compose(content, Loader=yaml.SafeLoader)
+
+    entry_lines = []
+    if isinstance(node, SequenceNode):
+        entry_lines = [item.start_mark.line + 1 for item in node.value]
+    elif isinstance(data, list):
+        entry_lines = [None] * len(data)
+
+    return data, entry_lines
 
 
 def flatten_terms(value):
@@ -163,7 +175,7 @@ def main(schema_path, yaml_path):
     error_flags = 0
 
     schema = load_schema(schema_path)
-    data = load_yaml(yaml_path)
+    data, entry_lines = load_yaml_with_lines(yaml_path)
 
     try:
         validate(instance=data, schema=schema)
@@ -176,19 +188,25 @@ def main(schema_path, yaml_path):
 
     # 1. Feltrekkefølge
     for i, entry in enumerate(data):
+        line_info = ""
+        if i < len(entry_lines) and entry_lines[i]:
+            line_info = f" (linje {entry_lines[i]})"
         ok, found, expected = check_field_order(entry, schema_properties)
         if not ok:
             error_flags |= FIELD_ORDER_ERROR
-            print(f"Oppføring {i}: feil rekkefølge på felter.")
-            print(f"  Funnet:    {found}")
-            print(f"  Forventet: {expected}")
+            print(f"Oppføring {i}{line_info}: feil rekkefølge på felter.")
+            print(f"  Funnet:    {', '.join(found)}")
+            print(f"  Forventet: {', '.join(expected)}")
 
     # 2. Lokal overlapp
     for i, entry in enumerate(data):
+        line_info = ""
+        if i < len(entry_lines) and entry_lines[i]:
+            line_info = f" (linje {entry_lines[i]})"
         local = check_local_overlap(entry.get("anbefalt"), entry.get("tillatt"))
         if local:
             error_flags |= LOCAL_OVERLAP_ERROR
-            print(f"Oppføring {i}: overlapp funnet:")
+            print(f"Oppføring {i}{line_info}: overlapp funnet:")
             for lang, terms in local.items():
                 print(f"  {lang}: {terms}")
 
@@ -197,7 +215,18 @@ def main(schema_path, yaml_path):
 
     for c in conflicts:
         error_flags |= GLOBAL_CONFLICT_ERR
-        print(f"Oppføringene {c['entries']} er i konflikt:")
+        i, j = c["entries"]
+        line_i = entry_lines[i] if i < len(entry_lines) else None
+        line_j = entry_lines[j] if j < len(entry_lines) else None
+        if line_i and line_j:
+            line_info = f" (linje {line_i} og {line_j})"
+        elif line_i:
+            line_info = f" (linje {line_i} og ukjent)"
+        elif line_j:
+            line_info = f" (linje ukjent og {line_j})"
+        else:
+            line_info = ""
+        print(f"Oppføringene {c['entries']}{line_info} er i konflikt:")
         for lang, terms in c["overlap"].items():
             print(f"  {lang}: {terms}")
 
