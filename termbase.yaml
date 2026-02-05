@@ -10367,7 +10367,7 @@
     nynorsk: verdimengd
     engelsk: range
   merknad: I mange tilfeller kan termene verdimengde og bilde brukes synonymt. Hva
-    som er vanlig ordvalg, avhenger av kontekst.Verdimengde kan også omtales som bildemengde
+    som er vanlig ordvalg, avhenger av kontekst. Verdimengde kan også omtales som bildemengde
     (bokmål) og biletmengd (nynorsk) eller rekkevidde (bokmål) og rekkjevidde (nynorsk).
 - anbefalt:
     bokmål: gitter
@@ -11432,8 +11432,8 @@
     - dobbel-eksponentialfordeling
     - laplacefordeling
     engelsk:
-    - Laplace distribution
     - double exponential distribution
+    - Laplace distribution
 - anbefalt:
     bokmål: logistisk fordeling
     nynorsk: logistisk fordeling
