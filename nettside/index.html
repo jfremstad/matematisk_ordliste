@@ -174,33 +174,6 @@
             let capField = capFirst(field);
             lines.push(`${capLang} ${capField}: ${items.join(", ")}`);
           }
-      }
-      // Sort with norwegian characters in mind
-      $(document).ready(function () {
-        $.fn.dataTable.ext.order.intl("nb");
-        commentButton();
-        var table = $("#wordlist").DataTable({
-          order: [[1, "asc"]],
-          columnDefs: [{ orderable: false, targets: [0] }],
-          lengthMenu: [
-            [10, 25, 50, 100, 500, -1],
-            [
-              "10",
-              "25",
-              "50",
-              "100",
-              "500",
-              "alle",
-            ],
-          ],
-          preDrawCallback: function (settings) {
-            $(".shown").removeClass("shown");
-          },
-          language: {
-            url: "js/dataTables_norsk.json",
-            searchPlaceholder: "Søk…",
-          },
-          fuzzySearch: true,
         });
       });
 
@@ -275,8 +248,15 @@
       $("#wordlist").DataTable({
         order: [[1, "asc"]],
         columnDefs: [{ orderable: false, targets: [0] }],
+        lengthMenu: [
+          [10, 25, 50, 100, 500, -1],
+          ["10", "25", "50", "100", "500", "alle"],
+        ],
+        preDrawCallback: function () {
+          $(".shown").removeClass("shown");
+        },
         fuzzySearch: true,
-        language: { url: "js/dataTables_norsk.json", searchPlaceholder: "Søk..." }
+        language: { url: "js/dataTables_norsk.json", searchPlaceholder: "Søk..." },
       });
     }
 
