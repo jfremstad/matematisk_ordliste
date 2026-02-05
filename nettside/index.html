@@ -109,13 +109,39 @@
         return [];
       }
 
-      let out = { "bokmål": "", "nynorsk": "", "engelsk": "" };
+      function stripHtml(s) {
+        return String(s).replace(/<[^>]*>/g, "");
+      }
+
+      function expandForSearch(term) {
+        let base = stripHtml(term).trim();
+        if (!base) return [];
+        let parts = base.split("/").map(p => p.trim()).filter(Boolean);
+        let out = [base];
+        if (parts.length > 1) out.push(...parts);
+        return out;
+      }
+
+      function buildSearchText(terms) {
+        let tokens = [];
+        terms.forEach(t => tokens.push(...expandForSearch(t)));
+        return [...new Set(tokens)].join(" ");
+      }
+
+      let out = {
+        bokmål: { display: "", search: "" },
+        nynorsk: { display: "", search: "" },
+        engelsk: { display: "", search: "" }
+      };
 
       ["bokmål","nynorsk","engelsk"].forEach(lang => {
         let a = obj.anbefalt?.[lang] ? flatten(obj.anbefalt[lang]) : [];
         let t = obj.tillatt?.[lang] ? flatten(obj.tillatt[lang]) : [];
         let merged = [...a, ...t];
-        out[lang] = merged.join("<br>");
+        out[lang] = {
+          display: merged.join("<br>"),
+          search: buildSearchText(merged)
+        };
       });
 
       return out;
@@ -213,9 +239,9 @@
         }
         tr.append(td0);
 
-        tr.append(`<td>${row["bokmål"]}</td>`);
-        tr.append(`<td>${row["nynorsk"]}</td>`);
-        tr.append(`<td>${row["engelsk"]}</td>`);
+        tr.append($("<td></td>").attr("data-search", row["bokmål"].search).html(row["bokmål"].display));
+        tr.append($("<td></td>").attr("data-search", row["nynorsk"].search).html(row["nynorsk"].display));
+        tr.append($("<td></td>").attr("data-search", row["engelsk"].search).html(row["engelsk"].display));
 
         tableBody.append(tr);
 
