@@ -30,7 +30,7 @@ submersjon,submersjon,submersion,
 ikke-null,ikkje-null,non-zero,
 støtte,støtte,support,
 minimum,minimum,minimum,
-entydig faktoriseringsområde,eintydig faktoriseringsområde,unique factorization domain,"Entydig faktoriseringsområde forkortes ofte til UFD."
+entydig faktoriseringsområde<br>UFD,eintydig faktoriseringsområde<br>UFD,unique factorization domain<br>UFD,"Genus: intetkjønn<br><br>UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig faktoriseringsområde (nynorsk) og stammer fra <i>unique factorization domain</i>."
 indreprodukt,indreprodukt,inner product,
 ligning<br>likning,likning,equation,
 ekvivalent,ekvivalent,equivalent,
@@ -72,14 +72,14 @@ pil,pil,arrow,
 arvelig ring<br>hereditær ring,arveleg ring<br>hereditær ring,hereditary ring,
 kvadratisk matrise,kvadratisk matrise,square matrix,
 Fermats siste sats,Fermats siste sats,Fermat's Last Theorem,
-moment,moment,moment,"Legg merke til at denne oversettelsen gjelder innen statistikk. I fysikk kan <i>moment</i> referere til det som på norsk kalles bevegelsesmengde (bokmål) og rørslemengd (nynorsk)."
+moment,moment,moment,"Legg merke til at termen moment brukes innen statistikk. I fysikk kan <i>moment</i> referere til det som på norsk kalles bevegelsesmengde (bokmål) og rørslemengd (nynorsk)."
 p-primært ideal,p-primært ideal,p-primary ideal,
 kompleks,kompleks,complex,
 åpen overdekning,open overdekking,open cover<br>open covering,
 topp,topp,peak,"Oversettelsen gjelder bruk innen blant annet statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 regulært rom,regulært rom,regular space,
 evalueringshomomorfi,evalueringshomomorfi,evaluation homomorphism,
-på,på,onto,"Synonym: surjektiv"
+på<br>surjektiv,på<br>surjektiv,onto<br>surjective,
 heltallsring,heiltalsring,ring of integers,
 adjungert matrise,adjungert matrise,adjoint matrix,
 veihomotop,veghomotop,path homotopic,
@@ -110,7 +110,7 @@ abelsk kategori,abelsk kategori,abelian category,
 topologisk rom,topologisk rom,topological space,
 studentisert rekkevidde,studentisert rekkjevidde,studentized range,
 uniform konvergens,uniform konvergens,uniform convergence,
-kvotientmodul,kvotientmodul,quotient module,"Synonym: faktormodul"
+faktormodul<br>kvotientmodul,faktormodul<br>kvotientmodul,factor module<br>quotient module,
 inklusjon,inklusjon,inclusion,
 parameter,parameter,parameter,
 homeomorfi,homeomorfi,homeomorphism,
@@ -163,9 +163,9 @@ observator,observator,statistic,"Oversettelsen gjelder bruk i statistikk og utel
 normalt rom,normalt rom,normal space,
 kvotientrom,kvotientrom,quotient space,
 F-test,F-test,F-test<br>variance ratio test,
-partall,partal,even number,"Partall kan også omtales som like tall (bokmål) og like tal (nynorsk)."
+like tall<br>partall,like tal<br>partal,even number,
 diagonaliserbar,diagonaliserbar,diagonalizable,
-jacobimatrise,jacobimatrise,Jacobian matrix,"Jacobimatrise kalles ofte bare <i>Jacobian</i> på engelsk."
+jacobimatrise,jacobimatrise,Jacobian<br>Jacobian matrix,"Jacobimatrise kalles ofte bare <i>Jacobian</i> på engelsk."
 bue,boge,arc,
 semipositivt bestemt,semipositivt bestemd,positive semidefinite,
 ordnet følge,ordna følgje,ordered sequence,
@@ -196,7 +196,6 @@ inverterbart ideal,inverterbart ideal,invertible ideal,
 kvotientavbildning,kvotientavbilding,quotient map,
 ideal,ideal,ideal,
 poissonfordeling,poissonfordeling,Poisson distribution,
-PDE,PDE,PDE,"Genus bokmål: hankjønn/hunkjønn<br>Genus nynorsk: hunkjønn<br><br>PDE er en forkortelse for partiell differensiallikning og stammer fra <i>partial differential equation</i>."
 rekursjonsteori,rekursjonsteori,recursion theory,
 deriverbar,deriverbar,differentiable,
 overdiagonal,overdiagonal,superdiagonal,
@@ -233,11 +232,11 @@ gruppestruktur,gruppestruktur,group structure,
 kvasiregulær,kvasiregulær,quasiregular,
 abscisse,abscisse,abscissa,
 kjedebrøk,kjedebrøk,continued fraction,
-sadelpunkt<br>salpunkt,salpunkt,saddle point,"Begge skrivemåtene brukes på bokmål, men salpunkt anbefales."
+salpunkt<br>sadelpunkt,salpunkt,saddle point,"Begge skrivemåtene brukes på bokmål, men salpunkt anbefales."
 varmeligning<br>varmelikning,varmelikning,heat equation,
 essensielt surjektiv,essensielt surjektiv,essentially surjective,
 tillatelig ideal,tillateleg ideal,admissible ideal,
-eksponentielt,eksponentielt,exponentially,"Ordklasse: adverb <br> Uttale: [eksponentsie´lt]"
+eksponentielt,eksponentielt,exponentially,"Ordklasse: adverb<br>Uttale: [eksponentsie´lt]"
 hermitisk matrise,hermitisk matrise,Hermitian matrix,
 kritisk verdi,kritisk verdi,critical value,
 mangekant<br>polygon,mangekant<br>polygon,polygon,
@@ -269,7 +268,7 @@ basiselement,basiselement,basis element,"De engelske termene <i>base</i> og <i>b
 Diracs deltafunksjon,Diracs deltafunksjon,Dirac's delta function,
 standardavvik,standardavvik,standard deviation,
 korrelasjonskoeffisient,korrelasjonskoeffisient,correlation coefficient,
-prosentilskjema,prosentilskjema,percentile graph,"Både persentilskjema og percentilskjema forekommer også i bruk på norsk, men prosentilskjema anbefales."
+prosentilskjema<br>percentilskjema,prosentilskjema<br>percentilskjema,percentile graph,"Både persentilskjema og percentilskjema forekommer også i bruk på norsk, men prosentilskjema anbefales."
 reduktiv liealgebra,reduktiv liealgebra,reductive Lie algebra,
 reell,reell,real,
 fordeling,fordeling,distribution,
@@ -292,9 +291,8 @@ autokorrelasjon,autokorrelasjon,autocorrelation,
 forventning,forventing,expectation,
 indusert,indusert,induced,
 liealgebra,liealgebra,Lie algebra,
-UFD,UFD,UFD,"Genus: intetkjønn<br><br>UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig faktoriseringsområde (nynorsk) og stammer fra <i>unique factorization domain</i>."
 jordankjede,jordankjede,Jordan chain,
-divisjonsring,divisjonsring,division ring,
+divisjonsring<br>skjevkropp,divisjonsring<br>skeivkropp,division ring<br>skew-field,
 ekte delmengde,ekte delmengd,proper subset,
 tall,tal,number,
 gaussisk heltall,gaussisk heiltal,Gaussian integer,
@@ -312,7 +310,7 @@ homotopitype,homotopitype,homotopy type,
 forventningsskjevhet,forventingsskeivskap,bias,
 retningsderivert,retningsderivert,directional derivative,
 feilmargin<br>feiltoleranse,feilmargin<br>feiltoleranse,margin of error,
-ordinær differensialligning<br>ordinær differensiallikning,ordinær differensiallikning,ordinary differential equation,"Ordinær differensiallikning forkortes ofte til ODE."
+ordinær differensialligning<br>ordinær differensiallikning<br>ODE,ordinær differensiallikning<br>ODE,ordinary differential equation<br>ODE,"Ordinær differensiallikning forkortes ofte til ODE, som stammer fra <i>ordinary differential equation</i>. Forkortelsen ODE er både hankjønn og hunkjønn på bokmål og hunkjønn på nynorsk."
 funksjonal,funksjonal,functional,
 abelsk varietet,abelsk varietet,abelian variety,
 skalering,skalering,scaling,
@@ -341,7 +339,7 @@ global egenskap,global eigenskap,global property,
 polynom,polynom,polynomial,
 omegn,omegn,neighbourhood,
 randverdi,randverdi,boundary value,
-partiell differensialligning<br>partiell differensiallikning,partiell differensiallikning,partial differential equation,"Partiell differensiallikning forkortes ofte til PDE."
+partiell differensialligning<br>partiell differensiallikning<br>PDE,partiell differensiallikning<br>PDE,partial differential equation<br>PDE,"Partiell differensiallikning forkortes ofte til PDE, som stammer fra <i>partial differential equation</i>. Forkortelsen PDE er både hankjønn og hunkjønn på bokmål og hunkjønn på nynorsk."
 kompletthet,komplettheit,completeness,
 utvelging,utveljing,sampling,
 minimal primærdekomposisjon,minimal primærdekomposisjon,minimal primary decomposition,
@@ -353,10 +351,10 @@ koblet hastighet,kopla hastigheit,related rate,
 derivasjon,derivasjon,differentiation,"De engelske termene derivation og differentiation er ikke synonymer, selv om begge oversettes til det samme på norsk. <i>Differentiation</i> brukes om det å derivere en funksjon."
 tilbakelegging,tilbakelegging,replacement,
 midtpunkt,midtpunkt,midrange,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
-faktorgruppe,faktorgruppe,factor group,"Synonym: kvotientgruppe"
+faktorgruppe<br>kvotientgruppe,faktorgruppe<br>kvotientgruppe,factor group<br>quotient group,
 intervall,intervall,interval,
 kvasiisomorfi,kvasiisomorfi,quasi-isomorphism,
-kvotientring,kvotientring,quotient ring,"Synonym: faktorring"
+faktorring<br>kvotientring,faktorring<br>kvotientring,factor ring<br>quotient ring,
 varians,varians,variance,
 initialverdi<br>startverdi,initialverdi<br>startverdi,initial value,
 assosiativ,assosiativ,associative,
@@ -401,7 +399,7 @@ enhetspartisjon,einingspartisjon,partition of unity,
 sfære,sfære,sphere,
 kokjerne,kokjerne,cokernel,
 koordinatfunksjon,koordinatfunksjon,coordinate function,
-rotasjon,rotasjon,curl,"Curl brukes også på norsk, men rotasjon anbefales."
+rotasjon<br>curl,rotasjon<br>curl,curl,"Curl brukes også på norsk, men rotasjon anbefales."
 kofaktormatrise,kofaktormatrise,cofactor matrix<br>matrix of cofactors,
 potenskurve,potenskurve,power curve,
 matriseligning<br>matriselikning,matriselikning,matrix equation,
@@ -410,13 +408,13 @@ geometrisk multiplisitet,geometrisk multiplisitet,geometric multiplicity,
 Hilberts nullpunktssats,Hilberts nullpunktssats,Hilbert's Nullstellensatz,
 Cohen-Macaulay-ring,Cohen-Macaulay-ring,Cohen–Macaulay ring,
 bølgelengde,bølgjelengd,wavelength,
-største felles divisor,største felles divisor,greatest common divisor,"Synonym: største felles faktor"
+største felles divisor<br>største felles faktor,største felles divisor<br>største felles faktor,greatest common divisor<br>greatest common factor,
 grense,grense,limit,
 logistisk funksjon,logistisk funksjon,logistic function,
 separasjon,separasjon,separation,
 venstrekoherent,venstrekoherent,left coherent,
 integrasjon,integrasjon,integration,
-pomengde,pomengd,poset,"Pomengde er en forkortelse for delvis ordnet mengde (bokmål) og delvis ordna mengd (nynorsk) og stammer fra <i>partially ordered set</i>."
+delvis ordnet mengde<br>pomengde,delvis ordna mengd<br>pomengd,partially ordered set<br>poset,"Pomengde er en forkortelse for delvis ordnet mengde og stammer fra <i>partially ordered set</i>."
 direkte produkt,direkte produkt,direct product,
 ortonormal,ortonormal,orthonormal,
 dekomponere,dekomponere,decompose,
@@ -526,7 +524,7 @@ likebeint trekant,likebeina trekant,isosceles triangle,
 veihomotopiklasse,veghomotopiklasse,path homotopy class,
 parametrisert,parametrisert,parametric,
 konjunksjon,konjunksjon,conjunction,
-gjensidig utelukkende,gjensidig utelukkande,mutually exclusive,"Gjensidig utelukkende hendelser kan også omtales som disjunkte."
+disjunkte<br>gjensidig utelukkende,disjunkte<br>gjensidig utelukkande,disjoint<br>mutually exclusive,
 lineæravbildning,lineæravbilding,linear map,
 trofast funktor,trufast funktor,faithful functor,
 triagonalisering,triagonalisering,triagonalization,
@@ -582,7 +580,6 @@ ikke-isomorf,ikkje-isomorf,non-isomorphic,
 kumulativ,kumulativ,cumulative,
 konvergent,konvergent,convergent,
 cosinus,cosinus,cosine,
-faktorring,faktorring,factor ring,"Synonym: kvotientring"
 algebraisk tallkropp,algebraisk talkropp,algebraic number field,
 punktestimering,punktestimering,point estimation,
 partiellderivert,partiellderivert,partial derivative,
@@ -610,7 +607,7 @@ multiplikasjonsregel,multiplikasjonsregel,multiplication rule,
 koenhet,koeining,counit,
 jevnt dekket,jamt dekt,evenly covered,
 primærdekomposisjon,primærdekomposisjon,primary decomposition,
-PID,PID,PID,"Genus: intetkjønn<br><br>PID er en forkortelse for hovedidealområde (bokmål) og hovudidealområde (nynorsk) og stammer fra <i>principal ideal domain</i>."
+hovedidealområde<br>PID,hovudidealområde<br>PID,principal ideal domain<br>PID,"PID er en forkortelse for hovedidealområde (bokmål) og hovudidealområde (nynorsk) og stammer fra <i>principal ideal domain</i>. Forkortelsen PID har intetkjønn på bokmål og nynorsk."
 arvelig kategori<br>hereditær kategori,arveleg kategori<br>hereditær kategori,hereditary category,
 multivariat fordeling,multivariat fordeling,multivariate distribution,
 blokkmatrise,blokkmatrise,block matrix,
@@ -693,11 +690,11 @@ unæroperasjon,unæroperasjon,unary operation,
 strengt voksende,strengt veksande,stricly increasing,
 skjev fordeling,skeiv fordeling,skewed distribution,
 uavhengighet,uavhengnad,independence,
-hessematrise,hessematrise,Hessian matrix,"Hessematrise kalles ofte bare <i>Hessian</i> på engelsk."
+hessematrise,hessematrise,Hessian<br>Hessian matrix,"Hessematrise kalles ofte bare <i>Hessian</i> på engelsk."
 alternerende,alternerande,alternating,
 ekvivalensrelasjon,ekvivalensrelasjon,equivalence relation,
 blokkdelt matrise,blokkdelt matrise,partitioned matrix,
-hessedeterminant,hessedeterminant,Hessian determinant,"Hessedeterminant kalles ofte bare <i>Hessian</i> på engelsk."
+hessedeterminant,hessedeterminant,Hessian<br>Hessian determinant,"Hessedeterminant kalles ofte bare <i>Hessian</i> på engelsk."
 lineær modell,lineær modell,linear model,
 potensfunksjon,potensfunksjon,power function,
 spekter<br>spektrum,spekter<br>spektrum,spectrum,
@@ -710,7 +707,7 @@ differensial,differensial,differential,
 variabel,variabel,variable,
 fornyelsesteori,fornyingsteori,renewal theory,
 pivotelement,pivotelement,pivot element,"Forstavelsen pivot uttales [pivå:’]."
-tilfeldig variabel,tilfeldig variabel,random variable,"Synonym: stokastisk variabel"
+stokastisk variabel<br>tilfeldig variabel,stokastisk variabel<br>tilfeldig variabel,random variable<br>stochastic variable,
 reduktiv liegruppe,reduktiv liegruppe,reductive Lie group,
 derivert kategori,derivert kategori,derived category,
 tak,tak,roof,
@@ -730,7 +727,6 @@ voksende,veksande,increasing,
 polyeder,polyeder,polyhedron,
 hesteskolemmaet,hesteskolemmaet,horseshoe lemma,
 union,union,union,
-disjunkt,disjunkt,disjoint,
 andregradsligning<br>andregradslikning,andregradslikning,quadratic equation,
 underkategori,underkategori,subcategory,
 modulhomomorfi,modulhomomorfi,module homomorphism,
@@ -837,8 +833,7 @@ totalkompleks,totalkompleks,total complex,
 nabovinkler,nabovinklar,linear pair,
 fritt produkt,fritt produkt,free product,
 periodisk funksjon,periodisk funksjon,periodic function,
-delvis ordnet mengde,delvis ordna mengd,partially ordered set,"Delvis ordnet mengde forkortes ofte til pomengde (bokmål) og pomengd (nynorsk)."
-prosentil,prosentil,percentile,"Både persentil og percentil forekommer også i bruk på norsk, men prosentil anbefales."
+prosentil<br>percentil,prosentil<br>percentil,percentile,"Både persentil og percentil forekommer også i bruk på norsk, men prosentil anbefales."
 delvis integrasjon,delvis integrasjon,integration by parts,
 univariat fordeling,univariat fordeling,univariate distribution,
 underkompleks,underkompleks,subcomplex,
@@ -864,9 +859,9 @@ binæroperasjon,binæroperasjon,binary operation,
 integraltransformasjon,integraltransformasjon,integral transform,
 prinsipalverdi,prinsipalverdi,principal value,
 lengde,lengd,length,
-normalfordeling,normalfordeling,normal distribution,"Synonym: gaussfordeling"
+gaussfordeling<br>normalfordeling,gaussfordeling<br>normalfordeling,Gaussian<br>Gaussian distribution<br>normal distribution,"Gaussfordeling kalles ofte bare <i>Gaussian</i> på engelsk."
 diagonalisere,diagonalisere,diagonalize,
-wronskideterminant,wronskideterminant,Wronski determinant,"Wronskideterminant kalles ofte bare <i>Wronskian</i> på engelsk."
+wronskideterminant,wronskideterminant,Wronski determinant<br>Wronskian,"Wronskideterminant kalles ofte bare <i>Wronskian</i> på engelsk."
 fullstendig regulært rom,fullstendig regulært rom,completely regular space,
 enhetsvektor,einingsvektor,unit vector,
 interferens,interferens,interference,
@@ -880,7 +875,6 @@ simpel gruppe,simpel gruppe,simple group,
 normert,normert,normed,
 projektivt objekt,projektivt objekt,projective object,
 koeffisientmatrise,koeffisientmatrise,coefficient matrix,
-surjektiv,surjektiv,surjective,"Synonym: på"
 biprodukt,biprodukt,biproduct,
 betinget forventning,vilkårsbunden forventing,conditional expectation,
 homotopiekvivalens,homotopiekvivalens,homotopy equivalence,
@@ -888,7 +882,7 @@ simultant kontinuerlig,simultant kontinuerleg,jointly continuous,
 bane,bane,orbit,
 marginal,marginal,marginal,
 funktoriell egenskap,funktoriell eigenskap,functorial property,
-variansanalyse,variansanalyse,analysis of variance<br>variance analysis,"Variansanalyse forkortes ofte til ANOVA."
+variansanalyse<br>ANOVA,variansanalyse<br>ANOVA,analysis of variance<br>variance analysis<br>ANOVA,"Variansanalyse forkortes ofte til ANOVA, som stammer fra <i>analysis of variance</i>."
 ikke-nullelement,ikkje-nullelement,non-zero element,
 betinget konvergens,vilkårsbunden konvergens,conditional convergence,
 forkastningsområde,forkastingsområde,critical region,
@@ -908,7 +902,6 @@ p-adisk heltall,p-adisk heiltal,p-adic integer,
 kryssprodukt,kryssprodukt,cross product<br>vector product,
 beregnbarhet,bereknbarheit,computability,
 delhypotese,delhypotese,subhypothesis,
-stokastisk variabel,stokastisk variabel,stochastic variable,"Synonym: tilfeldig variabel"
 transendent funksjon,transendent funksjon,transcendental function,
 invers,invers,inverse,
 glidespeiling,glidespegling,glide reflection,
@@ -923,13 +916,11 @@ uniformt kontinuerlig,uniformt kontinuerleg,uniformly continuous,
 konnektiv,konnektiv,connective,
 amplitude,amplitude,amplitude,
 bijektiv,bijektiv,bijective,
-hovedidealområde,hovudidealområde,principal ideal domain,"Hovedidealområde forkortes ofte til PID."
 polarform,polarform,polar form,
 ikosaeder,ikosaeder,icosahedron,
 derivasjon,derivasjon,derivation,"De engelske termene <i>derivation</i> og <i>differentiation</i> er ikke synonymer, selv om begge oversettes til det samme på norsk. En derivasjon er en en lineæravbildning som tilfredsstiller Leibniz' regel."
 analytisk funksjon,analytisk funksjon,analytic function,
 fourierkoeffisient,fourierkoeffisient,Fourier coefficient,
-gaussfordeling,gaussfordeling,Gaussian distribution,"Synonym: normalfordeling"
 gradert,gradert,graded,
 algebraisk gruppe,algebraisk gruppe,algebraic group,
 homotopigruppe,homotopigruppe,homotopy group,
@@ -1055,7 +1046,6 @@ egenfunksjon,eigenfunksjon,eigenfunction,
 t-test,t-test,t-test,
 gammafordeling,gammafordeling,gamma distribution,
 basis,basis,base,"De engelske termene <i>base</i> og <i>basis</i> brukes ikke helt synonymt. For eksempel vil <i>base</i> foretrekkes i topologi, mens <i>basis</i> brukes i lineær algebra. Merk at begge oversettes til basis på norsk."
-største felles faktor,største felles faktor,greatest common factor,"Synonym: største felles divisor"
 rekurrens,rekurrens,recurrence,
 gruppoide,gruppoide,groupoid,
 venstreideal,venstreideal,left ideal,
@@ -1065,7 +1055,7 @@ assosiert primideal,assosiert primideal,associated prime,
 største nedre skranke,største nedre skranke,greatest lower bound,
 multinomisk fordeling,multinomisk fordeling,multinomial distribution,
 punkt,punkt,point,
-modalverdi<br>typetall,modalverdi<br>typetal,mode,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger. Typetall (bokmål) og typetal (nynorsk) anbefales."
+typetall<br>modalverdi,typetal<br>modalverdi,mode,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger. Typetall (bokmål) og typetal (nynorsk) anbefales."
 splittepimorfi,splittepimorfi,split epimorphism,
 negativt bestemt,negativt bestemd,negative definite,
 ubestemt integral,ubestemt integral,indefinite integral,
@@ -1094,7 +1084,6 @@ khikvadratfordeling,khikvadratfordeling,chi-squared distribution,
 potensmodell,potensmodell,power model,
 buelengde,bogelengd,arclength,
 produkt,produkt,product,
-ODE,ODE,ODE,"Genus bokmål: hankjønn/hunkjønn<br>Genus nynorsk: hunkjønn<br><br>ODE er en forkortelse for ordinær differensiallikning og stammer fra <i>ordinary differential equation</i>."
 grensepunkt,grensepunkt,limit point,"I noen tilfeller kan termene grensepunkt, klyngepunkt og opphopningspunkt brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
 kvadrat,kvadrat,square,
 elliptisk,elliptisk,elliptic,
@@ -1110,7 +1099,6 @@ algebraisk utvidelse,algebraisk utviding,algebraic extension,
 tensorprodukt,tensorprodukt,tensor product,
 radiell,radiell,radial,
 elementærtensor,elementærtensor,elementary tensor,
-faktormodul,faktormodul,factor module,"Synonym: kvotientmodul"
 polarkoordinater,polarkoordinatar,polar coordinates,
 Artin-Rees-lemmaet,Artin-Rees-lemmaet,Artin–Rees lemma,
 induksjon,induksjon,induction,
@@ -1169,7 +1157,6 @@ diskriminant,diskriminant,discriminant,
 homogent ligningssystem<br>homogent likningssystem,homogent likningssystem,homogeneous system of equations,
 forventningsskjev,forventingsskeiv,biased,
 projektiv,projektiv,projective,
-kvotientgruppe,kvotientgruppe,quotient group,"Synonym: faktorgruppe"
 idempotent,idempotent,idempotent,
 trigonometrisk,trigonometrisk,trigonometric,
 banachrom,banachrom,Banach space,
@@ -1197,7 +1184,7 @@ retrakt,retrakt,retract,
 komplekst plan,komplekst plan,complex plane,
 lieteori,lieteori,Lie theory,
 begrensning,avgrensing,bound,
-jacobideterminant,jacobideterminant,Jacobian determinant,"Jacobideterminant kalles ofte bare <i>Jacobian</i> på engelsk."
+jacobideterminant,jacobideterminant,Jacobian<br>Jacobian determinant,"Jacobideterminant kalles ofte bare <i>Jacobian</i> på engelsk."
 kjegle,kjegle,cone,
 heltallsutvidelse,heiltalsutviding,integral extension,
 egenverdi,eigenverdi,eigenvalue,
@@ -1213,7 +1200,7 @@ liten kategori,liten kategori,small category,
 cauchyfølge,cauchyfølgje,Cauchy sequence,
 beskrivende statistikk<br>deskriptiv statistikk,beskrivande statistikk<br>deskriptiv statistikk<br>skildrande statistikk,descriptive statistics,
 pivotrad,pivotrad,pivot row<br>pivotal row,"Forstavelsen pivot uttales [pivå:’]."
-supplementvinkel,supplementvinkel,supplementary angle,"Suplementvinkler kan også omtales som supplementære vinkler (bokmål) og supplemtære vinklar (nynorsk)."
+supplementvinkel<br>supplementær vinkel,supplementvinkel<br>supplementær vinkel,supplementary angle,
 invarians,invarians,invariance,
 ultrafilter,ultrafilter,ultrafilter,
 projektivisering,projektivisering,projectivization,
@@ -1261,7 +1248,7 @@ grad,grad,degree,
 plan,plan,plane,
 strengt avtagende,strengt minkande,strictly decreasing,
 reversibel prosess,reversibel prosess,reversible process,
-eksponentiell,eksponentiell,exponential,"Ordklasse: adjektiv <br> Uttale: [eksponentsie´l:]"
+eksponentiell,eksponentiell,exponential,"Ordklasse: adjektiv<br>Uttale: [eksponentsie´l:]"
 underalgebra,underalgebra,subalgebra,
 additivt identitetselement,additivt identitetselement,additive identity element,
 rekursjon,rekursjon,recursion,
@@ -1296,7 +1283,6 @@ trappeform,trappeform,row echelon form,
 omskrevet sirkel,omskriven sirkel,circumscribed circle,
 kjedekompleks,kjedekompleks,chain complex,
 rom,rom,space,
-ANOVA,ANOVA,ANOVA,"ANOVA er en forkortelse for variansanalyse og stammer fra <i>analysis of variance</i>."
 absoluttverdi<br>tallverdi,absoluttverdi<br>talverdi,absolute value,
 torus,torus,torus,
 dualbasis,dualbasis,dual basis,
@@ -1311,7 +1297,7 @@ nulldivisor,nulldivisor,zero divisor,
 sirkel,sirkel,circle,
 transitiv,transitiv,transitive,
 finere topologi,finare topologi,finer topology,
-komplementvinkel,komplementvinkel,complementary angle,"Komplementvinkler kan også omtales som komplementære vinkler (bokmål) og komplementære vinklar (nynorsk)."
+komplementvinkel<br>komplementær vinkel,komplementvinkel<br>komplementær vinkel,complementary angle,
 kart,kart,chart,
 nullmatrise,nullmatrise,zero matrix,
 lokalt enkeltsammenhengende,lokalt enkeltsamanhengande,locally simply connected,
@@ -1412,10 +1398,8 @@ poissonklamme,poissonklamme,Poisson bracket,
 poissonalgebra,poissonalgebra,Poisson algebra,
 faserom,faserom,phase space,
 differensialform,differensialform,differential form,
-biholomorf funksjon,biholomorf funksjon,biholomorphic function,"Synonym: biholomorfi"
-biholomorfi,biholomorfi,biholomorphism,"Synonym: biholomorf funksjon"
-holomorf funksjon,holomorf funksjon,holomorphic function,"Synonym: holomorfi"
-holomorfi,holomorfi,holomorphism,"Synonym: holomorf funksjon"
+biholomorf funksjon<br>biholomorfi,biholomorf funksjon<br>biholomorfi,biholomorphic function<br>biholomorphism,
+holomorf funksjon<br>holomorfi,holomorf funksjon<br>holomorfi,holomorphic function<br>holomorphism,
 riemannflate,riemannflate,Riemann surface,
 tetthet,tettleik,density,
 volumtetthet,volumtettleik,volume density,"Oversettelsen gjelder bruk i differensialgeometri og må ikke forveksles med tetthet."
@@ -1427,7 +1411,7 @@ ytrederivasjon,ytrederivasjon,exterior differentiation,
 rotsystem,rotsystem,root system,
 cartanmatrise,cartanmatrise,Cartan matrix,
 weylgruppe,weylgruppe,Weyl group,
-stabilisator,stabilisator,stabilizer,
+stabilisator,stabilisator,stabilizer,"I noen tilfeller kan termene isotropiundergruppe og stabilisator brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
 normalisator,normalisator,normalizer,
 hopfalgebra,hopfalgebra,Hopf algebra,
 tensoralgebra,tensoralgebra,tensor algebra,
@@ -1478,7 +1462,6 @@ singulærverdi,singulærverdi,singular value,
 vandermondematrise,vandermondematrise,Vandermonde matrix,
 midtpunktmetode,midtpunktmetode,midpoint method,
 enhetsstegfunksjon<br>enhetstrappefunksjon,einingsstegfunksjon<br>einingstrappefunksjon,unit step function,
-én-entydig<br>én-til-én,éin-eintydig<br>éin-til-éin,one-to-one,"Synonym: injektiv"
 senter,senter,centre,
 modelltest<br>tilpasningstest,modelltest<br>tilpassingstest,goodness-of-fit test,
 absolutt konvergent,absolutt konvergent,absolutely convergent,
@@ -1489,7 +1472,6 @@ cantormengde,cantormengd,Cantor set,
 cauchykriterium,cauchykriterium,Cauchy criterion,
 cauchyprodukt,cauchyprodukt,Cauchy product,
 Cauchys middelverdisetning,Cauchys middelverdisetning,Cauchy's mean value theorem,
-karakteristisk funksjon,karakteristisk funksjon,characteristic function,"Oversettelsen gjelder bruk i sannsynlighetsteori og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 kontinuerlig utvidelse,kontinuerleg utviding,continuous extension,
 kontinuerlig deriverbar,kontinuerleg deriverbar,continuously differentiable,
 kontraksjon<br>sammentrekning,kontraksjon<br>samantrekking,contraction,
@@ -1555,7 +1537,7 @@ borelmål,borelmål,Borel measure,
 borelmengde,borelmengd,Borel set,
 carathéodorymålbar,carathéodorymålbar,Carathéodory measurable,
 Carathéodorys utvidelsesteorem,Carathéodorys utvidingsteorem,Carathéodory's extension theorem,
-indikatorfunksjon,indikatorfunksjon,characteristic function<br>indicator function,"Indikatorfunksjoner kan også omtales som karakteristiske funksjoner (bokmål) og karakteristiske funksjonar (nynorsk)."
+indikatorfunksjon<br>karakteristisk funksjon,indikatorfunksjon<br>karakteristisk funksjon,characteristic function<br>indicator function,"Oversettelsen gjelder bruk i sannsynlighetsteori og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 komplekst mål,komplekst mål,complex measure,
 tellbar additivitet,teljeleg additivitet,countable additivity,
 tellbar subadditivitet,teljeleg subadditivitet,countable subadditivity,
@@ -1633,8 +1615,7 @@ fri liealgebra,fri liealgebra,free Lie algebra,
 abelsk liealgebra,abelsk liealgebra,abelian Lie algebra,
 banachalgebra,banachalgebra,Banach algebra,
 begrenset,avgrensa,bounded,
-besselulikheten,besselulikskapen,Bessel inequality,"Synonym: Bessels ulikhet"
-Bessels ulikhet,Bessels ulikskap,Bessel's inequality,"Synonym: besselulikheten"
+Bessels ulikhet<br>besselulikheten,Bessels ulikskap<br>besselulikskapen,Bessel inequality<br>Bessel's inequality,
 carathéodorykriteriet,carathéodorykriteriet,Carathéodory criterion,
 ekstremalverdisetningen,ekstremalverdisetninga,extreme value theorem,
 grensesammenligningstesten<br>grensesammenlikningstesten,grensesamanlikningstesten,limit comparison test,
@@ -1660,7 +1641,7 @@ Stone-Weierstrass-teoremet,Stone-Weierstrass-teoremet,Stone–Weierstrass theore
 normale koordinater,normale koordinatar,normal coordinates,
 residy,residy,residue,"Oversettelsen gjelder bruk innen blant annet kompleks analyse og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 førsteintegral,førsteintegral,first integral,
-tverrsnittkrumning,tverrsnittkrumming,sectional curvature,"Synonym: snittkrumning"
+snittkrumning<br>tverrsnittkrumning,snittkrumming<br>tverrsnittkrumming,sectional curvature,
 liederivert,liederivert,Lie derivative,
 liederivasjon,liederivasjon,Lie differentiation,
 enkel kurve,enkel kurve,simple curve,
@@ -1686,13 +1667,11 @@ interpolasjon,interpolasjon,interpolation,
 ekstrapolasjon,ekstrapolasjon,extrapolation,
 ekstrapolere,ekstrapolere,extrapolate,
 glatt utvidelse,glatt utviding,smooth extension,
-jordanbasis,jordanbasis,Jordan basis,"<i>Jordan basis</i> kan også omtales som <i>Jordan canonical basis</i> på engelsk."
-jordankanonisk form,jordankanonisk form,Jordan canonical form,"Synonym: jordansk normalform"
-jordansk normalform,jordansk normalform,Jordan normal form,"Synonym: jordankanonisk form"
-choleskydekomponering,choleskydekomponering,Cholesky decomposition,"Oversettelsen dekomponering benyttes i tilfeller der prosessen vektlegges."
-choleskydekomposisjon,choleskydekomposisjon,Cholesky decomposition,"Oversettelsen dekomposisjon benyttes i tilfeller der resultatet vektlegges."
+jordanbasis,jordanbasis,Jordan basis<br>Jordan canonical basis,
+jordankanonisk form<br>jordansk normalform,jordankanonisk form<br>jordansk normalform,Jordan canonical form<br>Jordan normal form,
+choleskydekomponering<br>choleskydekomposisjon,choleskydekomponering<br>choleskydekomposisjon,Cholesky decomposition,"Oversettelsen dekomponering benyttes i tilfeller der prosessen vektlegges, imens dekomposisjon benyttes i tilfeller der resultatet vektlegges."
 ortogonal dekomposisjon,ortogonal dekomposisjon,orthogonal decomposition,
-singulærverdidekomposisjon,singulærverdidekomposisjon,singular value decomposition,"Singulærverdidekomposisjon forkortes ofte til SVD."
+singulærverdidekomposisjon<br>SVD,singulærverdidekomposisjon<br>SVD,singular value decomposition<br>SVD,"Singulærverdidekomposisjon forkortes ofte til SVD."
 egendekomposisjon,eigendekomposisjon,eigendecomposition,
 rotromdekomposisjon,rotromdekomposisjon,root space decomposition,
 spor,spor,trace,"Enkelte benytter oversettelsen trase på norsk."
@@ -1734,8 +1713,8 @@ global dimensjon,global dimensjon,global dimension,
 homologisk dimensjon,homologisk dimensjon,homological dimension,
 tilpasningsgrad,tilpassingsgrad,goodness of fit,
 bevis,bevis<br>prov,proof,
-motsigelsesbevis,motseiingsbevis<br>motseiingsprov,proof by contradiction,"<i>Proof by contradiction</i> kan også oversettes til bevis ved motsigelse (bokmål) og bevis ved motseiing<br>prov ved motseiing (nynorsk)."
-induksjonsbevis,induksjonsbevis<br>induksjonsprov,proof by induction,"<i>Proof by induction</i> kan også oversettes til bevis ved induksjon (bokmål) og bevis ved induksjon<br>prov ved induksjon (nynorsk)."
+bevis ved motsigelse<br>motsigelsesbevis,bevis ved motseiing<br>motseiingsbevis<br>motseiingsprov<br>prov ved motseiing,proof by contradiction,
+bevis ved induksjon<br>induksjonsbevis,bevis ved induksjon<br>induksjonsbevis<br>induksjonsprov<br>prov ved induksjon,proof by induction,
 hendelse,hending,event,"Oversettelsen gjelder bruk i blant annet sannsynlighetsteori og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 sjelden hendelse,sjeldan hending,rare event,
 tilfeldig hendelse,tilfeldig hending,random event,
@@ -1744,8 +1723,7 @@ paret t-test,para t-test,paired t-test,
 transponere,transponere,transpose,"Ordklasse: verb"
 transponert matrise,transponert matrise,transposed matrix,"På engelsk sier man typisk <i>the transpose of a matrix</i> i stedet for <i>the transposed matrix</i>. Også på norsk vil man ofte benytte uttrykket <i>den transponerte til en matrise</i> (bokmål) og <i>den transponerte til ei matrise</i> (nynorsk). Kortformene <i>the transpose</i> og <i>den transponerte</i> er også i utstrakt bruk."
 glemmefunktor,gløymefunktor,forgetful functor,
-Schwarz' ulikhet,Schwarz' ulikskap,Schwarz' inequality,"Schwarz' ulikhet benyttes synonymt med schwarzulikheten."
-schwarzulikheten,schwarzulikskapen,Schwarz inequality,"Schwarzulikheten benyttes synonymt med Schwarz' ulikhet."
+Schwarz' ulikhet<br>schwarzulikheten,Schwarz' ulikskap<br>schwarzulikskapen,Schwarz inequality<br>Schwarz' inequality,
 Cauchy-Schwarz-ulikheten,Cauchy-Schwarz-ulikskapen,Cauchy–Schwarz inequality,
 formlik,formlik,similar,"Oversettelsen gjelder bruk i geometri og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 nullhomotop,nullhomotop,null-homotopic,
@@ -1797,22 +1775,21 @@ selvinjektiv,sjølvinjektiv,self-injective,
 selvinjektiv algebra,sjølvinjektiv algebra,self-injective algebra,
 selvinjektiv ring,sjølvinjektiv ring,self-injective ring,
 utvidelse,utviding,extension,
-differensialgradert,differensialgradert,differential graded,
-differensialgradert algebra,differensialgradert algebra,differential graded algebra,"Differensialgradert algebra forkortes ofte til dg-algebra."
-differensialgradert modul,differensialgradert modul,differential graded module,"Differensialgradert modul forkortes ofte til dg-modul."
-differensialgradert kategori,differensialgradert kategori,differential graded category,"Differensialgradert kategori forkortes ofte til dg-kategori."
-dg-algebra,dg-algebra,dg algebra,"Dg-algebra er en forkortelse for differensialgradert algebra."
-dg-modul,dg-modul,dg module,"Dg-modul er en forkortelse for differensialgradert modul."
-dg-kategori,dg-kategori,dg category,"Dg-kategori er en forkortelse for differensialgradert kategori."
+differensialgradert,differensialgradert,differential graded,"Forkortelsen dg brukes ofte for differensialgradert."
+dg-algebra<br>differensialgradert algebra,dg-algebra<br>differensialgradert algebra,dg algebra<br>differential graded algebra,"Forkortelsen dg brukes ofte for differensialgradert."
+dg-modul<br>differensialgradert modul,dg-modul<br>differensialgradert modul,dg module<br>differential graded module,"Forkortelsen dg brukes ofte for differensialgradert."
+dg-kategori<br>differensialgradert kategori,dg-kategori<br>differensialgradert kategori,dg category<br>differential graded category,"Forkortelsen dg brukes ofte for differensialgradert."
+dg-funktor<br>differensialgradert funktor,dg-funktor<br>differensialgradert funktor,dg functor<br>differential graded funktor,"Forkortelsen dg brukes ofte for differensialgradert."
 restklasse<br>sideklasse,restklasse<br>sideklasse,coset<br>residue class,"Både restklasse og sideklasse kan brukes på norsk, men restklasse er vesentlig mer utbredt."
 restklassekropp,restklassekropp,residue class field,
 ikke-voksende,ikkje-veksande,non-increasing,
 glissen matrise,glisen matrise,sparse matrix,
 betinget,vilkårsbunden,conditional,
 ubetinget,vilkårslaus,unconditional,
-én-entydig korrespondanse<br>én-til-én-korrespondanse,éin-eintydig korrespondanse<br>éin-til-éin-korrespondanse,one-to-one correspondence,"Synonym: bijeksjon"
-bijeksjon,bijeksjon,bijection,"Synonym: én-entydig korrespondanse/én-til-én-korrespondanse"
-injektiv,injektiv,injective,"Synonym: én-entydig/én-til-én"
+én-entydig korrespondanse<br>én-til-én-korrespondanse,éin-eintydig korrespondanse<br>éin-til-éin-korrespondanse,one-to-one correspondence,"I mange tilfeller kan termene én-entydig korrespondanse og bijeksjon brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
+bijeksjon,bijeksjon,bijection,"I mange tilfeller kan termene bijeksjon og én-entydig korrespondanse brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
+injektiv<br>én-til-én,injektiv<br>éin-til-éin,injective<br>one-to-one,"I mange tilfeller kan termene én-til-én og én-entydig brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
+én-entydig,éin-eintydig,one-to-one,"I mange tilfeller kan termene én-entydig og én-til-én brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
 multippel,multippel,multiple,"Ordklasse: adjektiv"
 kvadratisk gjensidighet<br>kvadratisk resiprositet,kvadratisk gjensidigheit<br>kvadratisk resiprositet,quadratic reciprocity,
 venstreartinsk,venstreartinsk,left artinian,
@@ -1827,8 +1804,8 @@ høyreartinsk,høgreartinsk,right artinian,
 høyrenoethersk,høgrenoethersk,right noetherian,
 ikke-tellbar<br>overtellbar,ikkje-teljeleg<br>overteljeleg,uncountable,"Begrepet tellbar blir definert på ulike måter i litteraturen. Legg merke til at dersom ikke-tellbar og overtellbar skal være synonymer, må man definere tellbar til å omfatte <i>både</i> endelige mengder og mengder som er tellbart uendelige."
 basal algebra,basal algebra,basic algebra,"Oversettelsen gjelder bruk i representasjonsteori og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
-injektiv innhylling,injektiv innhylling,injective envelope<br>injective hull,"Injektiv innhylling kan også omtales som injektivt hylster."
-konveks innhylling,konveks innhylling,convex hull,"Konveks innhylling kan også omtales som konvekst hylster."
+injektiv innhylling<br>injektivt hylster,injektiv innhylling<br>injektivt hylster,injective envelope<br>injective hull,
+konveks innhylling<br>konvekst hylster,konveks innhylling<br>konvekst hylster,convex hull,
 skjæringssetningen,skjeringssetninga,intermediate value theorem,"Enkelte skiller mellom skjæringssetningen og mellomverdisetningen, der førstnevnte anses som et spesialtilfelle av sistnevnte. Mellomverdisetningen sier at en kontinuerlig reell funksjon på et lukket og begrenset intervall antar alle verdier mellom funksjonsverdiene i endepunktene, mens skjæringssetningen kan formuleres som at dersom funksjonsverdiene til en slik funksjon har motsatte fortegn i endepunktene, så har funksjonen et nullpunkt. Skjæringssetningen benyttes ofte om begge disse teoremene."
 komplekskonjugert,komplekskonjugert,complex conjugate,
 minimalpolynom,minimalpolynom,minimal polynomial,
@@ -1850,7 +1827,7 @@ regulært språk,regulært språk,regular language,
 regulær grammatikk,regulær grammatikk,regular grammar,
 kontekstfri grammatikk,kontekstfri grammatikk,context-free grammar,
 kontekstsensitiv grammatikk,kontekstsensitiv grammatikk,context-sensitive grammar,
-regulært uttrykk,regulært uttrykk,regular expression,"Regulært uttrykk forkortes ofte til regex."
+regulært uttrykk<br>regex,regulært uttrykk<br>regex,regular expression<br>regex,"Regulært uttrykk forkortes ofte til regex, som stammer fra <i>regular expression</i>."
 komprimering,komprimering,compression,
 kompleksitetsklasse,kompleksitetsklasse,complexity class,
 turingmaskin,turingmaskin,Turing machine,
@@ -1898,71 +1875,40 @@ alikvotsum,alikvotsum,aliquot sum,
 reell analyse,reell analyse,real analysis,
 feilkorrigerende kode<br>selvrettende kode,feilkorrigerande kode<br>sjølvrettande kode,error-correcting code,
 paritetssjekkmatrise,paritetssjekkmatrise,parity-check matrix,
-kvantesikker kryptografi,kvantesikker kryptografi,quantum-proof cryptography<br>quantum-safe cryptography,"Synonym: kvanteresistent kryptografi"
-kvanteresistent kryptografi,kvanteresistent kryptografi,post-quantum cryptography<br>quantum resistant cryptography,"Synonym: kvantesikker kryptografi"
+kvantesikker kryptografi<br>kvanteresistent kryptografi,kvantesikker kryptografi<br>kvanteresistent kryptografi,post-quantum cryptography<br>quantum-proof cryptography<br>quantum-safe cryptography<br>quantum resistant cryptography,
 hashfunksjon,hashfunksjon,hash function,"Forstavelsen hash uttales [hæʃ:]."
 flytchiffer<br>strømchiffer,flytchiffer<br>straumchiffer,stream cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
 nøkkelstrøm,nøkkelstraum,keystream,
-elektronisk stemmegivning,elektronisk røysting,electronic voting,"Elektronisk stemmegivning (bokmål) og elektronisk røysting (nynorsk) forkortes ofte til henholdsvis e-valg og e-val."
+e-valg<br>elektronisk stemmegivning,e-val<br>elektronisk røysting,electronic voting,"Elektronisk stemmegivning (bokmål) og elektronisk røysting (nynorsk) forkortes ofte til henholdsvis e-valg og e-val."
 hemmelig nøkkel,hemmeleg nøkkel,secret key,
 kollisjonsmotstandsdyktig<br>kollisjonsresistent,kollisjonsmotstandsdyktig<br>kollisjonsresistent,collision resistant,
 kollisjonsmotstandsdyktighet<br>kollisjonsresistens,kollisjonsmotstandsdugleik<br>kollisjonsresistens,collision resistance,
-sertifikatutsteder,sertifikatutferdar,certificate authority,"Sertifikatutsteder (bokmål) og sertifikatutferdar (nynorsk) forkortes ofte til CA."
+sertifikatutsteder<br>CA,sertifikatutferdar<br>CA,certificate authority<br>CA,"Sertifikatutsteder (bokmål) og sertifikatutferdar (nynorsk) forkortes ofte til CA, som stammer fra <i>certificate authority</i>. Forkortelsen CA har hankjønn på bokmål og nynorsk."
 digital signaturforfalskning,digital signaturforfalsking,digital signature forgery,
-MAC-deretter-krypter,MAC-deretter-krypter,MAC-then-encrypt,"MAC-deretter-krypter forkortes ofte til MtE."
-krypter-deretter-MAC,krypter-deretter-MAC,encrypt-then-MAC,"Krypter-deretter-MAC forkortes ofte til EtM."
-krypter-og-MAC,krypter-og-MAC,encrypt-and-MAC,"Krypter-og-MAC forkortes ofte til EaM."
-autentiser-deretter-krypter,autentiser-deretter-krypter,authenticate-then-encrypt,"Autentiser-deretter-krypter forkortes ofte til AtE."
-krypter-deretter-autentiser,krypter-deretter-autentiser,encrypt-then-authenticate,"Krypter-deretter-autentiser forkortes ofte til EtA."
-krypter-og-autentiser,krypter-og-autentiser,encrypt-and-authenticate,"Krypter-og-autentiser forkortes ofte til EaA."
+MAC-deretter-krypter<br>MtE,MAC-deretter-krypter<br>MtE,MAC-then-encrypt<br>MtE,"MAC-deretter-krypter forkortes ofte til MtE, som stammer fra <i>MAC-then-encrypt</i>."
+krypter-deretter-MAC<br>EtM,krypter-deretter-MAC<br>EtM,encrypt-then-MAC<br>EtM,"Krypter-deretter-MAC forkortes ofte til EtM, som stammer fra <i>encrypt-then-MAC</i>."
+krypter-og-MAC<br>EaM,krypter-og-MAC<br>EaM,encrypt-and-MAC<br>EaM,"Krypter-og-MAC forkortes ofte til EaM, som stammer fra <i>encrypt-and-MAC</i>."
+autentiser-deretter-krypter<br>AtE,autentiser-deretter-krypter<br>AtE,authenticate-then-encrypt<br>AtE,"Autentiser-deretter-krypter forkortes ofte til AtE, som stammer fra <i>authenticate-then-encrypt</i>."
+krypter-deretter-autentiser<br>EtA,krypter-deretter-autentiser<br>EtA,encrypt-then-authenticate<br>EtA,"Krypter-deretter-autentiser forkortes ofte til EtA, som stammer fra <i>encrypt-then-authenticate</i>."
+krypter-og-autentiser<br>EaA,krypter-og-autentiser<br>EaA,encrypt-and-authenticate<br>EaA,"Krypter-og-autentiser forkortes ofte til EaA, som stammer fra <i>encrypt-and-authenticate</i>."
 uttømmende angrep<br>uttømmingsangrep,uttømmande åtak<br>uttømmingsåtak,brute-force attack<br>exhaustive search,
 generatormatrise,generatormatrise,generating matrix,
 engangsord<br>engangstall,eingongsord<br>eingongstal,nonce,
 fremtidssikkerhet,framtidssikkerheit,forward secrecy,
 svak fremtidssikkerhet,svak framtidssikkerheit,weak forward secrecy,
-substitusjon-permutasjon-nettverk,substitusjon-permutasjon-nettverk,substitution-permutation network,"Substitusjon-permutasjon-nettverk forkortes ofte til SPN."
+substitusjon-permutasjon-nettverk<br>SPN,substitusjon-permutasjon-nettverk<br>SPN,substitution-permutation network<br>SPN,"Substitusjon-permutasjon-nettverk forkortes ofte til SPN. Forkortelsen SPN har intetkjønn på bokmål og nynorsk."
 offentlig-nøkkel-kryptografi,offentleg-nøkkel-kryptografi,public key encryption,
-offentlig-nøkkel-infrastruktur,offentleg-nøkkel-infrastruktur,public key infrastructure,"Offentlig-nøkkel-infrastruktur (bokmål) og offentleg-nøkkel-infrastruktur (nynorsk) forkortes ofte til PKI."
-valgt-klartekst-angrep,valt-klartekst-åtak,chosen-plaintext attack,"Valgt-klartekst-angrep (bokmål) og valt-klartekst-åtak (nynorsk) forkortes ofte til CPA."
-valgt-chiffertekst-angrep,valt-chiffertekst-åtak,chosen-ciphertext attack,"Chiffer uttales [ʃi´f:ər].<br><br>Valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak (nynorsk) forkortes ofte til CCA."
-CA,CA,CA,"Genus: hankjønn<br><br>CA er en forkortelse for sertifikatutsteder (bokmål) og sertifikatutferdar (nynorsk) og stammer fra <i>certificate authority</i>."
-OTP,OTP,OTP,"Genus: hankjønn<br><br>OTP er en forkortelse for engangsnøkkel (bokmål) og eingongsnøkkel (nynorsk) og stammer fra <i>one-time pad</i>."
-KE,KE,KE,"Genus bokmål: hankjønn/hunkjønn<br>Genus nynorsk: hunkjønn<br><br>KE er en forkortelse for nøkkelutveksling og stammer fra <i>key exchange</i>."
-MAC,MAC,MAC,"Genus: hankjønn<br><br>MAC er en forkortelse for meldingsautentiseringskode og stammer fra <i>message authentication code</i>."
-DAG,DAG,DAG,"Genus: hankjønn<br><br>DAG er en forkortelse for rettet asyklisk graf (bokmål) og retta asyklisk graf (nynorsk) og stammer fra <i>directed acyclic graph</i>."
-KDF,KDF,KDF,"Genus: hankjønn<br><br>KDF er en forkortelse for nøkkelavledningsfunksjon (bokmål) og nøkkelavleiingsfunksjon (nynorsk) og stammer fra <i>key derivation function</i>."
-PRF,PRF,PRF,"Genus: hankjønn<br><br>PRF er en forkortelse for pseudotilfeldig funksjon og stammer fra <i>pseudorandom function</i>."
-PRNG,PRNG,PRNG,"Genus: hankjønn<br><br>PRNG er en forkortelse for pseudotilfeldig tallgenerator (bokmål) og pseudotilfeldig talgenerator (nynorsk) og stammer fra <i>pseudorandom number generator</i>."
-IV,IV,IV,"Genus: hankjønn<br><br>IV er en forkortelse for initialiseringsvektor (bokmål) og initialiseringsvektor (nynorsk) og stammer fra <i>initialization vector</i>."
-PoW,PoW,PoW,"Genus: intetkjønn<br><br>PoW er en forkortelse for arbeidsbevis (bokmål) og arbeidsbevis/arbeidsprov (nynorsk) og stammer fra <i>proof-of-work</i>."
-CPA,CPA,CPA,"Genus: intetkjønn<br><br>CPA er en forkortelse for valgt-klartekst-angrep (bokmål) og valt-klartekst-åtak (nynorsk) og stammer fra <i>chosen-plaintext attack</i>."
-CCA,CCA,CCA,"Genus: intetkjønn<br><br>CCA er en forkortelse for valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak (nynorsk) og stammer fra <i>chosen-ciphertext attack</i>."
-WoT,WoT,WoT,"Genus: intetkjønn<br><br>WoT er en forkortelse for tillitsnett og stammer fra <i>web of trust</i>."
-PKI,PKI,PKI,"Genus: hankjønn<br><br>PKI er en forkortelse for offentlig-nøkkel-infrastruktur (bokmål) og offentleg-nøkkel-infrastruktur (nynorsk) og stammer fra <i>public key infrastructure</i>."
-SPN,SPN,SPN,"Genus: intetkjønn<br><br>SPN er en forkortelse for substitusjon-permutasjon-nettverk."
-MtE,MtE,MtE,"MtE er en forkortelse for MAC-deretter-krypter og stammer fra <i>MAC-then-encrypt</i>."
-EtM,EtM,EtM,"EtM er en forkortelse for krypter-deretter-MAC og stammer fra <i>encrypt-then-MAC</i>."
-EaM,EaM,EaM,"EaM er en forkortelse for krypter-og-MAC og stammer fra <i>encrypt-and-MAC</i>."
-AtE,AtE,AtE,"AtE er en forkortelse for autentiser-deretter-krypter og stammer fra <i>authenticate-then-encrypt</i>."
-EtA,EtA,EtA,"EtA er en forkortelse for krypter-deretter-autentiser og stammer fra <i>encrypt-then-authenticate</i>."
-EaA,EaA,EaA,"EaA er en forkortelse for krypter-og-autentiser og stammer fra <i>encrypt-and-authenticate</i>."
-AE,AE,AE,"AE er en forkortelse for autentisert kryptering og stammer fra <i>authenticated encryption</i>."
-AEAD,AEAD,AEAD,"AEAD er en forkortelse for autentisert kryptering med tilhørende data (bokmål) og autentisert kryptering med tilhøyrande data (nynorsk) og stammer fra <i>authenticated encryption with associated data</i>."
-E2EE,E2EE,E2EE,"E2EE er en forkortelse for ende-til-ende-kryptering/endepunktskryptering og stammer fra <i>end-to-end encryption</i>."
-EUF,EUF,EUF,"EUF er en forkortelse for eksistensiell uforfalskbarhet (bokmål) og eksistensiell uforfalskbarheit (nynorsk) og stammer fra <i>existential unforgeability</i>."
-SUF,SUF,SUF,"SUF er en forkortelse for selektiv uforfalskbarhet (bokmål) og selektiv uforfalskbarheit (nynorsk) og stammer fra <i>selective unforgeability</i>."
-UUF,UUF,UUF,"UUF er en forkortelse for universell uforfalskbarhet (bokmål) og universell uforfalskbarheit (nynorsk) og stammer fra <i>universal unforgeability</i>."
-CBC-modus,CBC-modus,CBC mode,"CBC-modus er en forkortelse for kjedet chifferblokkmodus (bokmål) og kjeda chifferblokkmodus (nynorsk) og stammer fra <i>cipher block chaining mode</i>."
-CTR-modus,CTR-modus,CTR mode,"CTR-modus er en forkortelse for tellemodus (bokmål) og teljemodus (nynorsk) og stammer fra <i>counter mode</i>."
-ECB-modus,ECB-modus,ECB mode,"ECB-modus er en forkortelse for elektronisk kodebokmodus og stammer fra <i>electronic codebook mode</i>."
+offentlig-nøkkel-infrastruktur<br>PKI,offentleg-nøkkel-infrastruktur<br>PKI,public key infrastructure<br>PKI,"Offentlig-nøkkel-infrastruktur (bokmål) og offentleg-nøkkel-infrastruktur (nynorsk) forkortes ofte til PKI, som stammer fra <i>public key infrastructure</i>. Forkortelsen PKI har hankjønn på bokmål og nynorsk."
+valgt-klartekst-angrep<br>CPA,valt-klartekst-åtak<br>CPA,chosen-plaintext attack<br>CPA,"Valgt-klartekst-angrep (bokmål) og valt-klartekst-åtak (nynorsk) forkortes ofte til CPA, som stammer fra <i>chosen-plaintext attack</i>. Forkortelsen CPA har intetkjønn på bokmål og nynorsk."
+valgt-chiffertekst-angrep<br>CCA,valt-chiffertekst-åtak<br>CCA,chosen-ciphertext attack<br>CCA,"Chiffer uttales [ʃi´f:ər]. Valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak (nynorsk) forkortes ofte til CCA. og valt-chiffertekst-åtak (nynorsk) og stammer fra <i>chosen-ciphertext attack</i>. Forkortelsen CCA har intetkjønn på bokmål og nynorsk."
 kode,kode,code,
 kodeord,kodeord,codeword,
 feiloppdagende kode,feiloppdagande kode,error-detecting code,
 selvortogonal kode,sjølvortogonal kode,self-orthogonal code,
 selvdual kode,sjølvdual kode,self-dual code,
 paritet,paritet,parity,
-engangsnøkkel,eingongsnøkkel,one-time pad,"Engangsnøkkel (bokmål) og eingongsnøkkel (nynorsk) forkortes ofte til OTP."
-chiffer,chiffer,cipher,"Uttale: [ʃi´f:ər]<br>Genus: intetkjønn"
+engangsnøkkel<br>OTP,eingongsnøkkel<br>OTP,one-time pad<br>OTP,"Engangsnøkkel (bokmål) og eingongsnøkkel (nynorsk) forkortes ofte til OTP, som stammer fra <i>one-time pad</i>. Forkortelsen OTP har hankjønn på bokmål og nynorsk."
+chiffer,chiffer,cipher,"Genus: intetkjønn<br>Uttale: [ʃi´f:ər]"
 cæsarchiffer,cæsarchiffer,Caesar cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
 symmetrisk kryptografi,symmetrisk kryptografi,symmetric cryptography,
 asymmetrisk kryptografi,asymmetrisk kryptografi,asymmetric cryptography,
@@ -1972,40 +1918,40 @@ dekryptere,dekryptere,decrypt,
 kryptering,kryptering,encryption,
 dekryptering,dekryptering,decryption,
 gitterbasert kryptografi,gitterbasert kryptografi,lattice-based cryptography,
-nøkkelutveksling,nøkkelutveksling,key exchange,"Nøkkelutveksling forkortes ofte til KE."
+nøkkelutveksling<br>KE,nøkkelutveksling<br>KE,key exchange<br>KE,"Nøkkelutveksling forkortes ofte til KE, som stammer fra <i>key exchange</i>. Forkortelsen KE har både hankjønn og hunkjønn på bokmål og hunkjønn på nynorsk."
 klartekst,klartekst,plaintext,
 chiffertekst,chiffertekst,ciphertext,"Chiffer uttales [ʃi´f:ər]."
 blokkchiffer,blokkchiffer,block cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
 kryptosystem,kryptosystem,crypto system,
 nøkkelgenerering,nøkkelgenerering,key generation,
 elliptisk kurve,elliptisk kurve,elliptic curve,
-meldingsautentiseringskode,meldingsautentiseringskode,message authentication code,"Meldingsautentiseringskode forkortes ofte til MAC."
+meldingsautentiseringskode<br>MAC,meldingsautentiseringskode<br>MAC,message authentication code<br>MAC,"Meldingsautentiseringskode forkortes ofte til MAC, som stammer fra <i>message authentication code</i>. Forkortelsen MAC har hankjønn på bokmål og nynorsk."
 delt nøkkel,delt nøkkel,shared key,
 digital signatur,digital signatur,digital signature,
 meldingsintegritet,meldingsintegritet,message integrity,
 forpliktelse,forplikting,commitment,
 digitalt sertifikat,digitalt sertifikat,digital certificate,
 blokkjede,blokkjede,blockchain,
-rettet asyklisk graf,retta asyklisk graf,directed acyclic graph,"Rettet asyklisk graf (bokmål) og retta asyklisk graf (nynorsk) forkortes ofte til DAG."
+rettet asyklisk graf<br>DAG,retta asyklisk graf<br>DAG,directed acyclic graph<br>DAG,"Rettet asyklisk graf (bokmål) og retta asyklisk graf (nynorsk) forkortes ofte til DAG, som stammer fra <i>directed acyclic graph</i>. Forkortelsen DAG har hankjønn på bokmål og nynorsk."
 frekvensanalyse,frekvensanalyse,frequency analysis,
 n-gram,n-gram,n-gram,
 transposisjonschiffer,transposisjonschiffer,transposition cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
 substitusjonschiffer,substitusjonschiffer,substitution cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
 polyalfabetisk chiffer,polyalfabetisk chiffer,polyalphabetic cipher,"Genus: intetkjønn<br><br>Chiffer uttales [ʃi´f:ər]."
 kryptoanalyse,kryptoanalyse,cryptanalysis,
-autentisert kryptering,autentisert kryptering,authenticated encryption,"Autentisert kryptering forkortes ofte til AE."
-autentisert kryptering med tilhørende data,autentisert kryptering med tilhøyrande data,authenticated encryption with associated data,"Autentisert kryptering med tilhørende data (bokmål) og autentisert kryptering med tilhøyrande data (nynorsk) forkortes ofte til AEAD."
+AE<br>autentisert kryptering,AE<br>autentisert kryptering,AE<br>authenticated encryption,"AE er en forkortelse for autentisert kryptering og stammer fra <i>authenticated encryption</i>."
+autentisert kryptering med tilhørende data<br>AEAD,autentisert kryptering med tilhøyrande data<br>AEAD,authenticated encryption with associated data<br>AEAD,"Autentisert kryptering med tilhørende data (bokmål) og autentisert kryptering med tilhøyrande data (nynorsk) forkortes ofte til AEAD, som stammer fra <i>authenticated encryption with associated data</i>."
 blindsignatur,blindsignatur,blind signature,
-nøkkelavledningsfunksjon,nøkkelavleiingsfunksjon,key derivation function,"Nøkkelavledningsfunksjon (bokmål) og nøkkelavleiingsfunksjon (nynorsk) forkortes ofte til KDF."
+nøkkelavledningsfunksjon<br>KDF,nøkkelavleiingsfunksjon<br>KDF,key derivation function<br>KDF,"Nøkkelavledningsfunksjon (bokmål) og nøkkelavleiingsfunksjon (nynorsk) forkortes ofte til KDF, som stammer fra <i>key derivation function</i>. Forkortelsen KDF har hankjønn på bokmål og nynorsk."
 salt,salt,salt,"Oversettelsen gjelder bruk i kryptografi."
 orakel,orakel,oracle,
-pseudotilfeldig funksjon,pseudotilfeldig funksjon,pseudorandom function,"Pseudotilfeldig funksjon forkortes ofte til PRF."
-pseudotilfeldig tallgenerator,pseudotilfeldig talgenerator,pseudorandom number generator,"Pseudotilfeldig tallgenerator (bokmål) og pseudotilfeldig talgenerator (nynorsk) forkortes ofte til PRNG."
+pseudotilfeldig funksjon<br>PRF,pseudotilfeldig funksjon<br>PRF,pseudorandom function<br>PRF,"Pseudotilfeldig funksjon forkortes ofte til PRF, som stammer fra <i>pseudorandom function</i>. Forkortelsen PRF har hankjønn på bokmål og nynorsk."
+pseudotilfeldig tallgenerator<br>PRNG,pseudotilfeldig talgenerator<br>PRNG,pseudorandom number generator<br>PRNG,"Pseudotilfeldig tallgenerator (bokmål) og pseudotilfeldig talgenerator (nynorsk) forkortes ofte til PRNG, som stammer fra <i>pseudorandom number generator</i>. Forkortelsen PRNG har hankjønn på bokmål og nynorsk."
 polstring,polstring,padding,
 kortvarig nøkkel,kortvarig nøkkel,ephemeral key,
 nøkkeldeponering,nøkkeldeponering,key escrow,
-initialiseringsvektor,initialiseringsvektor,initialization vector,"Initialiseringsvektor forkortes ofte til IV."
-arbeidsbevis,arbeidsbevis<br>arbeidsprov,proof-of-work,"Arbeidsbevis (bokmål) og arbeidsbevis/arbeidsprov (nynorsk) forkortes ofte til PoW."
+initialiseringsvektor<br>IV,initialiseringsvektor<br>IV,initialization vector<br>IV,"Initialiseringsvektor forkortes ofte til IV, som stammer fra <i>initialization vector</i>. Forkortelsen IV har hankjønn på bokmål og nynorsk."
+arbeidsbevis<br>PoW,arbeidsbevis<br>arbeidsprov<br>PoW,proof-of-work<br>PoW,"Arbeidsbevis (bokmål) og arbeidsbevis/arbeidsprov (nynorsk) forkortes ofte til PoW, som stammer fra <i>proof-of-work</i>. Forkortelsen PoW har intetkjønn på bokmål og nynorsk."
 gjentagelsesangrep,gjentakingsåtak,replay attack,
 gjentagelsesbeskyttelse,gjentakingsvern,replay prevention,
 skredeffekt,skredeffekt,avalanche effect,
@@ -2013,17 +1959,17 @@ differensiell kryptoanalyse,differensiell kryptoanalyse,differential cryptanalys
 sidekanalangrep,sidekanalåtak,side-channel attack,
 mann-i-midten-angrep<br>mellommannsangrep,mann-i-midten-åtak<br>mellommannsåtak,man-in-the-middle attack,
 konkatenere<br>sammenføye<br>sammensette,føye saman<br>konkatenere<br>setje saman,concatenate,"Ordklasse: verb"
-ende-til-ende-kryptering<br>endepunktskryptering,ende-til-ende-kryptering<br>endepunktskryptering,end-to-end encryption,"Ende-til-ende-kryptering/endepunktskryptering forkortes ofte til E2EE."
+ende-til-ende-kryptering<br>endepunktskryptering<br>E2EE,ende-til-ende-kryptering<br>endepunktskryptering<br>E2EE,end-to-end encryption<br>E2EE,"Ende-til-ende-kryptering/endepunktskryptering forkortes ofte til E2EE, som stammer fra <i>end-to-end encryption</i>."
 spillhopping,spelhopping,game-hopping,
-eksistensiell uforfalskbarhet,eksistensiell uforfalskbarheit,existential unforgeability,"Eksistensiell uforfalskbarhet (bokmål) og eksistensiell uforfalskbarheit (nynorsk) forkortes ofte til EUF."
-selektiv uforfalskbarhet,selektiv uforfalskbarheit,selective unforgeability,"Selektiv uforfalskbarhet (bokmål) og selektiv uforfalskbarheit (nynorsk) forkortes ofte til SUF."
-universell uforfalskbarhet,universell uforfalskbarheit,universal unforgeability,"Universell uforfalskbarhet (bokmål) og universell uforfalskbarheit (nynorsk) forkortes ofte til UUF."
-tillitsnett,tillitsnett,web of trust,"Tillitsnett forkortes ofte til WoT."
+eksistensiell uforfalskbarhet<br>EUF,eksistensiell uforfalskbarheit<br>EUF,existential unforgeability<br>EUF,"Eksistensiell uforfalskbarhet (bokmål) og eksistensiell uforfalskbarheit (nynorsk) forkortes ofte til EUF, som stammer fra <i>existential unforgeability</i>."
+selektiv uforfalskbarhet<br>SUF,selektiv uforfalskbarheit<br>SUF,selective unforgeability<br>SUF,"Selektiv uforfalskbarhet (bokmål) og selektiv uforfalskbarheit (nynorsk) forkortes ofte til SUF, som stammer fra <i>selective unforgeability</i>."
+universell uforfalskbarhet<br>UUF,universell uforfalskbarheit<br>UUF,universal unforgeability<br>UUF,"Universell uforfalskbarhet (bokmål) og universell uforfalskbarheit (nynorsk) forkortes ofte til UUF, som stammer fra <i>universal unforgeability</i>."
+tillitsnett<br>WoT,tillitsnett<br>WoT,web of trust<br>WoT,"Tillitsnett forkortes ofte til WoT, som stammer fra <i>web of trust</i>. Forkortelsen WoT har intetkjønn på bokmål og nynorsk."
 krypteringsmodus,krypteringsmodus,encryption mode,
 dekrypteringsmodus,dekrypteringsmodus,decryption mode,
-elektronisk kodebokmodus,elektronisk kodebokmodus,electronic codebook mode,"Elektronisk kodebokmodus forkortes ofte til ECB-modus."
-tellemodus,teljemodus,counter mode,"Tellemodus (bokmål) og teljemodus (nynorsk) forkortes ofte til CTR-modus."
-kjedet chifferblokkmodus,kjeda chifferblokkmodus,cipher block chaining mode,"Chiffer uttales [ʃi´f:ər].<br><br>Kjedet chifferblokkmodus (bokmål) og kjeda chifferblokkmodus (nynorsk) forkortes ofte til CBC-modus."
+elektronisk kodebokmodus<br>ECB-modus,elektronisk kodebokmodus<br>ECB-modus,electronic codebook mode<br>ECB mode,"Elektronisk kodebokmodus forkortes ofte til ECB-modus, som stammer fra <i>electronic codebook mode</i>."
+tellemodus<br>CTR-modus,teljemodus<br>CTR-modus,counter mode<br>CTR mode,"Tellemodus (bokmål) og teljemodus (nynorsk) forkortes ofte til CTR-modus, som stammer fra <i>counter mode</i>."
+kjedet chifferblokkmodus<br>CBC-modus,kjeda chifferblokkmodus<br>CBC-modus,cipher block chaining mode<br>CBC mode,"Chiffer uttales [ʃi´f:ər]. Kjedet chifferblokkmodus (bokmål) og kjeda chifferblokkmodus (nynorsk) forkortes ofte til CBC-modus, som stammer fra <i>cipher block chaining mode</i>."
 anstendig avbildning,anstendig avbilding,proper map,"Oversettelsen proper avbildning (bokmål) og proper avbilding (nynorsk) er også i bruk."
 anstendig funksjon,anstendig funksjon,proper function,"Oversettelsen proper funksjon er også i bruk."
 distingvert triangel,distingvert triangel,distinguished triangle,"Deler av faglitteraturen benytter uttrykket <i>exact triangle</i> i stedet for <i>distinguished triangle</i>. Dette oversettes til eksakt triangel."
@@ -2032,14 +1978,14 @@ nedadgående-kjede-betingelse,minkande-kjede-vilkår,descending chain condition,
 oppadgående-kjede-betingelse,aukande-kjede-vilkår,ascending chain condition,
 fouriersinusrekke,fouriersinusrekkje,Fourier sine series,
 fouriercosinusrekke,fouriercosinusrekkje,Fourier cosine series,
-definisjonsmengde<br>definisjonsområde,definisjonsmengd<br>definisjonsområde,domain,"Oversettelsen gjelder blant annet når det er snakk om funksjoner og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+definisjonsmengde<br>definisjonsområde,definisjonsmengd<br>definisjonsområde,domain,"Oversettelsen gjelder blant annet omhandlende funksjoner og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 spektralfølge,spektralfølgje,spectral sequence,
 dedekindgruppe,dedekindgruppe,Dedekind group,
 teleskoprekke,teleskoprekkje,telescoping series,
 gradkommutativ,gradkommutativ,graded-commutative,
 gradkommutativ ring,gradkommutativ ring,graded-commutative ring,
 Auslanders defektformel,Auslanders defektformel,Auslander's defect formula,
-isotropiundergruppe,isotropiundergruppe,isotropy subgroup,"Synonym: stabilisator"
+isotropiundergruppe,isotropiundergruppe,isotropy subgroup,"I noen tilfeller kan termene isotropiundergruppe og stabilisator brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
 Burnsides formel,Burnsides formel,Burnside's formula,
 rotkropp,rotkropp,splitting field,
 p-undergruppe,p-undergruppe,p-subgroup,
@@ -2058,7 +2004,7 @@ vesentlig singularitet,vesentleg singularitet,essential singularity,
 venstreinvers,venstreinvers,left inverse,
 høyreinvers,høgreinvers,right inverse,
 løsbar,løyseleg,solvable,
-kontrapositivt bevis,kontrapositivt bevis<br>kontrapositivt prov,proof by contraposition,"På engelsk kan man bruke <i>contrapositive proof</i> som synonym til <i>proof by contraposition</i>."
+kontrapositivt bevis,kontrapositivt bevis<br>kontrapositivt prov,contrapositive proof<br>proof by contraposition,
 kontrapositiv,kontrapositiv,contrapositive,
 langeksakt,langeksakt,long exact,
 langeksakt følge,langeksakt følgje,long exact sequence,
@@ -2069,12 +2015,9 @@ galoisutvidelse,galoisutviding,Galois extension,
 hassediagram,hassediagram,Hasse diagram,
 deduksjon,deduksjon,deduction,
 krumningsradius,krummingsradius,radius of curvature,
-dele<br>gå opp i,dele<br>gå opp i,divide,"Et heltall <i>n</i> deler eller går opp i et heltall <i>m</i> dersom <i>n</i> er en faktor i <i>m</i>."
-endelig tilstandsmaskin,endeleg tilstandsmaskin,finite-state machine,"Synonym: endelig tilstandsautomat<br><br>Endelig tilstandsmaskin forkortes ofte til FSM."
-endelig tilstandsautomat,endeleg tilstandsautomat,finite-state automaton,"Synonym: endelig tilstandsmaskin<br><br>Endelig tilstandsautomat forkortes ofte til FSA."
-FSM,FSM,FSM,"Genus bokmål: hankjønn<br>Genus nynorsk: hankjønn/hunkjønn<br><br>FSM er en forkortelse for endelig tilstandsmaskin (bokmål) og endeleg tilstandsmaskin (nynorsk) og stammer fra <i>finite-state machine</i>."
-FSA,FSA,FSA,"Genus: hankjønn<br><br>FSA er en forkortelse for endelig tilstandsautomat (bokmål) og endeleg tilstandsautomat (nynorsk) og stammer fra <i>finite-state automaton</i>."
-verdiområde,verdiområde,codomain,"Oversettelsen gjelder blant annet når det er snakk om funksjoner og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+dele<br>gå opp i,dele<br>gå opp i,divide,"Et heltall 𝓃 deler eller går opp i et heltall 𝓂 dersom 𝓃 er en faktor i 𝓂."
+endelig tilstandsautomat<br>endelig tilstandsmaskin<br>FSM<br>FSA,endeleg tilstandsautomat<br>endeleg tilstandsmaskin<br>FSM<br>FSA,finite-state automaton<br>finite-state machine<br>FSM<br>FSA,"FSM er en forkortelse for endelig tilstandsmaskin (bokmål) og endeleg tilstandsmaskin (nynorsk) og stammer fra <i>finite-state machine</i>. FSA er en forkortelse for endelig tilstandsautomat (bokmål) og endeleg tilstandsautomat (nynorsk) og stammer fra <i>finite-state automaton</i>. Forkortelsen FSM har hankjønn på bokmål og både hankjønn og hunkjønn på nynorsk. Forkortelsen FSA har hankjønn på bokmål og nynorsk."
+verdiområde,verdiområde,codomain,"Oversettelsen gjelder blant annet onhandlende funksjoner og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 vektorflyt,vektorflyt,vector flow,
 symmetri,symmetri,symmetry,
 virkning,verknad,action,
@@ -2126,13 +2069,12 @@ chernklasse,chernklasse,Chern class,
 segreklasse,segreklasse,Segre class,
 chowring,chowring,Chow ring,
 kohomologiring,kohomologiring,cohomology ring,
-coxring,coxring,Cox ring,"Synonym: total koordinatring"
-total koordinatring,total koordinatring,total coordinate ring,"Synonym: Cox ring"
+coxring<br>total koordinatring,coxring<br>total koordinatring,Cox ring<br>total coordinate ring,
 weildivisor,weildivisor,Weil divisor,
 cartierdivisor,cartierdivisor,Cartier divisor,
 klassegruppe,klassegruppe,class group,
 čechkohomologi,čechkohomologi,Čech cohomology,
-l-adisk kohomologi<br>ℓ-adisk kohomologi,l-adisk kohomologi<br>ℓ-adisk kohomologi,l-adic cohomology<br>ℓ-adic cohomology,"Både l-adisk kohomologi og ℓ-adisk kohomologi forekommer i bruk, men ℓ-adisk kohomologi anbefales så lenge symbolet ℓ er tilgjengelig."
+ℓ-adisk kohomologi<br>l-adisk kohomologi,ℓ-adisk kohomologi<br>l-adisk kohomologi,ℓ-adic cohomology<br>l-adic cohomology,"Både l-adisk kohomologi og ℓ-adisk kohomologi forekommer i bruk, men ℓ-adisk kohomologi anbefales så lenge symbolet ℓ er tilgjengelig."
 hochschildhomologi,hochschildhomologi,Hochschild homology,
 hochschildkohomologi,hochschildkohomologi,Hochschild cohomology,
 dolbeaultkohomologi,dolbeaultkohomologi,Dolbeault cohomology,
@@ -2186,7 +2128,7 @@ snittall,snittal,intersection number,
 skjemateoretisk,skjemateoretisk,scheme-theoretic,
 snitteori,snitteori,intersection theory,
 irregularitet,irregularitet,irregularity,
-jacobivarietet,jacobivarietet,Jacobian variety,"Jacobivarietet kalles ofte bare <i>Jacobian</i> på engelsk."
+jacobivarietet,jacobivarietet,Jacobian<br>Jacobian variety,"Jacobivarietet kalles ofte bare <i>Jacobian</i> på engelsk."
 kählerdifferensial,kählerdifferensial,Kähler differential,
 kählermangfoldighet,kählermangfald,Kähler manifold,
 kodairadimensjon,kodairadimensjon,Kodaira dimension,
@@ -2216,7 +2158,7 @@ redusering,redusering,reduction,
 singularitetsoppløsning,singularitetsoppløysing,resolution of singularities,
 Riemann-Roch-teoremet,Riemann-Roch-teoremet,Riemann–Roch theorem,
 zetafunksjon,zetafunksjon,zeta function,
-separerende transendensbasis,separerande transendensbasis,separating transcendence base,"Skrivemåtene transcendens og transendens er sidestilte på både bokmål og nynorsk."
+separerende transendensbasis<br>separerende transcendensbasis,separerande transendensbasis<br>separerande transcendensbasis,separating transcendence base,"Skrivemåtene transcendens og transendens er sidestilte på både bokmål og nynorsk."
 globalt generert,globalt generert,globally generated,
 signatur,signatur,signature,
 singulært punkt,singulært punkt,singular point,
@@ -2233,7 +2175,7 @@ underknippe,underknippe,subsheaf,
 veroneseflate,veroneseflate,Veronese surface,
 hodgeformodningen,hodgeførehandstrua,Hodge conjecture,
 hodgedekomposisjon,hodgedekomposisjon,Hodge decomposition,
-hodgelokus,hodgelokus,Hodge locus,"Engelsk flertallsform: Hodge loci."
+hodgelokus,hodgelokus,Hodge locus,"Engelsk flertallsform: Hodge loci"
 hodgestruktur,hodgestruktur,Hodge structure,
 blandet hodgestruktur,blanda hodgestruktur,mixed Hodge structure,
 tam,tam,tame,
@@ -2262,7 +2204,6 @@ ren dimensjon,rein dimensjon,pure dimension,
 dedekindområde,dedekindområde,Dedekind domain,
 reduksjon,reduksjon,reduction,
 frobeniusmorfi,frobeniusmorfi,Frobenius morphism,
-skjevkropp,skeivkropp,skew-field,"Synonym: divisjonsring"
 ringet rom,ringa rom,ringed space,
 matematikk,matematikk,mathematics,
 ren matematikk,rein matematikk,pure mathematics,
@@ -2296,7 +2237,7 @@ likedannet<br>similær,likedanna<br>similær,similar,"Oversettelsen gjelder bruk
 likedannet matrise<br>similær matrise,likedanna matrise<br>similær matrise,similar matrix,
 isospektral,isospektral,isospectral,
 bilde,bilete,image,"I mange tilfeller kan termene bilde og verdimengde brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
-verdimengde,verdimengd,range,"I mange tilfeller kan termene verdimengde og bilde brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst.<br><br>Verdimengde kan også omtales som bildemengde (bokmål) og biletmengd (nynorsk) eller rekkevidde (bokmål) og rekkjevidde (nynorsk)."
+verdimengde,verdimengd,range,"I mange tilfeller kan termene verdimengde og bilde brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst. Verdimengde kan også omtales som bildemengde (bokmål) og biletmengd (nynorsk) eller rekkevidde (bokmål) og rekkjevidde (nynorsk)."
 gitter,gitter,lattice,
 rettvinklet,rettvinkla,right-angled,
 regulær,regulær,regular,
@@ -2307,8 +2248,7 @@ multiplikativ gruppe,multiplikativ gruppe,multiplicative group,
 divisor,divisor,divisor,"I mange tilfeller kan termene divisor og faktor brukes synonymt."
 faktor,faktor,factor,"I mange tilfeller kan termene faktor og divisor brukes synonymt."
 legendresymbol,legendresymbol,Legendre symbol,
-dg-funktor,dg-funktor,dg functor,"Dg-funktor er en forkortelse for differensialgradert funktor."
-pivot,pivot,pivot,"Ordklasse: substantiv<br>Uttale: [pivå:´]<br>Genus: hankjønn"
+pivot,pivot,pivot,"Ordklasse: substantiv<br>Genus: hankjønn<br>Uttale: [pivå:´]"
 ordning,ordning,order,"Merk at oversettelsen av <i>order</i> er avhengig av kontekst. Oversettelsen ordning brukes for eksempel i forbindelse med binærrelasjoner."
 orden,orden,order,"Merk at oversettelsen av <i>order</i> er avhengig av kontekst. Oversettelsen orden brukes for eksempel i gruppeteori."
 sentrum,sentrum,centre,
@@ -2318,16 +2258,16 @@ triviell topologi,triviell topologi,indiscrete topology<br>trivial topology,
 kulegeometri<br>sfærisk geometri,kulegeometri<br>sfærisk geometri,spherical geometry,
 kulekoordinater<br>sfæriske koordinater,kulekoordinatar<br>sfæriske koordinatar,spherical coordinates,
 sfærisk,sfærisk,spherical,
-endelig-komplement-topologi,endeleg-komplement-topologi,cofinite topology<br>finite complement topology,"Endelig-komplement-topologi kan også omtales som kofinitt topologi."
+endelig-komplement-topologi<br>kofinitt topologi,endeleg-komplement-topologi<br>kofinitt topologi,cofinite topology<br>finite complement topology,
 tellbart-komplement-topologi,teljeleg-komplement-topologi,countable complement topology,
 kompakt-komplement-topologi,kompakt-komplement-topologi,compact complement topology,
 homoteti,homoteti,homothety,
 homotetisk vektorfelt,homotetisk vektorfelt,homothetic vector field,
 homotetisk,homotetisk,homothetic,
 hevbar singularitet,hevbar singularitet,removable singularity,
-spiss,spiss,cusp,"Ordklasse: substantiv<br><br>Cusp brukes også på norsk, men spiss anbefales."
-antipodalt punkt<br>diametralt motsatt punkt,antipodalt punkt<br>diametralt motsett punkt,antipodal point,"Synonym: antipode"
-antipode,antipode,antipode,"Synonym: antipodalt punkt / diametralt motsatt punkt"
+spiss<br>cusp,spiss<br>cusp,cusp,"Ordklasse: substantiv<br><br>Cusp brukes også på norsk, men spiss anbefales."
+antipodalt punkt<br>diametralt motsatt punkt,antipodalt punkt<br>diametralt motsett punkt,antipodal point,"I mange tilfeller kan termene antipodalt punkt og antipode brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
+antipode,antipode,antipode,"I mange tilfeller kan termene antipode og antipodalt punkt brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
 de Rham-kompleks,de Rham-kompleks,de Rham complex,
 innskrive,innskrive,inscribe,
 omskrive,omskrive,circumscribe,
@@ -2439,15 +2379,12 @@ nullstabil metode,nullstabil metode,zero stable method,
 nullstabilitet,nullstabilitet,zero stability,
 konsistent metode,konsistent metode,consistent method,
 konvergent metode,konvergent metode,convergent method,
-sylinderskallmetoden,sylinderskalmetoden,shell method,"På engelsk kan sylinderskallmetoden også omtales som <i>cylindrical shell method</i>."
-implisitt metode,implisitt metode,implicit method,"Synonym: baklengsmetode"
-baklengsmetode,baklengsmetode,backward method,"Synonym: implisitt metode"
-Eulers metode,Eulers metode,Euler's method,"Synonym: eulermetoden"
-eulermetoden,eulermetoden,Euler method,"Synonym: Eulers metode"
-Eulers forbedrede metode,Eulers forbetra metode,improved Euler method,"Synonym: Heuns metode"
-Heuns metode,Heuns metode,Heun's method,"Synonym: Eulers forbedrede metode"
-Eulers implisitte metode,Eulers implisitte metode,implicit Euler method,"Synonym: Eulers baklengsmetode"
-Eulers baklengsmetode,Eulers baklengsmetode,backward Euler method,"Synonym: Eulers implisitte metode"
+sylinderskallmetoden,sylinderskalmetoden,cylindrical shell method<br>shell method,
+implisitt metode,implisitt metode,implicit method,"I mange tilfeller kan termene implisitt metode og baklengsmetode brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
+baklengsmetode,baklengsmetode,backward method,"I mange tilfeller kan termene baklengsmetode og implisitt metode brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
+Eulers metode<br>eulermetoden,Eulers metode<br>eulermetoden,Euler method<br>Euler's method,
+Eulers forbedrede metode<br>Heuns metode,Eulers forbetra metode<br>Heuns metode,Heun's method<br>improved Euler method,
+Eulers baklengsmetode<br>Eulers implisitte metode,Eulers baklengsmetode<br>Eulers implisitte metode,backward Euler method<br>implicit Euler method,
 Eulers modifiserte metode,Eulers modifiserte metode,modified Euler method,
 avrunding,avrunding,rounding,
 stiv ODE,stiv ODE,stiff ODE,"ODE er en forkortelse for ordinær differensiallikning og stammer fra <i>ordinary differential equation</i>."
@@ -2456,14 +2393,13 @@ spline,spline,spline,"Uttale: [spli:`nə]"
 B-spline,B-spline,B-spline,"Spline uttales [spli:`nə]."
 splinekurve,splinekurve,spline curve,"Spline uttales [spli:`nə]."
 splineinterpolasjon,splineinterpolasjon,spline interpolation,"Spline uttales [spli:`nə]."
-interpolant,interpolant,interpolant,"Synonym: interpolasjonsfunksjon"
-interpolasjonsfunksjon,interpolasjonsfunksjon,interpolating function,"Synonym: interpolant"
+interpolant<br>interpolasjonsfunksjon,interpolant<br>interpolasjonsfunksjon,interpolant<br>interpolating function,
 tensorspline,tensorspline,tensor spline,"Spline uttales [spli:`nə]."
 boksspline,boksspline,box spline,"Spline uttales [spli:`nə]."
 splinerom,splinerom,spline space,"Spline uttales [spli:`nə]."
 skjøt,skøyt,knot,"Oversettelsen gjelder bruk i for eksempel numerikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
-skjøtefølge,skøytefølgje,knot sequence,"Synonym: skjøtevektor"
-skjøtevektor,skøytevektor,knot vector,"Synonym: skjøtefølge"
+skjøtefølge,skøytefølgje,knot sequence,
+skjøtevektor,skøytevektor,knot vector,
 skjøtemultiplisitet,skøytemultiplisitet,knot multiplicity,
 skjøtemiddel,skøytemiddel,knot average,
 skjøteinnsetting,skøyteinnsetjing,knot insertion,
@@ -2488,15 +2424,15 @@ likevektstilstand,jamvektstilstand,steady state,
 eksponentialavbildning,eksponentialavbilding,exponential map,
 lieprodukt,lieprodukt,Lie bracket<br>Lie product,"Merk at oversettelsen av <i>Lie bracket</i> er avhengig av kontekst. Oversettelsen lieprodukt brukes når det refereres til produktoperasjonen i en liealgebra. Sammenlign dette med lieklamme/lieparentes."
 lieklamme<br>lieparentes,lieklamme<br>lieparentes,Lie bracket,"Merk at oversettelsen av <i>Lie bracket</i> er avhengig av kontekst. Oversettelsen lieklamme/lieparentes brukes når det refereres til notasjonen [-,-], som ofte benyttes for produktoperasjonen i en liealgebra. Sammenlign dette med lieprodukt."
-generell lineær gruppe,generell lineær gruppe,general linear group,"For en slik gruppe brukes ofte notasjonen GL(n,k), der n er et positivt heltall og k er en kropp."
-spesiell lineær gruppe,spesiell lineær gruppe,special linear group,"For en slik gruppe brukes ofte notasjonen SL(n,k), der n er et positivt heltall og k er en kropp."
-ortogonal gruppe,ortogonal gruppe,orthogonal group,"For en slik gruppe brukes ofte notasjonen O(n,k), der n er et positivt heltall og k er en kropp."
-spesiell ortogonal gruppe,spesiell ortogonal gruppe,special orthogonal group,"For en slik gruppe brukes ofte notasjonen SO(n,k), der n er et positivt heltall og k er en kropp."
-unitær gruppe,unitær gruppe,unitary group,"For en slik gruppe brukes ofte notasjonen U(n), der n er et positivt heltall."
-spesiell unitær gruppe,spesiell unitær gruppe,special unitary group,"For en slik gruppe brukes ofte notasjonen SU(n), der n er et positivt heltall."
-eksepsjonell gruppe,eksepsjonell gruppe,exceptional group,"For en slik gruppe brukes ofte notasjonen E_n, der n er et heltall slik at 6 ≤ n ≤ 8."
-symplektisk gruppe,symplektisk gruppe,symplectic group,"For en slik gruppe brukes ofte notasjonen Sp(2n,k), der n er et positivt heltall og k er en kropp."
-kompakt symplektisk gruppe,kompakt symplektisk gruppe,compact symplectic group,"For en slik gruppe brukes ofte notasjonen Sp(n). Den defineres som snittet av den symplektiske gruppen Sp(2n,C) med den unitære gruppen U(2n,C), der C er de komplekse tallene."
+generell lineær gruppe,generell lineær gruppe,general linear group,"For en generell lineær gruppe brukes ofte notasjonen GL(n,k), der n er et positivt heltall og k er en kropp."
+spesiell lineær gruppe,spesiell lineær gruppe,special linear group,"For en spesiell lineær gruppe brukes ofte notasjonen SL(n,k), der n er et positivt heltall og k er en kropp."
+ortogonal gruppe,ortogonal gruppe,orthogonal group,"For en ortogonal gruppe brukes ofte notasjonen O(n,k), der n er et positivt heltall og k er en kropp."
+spesiell ortogonal gruppe,spesiell ortogonal gruppe,special orthogonal group,"For en spesiell ortogonal gruppe brukes ofte notasjonen SO(n,k), der n er et positivt heltall og k er en kropp."
+unitær gruppe,unitær gruppe,unitary group,"For en unitær gruppe brukes ofte notasjonen U(n), der n er et positivt heltall."
+spesiell unitær gruppe,spesiell unitær gruppe,special unitary group,"For en spesiell unitær gruppe brukes ofte notasjonen SU(n), der n er et positivt heltall."
+eksepsjonell gruppe,eksepsjonell gruppe,exceptional group,"For en eksepsjonell gruppe brukes ofte notasjonen E_n, der n er et heltall slik at 6 ≤ n ≤ 8."
+symplektisk gruppe,symplektisk gruppe,symplectic group,"For en symplektisk gruppe brukes ofte notasjonen Sp(2n,k), der n er et positivt heltall og k er en kropp."
+kompakt symplektisk gruppe,kompakt symplektisk gruppe,compact symplectic group,"For en kompakt symplektisk gruppe brukes ofte notasjonen Sp(n). Den defineres som snittet av den symplektiske gruppen Sp(2n,C) med den unitære gruppen U(2n,C), der C er de komplekse tallene."
 semisimpel gruppe,semisimpel gruppe,semisimple group,
 symplektisk liealgebra,symplektisk liealgebra,symplectic Lie algebra,
 eksepsjonell liealgebra,eksepsjonell liealgebra,exceptional Lie algebra,
@@ -2523,15 +2459,13 @@ lognormalfordeling,lognormalfordeling,lognormal distribution,
 cauchyfordeling,cauchyfordeling,Cauchy distribution,
 dobbel-eksponentialfordeling<br>laplacefordeling,dobbel-eksponentialfordeling<br>laplacefordeling,double exponential distribution<br>Laplace distribution,
 logistisk fordeling,logistisk fordeling,logistical distribution,
-invers gaussfordeling,invers gaussfordeling,inverse Gaussian distribution,"Synonym: invers normalfordeling"
-invers normalfordeling,invers normalfordeling,inverse normal distribution,"Synonym: invers gaussfordeling"
+invers gaussfordeling<br>invers normalfordeling,invers gaussfordeling<br>invers normalfordeling,inverse Gaussian distribution<br>inverse normal distribution,
 invers gammafordeling,invers gammafordeling,inverse gammadistribution,
 Jensens ulikhet,Jensens ulikskap,Jensen's inequality,
 skarp ulikhet,skarp ulikskap,tight inequality,
 nodedekke,nodedekke,vertex cover,
-datautvinning,datautvinning,data mining,"Datagruvedrift er også i bruk."
-alikvot,alikvot,aliquot,"Synonym: ekte divisor"
-regex,regex,regex,"Regex er en forkortelse for regulært uttrykk og stammer fra <i>regular expression</i>."
+datautvinning,datautvinning,data mining,"Termen datagruvedrift er også i bruk."
+alikvot<br>ekte divisor,alikvot<br>ekte divisor,aliquot<br>proper divisor,
 brøkpakking,brøkpakking,fractional packing,
 gjenbruksproblem<br>tobruksproblem,gjenbruksproblem<br>tobruksproblem,double spending problem,"Oversettelsen gjelder bruk i kryptografi og elektroniske valutaer."
 desimalutvikling,desimalutvikling,decimal expansion,
@@ -2548,7 +2482,6 @@ definisjon,definisjon,definition,
 deltoide,deltoide,deltoid curve,
 desimal,desimal,decimal,
 eksistensbevis,eksistensbevis<br>eksistensprov,proof of existence,
-ekte divisor,ekte divisor,proper divisor,"Synonym: alikvot"
 Euklids algoritme,Euklids algoritme,Euclidean algorithm,
 følgefeil,følgjefeil,error propagation,
 hvis og bare hvis,viss og berre viss,if and only if,
@@ -2606,7 +2539,7 @@ bredde,breidd,breadth,
 polsk notasjon,polsk notasjon,Polish notation,
 postfiksnotasjon,postfiksnotasjon,postfix notation,
 polsk rom,polsk rom,Polish space,
-omvendt polsk notasjon,omvend polsk notasjon,reverse Polish notation,"Omvendt polsk notasjon (bokmål) og omvend polsk notasjon (nynorsk) forkortes ofte til OPN eller RPN."
+omvendt polsk notasjon<br>OPN,omvend polsk notasjon<br>OPN,reverse Polish notation<br>RPN,"Omvendt polsk notasjon (bokmål) og omvend polsk notasjon (nynorsk) forkortes ofte til OPN eller RPN. OPN er en forkortelse for omvendt polsk notasjon."
 eselbroen,eselbrua,pons asinorum,
 nullvektor,nullvektor,null vector,
 numerisk løsning,numerisk løysing,numerical solution,
@@ -2686,9 +2619,9 @@ overgangsfunksjon,overgangsfunksjon,transition function,
 plan graf,plan graf,plane graph,
 løft,lyft,lift,
 løfting,lyfting,lifting,
-pukkelfunksjon,pukkelfunksjon,bump function,"Pukkelfunksjoner kan også omtales som testfunksjoner, men termene <i>pukkelfunksjon</i> og <i>testfunksjon</i> er ikke synonymer."
+pukkelfunksjon,pukkelfunksjon,bump function,"Pukkelfunksjoner kan også omtales som testfunksjoner, men termene pukkelfunksjon og testfunksjon er ikke synonymer."
 testfunksjon,testfunksjon,test function,
-geodetisk kurve,geodetisk kurve,geodesic,"Synonym: geoded/geodete"
+geoded<br>geodete<br>geodetisk kurve,geoded<br>geodete<br>geodetisk kurve,geodesic,
 fullstendig geodetisk,fullstendig geodetisk,totally geodesic,
 normal geodetisk kurve,normal geodetisk kurve,normal geodesic,
 unormal geodetisk kurve,unormal geodetisk kurve,abnormal geodesic,
@@ -2713,7 +2646,7 @@ multikompleks,multikompleks,multicomplex,
 catalantall,catalantal,Catalan number,
 komodul,komodul,comodule,
 koalgebra,koalgebra,coalgebra,
-koderivasjon,koderivasjon,coderivation,"De engelske termene <i>derivation</i> og <i>differentiation</i> er ikke synonymer, selv om begge oversettes til det samme på norsk. En derivasjon er en en lineæravbildning som tilfredsstiller Leibniz' regel."
+koderivasjon,koderivasjon,coderivation,"De engelske termene <i>derivation</i> og <i>differentiation</i> er ikke synonymer, selv om begge oversettes til det samme på norsk. En derivasjon er en en lineæravbildning som tilfredsstiller Leibniz' regel."
 kodifferensial,kodifferensial,codifferential,
 koinvariant,koinvariant,coinvariant,
 komonade,komonade,comonad,
@@ -2810,7 +2743,7 @@ venstrederivert,venstrederivert,left derivative,"Oversettelsen gjelder bruk i nu
 nedrederivert,nedrederivert,lower derivative,
 øvre semikontinuitet,øvre semikontinuitet,upper semicontinuity,
 nedre semikontinuitet,nedre semikontinuitet,lower semicontinuity,
-linjeintegral,linjeintegral,curve integral<br>line integral,"Synonym: veiintegral"
+linjeintegral<br>veiintegral,linjeintegral<br>vegintegral,curve integral<br>line integral<br>path integral,
 endelig variasjon,endeleg variasjon,bounded variation,
 perturbasjon,perturbasjon,perturbation,
 neglisjerbar,neglisjerbar,negligible,
@@ -2843,12 +2776,9 @@ troverdighet,truverd,credibility,
 troverdighetsintervall,truverdsintervall,credible interval,
 klassifisering,klassifisering,classification,
 kryssvalidering,kryssvalidering,cross-validation,
-øvingsdata,øvingsdata,training data,"Synonym: øvingsmengde"
-øvingsmengde,øvingsmengd,training set,"Synonym: øvingsdata"
-testdata,testdata,test data,"Synonym: testmengde"
-testmengde,testmengd,test set,"Synonym: testdata"
-valideringsdata,valideringsdata,validation data,"Synonym: valideringsmengde"
-valideringsmengde,valideringsmengd,validation set,"Synonym: valideringsdata"
+øvingsdata<br>øvingsmengde,øvingsdata<br>øvingsmengd,training data<br>training set,
+testdata<br>testmengde,testdata<br>testmengd,test data<br>test set,
+valideringsdata<br>valideringsmengde,valideringsdata<br>valideringsmengd,validation data<br>validation set,
 overtilpasse,overtilpasse,overfit,
 stokastikk,stokastikk,stochastics,
 ikke-positiv,ikkje-positiv,non-positive,
@@ -2865,8 +2795,7 @@ fasediagram,fasediagram,phase diagram,
 bodeplott,bodeplott,Bode plot,
 mellomverdisetningen,mellomverdisetninga,intermediate value theorem,"Enkelte skiller mellom skjæringssetningen og mellomverdisetningen, der førstnevnte anses som et spesialtilfelle av sistnevnte. Mellomverdisetningen sier at en kontinuerlig reell funksjon på et lukket og begrenset intervall antar alle verdier mellom funksjonsverdiene i endepunktene, mens skjæringssetningen kan formuleres som at dersom funksjonsverdiene til en slik funksjon har motsatte fortegn i endepunktene, så har funksjonen et nullpunkt i intervallet. Skjæringssetningen benyttes ofte om begge disse teoremene."
 skrå asymptote,skrå asymptote,oblique asymptote<br>slant asymptote,
-lukket under utvidelser,lukka under utvidingar,closed under extensions,"Synonym: utvidelseslukket"
-utvidelseslukket,utvidingslukka,extension-closed,"Synonym: lukket under utvidelser"
+lukket under utvidelser<br>utvidelseslukket,lukka under utvidingar<br>utvidingslukka,closed under extensions<br>extension-closed,
 ekstriangulert,ekstriangulert,extriangulated,
 ekstriangulert kategori,ekstriangulert kategori,extriangulated category,
 flerpartsberegning,fleirpartsberekning,multi-party computation,
@@ -2874,7 +2803,7 @@ undermatrise,undermatrise,submatrix,
 trippelprodukt,trippelprodukt,triple product,
 totalt usammenhengende,totalt usamanhengande,totally disconnected,
 ingensteds tett,ingenstad tett,nowhere dense,
-antesedent,antesedent,antecedent,"Både <i>antecedent</i> og <i>antesedent</i> forekommer også i bruk på norsk, men <i>antesedent</i> anbefales."
+antesedent<br>antecedent,antesedent<br>antecedent,antecedent,"Både antesedent og antecedent forekommer også i bruk på norsk, men antesedent anbefales."
 konsekvens,konsekvens,consequent,"Oversettelsen gjelder bruk i logikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 teststyrke,teststyrke,power,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 styrkefunksjon,styrkefunksjon,power curve<br>power function,"Oversettelsen <i>power curve</i> brukes når det er snakk om grafen til styrkefunksjonen."
@@ -2905,10 +2834,9 @@ differansekokjerne,differansekokjerne,difference cokernel,"I noen tilfeller kan 
 forliker,forliker,equalizer,"I noen tilfeller kan termene differansekjerne og forliker brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
 koforliker,koforliker,coequalizer,"I noen tilfeller kan termene differansekokjerne og koforliker brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
 nek,nek,gerbe,
-geoded<br>geodete,geoded<br>geodete,geodesic,"Synonym: geodetisk kurve"
 perspektivitet,perspektivitet,perspectivity,
 kollineasjon,kollineasjon,collineation,
-lag,lag,stratum,"Engelsk flertall: strata"
+lag,lag,stratum,"Engelsk flertallsform: strata"
 lagdelt,lagdelt,stratified,
 lagfoldighet,lagfald,stratifold,
 banefoldighet,banefald,orbifold,
@@ -2923,19 +2851,16 @@ radikalisering,radikalisering,radicalization,
 abelisering,abelisering,abelianization,
 løkkerom,lykkjerom,loop space,
 uendelig løkkerom,uendeleg lykkjerom,infinite loop space,
-spiss-,spiss-,cuspidal,"Denne termen brukes som et adjektiv på engelsk, men som forstavelse på norsk."
-skjelett-<br>skjelettal-,skjelett-<br>skjelettal-,skeletal,"Denne termen brukes som et adjektiv på engelsk, men som forstavelse på norsk."
-veiintegral,vegintegral,path integral,"Synonym: linjeintegral"
+spiss-,spiss-,cuspidal,"Spiss- brukes som en forstavelse på norsk, men <i>cuspidal</i> brukes som et adjektiv på engelsk."
+skjelett-<br>skjelettal-,skjelett-<br>skjelettal-,skeletal,"Skjelettal- brukes som en forstavelse på norsk, men <i>skeletal</i> brukes som et adjektiv på engelsk."
 konturintegral<br>kurveintegral<br>omrissintegral,konturintegral<br>kurveintegral<br>omrissintegral,contour integral,
 kovariantderivert,kovariantderivert,covariant derivative,
-kartesisk kvadrat,kartesisk kvadrat,Cartesian square,"Synonym: pullbackkvadrat"
-pullbackkvadrat,pullbackkvadrat,pullback square,"Synonym: kartesisk kvadrat"
-kokartesisk kvadrat,kokartesisk kvadrat,co-Cartesian square,"Synonym: pushoutkvadrat"
-pushoutkvadrat,pushoutkvadrat,pushout square,"Synonym: kokartesisk kvadrat"
+kartesisk kvadrat<br>pullbackkvadrat,kartesisk kvadrat<br>pullbackkvadrat,Cartesian square<br>pullback square,
+kokartesisk kvadrat<br>pushoutkvadrat,kokartesisk kvadrat<br>pushoutkvadrat,co-Cartesian square<br>pushout square,
 fiberprodukt,fiberprodukt,fibre product,
 homotopiløftingsegenskap,homotopilyfteigenskap,homotopy lifting property,
-minste øvre skranke,minste øvre skranke,meet,"Oversettelsen gjelder når det er snakk om gitterordninger og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
-største nedre skranke,største nedre skranke,join,"Oversettelsen gjelder når det er snakk om gitterordninger og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+minste øvre skranke,minste øvre skranke,meet,"Oversettelsen gjelder omhandlende gitterordninger og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+største nedre skranke,største nedre skranke,join,"Oversettelsen gjelder omhandlende gitterordninger og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 fortegnsmetrikk,forteiknmetrikk,signed metric,
 avstandsfunksjon,avstandfunksjon,distance function,
 justering,justering,gauge,"Ordklasse: substantiv"
@@ -2946,8 +2871,8 @@ uten tap av generalitet,utan tap av generalitet,without loss of generality,
 skolemisering,skolemisering,skolemization,
 skolemfunksjon,skolemfunksjon,Skolem function,
 skolemkonstant,skolemkonstant,Skolem constant,
-tingliggjøring,tingleggjering,reification,"Tingliggjøring kan også omtales som reifisering på norsk."
-tingliggjøre,tingleggjere,reify,"Tingliggjøre også omtales som reifisere på norsk."
+reifisering<br>tingliggjøring,reifisering<br>tingleggjering,reification,
+reifisere<br>tingliggjøre,reifisere<br>tingleggjere,reify,
 klausul,klausul,clause,
 hornklausul,hornklausul,Horn clause,
 konjunktiv normalform,konjunktiv normalform,conjunctive normal form,
@@ -2970,7 +2895,7 @@ minkowskibegrensning,minkowskiavgrensing,Minkowski bound,
 fundamentalenhet,fundamentaleining,fundamental unit,
 klassetallsformel,klassetalformel,class number formula,
 dirichletkarakter,dirichletkarakter,Dirichlet character,
-koersiv,koersiv,coercive,"Oversettelsen benyttes når det er snakk om funksjoner og utelukker ikke at den benyttes ulikt i andre sammenhenger."
+koersiv,koersiv,coercive,"Koersiv benyttes når det er snakk om funksjoner og utelukker ikke at termen benyttes ulikt i andre sammenhenger."
 firhjørning,firhjørning,quadrangle,
 t-observator,t-observator,t-statistic,
 Z-observator,Z-observator,Z-statistic,
@@ -3072,8 +2997,7 @@ logiker,logikar,logician,
 teoretiker,teoretikar,theorist,
 professor,professor,professor,
 førsteamanuensis,førsteamanuensis,associate professor,
-postdok,postdok,postdoc,"<i>Postdok<i/> brukes som en forkortelse for <i>postdoktor</i>."
-postdoktor,postdoktor,postdoctor,"<i>Postdoktor</i> forkortes ofte til <i>postdok</i>."
+postdoktor<br>postdok,postdoktor<br>postdok,postdoctor<br>postdoc,"Postdoktor forkortes ofte til postdok."
 PhD-kandidat<br>PhD-stipendiat<br>stipendiat,PhD-kandidat<br>PhD-stipendiat<br>stipendiat,PhD-candidate<br>research candidate,
 student,student,student,
 elev,elev,pupil,
@@ -3090,10 +3014,10 @@ instruksjon,instruksjon,instruction,
 avhandling,avhandling,dissertation<br>thesis,
 bacheloroppgave,bacheloroppgåve,bachelor's thesis,
 masteroppgave,masteroppgåve,master's thesis,
-doktorgradsavhandling,doktorgradsavhandling,doctoral thesis<br>PhD thesis,
+doktorgradsavhandling,doktorgradsavhandling,PhD thesis<br>doctoral thesis,
 bachelorgrad,bachelorgrad,bachelor's degree,
 mastergrad,mastergrad,master's degree,
-doktorgrad,doktorgrad,doctoral degree<br>doctorate<br>PhD degree,
+doktorgrad,doktorgrad,PhD degree<br>doctoral degree<br>doctorate,
 transitiv tillukning,transitiv tillukking,transitive closure,
 refleksiv tillukning,refleksiv tillukking,reflexive closure,
 symmetrisk tillukning,symmetrisk tillukking,symmetric closure,
@@ -3113,10 +3037,8 @@ skjære,skjere,intersect,
 fraktur,fraktur,fracture,"Ordklasse: substantiv"
 Brouwers fikspunktteorem,Brouwers fikspunktteorem,Brouwer's fixed-point theorem,
 naboliste,naboliste,adjacency list,
-eulerkrets,eulerkrets,Euler circuit,"Synonym: eulersk krets"
-eulersk krets,eulersk krets,Eulerian circuit,"Synonym: eulerkrets"
-hamiltonkrets,hamiltonkrets,Hamilton circuit,"Synonym: hamiltonsk krets"
-hamiltonsk krets,hamiltonsk krets,Hamiltonian circuit,"Synonym: hamiltonkrets"
+eulerkrets<br>eulersk krets,eulerkrets<br>eulersk krets,Euler circuit<br>Eulerian circuit,
+hamiltonkrets<br>hamiltonsk krets,hamiltonkrets<br>hamiltonsk krets,Hamilton circuit<br>Hamiltonian circuit,
 triviell sykel,triviell sykel,trivial cycle,
 ikke-triviell sykel,ikkje-triviell sykel,non-trivial cycle,
 triviell sti<br>triviell vei,triviell sti<br>triviell veg,trivial path,
@@ -3213,8 +3135,8 @@ annullere,annullere,nullify,
 annullering,annullering,nullification,
 whitneyimbeddingteorem,whitneyimbeddingteorem,Whitney embedding theorem,
 kolokalisering,kolokalisering,colocalization,
-bousfieldlokalisering,bousfieldlokalisering,Bousfield localization,"<i>Bousfieldlokalisering</i> refererer oftest til <i>venstre bousfieldlokalisering</i>."
-venstre bousfieldlokalisering,venstre bousfieldlokalisering,left Bousfield localization,"<i>Venstre bousfieldlokalisering</i> refereres ofte til som kun <i>bousfieldlokalisering</i>."
+bousfieldlokalisering,bousfieldlokalisering,Bousfield localization,"Bousfieldlokalisering refererer oftest til venstre bousfieldlokalisering."
+venstre bousfieldlokalisering,venstre bousfieldlokalisering,left Bousfield localization,"Venstre bousfieldlokalisering refereres ofte til som kun bousfieldlokalisering<."
 høyre bousfieldlokalisering,høyre bousfieldlokalisering,right Bousfield localization,
 vandring,vandring,walk,
 naboforhold<br>naboskap,naboforhold<br>naboskap,adjacency,"Oversettelsen gjelder bruk i grafteori og utelukker ikke at termen kan brukes ulikt i andre sammenhenger."
@@ -3380,8 +3302,7 @@ Diaconescus ekvivalens,Diaconescus ekvivalens,Diaconescu's equivalence,
 syntaks,syntaks,syntax,
 syntaktisk,syntaktisk,syntactic,
 syntaktisk kategori,syntaktisk kategori,syntactic category,
-Mitchells imbeddingteorem,Mitchells imbeddingteorem,Mitchell's embedding theorem,"Dette teoremet kalles i noen kontekster også for <i>Freyd-Mitchell-teoremet</i>."
-Freyd-Mitchell-teoremet,Freyd-Mitchell-teoremet,Freyd–Mitchell theorem,"Dette teoremet kalles i noen kontekster også for <i>Mitchells imbeddingteorem</i>."
+Freyd-Mitchell-teoremet<br>Mitchells imbeddingteorem,Freyd-Mitchell-teoremet<br>Mitchells imbeddingteorem,Freyd–Mitchell theorem<br>Mitchell's embedding theorem,"Mitchells imbeddingteorem kalles i noen kontekster også for Freyd-Mitchell-teoremet."
 rotasjonsgrind,rotasjonsgrind,turnstile,
 fragment,fragment,fragment,"Ordklasse: substantiv"
 fragmentere,fragmentere,fragment,"Ordklasse: verb"
@@ -3405,7 +3326,7 @@ førsteordens språk,førsteordens språk,first-order language,
 høyereorden,høgareorden,higher-order,
 høyereordens logikk,høgareordens logikk,higher-order logic,
 tellbart uendelig,teljeleg uendeleg,countably infinite,
-disjunktiv normalform,disjunktiv normalform,disjunctive normal form,"Disjunktiv normalform forkortes ofte til DNF."
+disjunktiv normalform<br>DNF,disjunktiv normalform<br>DNF,disjunctive normal form<br>DNF,"Disjunktiv normalform forkortes ofte til DNF, som stammer fra <i>disjunctive normal form</i>."
 unik,unik,unique,
 essensiell,essensiell,essential,
 essensielt unik,essensielt unik,essentially unique,
@@ -3476,8 +3397,8 @@ eksponentiell tid,eksponentiell tid,exponential time,
 polynomiell tid,polynomiell tid,polynomial time,
 logaritmisk tid,logaritmisk tid,logarithmic time,
 tidskompleksitet,tidskompleksitet,time complexity,
-plasskompleksitet,plasskompleksitet,space complexity,"Termen <i>memory complexity</i> brukes også om dette konseptet i noen sammenhenger."
-minnekompleksitet,minnekompleksitet,memory complexity,"Termen <i>space complexity</i> brukes også om dette konseptet i noen sammenhenger."
+plasskompleksitet,plasskompleksitet,space complexity,"Termen <i>memory complexity</i> brukes også om plasskompleksitet i noen sammenhenger."
+minnekompleksitet,minnekompleksitet,memory complexity,"Termen <i>space complexity</i> brukes også om minnekompleksitet i noen sammenhenger."
 regularisere,regularisere,regularize,
 regulariserbar,regulariserbar,regularizable,
 asymptotisk oppførsel,asymptotisk oppførsel,asymptotic behaviour,
@@ -3492,8 +3413,8 @@ univalens,univalens,univalence,
 rettet univalens,retta univalens,directed univalence,
 modellstruktur,modellstruktur,model structure,
 fasongmodalitet,fasongmodalitet,shape modality,
-anima,anima,anima,"Norsk flertallsform: anima<br>Engelsk flertallsform: anima<br>Synonym: animert mengde"
-animert mengde,animert mengd,animated set,"Synonym: anima"
+anima,anima,anima,"Norsk flertallsform: anima<br>Engelsk flertallsform: anima<br><br>I noen tilfeller kan termene anima og animert mengde brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
+animert mengde,animert mengd,animated set,"I noen tilfeller kan termene anima og animert mengde brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst."
 dendroidal mengde,dendroidal mengd,dendroidal set,
 separasjonsaksiom,separasjonsaksiom,separation axiom,
 pensum,pensum,curriculum<br>syllabus,
@@ -3613,14 +3534,13 @@ per-saks basis<br>per-tilfelles basis,per-sak-basis<br>per-tilfelle-basis,case-b
 verste fall<br>verste tilfelle,verste fall<br>verste tilfelle,worst-case,
 utilfredsstillbar,utilfredsstillbar,unsatisfiable,
 pedagog,pedagog,pedagogue,"Merk at i noen sammenhenger kan den engelske oversettelsen <i>pedagogue</i> ha en mer negativ konnotasjon."
-utlede,utleie,infer,"Synonym: dedusere"
+dedusere<br>utlede,dedusere<br>utleie,deduce<br>infer,
 étalemorfi,étalemorfi,étale morphism,
 étaleavbildning,étaleavbilding,étale map,
 étalerom,étalerom,étale space,
 étaletopologi,étaletopologi,étale topology,
 étalekohomologi,étalekohomologi,étale cohomology,
 étalealgebra,étalealgebra,étale algebra,
-dedusere,dedusere,deduce,"Synonym: utlede"
 entitet,entitet,entity,
 identisk,identisk,identical,
 kompleksvaluert,kompleksvaluert,complex valued,

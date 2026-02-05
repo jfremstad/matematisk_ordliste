@@ -9,8 +9,8 @@
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.configPath": ".prettierrc.json",
-  "editor.formatOnType": true,
-  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": false,
 
   "editor.detectIndentation": false,
   "editor.insertSpaces": true,

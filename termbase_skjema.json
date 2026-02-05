@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "termbase",
+  "type": "array",
+
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+
+    "properties": {
+      "anbefalt": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "bokmål": { "type": "string" },
+          "nynorsk": { "type": "string" },
+          "engelsk":  { "type": "string" }
+        }
+      },
+
+      "tillatt": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "bokmål": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
+          "nynorsk": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
+          "engelsk": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] }
+        }
+      },
+
+      "flertallsform": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "bokmål": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
+          "nynorsk": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
+          "engelsk": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] }
+        }
+      },
+
+      "ordklasse": { "type": "string" },
+
+      "genus": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "bokmål": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
+          "nynorsk": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] }
+        }
+      },
+
+      "bruksområde": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
+
+      "merknad": { "type": "string" }
+    }
+  }
+}
