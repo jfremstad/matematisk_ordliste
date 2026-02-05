@@ -5,16 +5,16 @@
   "sInfoFiltered": "(filtrert fra _MAX_ termer)",
   "sInfoPostFix": "",
   "sInfoThousands": " ",
-  "sLengthMenu": "Antall termer: _MENU_",
-  "sLoadingRecords": "Laster...",
-  "sProcessing": "Laster...",
+  "sLengthMenu": "Termer per side: _MENU_",
+  "sLoadingRecords": "Laster…",
+  "sProcessing": "Laster…",
   "sSearch": "",
   "sUrl": "",
   "sZeroRecords": "Ingen treff",
   "oPaginate": {
     "sFirst": "F&oslash;rste",
-    "sPrevious": "Forrige",
-    "sNext": "Neste",
+    "sPrevious": "❮",
+    "sNext": "❯",
     "sLast": "Siste"
   },
   "oAria": {
