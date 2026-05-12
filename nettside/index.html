@@ -152,7 +152,6 @@
     ////////////////////////////////////////////////////////////////////////////
     function mergeCommentFields(obj) {
       const order = [
-        "flertallsform",
         "genus",
         "uttale",
         "ordklasse",
@@ -175,6 +174,13 @@
         return s.charAt(0).toUpperCase() + s.slice(1);
       }
 
+      function preserveLineBreaks(s) {
+        return String(s)
+          .replace(/\r\n?/g, "\n")
+          .replace(/\n+$/, "")
+          .replace(/\n/g, "<br>");
+      }
+
       order.forEach(field => {
         let val = obj[field];
         if (!val) return;
@@ -188,7 +194,7 @@
 
         // merknad (uten label)
         if (field === "merknad") {
-          merknadText = val;
+          merknadText = preserveLineBreaks(val);
           return;
         }
 

@@ -28,16 +28,6 @@
         }
       },
 
-      "flertallsform": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "bokmål": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
-          "nynorsk": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
-          "engelsk": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] }
-        }
-      },
-
       "ordklasse": { "type": "string" },
 
       "genus": {

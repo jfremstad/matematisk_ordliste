@@ -9969,8 +9969,8 @@
     bokmål: plurigenus
     nynorsk: plurigenus
     engelsk: plurigenus
-  flertallsform:
-    engelsk: plurigenera
+  merknad: |
+    Engelsk flertallsform: plurigenera
 - anbefalt:
     bokmål: poincarédualitet
     nynorsk: poincarédualitet
@@ -10084,8 +10084,8 @@
     bokmål: hodgelokus
     nynorsk: hodgelokus
     engelsk: Hodge locus
-  flertallsform:
-    engelsk: Hodge loci
+  merknad: |
+    Engelsk flertallsform: Hodge loci
 - anbefalt:
     bokmål: hodgestruktur
     nynorsk: hodgestruktur
@@ -13230,8 +13230,8 @@
     bokmål: lag
     nynorsk: lag
     engelsk: stratum
-  flertallsform:
-    engelsk: strata
+  merknad: |
+    Engelsk flertallsform: strata
 - anbefalt:
     bokmål: lagdelt
     nynorsk: lagdelt
@@ -16049,12 +16049,11 @@
     bokmål: anima
     nynorsk: anima
     engelsk: anima
-  flertallsform:
-    bokmål: anima
-    nynorsk: anima
-    engelsk: anima
-  merknad: I noen tilfeller kan termene anima og animert mengde brukes synonymt. Hva
-    som er vanlig ordvalg, avhenger av kontekst.
+  merknad: |
+    Norsk flertallsform: anima
+    Engelsk flertallsform: anima
+
+    I noen tilfeller kan termene anima og animert mengde brukes synonymt. Hva som er vanlig ordvalg, avhenger av kontekst.
 - anbefalt:
     bokmål: animert mengde
     nynorsk: animert mengd
