@@ -14,7 +14,7 @@ mer brukervennlig. Hvis du er uenig i noen av de språklige konvensjonene, kan d
   infinitiv, etc.). Dette fravikes i tilfeller der termen kun gir mening i en
   annen form, som for eksempel
 
-  `middelverdisetningen,middelverdisetninga,mean value theorem,`.
+  > middelverdisetningen / middelverdisetninga / mean value theorem.
 
   Merk at bestemt artikkel ikke tas med på engelsk, selv om oversettelsen står i
   bestemt form. I denne [oversikten](ikke_grunnform_eksempler.md) finner man
@@ -38,7 +38,7 @@ mer brukervennlig. Hvis du er uenig i noen av de språklige konvensjonene, kan d
   mens det på engelsk er tradisjon for å bruke tankestrek. Man skal altså føre
   opp som i følgende eksempel:
 
-`Cohen-Macaulay-ring,Cohen-Macaulay-ring,Cohen–Macaulay ring,`.
+  > Cohen-Macaulay-ring / Cohen-Macaulay-ring / Cohen–Macaulay ring.
 
 - Eponymer tas med dersom forstavelsen endrer betydningen vesentlig. For
   eksempel er det ikke innlysende i ordlyden at et kankompleks er en simplisiell
@@ -54,21 +54,32 @@ mer brukervennlig. Hvis du er uenig i noen av de språklige konvensjonene, kan d
 - I noen tilfeller vil termer kunne opptre i flere former. Et eksempel er
   _Schwarz' ulikhet_ og _schwarzulikheten_. Følgende konvensjoner gjelder i
   slike tilfeller:
-
   1. Hvis det ene alternativet er klart anbefalt/mest brukt, føres kun dette.
   2. Hvis begge er i bruk, men det ene alternativet er bedre enn det andre,
-     føres begge. Det legges inn merknad om hvilket alternativ som anbefales.
-  3. Hvis begge er tilnærmet like mye brukt, føres begge (uten merknad om
-     anbefalt term).
+     føres begge. Det foretrukne alternativet føres under feltet "anbefalt",
+     imens de andre føres under "tillat". Det legges også inn merknad om hvilket
+     alternativ som anbefales.
+  3. Hvis begge er tilnærmet like mye brukt, føres begge som tillatte termer
+     (uten merknad om anbefalt term).
 
   Eksempelet ovenfor faller inn under tredje punkt. Oppføringen blir da
 
-  `Schwarz' ulikhet,Schwarz' ulikskap,Schwarz' inequality,"Schwarz' ulikhet benyttes synonymt med schwarzulikheten."`
+  ```yaml
+  - tillatt:
+      bokmål:
+      - Schwarz' ulikhet
+      - schwarzulikheten
+      nynorsk:
+      - Schwarz' ulikskap
+      - schwarzulikskapen
+      engelsk:
+      - Schwarz inequality
+      - Schwarz' inequality
+    merknad: Schwarz' ulikhet benyttes synonymt med schwarzulikheten.
+  ```
 
-  `schwarzulikheten,schwarzulikskapen,Schwarz inequality,"Schwarzulikheten benyttes synonymt med Schwarz' ulikhet."`.
-
-  Merk at disse føres opp som to separate oppslag, med merknad om at de betyr
-  det samme.
+  Merk at disse føres opp under samme oppslag som likestilte termer. Her er det
+  også ført en valgfri merknad om at termene brukes synonymt.
 
 ### Om ordvalg og skrivemåter
 
@@ -83,7 +94,7 @@ mer brukervennlig. Hvis du er uenig i noen av de språklige konvensjonene, kan d
   (eller de) første bindestrekene utelates er klart mest etablert, kan dette
   likevel foretrekkes.
 
-- Det brukes fortrinnsvis britisk engelsk, med [www.oed.com](http://www.oed.com)
+- Det brukes fortrinnsvis britisk engelsk, med [Oxford English Dictionary](https://www.oed.com)
   som referanse.
 
 - For utenlandske navn bør man konsultere Språkrådets
@@ -96,12 +107,10 @@ mer brukervennlig. Hvis du er uenig i noen av de språklige konvensjonene, kan d
   med unntak av faste uttrykk som _delbrøkoppspalting_.
 
 - **Konvensjoner bokmål:**
-
   - _Frem_ benyttes i stedet for _fram_.
   - _Tro_ benyttes i stedet for _tru_.
 
 - **Konvensjoner nynorsk:**
-
   - Pass på at man i nynorsk tradisjonelt ønsker å unngå genitiv av substantiv i
     bestemt form, mens genitiv kan brukes i ubestemt form.
 
