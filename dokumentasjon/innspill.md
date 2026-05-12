@@ -35,6 +35,6 @@ Du kan også sende innspill på mail til
    offisielle definisjons- og rettskrivingsordbøker.
 2. [Det Norske Akademis ordbok](https://naob.no) inneholder en rekke fremmedord
    med fagspesifikk betydning.
-3. [Nasjonalbiblioteket](http://bokhylla.no) har skannet en rekke fagbøker. På
+3. [Nasjonalbiblioteket](https://bokhylla.no) har skannet en rekke fagbøker. På
    deres nettsider kan man søke etter termer, og dermed få et inntrykk over hvor
    utbredte de er.

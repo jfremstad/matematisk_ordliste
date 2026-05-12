@@ -27,7 +27,7 @@ mer brukervennlig. Hvis du er uenig i noen av de språklige konvensjonene, kan d
   skriver f.eks. ikke _Fourierrekke_ eller _Fourier rekke_. Det er to mulige
   måter å skrive slike termer, nemlig _fourierrekke_ (med liten forbokstav)
   eller _Fourier-rekke_ (med stor forbokstav og bindestrek). Les mer om dette
-  [her](http://www.sprakradet.no/sprakhjelp/Skriverad/Ordlister/eponym-i-fysikk-og-kjemi/).
+  [her](https://www.sprakradet.no/sprakhjelp/Skriverad/Ordlister/eponym-i-fysikk-og-kjemi/).
   I denne ordlista blir skrivemåten med liten bokstav foretrukket, men merk at
   stor bokstav og bindestrek likevel ikke er feil. I tilfeller der det inngår
   flere personnavn, vil det som oftest være best å bruke bindestrek (f.eks.
