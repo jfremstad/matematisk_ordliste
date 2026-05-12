@@ -158,6 +158,7 @@
 
       let lines = [];
       let merknadText = null;
+      let merknadHasColonOnFirstLine = false;
 
       function flatten(x) {
         if (!x) return [];
@@ -174,8 +175,14 @@
       function preserveLineBreaks(s) {
         return String(s)
           .replace(/\r\n?/g, "\n")
+          .replace(/\n{3,}/g, "\n\n")
           .replace(/\n+$/, "")
           .replace(/\n/g, "<br>");
+      }
+
+      function hasColonOnFirstLine(s) {
+        let firstLine = String(s).replace(/\r\n?/g, "\n").split("\n")[0];
+        return firstLine.includes(":");
       }
 
       order.forEach(field => {
@@ -191,6 +198,7 @@
 
         // merknad (uten label)
         if (field === "merknad") {
+          merknadHasColonOnFirstLine = hasColonOnFirstLine(val);
           merknadText = preserveLineBreaks(val);
           return;
         }
@@ -209,7 +217,8 @@
       // merknad nederst
       if (merknadText) {
         if (lines.length > 0) {
-          lines.push("<br><br>" + merknadText);
+          let separator = merknadHasColonOnFirstLine ? "<br>" : "<br><br>";
+          return lines.join("<br>") + separator + merknadText;
         } else {
           lines.push(merknadText);
         }
