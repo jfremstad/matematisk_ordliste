@@ -128,6 +128,11 @@
         return [...new Set(tokens)].join(" ");
       }
 
+      function formatAllowedTerms(preferred, allowed) {
+        if (preferred.length === 0) return allowed;
+        return allowed.map(term => `<span class="allowed-term">${term}</span>`);
+      }
+
       let out = {
         bokmål: { display: "", search: "" },
         nynorsk: { display: "", search: "" },
@@ -138,8 +143,9 @@
         let a = obj.anbefalt?.[lang] ? flatten(obj.anbefalt[lang]) : [];
         let t = obj.tillatt?.[lang] ? flatten(obj.tillatt[lang]) : [];
         let merged = [...a, ...t];
+        let displayTerms = [...a, ...formatAllowedTerms(a, t)];
         out[lang] = {
-          display: merged.join("<br>"),
+          display: displayTerms.join("<br>"),
           search: buildSearchText(merged)
         };
       });
