@@ -1,0 +1,3 @@
+*.yaml -linguist-generated linguist-detectable
+*.yml -linguist-generated linguist-detectable
+*.csv -linguist-generated linguist-detectable
