@@ -30,15 +30,6 @@
 
       "ordklasse": { "type": "string" },
 
-      "genus": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "bokmål": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
-          "nynorsk": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] }
-        }
-      },
-
       "bruksområde": { "oneOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" } } ] },
 
       "merknad": { "type": "string" }

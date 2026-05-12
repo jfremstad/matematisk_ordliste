@@ -146,11 +146,10 @@
     bokmål: UFD
     nynorsk: UFD
     engelsk: UFD
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig
-    faktoriseringsområde (nynorsk) og stammer fra <i>unique factorization domain</i>.
+  merknad: |
+    Genus: intetkjønn
+
+    UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig faktoriseringsområde (nynorsk) og stammer fra <i>unique factorization domain</i>.
 - anbefalt:
     bokmål: indreprodukt
     nynorsk: indreprodukt
@@ -8501,10 +8500,10 @@
     nynorsk:
     - flytchiffer
     - straumchiffer
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: Chiffer uttales [ʃi´f:ər].
+  merknad: |
+    Genus: intetkjønn
+
+    Chiffer uttales [ʃi´f:ər].
 - anbefalt:
     bokmål: nøkkelstrøm
     nynorsk: nøkkelstraum
@@ -8748,18 +8747,17 @@
     bokmål: chiffer
     nynorsk: chiffer
     engelsk: cipher
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: 'Uttale: [ʃi´f:ər]'
+  merknad: |
+    Genus: intetkjønn
+    Uttale: [ʃi´f:ər]
 - anbefalt:
     bokmål: cæsarchiffer
     nynorsk: cæsarchiffer
     engelsk: Caesar cipher
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: Chiffer uttales [ʃi´f:ər].
+  merknad: |
+    Genus: intetkjønn
+
+    Chiffer uttales [ʃi´f:ər].
 - anbefalt:
     bokmål: symmetrisk kryptografi
     nynorsk: symmetrisk kryptografi
@@ -8817,10 +8815,10 @@
     bokmål: blokkchiffer
     nynorsk: blokkchiffer
     engelsk: block cipher
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: Chiffer uttales [ʃi´f:ər].
+  merknad: |
+    Genus: intetkjønn
+
+    Chiffer uttales [ʃi´f:ər].
 - anbefalt:
     bokmål: kryptosystem
     nynorsk: kryptosystem
@@ -8893,26 +8891,26 @@
     bokmål: transposisjonschiffer
     nynorsk: transposisjonschiffer
     engelsk: transposition cipher
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: Chiffer uttales [ʃi´f:ər].
+  merknad: |
+    Genus: intetkjønn
+
+    Chiffer uttales [ʃi´f:ər].
 - anbefalt:
     bokmål: substitusjonschiffer
     nynorsk: substitusjonschiffer
     engelsk: substitution cipher
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: Chiffer uttales [ʃi´f:ər].
+  merknad: |
+    Genus: intetkjønn
+
+    Chiffer uttales [ʃi´f:ər].
 - anbefalt:
     bokmål: polyalfabetisk chiffer
     nynorsk: polyalfabetisk chiffer
     engelsk: polyalphabetic cipher
-  genus:
-    bokmål: intetkjønn
-    nynorsk: intetkjønn
-  merknad: Chiffer uttales [ʃi´f:ər].
+  merknad: |
+    Genus: intetkjønn
+
+    Chiffer uttales [ʃi´f:ər].
 - anbefalt:
     bokmål: kryptoanalyse
     nynorsk: kryptoanalyse
@@ -10426,10 +10424,9 @@
     nynorsk: pivot
     engelsk: pivot
   ordklasse: substantiv
-  genus:
-    bokmål: hankjønn
-    nynorsk: hankjønn
-  merknad: 'Uttale: [pivå:´]'
+  merknad: |
+    Genus: hankjønn
+    Uttale: [pivå:´]
 - anbefalt:
     bokmål: ordning
     nynorsk: ordning
@@ -11911,9 +11908,8 @@
     bokmål: topos
     nynorsk: topos
     engelsk: topos
-  genus:
-    bokmål: hankjønn
-    nynorsk: hankjønn
+  merknad: |
+    Genus: hankjønn
 - anbefalt:
     bokmål: quillenekvivalent
     nynorsk: quillenekvivalent
