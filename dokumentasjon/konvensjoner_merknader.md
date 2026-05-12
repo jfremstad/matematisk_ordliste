@@ -2,15 +2,11 @@
 
 ### Generelle konvensjoner
 
-- Av tekniske grunner skrives alltid anførselstegn rundt hele merknaden.
-
 - Alle merknader skal formuleres som helsetninger, med unntak av informasjon om
-  ordklasse, synynom, uttale og genus.
+  uttale, flertallsform, ordklasse og genus.
 
-- Når en engelsk term opptrer i merknad, markeres dette med kursiv. Man får
-  kursiv ved å skrive
-
-  `<i>kursivert tekst</i>`.
+- Når en engelsk term opptrer i en merknad, markeres dette med kursiv. Man fører
+  i kursiv ved å skrive `<i>kursivert tekst</i>`.
 
 - Genus, altså grammatisk kjønn, føres opp i tilfeller der dette kan være
   nyttig. Spesielt føres dette alltid opp for forkortelser (av substantiv).
@@ -19,108 +15,231 @@
 
 ### Informasjon om ordklasse, synonym, uttale og genus
 
-- Informasjon om ordklasse føres slik:
+- Informasjon om ordklasse og bruksområde føres slik:
 
-  ```
-  metrikk,metrikk,metric,"Ordklasse: substantiv"
-  metrisk,metrisk,metric,"Ordklasse: adjektiv"
+  ```yaml
+  - anbefalt:
+      bokmål: midtpunkt
+      nynorsk: midtpunkt
+      engelsk: midrange
+    ordklasse: substantiv
+    bruksområde: statistikk
+    merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
   ```
 
-- Synonymer oppgis kun på bokmål. Informasjon om synonym føres slik:
+- Synonymer føres opp under samme oppføring. Eksempel:
 
-  ```
-  største felles divisor,største felles divisor,greatest common divisor,"Synonym: største felles faktor"
-  ```
-
-  Dersom en term har flere synonymer, føres merknaden slik:
-
-  ```
-  bijeksjon,bijeksjon,bijection,"Synonym: én-entydig korrespondanse / én-til-én-korrespondanse"
+  ```yaml
+  - tillatt:
+      bokmål:
+      - største felles divisor
+      - største felles faktor
+      nynorsk:
+      - største felles divisor
+      - største felles faktor
+      engelsk:
+      - greatest common divisor
+      - greatest common factor
   ```
 
 - Informasjon om uttale føres slik (oppsett for føring av uttale er hentet fra
   [NAOB](https://www.naob.no/)):
 
+  ```yaml
+  - anbefalt:
+      bokmål: syzygi
+      nynorsk: syzygi
+      engelsk: syzygy
+    merknad: 'Uttale: [sytsygi:´]'
   ```
-  syzygi,syzygi,syzygy,"Uttale: [sytsygi:´]"
+
+  > Obs! Merknader som inneholder et kolontegn (`:`) må skrives i gåse- eller hermetegn (`'...'` eller `"..."`), eller i flerlinjemodus (startes med `|` eller `>`).
+
+  Uttale for deltermer kan føres i helsetningsform:
+
+  ```yaml
+  - anbefalt:
+      bokmål: chiffertekst
+      nynorsk: chiffertekst
+      engelsk: ciphertext
+    merknad: Chiffer uttales [ʃi´f:ər].
+  ```
+
+  Eller på formen:
+
+  ```yaml
+  - anbefalt:
+      engelsk: rigour
+    tillatt:
+      bokmål:
+      - rigor
+      - rigorøsitet
+      - stringens
+      nynorsk:
+      - rigor
+      - rigorøsitet
+      - stringens
+    ordklasse: Substantiv
+    merknad: 'Uttale for rigor: [ri:´går]'
   ```
 
 - Informasjon om genus føres slik:
 
-  ```
-  chiffer,chiffer,cipher,"Genus: intetkjønn"
+  ```yaml
+  - anbefalt:
+      bokmål: topos
+      nynorsk: topos
+      engelsk: topos
+    merknad: 'Genus: hankjønn'
   ```
 
   I noen tilfeller blir genus forskjellig på bokmål og nynorsk. I slike
-  tilfeller skriver man:
+  tilfeller gjøres det tydelig forskjell. For eksempel med helsetningsforklaring:
 
+  ```yaml
+  - tillatt:
+      bokmål:
+      - endelig tilstandsautomat
+      - endelig tilstandsmaskin
+      - FSM
+      - FSA
+      nynorsk:
+      - endeleg tilstandsautomat
+      - endeleg tilstandsmaskin
+      - FSM
+      - FSA
+      engelsk:
+      - finite-state automaton
+      - finite-state machine
+      - FSM
+      - FSA
+    merknad: FSM er en forkortelse for endelig tilstandsmaskin (bokmål) og endeleg tilstandsmaskin
+      (nynorsk) og stammer fra <i>finite-state machine</i>. FSA er en forkortelse for endelig
+      tilstandsautomat (bokmål) og endeleg tilstandsautomat (nynorsk) og stammer fra <i>finite-state
+      automaton</i>. Forkortelsen FSM har hankjønn på bokmål og både hankjønn og hunkjønn på nynorsk.
+      Forkortelsen FSA har hankjønn på bokmål og nynorsk.
   ```
-  FSM,FSM,FSM,"Genus bokmål: hankjønn<br>Genus nynorsk: hankjønn/hunkjønn"
+
+- Dersom en term skal ha informasjon om både uttale, genus,
+  flertallsform og/eller bruksområde så føres det i denne rekkefølgen. Det
+  skilles mellom de ulike typene informasjon ved linjeskift. Man får linjeskift
+  ved å starte merknadsfeltet med et `|` symbol, og deretter føre merknaden med
+  vanlige linjeskift startende på neste linje med ett ekstra nivå av innrykk.
+  Oppsettet ser altså slik ut:
+
+  ```yaml
+  - anbefalt:
+      bokmål: entydig faktoriseringsområde
+      nynorsk: eintydig faktoriseringsområde
+      engelsk: unique factorization domain
+    tillatt:
+      bokmål: UFD
+      nynorsk: UFD
+      engelsk: UFD
+    ordklasse: substantiv
+    bruksområde: ringteori
+    merknad: |
+      Genus: intetkjønn
+
+      UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig faktoriseringsområde (nynorsk) og stammer fra <i>unique factorization domain</i>.
   ```
 
-  Se informasjon om linjeskift nedenfor.
-
-- Dersom en term skal ha informasjon om både ordklasse, uttale, synonym og/eller
-  genus, skrives ordklasse øverst, deretter uttale, så synonym og til slutt
-  genus. Det skilles mellom de ulike typene informasjon ved linjeskift. Man får
-  linjeskift ved å skrive `<br>`. Eventuell ytterligere merknad føres etter en
-  tom linje. Oppsettet ser altså slik ut:
-
-  ```
-  Ordklasse: adjektiv
-  Synonym: et synonym til termen
-  Uttale: [hvordan uttale termen]
-  Genus: hankjønn
-
-  Her kommer en uttypende forklaring (i hele setninger).
-  ```
+  Symbolet `|` forteller YAML at linjeskift innad tekstfeltet skal bevares, som er i
+  motsetning til `>` symbolet.
 
 ### Informasjon om forkortelser
 
-- Informasjon om forkortelse føres slik for den forkortede termen:
+Informasjon om forkortelse føres slik:
 
-  ```
-  ANOVA,ANOVA,ANOVA,"ANOVA er en forkortelse for variansanalyse og stammer fra <i>analysis of variance</i>."
-  ```
+```yaml
+- tillatt:
+    bokmål:
+    - variansanalyse
+    - ANOVA
+    nynorsk:
+    - variansanalyse
+    - ANOVA
+    engelsk:
+    - analysis of variance
+    - variance analysis
+    - ANOVA
+  merknad: Variansanalyse forkortes ofte til ANOVA, som stammer fra <i>analysis of variance</i>.
+```
 
-- Informasjon om forkortelse føres slik for den ikke-forkortede termen:
-  ```
-  variansanalyse,variansanalyse,analysis of variance<br>variance analysis,"Variansanalyse forkortes ofte til ANOVA."
-  ```
+Merk at begge termer føres opp under samme oppføring. Ettersom begge termene er
+likestilt i dette tilfellet føres de som likestilt under `tillatt`.
 
 ### Andre eksempler
 
 - Informasjon om alternativ oversettelse der alternativet ikke anses som fullt
   likeverdig føres slik:
 
-  ```
-  komplementvinkel,komplementvinkel,complementary angle,"Komplementvinkler kan også omtales som komplementære vinkler (bokmål) og komplementære vinklar (nynorsk)."
+  ```yaml
+  - anbefalt:
+      bokmål: komplementvinkel
+      nynorsk: komplementvinkel
+      engelsk: complementary angle
+    tillatt:
+      bokmål: komplementær vinkel
+      nynorsk: komplementær vinkel
+    merknad: Komplementvinkler kan også omtales som komplementære vinkler (bokmål) og komplementære vinklar (nynorsk).
   ```
 
 - Informasjon om alternativ oversettelse der alternativet anses som klart
   dårligere føres slik:
 
-  ```
-  rotasjon,rotasjon,curl,"Curl brukes også på norsk, men rotasjon anbefales."
+  ```yaml
+  - anbefalt:
+      bokmål: rotasjon
+      nynorsk: rotasjon
+      engelsk: curl
+    tillatt:
+      bokmål: curl
+      nynorsk: curl
+    merknad: Curl brukes også på norsk, men rotasjon anbefales.
   ```
 
 - Anbefaling av oversettelse/skrivemåte der begge termene er oppført i lista
   føres slik:
 
-  ```
-  kolineær<br>kollineær,kolineær<br>kollineær,colinear<br>collinear,"Begge skrivemåtene brukes på norsk, men kolineær anbefales."
-  heltallsområde<br>integritetsområde,heiltalsområde<br>integritetsområde,integral domain,"Begge oversettelsene brukes på norsk, men heltallsområde anbefales."
-  prosentil,prosentil,percentile,"Både persentil og percentil forekommer i bruk på norsk, men prosentil anbefales."
+  ```yaml
+  - anbefalt:
+      bokmål: kolineær
+      nynorsk: kolineær
+    tillatt:
+      bokmål: kollineær
+      nynorsk: kollineær
+      engelsk:
+      - colinear
+      - collinear
+    merknad: Begge skrivemåtene brukes på norsk, men kolineær anbefales.
   ```
 
-- Informasjon om kontekst kan f.eks. gis slik:
+- Informasjon om kontekst kan for eksempel gis slik:
 
-  ```
-  forsøksplan,forsøksplan,design,"Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
-  felt,felt,field,"Merk at oversettelsen av <i>field</i> er avhengig av kontekst. Oversettelsen felt brukes for eksempel i forbindelse med vektorfelt."
-  kropp,kropp,field,"Merk at oversettelsen av </i>field</i> er avhengig av kontekst. En kropp er en kommutativ ring der ethvert ikke-nullelement har en multiplikativ invers. For eksempel utgjør de reelle tall en kropp."
+  ```yaml
+  - anbefalt:
+      bokmål: forsøksplan
+      nynorsk: forsøksplan
+      engelsk: design
+    bruksområde: statistikk
+    merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan
+      benyttes ulikt i andre sammenhenger.
+  - anbefalt:
+      bokmål: felt
+      nynorsk: felt
+      engelsk: field
+    merknad: Merk at oversettelsen av <i>field</i> er avhengig av kontekst. Oversettelsen
+      felt brukes for eksempel i forbindelse med vektorfelt.
+  - anbefalt:
+      bokmål: kropp
+      nynorsk: kropp
+      engelsk: field
+    merknad: Merk at oversettelsen av <i>field</i> er avhengig av kontekst. En kropp
+      er en kommutativ ring der ethvert ikke-nullelement har en multiplikativ invers.
+      For eksempel utgjør de reelle tall en kropp.
   ```
 
-- I denne [oversikten](termer_med_merknad_eksempler.csv) finner man flere
+- I denne [oversikten](termer_med_merknad_eksempler.yaml) finner man flere
   eksempler på termer med merknad. Nye oppslagsord med merknad kan gjerne legges
   til blant disse eksemplene.

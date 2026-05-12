@@ -146,6 +146,8 @@
     bokmål: UFD
     nynorsk: UFD
     engelsk: UFD
+  ordklasse: substantiv
+  bruksområde: ringteori
   merknad: |
     Genus: intetkjønn
 
@@ -749,14 +751,13 @@
     - F-test
     - variance ratio test
 - anbefalt:
+    bokmål: partall
+    nynorsk: partal
     engelsk: even number
   tillatt:
-    bokmål:
-    - like tall
-    - partall
-    nynorsk:
-    - like tal
-    - partal
+    bokmål: like tall
+    nynorsk: like tal
+  merknad: Partall kan også omtales som like tall (bokmål) og like tal (nynorsk).
 - anbefalt:
     bokmål: diagonaliserbar
     nynorsk: diagonaliserbar
@@ -1599,9 +1600,9 @@
     bokmål: midtpunkt
     nynorsk: midtpunkt
     engelsk: midrange
+  ordklasse: substantiv
   bruksområde: statistikk
-  merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan
-    benyttes ulikt i andre sammenhenger.
+  merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
 - tillatt:
     bokmål:
     - faktorgruppe
@@ -2388,16 +2389,15 @@
     bokmål: konjunksjon
     nynorsk: konjunksjon
     engelsk: conjunction
-- tillatt:
-    bokmål:
-    - disjunkte
-    - gjensidig utelukkende
-    nynorsk:
-    - disjunkte
-    - gjensidig utelukkande
-    engelsk:
-    - disjoint
-    - mutually exclusive
+- anbefalt:
+    bokmål: gjensidig utelukkende
+    nynorsk: gjensidig utelukkande
+    engelsk: mutually exclusive
+  tillatt:
+    bokmål: disjunkte
+    nynorsk: disjunkte
+    engelsk: disjoint
+  merknad: Gjensidig utelukkende hendelser kan også omtales som disjunkte.
 - anbefalt:
     bokmål: lineæravbildning
     nynorsk: lineæravbilding
@@ -5387,14 +5387,13 @@
     - pivotal row
   merknad: Forstavelsen pivot uttales [pivå:’].
 - anbefalt:
+    bokmål: supplementvinkel
+    nynorsk: supplementvinkel
     engelsk: supplementary angle
   tillatt:
-    bokmål:
-    - supplementvinkel
-    - supplementær vinkel
-    nynorsk:
-    - supplementvinkel
-    - supplementær vinkel
+    bokmål: supplementær vinkel
+    nynorsk: supplementær vinkel
+  merknad: Supplementvinkler kan også omtales som supplementære vinkler (bokmål) og supplementære vinklar (nynorsk).
 - anbefalt:
     bokmål: invarians
     nynorsk: invarians
@@ -5810,14 +5809,13 @@
     nynorsk: finare topologi
     engelsk: finer topology
 - anbefalt:
+    bokmål: komplementvinkel
+    nynorsk: komplementvinkel
     engelsk: complementary angle
   tillatt:
-    bokmål:
-    - komplementvinkel
-    - komplementær vinkel
-    nynorsk:
-    - komplementvinkel
-    - komplementær vinkel
+    bokmål: komplementær vinkel
+    nynorsk: komplementær vinkel
+  merknad: Komplementvinkler kan også omtales som komplementære vinkler (bokmål) og komplementære vinklar (nynorsk).
 - anbefalt:
     bokmål: kart
     nynorsk: kart
@@ -6856,18 +6854,17 @@
     bokmål: Carathéodorys utvidelsesteorem
     nynorsk: Carathéodorys utvidingsteorem
     engelsk: Carathéodory's extension theorem
-- tillatt:
-    bokmål:
-    - indikatorfunksjon
-    - karakteristisk funksjon
-    nynorsk:
-    - indikatorfunksjon
-    - karakteristisk funksjon
+- anbefalt:
+    bokmål: indikatorfunksjon
+    nynorsk: indikatorfunksjon
+  tillatt:
+    bokmål: karakteristisk funksjon
+    nynorsk: karakteristisk funksjon
     engelsk:
     - characteristic function
     - indicator function
   bruksområde: sannsynlighetsteori
-  merknad: Oversettelsen gjelder bruk i sannsynlighetsteori og utelukker ikke at termen
+  merknad: Indikatorfunksjoner kan også omtales som karakteristiske funksjoner (bokmål) og karakteristiske funksjonar (nynorsk). Oversettelsen gjelder bruk i sannsynlighetsteori og utelukker ikke at termen
     kan benyttes ulikt i andre sammenhenger.
 - anbefalt:
     bokmål: komplekst mål
@@ -7435,10 +7432,10 @@
 - anbefalt:
     bokmål: jordanbasis
     nynorsk: jordanbasis
+    engelsk: Jordan basis
   tillatt:
-    engelsk:
-    - Jordan basis
-    - Jordan canonical basis
+    engelsk: Jordan canonical basis
+  merknad: <i>Jordan basis</i> kan også omtales som <i>Jordan canonical basis</i> på engelsk.
 - tillatt:
     bokmål:
     - jordankanonisk form
@@ -7729,6 +7726,7 @@
     engelsk:
     - Schwarz inequality
     - Schwarz' inequality
+  merknad: Schwarz' ulikhet benyttes synonymt med schwarzulikheten.
 - anbefalt:
     bokmål: Cauchy-Schwarz-ulikheten
     nynorsk: Cauchy-Schwarz-ulikskapen
@@ -8152,25 +8150,24 @@
   bruksområde: representasjonsteori
   merknad: Oversettelsen gjelder bruk i representasjonsteori og utelukker ikke at
     termen kan benyttes ulikt i andre sammenhenger.
-- tillatt:
-    bokmål:
-    - injektiv innhylling
-    - injektivt hylster
-    nynorsk:
-    - injektiv innhylling
-    - injektivt hylster
+- anbefalt:
+    bokmål: injektiv innhylling
+    nynorsk: injektiv innhylling
+  tillatt:
+    bokmål: injektivt hylster
+    nynorsk: injektivt hylster
     engelsk:
     - injective envelope
     - injective hull
+  merknad: Injektiv innhylling kan også omtales som injektivt hylster.
 - anbefalt:
+    bokmål: konveks innhylling
+    nynorsk: konveks innhylling
     engelsk: convex hull
   tillatt:
-    bokmål:
-    - konveks innhylling
-    - konvekst hylster
-    nynorsk:
-    - konveks innhylling
-    - konvekst hylster
+    bokmål: konvekst hylster
+    nynorsk: konvekst hylster
+  merknad: Konveks innhylling kan også omtales som konvekst hylster.
 - anbefalt:
     bokmål: skjæringssetningen
     nynorsk: skjeringssetninga
@@ -10364,6 +10361,13 @@
     bokmål: verdimengde
     nynorsk: verdimengd
     engelsk: range
+  tillatt:
+    bokmål:
+      - bildemengde
+      - rekkevidde
+    nynorsk:
+      - biletmengd
+      - rekkjevidde
   merknad: I mange tilfeller kan termene verdimengde og bilde brukes synonymt. Hva
     som er vanlig ordvalg, avhenger av kontekst. Verdimengde kan også omtales som bildemengde
     (bokmål) og biletmengd (nynorsk) eller rekkevidde (bokmål) og rekkjevidde (nynorsk).
@@ -10480,16 +10484,16 @@
     bokmål: sfærisk
     nynorsk: sfærisk
     engelsk: spherical
-- tillatt:
-    bokmål:
-    - endelig-komplement-topologi
-    - kofinitt topologi
-    nynorsk:
-    - endeleg-komplement-topologi
-    - kofinitt topologi
+- anbefalt:
+    bokmål: endelig-komplement-topologi
+    nynorsk: endeleg-komplement-topologi
+  tillatt:
+    bokmål: kofinitt topologi
+    nynorsk: kofinitt topologi
     engelsk:
     - cofinite topology
     - finite complement topology
+  merknad: Endelig-komplement-topologi kan også omtales som kofinitt topologi.
 - anbefalt:
     bokmål: tellbart-komplement-topologi
     nynorsk: teljeleg-komplement-topologi
@@ -11908,8 +11912,7 @@
     bokmål: topos
     nynorsk: topos
     engelsk: topos
-  merknad: |
-    Genus: hankjønn
+  merknad: 'Genus: hankjønn'
 - anbefalt:
     bokmål: quillenekvivalent
     nynorsk: quillenekvivalent
@@ -13399,23 +13402,21 @@
     nynorsk: skolemkonstant
     engelsk: Skolem constant
 - anbefalt:
+    bokmål: tingliggjøring
+    nynorsk: tingleggjering
     engelsk: reification
   tillatt:
-    bokmål:
-    - reifisering
-    - tingliggjøring
-    nynorsk:
-    - reifisering
-    - tingleggjering
+    bokmål: reifisering
+    nynorsk: reifisering
+  merknad: Tingliggjøring kan også omtales som reifisering på norsk.
 - anbefalt:
+    bokmål: tingliggjøre
+    nynorsk: tingleggjere
     engelsk: reify
   tillatt:
-    bokmål:
-    - reifisere
-    - tingliggjøre
-    nynorsk:
-    - reifisere
-    - tingleggjere
+    bokmål: reifisere
+    nynorsk: reifisere
+  merknad: Tingliggjøre kan også omtales som reifisere på norsk.
 - anbefalt:
     bokmål: klausul
     nynorsk: klausul
