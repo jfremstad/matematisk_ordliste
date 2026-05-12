@@ -94,11 +94,11 @@ mer brukervennlig. Hvis du er uenig i noen av de språklige konvensjonene, kan d
   (eller de) første bindestrekene utelates er klart mest etablert, kan dette
   likevel foretrekkes.
 
-- Det brukes fortrinnsvis britisk engelsk, med [Oxford English Dictionary](https://www.oed.com)
+- Det brukes fortrinnsvis britisk engelsk, med [Oxford English Dictionary (OED)](https://www.oed.com)
   som referanse.
 
 - For utenlandske navn bør man konsultere Språkrådets
-  [rettningslinjer](http://www.sprakradet.no/sprakhjelp/Skriverad/Transkripsjon_av_kyrillisk_og_nygresk/)
+  [rettningslinjer](https://www.sprakradet.no/sprakhjelp/Skriverad/Transkripsjon_av_kyrillisk_og_nygresk/)
   for transkripsjon av nygresk og kryllisk.
 
 - Ordet _dekomponering_ brukes i tilfeller der prosessen er vektlagt og
