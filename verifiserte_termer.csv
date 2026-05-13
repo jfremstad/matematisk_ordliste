@@ -163,7 +163,7 @@ observator,observator,statistic,"Oversettelsen gjelder bruk i statistikk og utel
 normalt rom,normalt rom,normal space,
 kvotientrom,kvotientrom,quotient space,
 F-test,F-test,F-test<br>variance ratio test,
-like tall<br>partall,like tal<br>partal,even number,
+like tall<br>partall,like tal<br>partal,even number,"Partall kan også omtales som like tall (bokmål) og like tal (nynorsk)."
 diagonaliserbar,diagonaliserbar,diagonalizable,
 jacobimatrise,jacobimatrise,Jacobian<br>Jacobian matrix,"Jacobimatrise kalles ofte bare <i>Jacobian</i> på engelsk."
 bue,boge,arc,
@@ -524,7 +524,7 @@ likebeint trekant,likebeina trekant,isosceles triangle,
 veihomotopiklasse,veghomotopiklasse,path homotopy class,
 parametrisert,parametrisert,parametric,
 konjunksjon,konjunksjon,conjunction,
-disjunkte<br>gjensidig utelukkende,disjunkte<br>gjensidig utelukkande,disjoint<br>mutually exclusive,
+disjunkte<br>gjensidig utelukkende,disjunkte<br>gjensidig utelukkande,disjoint<br>mutually exclusive,"Gjensidig utelukkende hendelser kan også omtales som disjunkte."
 lineæravbildning,lineæravbilding,linear map,
 trofast funktor,trufast funktor,faithful functor,
 triagonalisering,triagonalisering,triagonalization,
@@ -1200,7 +1200,7 @@ liten kategori,liten kategori,small category,
 cauchyfølge,cauchyfølgje,Cauchy sequence,
 beskrivende statistikk<br>deskriptiv statistikk,beskrivande statistikk<br>deskriptiv statistikk<br>skildrande statistikk,descriptive statistics,
 pivotrad,pivotrad,pivot row<br>pivotal row,"Forstavelsen pivot uttales [pivå:’]."
-supplementvinkel<br>supplementær vinkel,supplementvinkel<br>supplementær vinkel,supplementary angle,
+supplementvinkel<br>supplementær vinkel,supplementvinkel<br>supplementær vinkel,supplementary angle,"Suplementvinkler kan også omtales som supplementære vinkler (bokmål) og supplemtære vinklar (nynorsk)."
 invarians,invarians,invariance,
 ultrafilter,ultrafilter,ultrafilter,
 projektivisering,projektivisering,projectivization,
@@ -1297,7 +1297,7 @@ nulldivisor,nulldivisor,zero divisor,
 sirkel,sirkel,circle,
 transitiv,transitiv,transitive,
 finere topologi,finare topologi,finer topology,
-komplementvinkel<br>komplementær vinkel,komplementvinkel<br>komplementær vinkel,complementary angle,
+komplementvinkel<br>komplementær vinkel,komplementvinkel<br>komplementær vinkel,complementary angle,"Komplementvinkler kan også omtales som komplementære vinkler (bokmål) og komplementære vinklar (nynorsk)."
 kart,kart,chart,
 nullmatrise,nullmatrise,zero matrix,
 lokalt enkeltsammenhengende,lokalt enkeltsamanhengande,locally simply connected,
@@ -1537,7 +1537,7 @@ borelmål,borelmål,Borel measure,
 borelmengde,borelmengd,Borel set,
 carathéodorymålbar,carathéodorymålbar,Carathéodory measurable,
 Carathéodorys utvidelsesteorem,Carathéodorys utvidingsteorem,Carathéodory's extension theorem,
-indikatorfunksjon<br>karakteristisk funksjon,indikatorfunksjon<br>karakteristisk funksjon,characteristic function<br>indicator function,"Oversettelsen gjelder bruk i sannsynlighetsteori og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
+indikatorfunksjon<br>karakteristisk funksjon,indikatorfunksjon<br>karakteristisk funksjon,characteristic function<br>indicator function,"Indikatorfunksjoner kan også omtales som karakteristiske funksjoner (bokmål) og karakteristiske funksjonar (nynorsk). Oversettelsen gjelder bruk i sannsynlighetsteori og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
 komplekst mål,komplekst mål,complex measure,
 tellbar additivitet,teljeleg additivitet,countable additivity,
 tellbar subadditivitet,teljeleg subadditivitet,countable subadditivity,
@@ -1804,8 +1804,8 @@ høyreartinsk,høgreartinsk,right artinian,
 høyrenoethersk,høgrenoethersk,right noetherian,
 ikke-tellbar<br>overtellbar,ikkje-teljeleg<br>overteljeleg,uncountable,"Begrepet tellbar blir definert på ulike måter i litteraturen. Legg merke til at dersom ikke-tellbar og overtellbar skal være synonymer, må man definere tellbar til å omfatte <i>både</i> endelige mengder og mengder som er tellbart uendelige."
 basal algebra,basal algebra,basic algebra,"Oversettelsen gjelder bruk i representasjonsteori og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger."
-injektiv innhylling<br>injektivt hylster,injektiv innhylling<br>injektivt hylster,injective envelope<br>injective hull,
-konveks innhylling<br>konvekst hylster,konveks innhylling<br>konvekst hylster,convex hull,
+injektiv innhylling<br>injektivt hylster,injektiv innhylling<br>injektivt hylster,injective envelope<br>injective hull,"Injektiv innhylling kan også omtales som injektivt hylster."
+konveks innhylling<br>konvekst hylster,konveks innhylling<br>konvekst hylster,convex hull,"Konveks innhylling kan også omtales som konvekst hylster."
 skjæringssetningen,skjeringssetninga,intermediate value theorem,"Enkelte skiller mellom skjæringssetningen og mellomverdisetningen, der førstnevnte anses som et spesialtilfelle av sistnevnte. Mellomverdisetningen sier at en kontinuerlig reell funksjon på et lukket og begrenset intervall antar alle verdier mellom funksjonsverdiene i endepunktene, mens skjæringssetningen kan formuleres som at dersom funksjonsverdiene til en slik funksjon har motsatte fortegn i endepunktene, så har funksjonen et nullpunkt. Skjæringssetningen benyttes ofte om begge disse teoremene."
 komplekskonjugert,komplekskonjugert,complex conjugate,
 minimalpolynom,minimalpolynom,minimal polynomial,
@@ -1900,7 +1900,7 @@ substitusjon-permutasjon-nettverk<br>SPN,substitusjon-permutasjon-nettverk<br>SP
 offentlig-nøkkel-kryptografi,offentleg-nøkkel-kryptografi,public key encryption,
 offentlig-nøkkel-infrastruktur<br>PKI,offentleg-nøkkel-infrastruktur<br>PKI,public key infrastructure<br>PKI,"Offentlig-nøkkel-infrastruktur (bokmål) og offentleg-nøkkel-infrastruktur (nynorsk) forkortes ofte til PKI, som stammer fra <i>public key infrastructure</i>. Forkortelsen PKI har hankjønn på bokmål og nynorsk."
 valgt-klartekst-angrep<br>CPA,valt-klartekst-åtak<br>CPA,chosen-plaintext attack<br>CPA,"Valgt-klartekst-angrep (bokmål) og valt-klartekst-åtak (nynorsk) forkortes ofte til CPA, som stammer fra <i>chosen-plaintext attack</i>. Forkortelsen CPA har intetkjønn på bokmål og nynorsk."
-valgt-chiffertekst-angrep<br>CCA,valt-chiffertekst-åtak<br>CCA,chosen-ciphertext attack<br>CCA,"Chiffer uttales [ʃi´f:ər]. Valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak (nynorsk) forkortes ofte til CCA. og valt-chiffertekst-åtak (nynorsk) og stammer fra <i>chosen-ciphertext attack</i>. Forkortelsen CCA har intetkjønn på bokmål og nynorsk."
+valgt-chiffertekst-angrep<br>CCA,valt-chiffertekst-åtak<br>CCA,chosen-ciphertext attack<br>CCA,"Chiffer uttales [ʃi´f:ər].<br><br>Valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak (nynorsk) forkortes ofte til CCA. og valt-chiffertekst-åtak (nynorsk) og stammer fra <i>chosen-ciphertext attack</i>. Forkortelsen CCA har intetkjønn på bokmål og nynorsk."
 kode,kode,code,
 kodeord,kodeord,codeword,
 feiloppdagende kode,feiloppdagande kode,error-detecting code,
@@ -1969,7 +1969,7 @@ krypteringsmodus,krypteringsmodus,encryption mode,
 dekrypteringsmodus,dekrypteringsmodus,decryption mode,
 elektronisk kodebokmodus<br>ECB-modus,elektronisk kodebokmodus<br>ECB-modus,electronic codebook mode<br>ECB mode,"Elektronisk kodebokmodus forkortes ofte til ECB-modus, som stammer fra <i>electronic codebook mode</i>."
 tellemodus<br>CTR-modus,teljemodus<br>CTR-modus,counter mode<br>CTR mode,"Tellemodus (bokmål) og teljemodus (nynorsk) forkortes ofte til CTR-modus, som stammer fra <i>counter mode</i>."
-kjedet chifferblokkmodus<br>CBC-modus,kjeda chifferblokkmodus<br>CBC-modus,cipher block chaining mode<br>CBC mode,"Chiffer uttales [ʃi´f:ər]. Kjedet chifferblokkmodus (bokmål) og kjeda chifferblokkmodus (nynorsk) forkortes ofte til CBC-modus, som stammer fra <i>cipher block chaining mode</i>."
+kjedet chifferblokkmodus<br>CBC-modus,kjeda chifferblokkmodus<br>CBC-modus,cipher block chaining mode<br>CBC mode,"Chiffer uttales [ʃi´f:ər].<br><br>Kjedet chifferblokkmodus (bokmål) og kjeda chifferblokkmodus (nynorsk) forkortes ofte til CBC-modus, som stammer fra <i>cipher block chaining mode</i>."
 anstendig avbildning,anstendig avbilding,proper map,"Oversettelsen proper avbildning (bokmål) og proper avbilding (nynorsk) er også i bruk."
 anstendig funksjon,anstendig funksjon,proper function,"Oversettelsen proper funksjon er også i bruk."
 distingvert triangel,distingvert triangel,distinguished triangle,"Deler av faglitteraturen benytter uttrykket <i>exact triangle</i> i stedet for <i>distinguished triangle</i>. Dette oversettes til eksakt triangel."
@@ -2258,7 +2258,7 @@ triviell topologi,triviell topologi,indiscrete topology<br>trivial topology,
 kulegeometri<br>sfærisk geometri,kulegeometri<br>sfærisk geometri,spherical geometry,
 kulekoordinater<br>sfæriske koordinater,kulekoordinatar<br>sfæriske koordinatar,spherical coordinates,
 sfærisk,sfærisk,spherical,
-endelig-komplement-topologi<br>kofinitt topologi,endeleg-komplement-topologi<br>kofinitt topologi,cofinite topology<br>finite complement topology,
+endelig-komplement-topologi<br>kofinitt topologi,endeleg-komplement-topologi<br>kofinitt topologi,cofinite topology<br>finite complement topology,"Endelig-komplement-topologi kan også omtales som kofinitt topologi."
 tellbart-komplement-topologi,teljeleg-komplement-topologi,countable complement topology,
 kompakt-komplement-topologi,kompakt-komplement-topologi,compact complement topology,
 homoteti,homoteti,homothety,
@@ -3136,7 +3136,7 @@ annullering,annullering,nullification,
 whitneyimbeddingteorem,whitneyimbeddingteorem,Whitney embedding theorem,
 kolokalisering,kolokalisering,colocalization,
 bousfieldlokalisering,bousfieldlokalisering,Bousfield localization,"Bousfieldlokalisering refererer oftest til venstre bousfieldlokalisering."
-venstre bousfieldlokalisering,venstre bousfieldlokalisering,left Bousfield localization,"Venstre bousfieldlokalisering refereres ofte til som kun bousfieldlokalisering<."
+venstre bousfieldlokalisering,venstre bousfieldlokalisering,left Bousfield localization,"Venstre bousfieldlokalisering refereres ofte til som kun bousfieldlokalisering."
 høyre bousfieldlokalisering,høyre bousfieldlokalisering,right Bousfield localization,
 vandring,vandring,walk,
 naboforhold<br>naboskap,naboforhold<br>naboskap,adjacency,"Oversettelsen gjelder bruk i grafteori og utelukker ikke at termen kan brukes ulikt i andre sammenhenger."

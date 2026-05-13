@@ -3912,10 +3912,9 @@
 - anbefalt:
     bokmål: wronskideterminant
     nynorsk: wronskideterminant
+    engelsk: Wronski determinant
   tillatt:
-    engelsk:
-    - Wronski determinant
-    - Wronskian
+    engelsk: Wronskian
   merknad: Wronskideterminant kalles ofte bare <i>Wronskian</i> på engelsk.
 - anbefalt:
     bokmål: fullstendig regulært rom
@@ -8499,7 +8498,6 @@
     - straumchiffer
   merknad: |
     Genus: intetkjønn
-
     Chiffer uttales [ʃi´f:ər].
 - anbefalt:
     bokmål: nøkkelstrøm
@@ -8701,7 +8699,10 @@
     engelsk:
     - chosen-ciphertext attack
     - CCA
-  merknad: Chiffer uttales [ʃi´f:ər]. Valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak
+  merknad: |
+    Chiffer uttales [ʃi´f:ər].
+
+    Valgt-chiffertekst-angrep (bokmål) og valt-chiffertekst-åtak
     (nynorsk) forkortes ofte til CCA.
     og valt-chiffertekst-åtak (nynorsk) og stammer fra <i>chosen-ciphertext attack</i>. Forkortelsen
     CCA har intetkjønn på bokmål og nynorsk.
@@ -8753,7 +8754,6 @@
     engelsk: Caesar cipher
   merknad: |
     Genus: intetkjønn
-
     Chiffer uttales [ʃi´f:ər].
 - anbefalt:
     bokmål: symmetrisk kryptografi
@@ -8814,7 +8814,6 @@
     engelsk: block cipher
   merknad: |
     Genus: intetkjønn
-
     Chiffer uttales [ʃi´f:ər].
 - anbefalt:
     bokmål: kryptosystem
@@ -8890,7 +8889,6 @@
     engelsk: transposition cipher
   merknad: |
     Genus: intetkjønn
-
     Chiffer uttales [ʃi´f:ər].
 - anbefalt:
     bokmål: substitusjonschiffer
@@ -8898,7 +8896,6 @@
     engelsk: substitution cipher
   merknad: |
     Genus: intetkjønn
-
     Chiffer uttales [ʃi´f:ər].
 - anbefalt:
     bokmål: polyalfabetisk chiffer
@@ -8906,7 +8903,6 @@
     engelsk: polyalphabetic cipher
   merknad: |
     Genus: intetkjønn
-
     Chiffer uttales [ʃi´f:ər].
 - anbefalt:
     bokmål: kryptoanalyse
@@ -9157,7 +9153,10 @@
     engelsk:
     - cipher block chaining mode
     - CBC mode
-  merknad: Chiffer uttales [ʃi´f:ər]. Kjedet chifferblokkmodus (bokmål) og kjeda chifferblokkmodus (nynorsk) forkortes ofte til CBC-modus, som stammer fra <i>cipher block chaining mode</i>.
+  merknad: |
+    Chiffer uttales [ʃi´f:ər].
+
+    Kjedet chifferblokkmodus (bokmål) og kjeda chifferblokkmodus (nynorsk) forkortes ofte til CBC-modus, som stammer fra <i>cipher block chaining mode</i>.
 - anbefalt:
     bokmål: anstendig avbildning
     nynorsk: anstendig avbilding
@@ -14686,7 +14685,7 @@
     bokmål: venstre bousfieldlokalisering
     nynorsk: venstre bousfieldlokalisering
     engelsk: left Bousfield localization
-  merknad: Venstre bousfieldlokalisering refereres ofte til som kun bousfieldlokalisering<.
+  merknad: Venstre bousfieldlokalisering refereres ofte til som kun bousfieldlokalisering.
 - anbefalt:
     bokmål: høyre bousfieldlokalisering
     nynorsk: høyre bousfieldlokalisering
