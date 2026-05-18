@@ -17,7 +17,7 @@ utdypende informasjon om begrepet.
 
 Vi skiller på anbefalte og tillatte termer for en oversettelse. Hovedregelen er
 at det kan være maksimalt én anbefalt term per skriftspråk, og at hver
-oversettelse må ha minst en anbefalt _eller_ tillatt term per skriftspråk. En
+oversettelse må ha minst én anbefalt _eller_ tillatt term per skriftspråk. En
 oversettelse kan ha så mange tillatte termer som ønskelig. Det vil si at
 
 - Dersom man har flere likestilte termer på et skriftspråk skal alle føres som
@@ -143,7 +143,7 @@ har sjanse til å nå nettsiden. Denne kontrollen består av flere deler:
    dokumentet, og at de inneholder informasjon på den forventede formen.
    <!-- Dersom flere felter skal legges til må det også implementeres støtte for det på nettsiden, og Termportalen bør få beskjed -->
 3. Det sjekkes at feltene innad i hver oppføring følger den gitte rekkefølgen.
-4. Det sjekkes at det er oppført minst en term for hvert skriftspråk, og at det
+4. Det sjekkes at det er oppført minst én term for hvert skriftspråk, og at det
    maks er én anbefalt term per skriftspråk.
 
 ## Se også
