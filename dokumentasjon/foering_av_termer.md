@@ -17,12 +17,12 @@ utdypende informasjon om begrepet.
 
 Vi skiller på anbefalte og tillatte termer for en oversettelse. Hovedregelen er
 at det kan være maksimalt én anbefalt term per skriftspråk, og at hver
-oversettelse må ha minst én anbefalt _eller_ tillatt term per skriftspråk. En
+oversettelse må ha minst en anbefalt _eller_ tillatt term per skriftspråk. En
 oversettelse kan ha så mange tillatte termer som ønskelig. Det vil si at
 
 - Dersom man har flere likestilte termer på et skriftspråk skal alle føres som
   tillatte termer.
-- Dersom man kun har én term på et skriftspråk, skal denne føres som anbefalt.
+- Dersom man kun har én term på et skriftspråk skal denne føres som anbefalt.
   Eksempel:
 
 ```yaml
@@ -101,8 +101,8 @@ Eksempel med bruk av ordklasse-feltet:
   ordklasse: adverb
 ```
 
-Dersom én av oversettelsene er anbefalt fremfor de andre, skal dette presiseres
-ved bruk av anbefalt-feltet for den foretrukne oversettelsen. Det kan også
+Dersom en av oversettelsene er anbefalt fremfor de andre, skal dette presiseres
+ved bruk av anbefalt-feltet for den foretrukne oversettelsen; det kan også
 utdypes i merknadsfeltet. Anbefalt-feltet kan ha maksimum én term per
 skriftspråk. Det vil si at hvis termene er likestilt skal tillatt-feltet brukes.
 Dersom det kun er én oversettelse på et skriftspråk brukes anbefalt-feltet.
@@ -118,8 +118,8 @@ Eksempel:
   merknad: Begge skrivemåtene brukes på bokmål, men salpunkt anbefales.
 ```
 
-De spesialiserte utdypningsfeltene ordklasse og bruksområde føres separat for å
-gjøre denne informasjonen tilgjengelig til mekanisk uthenting. Denne
+De spesialiserte utdypningsfeltene _ordklasse_ og _bruksområde_ føres separat
+for å gjøre denne informasjonen tilgjengelig til mekanisk uthenting. Denne
 informasjonen brukes av [Termportalen](https://www.termportalen.no/).
 
 ## Detaljer om føring i YAML
@@ -143,7 +143,7 @@ har sjanse til å nå nettsiden. Denne kontrollen består av flere deler:
    dokumentet, og at de inneholder informasjon på den forventede formen.
    <!-- Dersom flere felter skal legges til må det også implementeres støtte for det på nettsiden, og Termportalen bør få beskjed -->
 3. Det sjekkes at feltene innad i hver oppføring følger den gitte rekkefølgen.
-4. Det sjekkes at det er oppført minst én term for hvert skriftspråk, og at det
+4. Det sjekkes at det er oppført minst en term for hvert skriftspråk, og at det
    maks er én anbefalt term per skriftspråk.
 
 ## Se også

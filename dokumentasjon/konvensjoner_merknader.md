@@ -2,10 +2,10 @@
 
 ### Generelle konvensjoner
 
-- Alle merknader skal formuleres som helsetninger, med unntak av informasjon om
+- Alle merknader skal formuleres som helsetninger med unntak av informasjon om
   uttale, flertallsform, ordklasse og genus.
 
-- Når en engelsk term opptrer i en merknad, markeres dette med kursiv. Man fører
+- Når en engelsk term opptrer i en merknad markeres dette med kursiv. Man fører
   i kursiv ved å skrive `<i>kursivert tekst</i>`.
 
 - Genus, altså grammatisk kjønn, føres opp i tilfeller der dette kan være
@@ -53,7 +53,9 @@
     merknad: 'Uttale: [sytsygi:´]'
   ```
 
-  > Obs! Merknader som inneholder et kolontegn (`:`) må skrives i gåse- eller hermetegn (`'...'` eller `"..."`), eller i flerlinjemodus (startes med `|` eller `>`).
+  > **Obs!** Merknader som inneholder et kolontegn (`:`) må skrives i gåse-
+  > eller hermetegn (`'...'` eller `"..."`), eller i flerlinjemodus (startes med
+  > `|`).
 
   Uttale for deltermer kan føres i helsetningsform:
 
@@ -94,7 +96,8 @@
   ```
 
   I noen tilfeller blir genus forskjellig på bokmål og nynorsk. I slike
-  tilfeller gjøres det tydelig forskjell. For eksempel med helsetningsforklaring:
+  tilfeller gjøres det tydelig forskjell. For eksempel med
+  helsetningsforklaring:
 
   ```yaml
   - tillatt:
@@ -120,10 +123,10 @@
       Forkortelsen FSA har hankjønn på bokmål og nynorsk.
   ```
 
-- Dersom en term skal ha informasjon om både uttale, genus,
-  flertallsform og/eller bruksområde så føres det i denne rekkefølgen. Det
-  skilles mellom de ulike typene informasjon ved linjeskift. Man får linjeskift
-  ved å starte merknadsfeltet med et `|` symbol, og deretter føre merknaden med
+- Dersom en term inneholder informasjon om flere av følgende: uttale, genus,
+  flertallsform, og bruksområde, så føres det i denne rekkefølgen. Det skilles
+  mellom de ulike typene informasjon ved linjeskift. Man får linjeskift ved å
+  starte merknadsfeltet med et `|` symbol, og deretter føre merknaden med
   vanlige linjeskift startende på neste linje med ett ekstra nivå av innrykk.
   Oppsettet ser altså slik ut:
 
@@ -144,8 +147,7 @@
       UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig faktoriseringsområde (nynorsk) og stammer fra <i>unique factorization domain</i>.
   ```
 
-  Symbolet `|` forteller YAML at linjeskift innad tekstfeltet skal bevares, som er i
-  motsetning til `>` symbolet.
+  Symbolet `|` forteller YAML at linjeskift innad i tekstfeltet skal bevares.
 
 ### Informasjon om forkortelser
 
