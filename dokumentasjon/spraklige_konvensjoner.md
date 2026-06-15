@@ -57,7 +57,7 @@ mer brukervennlig. Hvis du er uenig i noen av de språklige konvensjonene, kan d
   1. Hvis det ene alternativet er klart anbefalt/mest brukt, føres kun dette.
   2. Hvis begge er i bruk, men det ene alternativet er bedre enn det andre,
      føres begge. Det foretrukne alternativet føres under feltet "anbefalt",
-     imens de andre føres under "tillat". Det legges også inn merknad om hvilket
+     mens de andre føres under "tillatt". Det legges også inn merknad om hvilket
      alternativ som anbefales.
   3. Hvis begge er tilnærmet like mye brukt, føres begge som tillatte termer
      (uten merknad om anbefalt term).
@@ -98,8 +98,8 @@ mer brukervennlig. Hvis du er uenig i noen av de språklige konvensjonene, kan d
   som referanse.
 
 - For utenlandske navn bør man konsultere Språkrådets
-  [rettningslinjer](https://www.sprakradet.no/sprakhjelp/Skriverad/Transkripsjon_av_kyrillisk_og_nygresk/)
-  for transkripsjon av nygresk og kryllisk.
+  [retningslinjer](https://www.sprakradet.no/sprakhjelp/Skriverad/Transkripsjon_av_kyrillisk_og_nygresk/)
+  for transkripsjon av nygresk og kyrillisk.
 
 - Ordet _dekomponering_ brukes i tilfeller der prosessen er vektlagt og
   _dekomposisjon_ i tilfeller der resultatet er det viktigste. Merk at
@@ -114,7 +114,7 @@ mer brukervennlig. Hvis du er uenig i noen av de språklige konvensjonene, kan d
   - Pass på at man i nynorsk tradisjonelt ønsker å unngå genitiv av substantiv i
     bestemt form, mens genitiv kan brukes i ubestemt form.
 
-  - Ofte er flere former mulig på nynorsk. Ordlista følger det såkalte
+  - Ofte er flere former mulige på nynorsk. Ordlista følger det såkalte
     _midtlinjeprinsippet_. Dette innebærer å ikke bruke arkaisk, fremmed
     nynorsk, men også unngå bokmålsnære former som ikke har tradisjon i nynorsk.
     Eksempler på ordvalg som følger midtlinjeprinsippet:

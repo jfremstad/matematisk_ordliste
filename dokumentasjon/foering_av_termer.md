@@ -135,7 +135,7 @@ har sjanse til å nå nettsiden. Denne kontrollen består av flere deler:
    oppføring er indentert med to mellomrom, og hvert ytterligere nøstet felt er
    indentert med to mellomrom ekstra. Dette gjelder da spesielt anbefalt- og
    tillatt-feltene som har nøstede felter for bokmål, nynorsk og engelsk, samt
-   merknad-feltet dersom inneholdet spenner mer enn én linje.
+   merknad-feltet dersom innholdet spenner mer enn én linje.
 2. Det sjekkes at den strukturerte dataen følger
    [termbasespesifikasjonen](../termbase_skjema.json). Det vil si at det
    kontrolleres at oppføringene kun har feltene beskrevet innledningsvis i dette

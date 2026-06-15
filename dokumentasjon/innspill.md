@@ -29,12 +29,12 @@ Du kan også sende innspill på mail til
    til nye termer, skal disse alltid legges til på enden av dokumentet (ikke
    alfabetisk).
 
-### Anbefalte ressurer
+### Anbefalte ressurser
 
 1. [Bokmålsordboka og Nynorskordboka](https://ordbokene.no) er Språkrådets
    offisielle definisjons- og rettskrivingsordbøker.
 2. [Det Norske Akademis ordbok](https://naob.no) inneholder en rekke fremmedord
    med fagspesifikk betydning.
 3. [Nasjonalbiblioteket](https://bokhylla.no) har skannet en rekke fagbøker. På
-   deres nettsider kan man søke etter termer, og dermed få et inntrykk over hvor
+   deres nettsider kan man søke etter termer, og dermed få et inntrykk av hvor
    utbredte de er.

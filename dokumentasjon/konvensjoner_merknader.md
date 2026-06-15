@@ -169,7 +169,7 @@ Informasjon om forkortelse føres slik:
 ```
 
 Merk at begge termer føres opp under samme oppføring. Ettersom begge termene er
-likestilt i dette tilfellet føres de som likestilt under `tillatt`.
+likestilte i dette tilfellet, føres de som likestilte under `tillatt`.
 
 ### Andre eksempler
 
