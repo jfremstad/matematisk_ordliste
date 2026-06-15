@@ -20,10 +20,9 @@ at det kan være maksimalt én anbefalt term per skriftspråk, og at hver
 oversettelse må ha minst én anbefalt _eller_ tillatt term per skriftspråk. En
 oversettelse kan ha så mange tillatte termer som ønskelig. Det vil si at
 
-- Dersom man har flere likestilte termer på et skriftspråk skal alle føres som
+- Dersom det er flere likestilte termer på et skriftspråk, skal alle føres som
   tillatte termer.
-- Dersom man kun har én term på et skriftspråk skal denne føres som anbefalt.
-  Eksempel:
+- Dersom det kun er én term på et skriftspråk, brukes anbefalt-feltet. Eksempel:
 
 ```yaml
 - anbefalt:
@@ -37,20 +36,20 @@ oversettelse kan ha så mange tillatte termer som ønskelig. Det vil si at
     - restriksjon
 ```
 
-Siden det kun er én engelsk oversettelse føres denne som anbefalt, imens de
-likestilte norske termene må føres som tillatt siden det er flere på hvert
-skriftspråk.
+Siden det kun er én engelsk oversettelse i eksempelet ovenfor, føres denne som
+anbefalt. De to likestilte norske termene må føres som tillatte, siden det er
+flere på samme skriftspråk.
 
 Hver oppføring kan i alt ha følgende felter
 
-- **anbefalt.** for den anbefalte termen for hvert skriftspråk
-- **tillatt.** for tillatte termer for hvert av skriftspråkene. Kan inneholde en
+- **anbefalt:** for den anbefalte termen for hvert skriftspråk.
+- **tillatt:** for tillatte termer for hvert av skriftspråkene. Kan inneholde en
   enkeltterm eller en liste av termer.
-- **ordklasse.** Ordklasse for oversettelsen.
-- **bruksområde.** Informasjon om bruksområde for oversettelsen. Denne
-  informasjonen legges ikke automatisk til i merknadfeltet på nettsiden, så husk
-  å legge til informasjonen i merknad-feltet også.
-- **merknad.** Generell merknad med informasjon om oversettelsen, utenom
+- **ordklasse:** ordklasse for termen.
+- **bruksområde:** informasjon om bruksområde for termen. Denne informasjonen
+  legges ikke automatisk til i merknad-feltet på nettsiden, så husk å legge til
+  informasjonen i merknad-feltet også.
+- **merknad:** generell merknad med informasjon om oversettelsen, utenom
   ordklasse.
 
 Feltene skal forekomme i denne rekkefølgen dersom de er til stede. Alle feltene
@@ -103,10 +102,10 @@ Eksempel med bruk av ordklasse-feltet:
 
 Dersom en av oversettelsene er anbefalt fremfor de andre, skal dette presiseres
 ved bruk av anbefalt-feltet for den foretrukne oversettelsen; det kan også
-utdypes i merknadsfeltet. Anbefalt-feltet kan ha maksimum én term per
-skriftspråk. Det vil si at hvis termene er likestilt skal tillatt-feltet brukes.
-Dersom det kun er én oversettelse på et skriftspråk brukes anbefalt-feltet.
-Eksempel:
+utdypes i merknad-feltet. Anbefalt-feltet kan ha maksimum én term per
+skriftspråk. Det vil si at hvis termene er likestilte, skal tillatt-feltet
+brukes. Dersom det kun er én oversettelse på et skriftspråk, skal
+anbefalt-feltet brukes. Eksempel:
 
 ```yaml
 - anbefalt:
@@ -136,7 +135,7 @@ har sjanse til å nå nettsiden. Denne kontrollen består av flere deler:
    oppføring er indentert med to mellomrom, og hvert ytterligere nøstet felt er
    indentert med to mellomrom ekstra. Dette gjelder da spesielt anbefalt- og
    tillatt-feltene som har nøstede felter for bokmål, nynorsk og engelsk, samt
-   merknad-feltet dersom inneholdet spenner me enn én linje.
+   merknad-feltet dersom inneholdet spenner mer enn én linje.
 2. Det sjekkes at den strukturerte dataen følger
    [termbasespesifikasjonen](../termbase_skjema.json). Det vil si at det
    kontrolleres at oppføringene kun har feltene beskrevet innledningsvis i dette

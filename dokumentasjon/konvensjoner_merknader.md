@@ -5,7 +5,7 @@
 - Alle merknader skal formuleres som helsetninger med unntak av informasjon om
   uttale, flertallsform, ordklasse og genus.
 
-- Når en engelsk term opptrer i en merknad markeres dette med kursiv. Man fører
+- Når en engelsk term opptrer i en merknad, markeres dette med kursiv. Man fører
   i kursiv ved å skrive `<i>kursivert tekst</i>`.
 
 - Genus, altså grammatisk kjønn, føres opp i tilfeller der dette kan være
@@ -96,7 +96,7 @@
   ```
 
   I noen tilfeller blir genus forskjellig på bokmål og nynorsk. I slike
-  tilfeller gjøres det tydelig forskjell. For eksempel med
+  tilfeller gjøres det tydelig forskjell, for eksempel med
   helsetningsforklaring:
 
   ```yaml
