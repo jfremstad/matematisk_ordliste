@@ -43,7 +43,7 @@
   ```
 
 - Informasjon om uttale føres slik (oppsett for føring av uttale er hentet fra
-  [NAOB](https://www.naob.no/)):
+  [NAOB](https://naob.no/uttale-veiledning)):
 
   ```yaml
   - anbefalt:
