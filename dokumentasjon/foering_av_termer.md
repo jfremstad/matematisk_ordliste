@@ -48,9 +48,10 @@ Hver oppføring kan i alt ha følgende felter
 - **ordklasse:** ordklasse for termen.
 - **bruksområde:** informasjon om bruksområde for termen. Denne informasjonen
   legges ikke automatisk til i merknad-feltet på nettsiden, så husk å legge til
-  informasjonen i merknad-feltet også.
-- **merknad:** generell merknad med informasjon om oversettelsen, utenom
-  ordklasse.
+  informasjonen i den generelle merknaden også.
+- **merknad:** generell merknad med informasjon om oversettelsen. Konvensjoner
+  for de generelle merknadene er dokumentert på en
+  [egen side](konvensjoner_merknader.md).
 
 Feltene skal forekomme i denne rekkefølgen dersom de er til stede. Alle feltene
 er valgfrie, men det skal forekomme minst én anbefalt eller tillatt term per

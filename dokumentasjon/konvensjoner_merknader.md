@@ -2,8 +2,10 @@
 
 ### Generelle konvensjoner
 
+TODO: merk at ordklasse ikke føres i merknad
+
 - Alle merknader skal formuleres som helsetninger med unntak av informasjon om
-  uttale, flertallsform, ordklasse og genus.
+  uttale, flertallsform og genus.
 
 - Når en engelsk term opptrer i en merknad, markeres dette med kursiv. Man fører
   i kursiv ved å skrive `<i>kursivert tekst</i>`.
@@ -140,7 +142,6 @@
       nynorsk: UFD
       engelsk: UFD
     ordklasse: substantiv
-    bruksområde: ringteori
     merknad: |
       Genus: intetkjønn
 
