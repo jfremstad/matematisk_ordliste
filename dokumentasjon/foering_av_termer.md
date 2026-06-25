@@ -45,10 +45,11 @@ Hver oppføring kan i alt ha følgende felter
 - **anbefalt:** for den anbefalte termen for hvert skriftspråk.
 - **tillatt:** for tillatte termer for hvert av skriftspråkene. Kan inneholde en
   enkeltterm eller en liste av termer.
-- **ordklasse:** ordklasse for termen.
+- **ordklasse:** ordklasse for termen. Føres kun i dette feltet, ikke i
+  merknad-feltet.
 - **bruksområde:** informasjon om bruksområde for termen. Denne informasjonen
-  legges ikke automatisk til i merknad-feltet på nettsiden, så husk å legge til
-  informasjonen i den generelle merknaden også.
+  legges ikke automatisk til i merknad-feltet på nettsiden, så den må også
+  formuleres som helsetning i den generelle merknaden.
 - **merknad:** generell merknad med informasjon om oversettelsen. Konvensjoner
   for de generelle merknadene er dokumentert på en
   [egen side](konvensjoner_merknader.md).

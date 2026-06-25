@@ -2,8 +2,6 @@
 
 ### Generelle konvensjoner
 
-TODO: merk at ordklasse ikke føres i merknad
-
 - Alle merknader skal formuleres som helsetninger med unntak av informasjon om
   uttale, flertallsform og genus.
 
@@ -15,9 +13,14 @@ TODO: merk at ordklasse ikke føres i merknad
   Genus til en forkortelse settes til å være det samme som genus til det norske
   uttrykket som forkortes.
 
-### Informasjon om ordklasse, synonym, uttale og genus
+### Informasjon om ordklasse, bruksområde, synonym, uttale og genus
 
-- Informasjon om ordklasse og bruksområde føres slik:
+- Ordklasse føres kun i det strukturerte `ordklasse`-feltet, ikke i `merknad`.
+
+- Bruksområde føres både i det strukturerte `bruksområde`-feltet og som
+  helsetning i `merknad`. Feltet `bruksområde` gjør informasjonen maskinlesbar
+  for Termportalen, mens merknaden sørger for at samme informasjon vises på
+  nettsiden og kan formuleres med nødvendig presisering. Eksempel:
 
   ```yaml
   - anbefalt:
