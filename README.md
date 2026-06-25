@@ -40,4 +40,8 @@ Her kan du lese om hvordan du kan
   Aslak Bakke Buan (NTNU), Olav Gunnarson Dovland (UiA), Frode Rønning (NTNU),
   Erlend Due Børve (NTNU), Simon Foldvik (UiO), Joakim Fremstad (NTNU), Johanne
   Haugland (NTNU) og Anders Wiik (UiA)
+- Hilde Johansen og Jan Ole Bangen fra
+  [Termportalen](https://www.termportalen.no/) for støtte og bistand i arbeidet
+  med integreringen imot deres portal, samt for rådgivning til vårt
+  terminologiarbeid.
 - [Alle bidragsytere](BIDRAGSYTERE.md)
