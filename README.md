@@ -14,11 +14,11 @@ kommer med forslag til endringer og nye oversettelser.
 - Har du andre forslag som kan gjøre ordlista mer nyttig og brukervennlig?
 
 Alle innspill settes stor pris på. I
-[diskusjonsforumet](https://github.com/jfremstad/matematisk_ordliste/issues) kan
-enhver som ønsker det være med på å diskutere saker som angår ordlista. Forslag
-om endringer går til slutt gjennom en verifikasjonsprosess, før de eventuelt
-publiseres på den offisielle ordlista. Dersom du ønsker å ta en aktiv rolle i
-ordlistens vedlikehold, ta gjerne kontakt på epost
+[diskusjonsforumet](https://github.com/matematisk-ordliste/matematisk-ordliste/issues)
+kan enhver som ønsker det være med på å diskutere saker som angår ordlista.
+Forslag om endringer går til slutt gjennom en verifikasjonsprosess, før de
+eventuelt publiseres på den offisielle ordlista. Dersom du ønsker å ta en aktiv
+rolle i ordlistens vedlikehold, ta gjerne kontakt på epost
 ([ordliste@matematikkradet.no](mailto:ordliste@matematikkradet.no)).
 
 Her kan du lese om hvordan du kan
