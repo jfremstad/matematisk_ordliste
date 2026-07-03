@@ -21,13 +21,14 @@ er dårlige eller uklare.
 >   seksjonssjef, og ikke avdelingssjef og seksjonsleder.
 > - **Velegnet uttrykk.** Termene bør ikke skape forvirring fordi de ikke følger
 >   de etablerte mønstrene i språket eller fordi de har negative konnotasjoner.
->   For eks svarteliste innen IT, som man heller vil kalle blokkeringsliste.
+>   For eksempel svarteliste innen IT, som man heller vil kalle
+>   blokkeringsliste.
 > - **Språkøkonomi.** Termer bør være konsise og ikke for lange. For lange
->   termer fører til at det oppstår en kortform. For eks. foretrekker man e-verk
->   heller enn elektrisitetsverk. Dette kan imidlertid komme i konflikt med
->   prinsippet om transparens ettersom ønske om transparens gjør ordet lengre.
->   (Termen transparens er i seg selv et eksempel på dette, fordi det er kortere
->   enn gjennomsiktighet, men samtidig mye mindre … transparent.)
+>   termer fører til at det oppstår en kortform. For eksempel foretrekker man
+>   e-verk heller enn elektrisitetsverk. Dette kan imidlertid komme i konflikt
+>   med prinsippet om transparens ettersom ønske om transparens gjør ordet
+>   lengre. (Termen transparens er i seg selv et eksempel på dette, fordi det er
+>   kortere enn gjennomsiktighet, men samtidig mye mindre … transparent.)
 > - **Avledning og sammensetning.** Gode termer kan man lage nye ord av enten
 >   gjennom avledning eller sammensetning, som er to vanlige orddanningsmetoder
 >   i norsk. Urt kan foretrekkes framfor medisinsk plante fordi det er lettere å
