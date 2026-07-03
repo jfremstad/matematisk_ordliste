@@ -42,7 +42,9 @@ flere på samme skriftspråk.
 
 Hver oppføring kan i alt ha følgende felter
 
-- **anbefalt:** for den anbefalte termen for hvert skriftspråk.
+- **anbefalt:** for den anbefalte termen for hvert skriftspråk. Retningslinjer
+  for anbefaling av termer er dokumentert på en
+  [egen side](anbefaling_av_termer.md).
 - **tillatt:** for tillatte termer for hvert av skriftspråkene. Kan inneholde en
   enkeltterm eller en liste av termer.
 - **ordklasse:** ordklasse for termen. Føres kun i dette feltet, ikke i
@@ -125,11 +127,11 @@ informasjonen brukes av [Termportalen](https://www.termportalen.no/).
 
 ## Detaljer om føring i YAML
 
-Er du bekymret for å føre feil? Frykt ikke. YAML-filens struktur sjekkes av
-[kvalitetskontrollskriptet vårt](../skript/kvalitetssjekk_termbase.py) som
+Er du bekymret for å føre feil i YAML? Frykt ikke. YAML-filens struktur sjekkes
+av [kvalitetskontrollskriptet vårt](../skript/kvalitetssjekk_termbase.py) som
 [del av den kontinuerlige integreringen på GitHub](../.github/workflows/kvalitetskontroll.yml).
 Det vil si at GitHub vil flagge eventuelle formateringsfeil i oppføringer før de
-har sjanse til å nå nettsiden. Denne kontrollen består av flere deler:
+har en sjanse til å nå nettsiden. Denne kontrollen består av flere deler:
 
 1. Det sjekkes at oppføringene har korrekt YAML-formatering. Termbasen skal
    arrangeres som en lang liste av oppføringer, hvor hver nye oppføring er
