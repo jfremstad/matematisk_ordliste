@@ -1,16 +1,16 @@
 # Retningslinjer for anbefaling av termer
 
-Det viktigste prinsippet man bør tenke på ved anbefaling av termer er å bruke
-den norske varianten av termen, der det foreligger en norsk og en engelsk eller
-engelskbasert term, men det finnes flere prinsipper å tenke på. Anbefaling av
-termer er også nært knyttet til _danning av termer_. I tilfeller hvor det
-foreligger flere synonyme termer for ett begrep skal man anbefale den som i
-størst grad oppfyller prinsippene under, tatt fra standarden for
+Det finnes flere prinsipper å tenke på ved anbefaling av termer, men det
+viktigste er, der det foreligger en norsk og en engelsk eller engelskbasert
+term, å bruke den norske varianten av termen. Anbefaling av termer er også nært
+knyttet til _danning av termer_. I tilfeller hvor det foreligger flere synonyme
+termer for ett begrep skal man anbefale den som i størst grad oppfyller
+prinsippene under for danning av termer, tatt fra standarden for
 terminologiarbeid. I tillegg til disse prinsippene er det slik at veletablert
 bruk skal respekteres: etablerte og utbredte termer skal ikke endres selv om de
 er dårlige eller uklare.
 
-> - **Transparens (gjennomsiktighet)**. Termen er transparent når det termen
+> - **Transparens (gjennomsiktighet).** Termen er transparent når det termen
 >   viser til kan utledes fra selve ordet. For eksempel er sekskantnøkkel mer
 >   transparent enn unbrakonøkkel. Termen Johnson-støy er mindre transparent enn
 >   termisk støy.
