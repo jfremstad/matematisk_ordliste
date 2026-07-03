@@ -78,24 +78,32 @@
 
   <script>
     ////////////////////////////////////////////////////////////////////////////
-    // Last inn YAML-termene
+    // Last inn termbasen
     ////////////////////////////////////////////////////////////////////////////
 
     async function loadTermbase() {
+      const sources = [
+        { path: "ordliste/termbase.yaml", type: "yaml" },
+        { path: "ordliste/termbase.json", type: "json" },
+        { path: "../termbase.yaml", type: "yaml" },
+        { path: "../termbase.json", type: "json" },
+      ];
 
-      try {
-        // forsøk YAML først
-        let yamltext = await $.get("ordliste/termbase.yaml");
-        return jsyaml.load(yamltext);
-      } catch (_) {}
-
-      try {
-        // fallback til JSON
-        return await $.getJSON("ordliste/termbase.json");
-      } catch (e) {
-        alert("Klarte ikke å laste inn termbase.yaml eller termbase.json");
-        throw e;
+      let lastError;
+      for (const source of sources) {
+        try {
+          if (source.type === "yaml") {
+            let yamltext = await $.get(source.path);
+            return jsyaml.load(yamltext);
+          }
+          return await $.getJSON(source.path);
+        } catch (e) {
+          lastError = e;
+        }
       }
+
+      alert("Klarte ikke å laste inn termbase.yaml eller termbase.json");
+      throw lastError;
     }
 
     ////////////////////////////////////////////////////////////////////////////
