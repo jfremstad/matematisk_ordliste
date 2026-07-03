@@ -1,4 +1,4 @@
-# Oppsett for oppføring av termer
+# Oppsett for føring av termer
 
 Oppslagstermer føres i [termbasen](../termbase.yaml) på et strukturert
 dataformat ved hjelp av språket [YAML](https://yaml.org/). En enkel oppføring
@@ -9,7 +9,10 @@ kan se slik ut:
     bokmål: basiselement
     nynorsk: basiselement
     engelsk: basis element
-  merknad: De engelske termene <i>base</i> og <i>basis</i> brukes ikke helt synonymt. For eksempel vil <i>base</i> foretrekkes i topologi, mens <i>basis</i> brukes i lineær algebra. Merk at begge oversettes til basis på norsk.
+  merknad: De engelske termene <i>base</i> og <i>basis</i> brukes ikke helt
+    synonymt. For eksempel vil <i>base</i> foretrekkes i topologi, mens
+    <i>basis</i> brukes i lineær algebra. Merk at begge oversettes til basis
+    på norsk.
 ```
 
 Her er det ført opp én anbefalt term for hvert skriftspråk, samt en merknad med
@@ -83,7 +86,8 @@ alfabetisk rekkefølge):
     - analysis of variance
     - variance analysis
     - ANOVA
-  merknad: Variansanalyse forkortes ofte til ANOVA, som stammer fra <i>analysis of variance</i>.
+  merknad: Variansanalyse forkortes ofte til ANOVA, som stammer fra
+    <i>analysis of variance</i>.
 ```
 
 Termer med mer enn én gyldig oversettelse med _ulik betydning_ føres opp som to

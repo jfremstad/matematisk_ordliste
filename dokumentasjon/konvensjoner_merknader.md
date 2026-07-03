@@ -29,7 +29,8 @@
       engelsk: midrange
     ordklasse: substantiv
     bruksområde: statistikk
-    merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes ulikt i andre sammenhenger.
+    merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke
+      at termen kan benyttes ulikt i andre sammenhenger.
   ```
 
 - Synonymer føres opp under samme oppføring. Eksempel:
@@ -121,11 +122,13 @@
       - finite-state machine
       - FSM
       - FSA
-    merknad: FSM er en forkortelse for endelig tilstandsmaskin (bokmål) og endeleg tilstandsmaskin
-      (nynorsk) og stammer fra <i>finite-state machine</i>. FSA er en forkortelse for endelig
-      tilstandsautomat (bokmål) og endeleg tilstandsautomat (nynorsk) og stammer fra <i>finite-state
-      automaton</i>. Forkortelsen FSM har hankjønn på bokmål og både hankjønn og hunkjønn på nynorsk.
-      Forkortelsen FSA har hankjønn på bokmål og nynorsk.
+    merknad: FSM er en forkortelse for endelig tilstandsmaskin (bokmål) og
+      endeleg tilstandsmaskin (nynorsk) og stammer fra
+      <i>finite-state machine</i>. FSA er en forkortelse for endelig
+      tilstandsautomat (bokmål) og endeleg tilstandsautomat (nynorsk) og stammer
+      fra <i>finite-state automaton</i>. Forkortelsen FSM har hankjønn på bokmål
+      og både hankjønn og hunkjønn på nynorsk. Forkortelsen FSA har hankjønn på
+      bokmål og nynorsk.
   ```
 
 - Dersom en term inneholder informasjon om flere av følgende: uttale, genus,
@@ -169,7 +172,8 @@ Informasjon om forkortelse føres slik:
     - analysis of variance
     - variance analysis
     - ANOVA
-  merknad: Variansanalyse forkortes ofte til ANOVA, som stammer fra <i>analysis of variance</i>.
+  merknad: Variansanalyse forkortes ofte til ANOVA, som stammer fra
+    <i>analysis of variance</i>.
 ```
 
 Merk at begge termer føres opp under samme oppføring. Ettersom begge termene er
@@ -188,7 +192,8 @@ likestilte i dette tilfellet, føres de som likestilte under `tillatt`.
     tillatt:
       bokmål: komplementær vinkel
       nynorsk: komplementær vinkel
-    merknad: Komplementvinkler kan også omtales som komplementære vinkler (bokmål) og komplementære vinklar (nynorsk).
+    merknad: Komplementvinkler kan også omtales som komplementære vinkler
+      (bokmål) og komplementære vinklar (nynorsk).
   ```
 
 - Informasjon om alternativ oversettelse der alternativet anses som klart
@@ -229,21 +234,21 @@ likestilte i dette tilfellet, føres de som likestilte under `tillatt`.
       nynorsk: forsøksplan
       engelsk: design
     bruksområde: statistikk
-    merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan
-      benyttes ulikt i andre sammenhenger.
+    merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at
+      termen kan benyttes ulikt i andre sammenhenger.
   - anbefalt:
       bokmål: felt
       nynorsk: felt
       engelsk: field
-    merknad: Merk at oversettelsen av <i>field</i> er avhengig av kontekst. Oversettelsen
-      felt brukes for eksempel i forbindelse med vektorfelt.
+    merknad: Merk at oversettelsen av <i>field</i> er avhengig av kontekst.
+      Oversettelsen felt brukes for eksempel i forbindelse med vektorfelt.
   - anbefalt:
       bokmål: kropp
       nynorsk: kropp
       engelsk: field
-    merknad: Merk at oversettelsen av <i>field</i> er avhengig av kontekst. En kropp
-      er en kommutativ ring der ethvert ikke-nullelement har en multiplikativ invers.
-      For eksempel utgjør de reelle tall en kropp.
+    merknad: Merk at oversettelsen av <i>field</i> er avhengig av kontekst.
+      En kropp er en kommutativ ring der ethvert ikke-nullelement har en
+      multiplikativ invers. For eksempel utgjør de reelle tall en kropp.
   ```
 
 - I denne [oversikten](termer_med_merknad_eksempler.yaml) finner man flere

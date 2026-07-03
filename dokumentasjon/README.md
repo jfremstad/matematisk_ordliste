@@ -3,7 +3,7 @@
 Denne mappa inneholder veiledning for arbeid med termbasen.
 
 - [Hvordan komme med innspill](innspill.md)
-- [Oppsett for oppføring av termer](foering_av_termer.md)
+- [Oppsett for føring av termer](foering_av_termer.md)
 - [Retningslinjer for anbefaling av termer](anbefaling_av_termer.md)
 - [Språklige konvensjoner](spraklige_konvensjoner.md)
 - [Konvensjoner for føring av merknader](konvensjoner_merknader.md)
