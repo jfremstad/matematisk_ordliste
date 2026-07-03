@@ -1,4 +1,4 @@
-# Prosjektside - matematisk ordliste
+# Prosjektside — Matematisk ordliste
 
 Denne ordlista er opprettet for å være et hjelpemiddel slik at både studenter og
 faglig ansatte lettere kan kommunisere om matematikk på norsk. Prosjektet er et
