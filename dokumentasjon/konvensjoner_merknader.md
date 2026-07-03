@@ -86,7 +86,7 @@
       - rigor
       - rigorøsitet
       - stringens
-    ordklasse: Substantiv
+    ordklasse: substantiv
     merknad: 'Uttale for rigor: [ri:´går]'
   ```
 
@@ -131,7 +131,7 @@
 - Dersom en term inneholder informasjon om flere av følgende: uttale, genus,
   flertallsform, og bruksområde, så føres det i denne rekkefølgen. Det skilles
   mellom de ulike typene informasjon ved linjeskift. Man får linjeskift ved å
-  starte merknadsfeltet med et `|` symbol, og deretter føre merknaden med
+  starte merknadsfeltet med et `|`-symbol, og deretter føre merknaden med
   vanlige linjeskift startende på neste linje med ett ekstra nivå av innrykk.
   Oppsettet ser altså slik ut:
 
