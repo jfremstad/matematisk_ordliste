@@ -5,6 +5,9 @@ on:
     branches:
       - master
 
+permissions:
+  contents: write
+
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
@@ -28,12 +31,11 @@ jobs:
 
       - name: Opprett GitHub-release
         id: release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: latest
-          name: terminologidatabase
+          target_commitish: ${{ github.sha }}
+          name: termbase
           files: |
             termbase.yaml
             termbase.json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
