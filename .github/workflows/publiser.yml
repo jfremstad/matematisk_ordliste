@@ -32,7 +32,7 @@ jobs:
         run: |
           python ./skript/yaml_til_json.py ./termbase.yaml ./termbase.json
 
-      - name: Opprett GitHub-utgave
+      - name: Opprett GitHub-utgivelse
         id: release
         uses: softprops/action-gh-release@v3
         with:
