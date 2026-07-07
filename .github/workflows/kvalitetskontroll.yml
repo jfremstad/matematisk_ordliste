@@ -4,9 +4,17 @@ on:
   push:
     branches:
       - master
+    paths:
+      - skript/kvalitetssjekk_termbase.py
+      - termbase_skjema.json
+      - termbase.yaml
   pull_request:
     branches:
       - master
+    paths:
+      - skript/kvalitetssjekk_termbase.py
+      - termbase_skjema.json
+      - termbase.yaml
 
 jobs:
   qc:

@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+    paths:
+      - termbase.yaml
+      - skript/yaml_til_json.py
 
 permissions:
   contents: write
@@ -29,7 +32,7 @@ jobs:
         run: |
           python ./skript/yaml_til_json.py ./termbase.yaml ./termbase.json
 
-      - name: Opprett GitHub-release
+      - name: Opprett GitHub-utgave
         id: release
         uses: softprops/action-gh-release@v3
         with:
