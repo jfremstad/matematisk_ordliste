@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="no">
-  <head>
-    <script>
+<head>
+  <script>
       function searchURL() {
         var params = location.hash;
         if (params) {
@@ -11,155 +11,308 @@
         }
       }
     </script>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"
-    />
-    <title>Matematisk ordliste</title>
-    <meta charset="UTF-8" />
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.9/jquery.csv.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/plug-ins/1.10.19/sorting/intl.js"></script>
-    <script src="js/accent-neutralise.js"></script>
-    <!-- Buttons -->
-    <style>
-      td.details-control {
-        background: url("img/details_open.png") no-repeat center center;
-        cursor: pointer;
-      }
-      tr.shown td.details-control {
-        background: url("img/details_close.png") no-repeat center center;
-      }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Matematisk ordliste</title>
 
-    <script>
-      function commentButton() {
-        $(".details-control").click(function (e) {
-          var thisrow = $(this).closest("tr");
-          var button = $(this);
-          var commentrowid = "comment-" + button.attr("id");
-          if ($("#" + commentrowid).length) {
-            $("#" + commentrowid).remove();
-            thisrow.removeClass("shown");
-          } else {
-            var insertData =
-              '<tr id="' +
-              commentrowid +
-              '" class="comment"><td colspan="4">' +
-              jsonobject[this.id][3] +
-              "</td>";
-            thisrow.after(insertData);
-            thisrow.addClass("shown");
-          }
-        });
-      }
-    </script>
-  </head>
-  <body>
-    <h1>Matematisk ordliste</h1>
-    <p>
-      Ordlista er utarbeidet i samarbeid mellom NTNU, UiO og UiA, og prosjektet
-      har mottatt støtte fra Språkrådet. Termbasen er under stadig utvikling, og
-      det er ønskelig at flest mulig kommer med forslag til endringer og nye
-      oversettelser. På
-      <a
-        href="https://github.com/matematisk-ordliste/matematisk-ordliste#prosjektside---matematisk-ordliste"
-        >prosjektsiden</a
-      >
-      finner du informasjon om hvordan du kan komme med innspill, samt en
-      oversikt over bidragsytere og valg av språklige konvensjoner.
-    </p>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 
-    <table id="wordlist" class="stripe">
-      <thead>
-        <tr class="header">
-          <th></th>
-          <th>Bokmål</th>
-          <th>Nynorsk</th>
-          <th>Engelsk</th>
-        </tr>
-      </thead>
-      <tbody id="tablecontents"></tbody>
-    </table>
-    <footer>
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/plug-ins/1.11.3/features/fuzzySearch/dataTables.fuzzySearch.js"></script>
+  <script src="https://cdn.datatables.net/plug-ins/1.10.19/sorting/intl.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+  <script src="js/accent-neutralise.js"></script>
+
+  <style>
+    td.details-control {
+      background: url("img/details_open.png") no-repeat center center;
+      cursor: pointer;
+    }
+    tr.shown td.details-control {
+      background: url("img/details_close.png") no-repeat center center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Matematisk ordliste</h1>
+  <p>
+    Ordlista er utarbeidet i samarbeid mellom NTNU, UiO og UiA, og prosjektet
+    har mottatt støtte fra Språkrådet. Termbasen er under stadig utvikling, og
+    det er ønskelig at flest mulig kommer med forslag til endringer og nye
+    oversettelser. På
+    <a
+      href="https://github.com/matematisk-ordliste/matematisk-ordliste#prosjektside---matematisk-ordliste"
+      >prosjektsiden</a
+    >
+    finner du informasjon om hvordan du kan komme med innspill, samt en
+    oversikt over bidragsytere og valg av språklige konvensjoner.
+  </p>
+
+  <table id="wordlist" class="stripe">
+    <thead>
+      <tr class="header">
+        <th></th>
+        <th>Bokmål</th>
+        <th>Nynorsk</th>
+        <th>Engelsk</th>
+      </tr>
+    </thead>
+    <tbody id="tablecontents"></tbody>
+  </table>
+
+  <footer>
+      <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"
         ><img
           alt="Creative Commons-lisens"
           style="border-width: 0"
           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a
       ><br />Ordlista er lisensiert under en
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+      <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"
         >Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal
         lisens</a
       >.
     </footer>
-    <script>
-      // Import CSV to JSON
-      var jsonobject;
-      $.ajax({
-        url: "ordliste/verifiserte_termer.csv",
-        async: false,
-        success: function (csvd) {
-          var items = $.csv.toArrays(csvd);
-          jsonobject = items;
-        },
-        dataType: "text",
-      });
-      // Remove header
-      jsonobject = jsonobject.slice(1);
 
-      var tablecontents = document.getElementById("tablecontents");
+  <script>
+    ////////////////////////////////////////////////////////////////////////////
+    // Last inn termbasen
+    ////////////////////////////////////////////////////////////////////////////
 
-      // Fill in table
-      for (var i in jsonobject) {
-        var hasComment = jsonobject[i][3] !== "";
-        var tr = tablecontents.insertRow(-1);
-        tr.className = "oppslag";
-        var td = tr.insertCell(0);
+    async function loadTermbase() {
+      const sources = [
+        { path: "ordliste/termbase.yaml", type: "yaml" },
+        { path: "ordliste/termbase.json", type: "json" },
+        { path: "../termbase.yaml", type: "yaml" },
+        { path: "../termbase.json", type: "json" },
+      ];
 
-        // Create button if row has comment
-        if (hasComment) {
-          td.className = "details-control";
-          td.id = i;
-        }
-
-        // Legg inn bokmål, nynorsk og engelsk
-        for (j = 0; j < 3; j++) {
-          var td = tr.insertCell(j + 1);
-          td.innerHTML = jsonobject[i][j];
+      let lastError;
+      for (const source of sources) {
+        try {
+          if (source.type === "yaml") {
+            let yamltext = await $.get(source.path);
+            return jsyaml.load(yamltext);
+          }
+          return await $.getJSON(source.path);
+        } catch (e) {
+          lastError = e;
         }
       }
-      // Sort with norwegian characters in mind
-      $(document).ready(function () {
-        $.fn.dataTable.ext.order.intl("nb");
-        commentButton();
-        var table = $("#wordlist").DataTable({
-          order: [[1, "asc"]],
-          columnDefs: [{ orderable: false, targets: [0] }],
-          lengthMenu: [
-            [10, 25, 50, 100, 500, -1],
-            [
-              "10",
-              "25",
-              "50",
-              "100",
-              "500",
-              "alle",
-            ],
-          ],
-          preDrawCallback: function (settings) {
-            $(".shown").removeClass("shown");
-          },
-          language: {
-            url: "js/dataTables_norsk.json",
-            searchPlaceholder: "Søk…",
-          },
-        });
-        searchURL();
+
+      alert("Klarte ikke å laste inn termbase.yaml eller termbase.json");
+      throw lastError;
+    }
+
+    ////////////////////////////////////////////////////////////////////////////
+    // Flette anbefalt + tillatt
+    ////////////////////////////////////////////////////////////////////////////
+    function mergePreferredAllowed(obj) {
+      function flatten(x) {
+        if (!x) return [];
+        if (typeof x === "string") return [x];
+        if (Array.isArray(x)) return x;
+        return [];
+      }
+
+      function stripHtml(s) {
+        return String(s).replace(/<[^>]*>/g, "");
+      }
+
+      function expandForSearch(term) {
+        let base = stripHtml(term).trim();
+        if (!base) return [];
+        let parts = base.split("/").map(p => p.trim()).filter(Boolean);
+        let out = [base];
+        if (parts.length > 1) out.push(...parts);
+        return out;
+      }
+
+      function buildSearchText(terms) {
+        let tokens = [];
+        terms.forEach(t => tokens.push(...expandForSearch(t)));
+        return [...new Set(tokens)].join(" ");
+      }
+
+      function formatAllowedTerms(preferred, allowed) {
+        if (preferred.length === 0) return allowed;
+        return allowed.map(term => `<span class="allowed-term">${term}</span>`);
+      }
+
+      let out = {
+        bokmål: { display: "", search: "" },
+        nynorsk: { display: "", search: "" },
+        engelsk: { display: "", search: "" }
+      };
+
+      ["bokmål","nynorsk","engelsk"].forEach(lang => {
+        let a = obj.anbefalt?.[lang] ? flatten(obj.anbefalt[lang]) : [];
+        let t = obj.tillatt?.[lang] ? flatten(obj.tillatt[lang]) : [];
+        let merged = [...a, ...t];
+        let displayTerms = [...a, ...formatAllowedTerms(a, t)];
+        out[lang] = {
+          display: displayTerms.join("<br>"),
+          search: buildSearchText(merged)
+        };
       });
-    </script>
-  </body>
+
+      return out;
+    }
+
+    ////////////////////////////////////////////////////////////////////////////
+    // Flette feltene
+    ////////////////////////////////////////////////////////////////////////////
+    function mergeCommentFields(obj) {
+      const order = [
+        "ordklasse",
+        "merknad"
+      ];
+
+      let lines = [];
+      let merknadText = null;
+      let merknadHasColonOnFirstLine = false;
+
+      function flatten(x) {
+        if (!x) return [];
+        if (typeof x === "string") return [x];
+        if (Array.isArray(x)) return x;
+        return [];
+      }
+
+      // nytt: helper som kapitaliserer første bokstav
+      function capFirst(s) {
+        return s.charAt(0).toUpperCase() + s.slice(1);
+      }
+
+      function preserveLineBreaks(s) {
+        return String(s)
+          .replace(/\r\n?/g, "\n")
+          .replace(/\n{3,}/g, "\n\n")
+          .replace(/\n+$/, "")
+          .replace(/\n/g, "<br>");
+      }
+
+      function hasColonOnFirstLine(s) {
+        let firstLine = String(s).replace(/\r\n?/g, "\n").split("\n")[0];
+        return firstLine.includes(":");
+      }
+
+      order.forEach(field => {
+        let val = obj[field];
+        if (!val) return;
+
+        // ordklasse / synonym
+        if (field === "ordklasse" || field === "synonym") {
+          let label = capFirst(field);
+          lines.push(`${label}: ${flatten(val).join(", ")}`);
+          return;
+        }
+
+        // merknad (uten label)
+        if (field === "merknad") {
+          merknadHasColonOnFirstLine = hasColonOnFirstLine(val);
+          merknadText = preserveLineBreaks(val);
+          return;
+        }
+
+        // språkdelte felter
+        ["bokmål","nynorsk","engelsk"].forEach(lang => {
+          let items = flatten(val[lang]);
+          if (items.length > 0) {
+            let capLang = capFirst(lang);
+            let capField = capFirst(field);
+            lines.push(`${capLang} ${capField}: ${items.join(", ")}`);
+          }
+        });
+      });
+
+      // merknad nederst
+      if (merknadText) {
+        if (lines.length > 0) {
+          let separator = merknadHasColonOnFirstLine ? "<br>" : "<br><br>";
+          return lines.join("<br>") + separator + merknadText;
+        } else {
+          lines.push(merknadText);
+        }
+      }
+
+      return lines.join("<br>");
+    }
+
+
+    ////////////////////////////////////////////////////////////////////////////
+    // Lag tabellen
+    ////////////////////////////////////////////////////////////////////////////
+    async function initTable() {
+      let data = await loadTermbase();
+
+      let tableBody = $("#tablecontents");
+      let allrows = [];
+
+      data.forEach((entry, idx) => {
+        let row = mergePreferredAllowed(entry);
+        let comment = mergeCommentFields(entry);
+
+        let hasComment = comment.trim() !== "";
+        let tr = $("<tr class='oppslag'></tr>");
+
+        let td0 = $("<td></td>");
+        if (hasComment) {
+          td0.addClass("details-control");
+          td0.attr("id", "row" + idx);
+        }
+        tr.append(td0);
+
+        tr.append($("<td></td>").attr("data-search", row["bokmål"].search).html(row["bokmål"].display));
+        tr.append($("<td></td>").attr("data-search", row["nynorsk"].search).html(row["nynorsk"].display));
+        tr.append($("<td></td>").attr("data-search", row["engelsk"].search).html(row["engelsk"].display));
+
+        tableBody.append(tr);
+
+        allrows.push(comment);
+      });
+
+      // detaljer-knapp
+      $(".details-control").on("click", function () {
+        let id = $(this).attr("id");
+        let idx = Number(id.replace("row", ""));
+        let comment = allrows[idx];
+
+        let baseRow = $(this).closest("tr");
+        let commentRowId = "comment-" + id;
+
+        if ($("#" + commentRowId).length) {
+          $("#" + commentRowId).remove();
+          baseRow.removeClass("shown");
+        } else {
+          let newRow = `<tr id="${commentRowId}" class="comment"><td colspan="4">${comment}</td></tr>`;
+          baseRow.after(newRow);
+          baseRow.addClass("shown");
+        }
+      });
+
+      //////////////////////////////////////////////////////////////////////////
+      // DataTables
+      //////////////////////////////////////////////////////////////////////////
+      $.fn.dataTable.ext.order.intl("nb");
+      $("#wordlist").DataTable({
+        order: [[1, "asc"]],
+        columnDefs: [{ orderable: false, targets: [0] }],
+        lengthMenu: [
+          [10, 25, 50, 100, 500, -1],
+          ["10", "25", "50", "100", "500", "alle"],
+        ],
+        preDrawCallback: function () {
+          $(".shown").removeClass("shown");
+        },
+        fuzzySearch: true,
+        language: { url: "js/dataTables_norsk.json", searchPlaceholder: "Søk..." },
+      });
+    }
+
+    $(document).ready(initTable);
+  </script>
+</body>
 </html>

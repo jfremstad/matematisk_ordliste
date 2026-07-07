@@ -1,0 +1,44 @@
+name: Publiser termbase
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Sjekk ut repo
+        uses: actions/checkout@v6
+
+      - name: Sett opp Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      - name: Installer Python bibliotek
+        run: |
+          pip install pyyaml jsonschema
+
+      - name: Generer JSON
+        run: |
+          python ./skript/yaml_til_json.py ./termbase.yaml ./termbase.json
+
+      - name: Generer CSV
+        run: |
+          python ./skript/termbase_yaml_til_csv.py ./termbase_skjema.json ./termbase.yaml ./verifiserte_termer.csv
+
+      - name: Opprett GitHub-release
+        id: release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: latest
+          name: terminologidatabase
+          files: |
+            termbase.yaml
+            termbase.json
+            verifiserte_termer.csv
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,559 @@
+- anbefalt:
+    bokmål: basis
+    nynorsk: basis
+    engelsk: basis
+  merknad: De engelske termene <i>base</i> og <i>basis</i> brukes ikke helt synonymt. For
+    eksempel vil <i>base</i> foretrekkes i topologi, mens <i>basis</i> brukes i lineær algebra.
+    Merk at begge oversettes til basis på norsk.
+- anbefalt:
+    bokmål: entydig faktoriseringsområde
+    nynorsk: eintydig faktoriseringsområde
+    engelsk: unique factorization domain
+  tillatt:
+    bokmål: UFD
+    nynorsk: UFD
+    engelsk: UFD
+  ordklasse: substantiv
+  merknad: |
+    Genus: intetkjønn
+
+    UFD er en forkortelse for entydig faktoriseringsområde (bokmål) og eintydig faktoriseringsområde (nynorsk) og stammer fra <i>unique factorization domain</i>.
+- anbefalt:
+    bokmål: moment
+    nynorsk: moment
+    engelsk: moment
+  bruksområde: statistikk
+  merknad: Legg merke til at termen moment brukes innen statistikk. I fysikk kan <i>moment</i>
+    referere til det som på norsk kalles bevegelsesmengde (bokmål) og rørslemengd (nynorsk).
+- anbefalt:
+    bokmål: topp
+    nynorsk: topp
+    engelsk: peak
+  bruksområde: statistikk
+  merknad: Oversettelsen gjelder bruk innen blant annet statistikk og utelukker ikke at termen
+    kan benyttes ulikt i andre sammenhenger.
+- tillatt:
+    bokmål:
+    - på
+    - surjektiv
+    nynorsk:
+    - på
+    - surjektiv
+    engelsk:
+    - onto
+    - surjective
+- anbefalt:
+    bokmål: algebraisk
+    nynorsk: algebraisk
+    engelsk: algebraic
+  ordklasse: adjektiv
+- anbefalt:
+    bokmål: spenn
+    nynorsk: spenn
+    engelsk: span
+  ordklasse: substantiv
+- anbefalt:
+    bokmål: godtakingsfeil
+    nynorsk: godtakingsfeil
+  tillatt:
+    bokmål: type II-feil
+    nynorsk: type II-feil
+    engelsk:
+    - error of second kind
+    - false negative
+  merknad: Begge oversettelsene brukes på norsk, men godtakingsfeil anbefales.
+- anbefalt:
+    bokmål: observator
+    nynorsk: observator
+    engelsk: statistic
+  bruksområde: statistikk
+  merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes
+    ulikt i andre sammenhenger.
+- anbefalt:
+    bokmål: partall
+    nynorsk: partal
+    engelsk: even number
+  tillatt:
+    bokmål: like tall
+    nynorsk: like tal
+  merknad: Partall kan også omtales som like tall (bokmål) og like tal (nynorsk).
+- anbefalt:
+    bokmål: jacobimatrise
+    nynorsk: jacobimatrise
+  tillatt:
+    engelsk:
+    - Jacobian
+    - Jacobian matrix
+  merknad: Jacobimatrise kalles ofte bare <i>Jacobian</i> på engelsk.
+- anbefalt:
+    bokmål: algebraisk
+    nynorsk: algebraisk
+    engelsk: algebraically
+  ordklasse: adverb
+- anbefalt:
+    bokmål: salpunkt
+    nynorsk: salpunkt
+    engelsk: saddle point
+  tillatt:
+    bokmål: sadelpunkt
+  merknad: Begge skrivemåtene brukes på bokmål, men salpunkt anbefales.
+- anbefalt:
+    bokmål: eksponentielt
+    nynorsk: eksponentielt
+    engelsk: exponentially
+  ordklasse: adverb
+  merknad: 'Uttale: [eksponentsie´lt]'
+- anbefalt:
+    bokmål: basiselement
+    nynorsk: basiselement
+    engelsk: basis element
+  merknad: De engelske termene <i>base</i> og <i>basis</i> brukes ikke helt synonymt. For
+    eksempel vil <i>base</i> foretrekkes i topologi, mens <i>basis</i> brukes i lineær algebra.
+    Merk at begge oversettes til basis på norsk.
+- anbefalt:
+    bokmål: prosentilskjema
+    nynorsk: prosentilskjema
+    engelsk: percentile graph
+  tillatt:
+    bokmål: percentilskjema
+    nynorsk: percentilskjema
+  merknad: Både persentilskjema og percentilskjema forekommer også i bruk på norsk, men prosentilskjema
+    anbefales.
+- anbefalt:
+    bokmål: kropp
+    nynorsk: kropp
+    engelsk: field
+  merknad: Merk at oversettelsen av <i>field</i> er avhengig av kontekst. En kropp er en kommutativ
+    ring der ethvert ikke-nullelement har en multiplikativ invers. For eksempel utgjør de
+    reelle tall en kropp.
+- tillatt:
+    bokmål:
+    - ordinær differensialligning
+    - ordinær differensiallikning
+    - ODE
+    nynorsk:
+    - ordinær differensiallikning
+    - ODE
+    engelsk:
+    - ordinary differential equation
+    - ODE
+  merknad: Ordinær differensiallikning forkortes ofte til ODE, som stammer fra <i>ordinary
+    differential equation</i>. Forkortelsen ODE er både hankjønn og hunkjønn på bokmål og
+    hunkjønn på nynorsk.
+- tillatt:
+    bokmål:
+    - partiell differensialligning
+    - partiell differensiallikning
+    - PDE
+    nynorsk:
+    - partiell differensiallikning
+    - PDE
+    engelsk:
+    - partial differential equation
+    - PDE
+  merknad: Partiell differensiallikning forkortes ofte til PDE, som stammer fra <i>partial
+    differential equation</i>. Forkortelsen PDE er både hankjønn og hunkjønn på bokmål og
+    hunkjønn på nynorsk.
+- anbefalt:
+    bokmål: derivasjon
+    nynorsk: derivasjon
+    engelsk: differentiation
+  merknad: De engelske termene derivation og differentiation er ikke synonymer, selv om begge
+    oversettes til det samme på norsk. <i>Differentiation</i> brukes om det å derivere en
+    funksjon.
+- anbefalt:
+    bokmål: midtpunkt
+    nynorsk: midtpunkt
+    engelsk: midrange
+  ordklasse: substantiv
+  bruksområde: statistikk
+  merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes
+    ulikt i andre sammenhenger.
+- anbefalt:
+    bokmål: aritmetikk
+    nynorsk: aritmetikk
+    engelsk: arithmetic
+  ordklasse: substantiv
+- anbefalt:
+    bokmål: rotasjon
+    nynorsk: rotasjon
+    engelsk: curl
+  tillatt:
+    bokmål: curl
+    nynorsk: curl
+  merknad: Curl brukes også på norsk, men rotasjon anbefales.
+- tillatt:
+    bokmål:
+    - største felles divisor
+    - største felles faktor
+    nynorsk:
+    - største felles divisor
+    - største felles faktor
+    engelsk:
+    - greatest common divisor
+    - greatest common factor
+- tillatt:
+    bokmål:
+    - delvis ordnet mengde
+    - pomengde
+    nynorsk:
+    - delvis ordna mengd
+    - pomengd
+    engelsk:
+    - partially ordered set
+    - poset
+  merknad: Pomengde er en forkortelse for delvis ordnet mengde og stammer fra <i>partially
+    ordered set</i>.
+- anbefalt:
+    bokmål: konfidens
+    nynorsk: konfidens
+    engelsk: confidence
+  bruksområde: statistikk
+  merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes
+    ulikt i andre sammenhenger.
+- anbefalt:
+    bokmål: gjensidig utelukkende
+    nynorsk: gjensidig utelukkande
+    engelsk: mutually exclusive
+  tillatt:
+    bokmål: disjunkte
+    nynorsk: disjunkte
+    engelsk: disjoint
+  merknad: Gjensidig utelukkende hendelser kan også omtales som disjunkte.
+- tillatt:
+    bokmål:
+    - pivotkolonne
+    - pivotsøyle
+    nynorsk:
+    - pivotkolonne
+    - pivotsøyle
+    engelsk:
+    - pivot column
+    - pivotal column
+  merknad: Forstavelsen pivot uttales [pivå:’].
+- tillatt:
+    bokmål:
+    - hovedidealområde
+    - PID
+    nynorsk:
+    - hovudidealområde
+    - PID
+    engelsk:
+    - principal ideal domain
+    - PID
+  merknad: PID er en forkortelse for hovedidealområde (bokmål) og hovudidealområde (nynorsk)
+    og stammer fra <i>principal ideal domain</i>. Forkortelsen PID har intetkjønn på bokmål
+    og nynorsk.
+- anbefalt:
+    bokmål: heltallsområde
+    nynorsk: heiltalsområde
+    engelsk: integral domain
+  tillatt:
+    bokmål: integritetsområde
+    nynorsk: integritetsområde
+  merknad: Begge oversettelsene brukes på norsk, men heltallsområde (bokmål) og heiltalsområde
+    (nynorsk) anbefales.
+- anbefalt:
+    bokmål: binomisk
+    nynorsk: binomisk
+    engelsk: binomial
+  ordklasse: adjektiv
+- anbefalt:
+    bokmål: metrikk
+    nynorsk: metrikk
+    engelsk: metric
+  ordklasse: substantiv
+- anbefalt:
+    bokmål: hessematrise
+    nynorsk: hessematrise
+  tillatt:
+    engelsk:
+    - Hessian
+    - Hessian matrix
+  merknad: Hessematrise kalles ofte bare <i>Hessian</i> på engelsk.
+- anbefalt:
+    bokmål: hessedeterminant
+    nynorsk: hessedeterminant
+  tillatt:
+    engelsk:
+    - Hessian
+    - Hessian determinant
+  merknad: Hessedeterminant kalles ofte bare <i>Hessian</i> på engelsk.
+- anbefalt:
+    bokmål: pivotelement
+    nynorsk: pivotelement
+    engelsk: pivot element
+  merknad: Forstavelsen pivot uttales [pivå:’].
+- anbefalt:
+    bokmål: konjugert
+    nynorsk: konjugert
+    engelsk: conjugate
+  ordklasse: adjektiv
+- anbefalt:
+    bokmål: sammenslått
+    nynorsk: samanslege
+    engelsk: pooled
+  bruksområde: statistikk
+  merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes
+    ulikt i andre sammenhenger.
+- anbefalt:
+    bokmål: utspenne
+    nynorsk: utspenne
+    engelsk: span
+  ordklasse: verb
+- anbefalt:
+    bokmål: variasjonsbredde
+    nynorsk: variasjonsbreidd
+    engelsk: range
+  bruksområde: statistikk
+  merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes
+    ulikt i andre sammenhenger.
+- anbefalt:
+    bokmål: basiselement
+    nynorsk: basiselement
+    engelsk: base element
+  merknad: De engelske termene <i>base</i> og <i>basis</i> brukes ikke helt synonymt. For
+    eksempel vil <i>base</i> foretrekkes i topologi, mens <i>basis</i> brukes i lineær algebra.
+    Merk at begge oversettes til basis på norsk.
+- anbefalt:
+    bokmål: forkastningsfeil
+    nynorsk: forkastingsfeil
+  tillatt:
+    bokmål: type I-feil
+    nynorsk: type I-feil
+    engelsk:
+    - error of first kind
+    - false positive
+  merknad: Begge oversettelsene brukes på norsk, men forkastningsfeil (bokmål) og forkastingsfeil
+    (nynorsk) anbefales.
+- anbefalt:
+    bokmål: forventningsrett
+    nynorsk: forventingsrett
+    engelsk: unbiased
+  ordklasse: adjektiv
+- anbefalt:
+    bokmål: syzygi
+    nynorsk: syzygi
+    engelsk: syzygy
+  merknad: 'Uttale: [sytsygi:´]'
+- anbefalt:
+    bokmål: prosentil
+    nynorsk: prosentil
+    engelsk: percentile
+  tillatt:
+    bokmål: percentil
+    nynorsk: percentil
+  merknad: Både persentil og percentil forekommer også i bruk på norsk, men prosentil anbefales.
+- anbefalt:
+    bokmål: wronskideterminant
+    nynorsk: wronskideterminant
+  tillatt:
+    engelsk:
+    - Wronski determinant
+    - Wronskian
+  merknad: Wronskideterminant kalles ofte bare <i>Wronskian</i> på engelsk.
+- tillatt:
+    bokmål:
+    - variansanalyse
+    - ANOVA
+    nynorsk:
+    - variansanalyse
+    - ANOVA
+    engelsk:
+    - analysis of variance
+    - variance analysis
+    - ANOVA
+  merknad: Variansanalyse forkortes ofte til ANOVA, som stammer fra <i>analysis of variance</i>.
+- anbefalt:
+    bokmål: derivasjon
+    nynorsk: derivasjon
+    engelsk: derivation
+  merknad: De engelske termene <i>derivation</i> og <i>differentiation</i> er ikke synonymer,
+    selv om begge oversettes til det samme på norsk. En derivasjon er en lineæravbildning
+    som tilfredsstiller Leibniz' regel.
+- anbefalt:
+    bokmål: metrisk
+    nynorsk: metrisk
+    engelsk: metric
+  ordklasse: adjektiv
+- anbefalt:
+    bokmål: avbilde
+    nynorsk: avbilde
+    engelsk: map
+  ordklasse: verb
+- anbefalt:
+    bokmål: underbasis
+    nynorsk: underbasis
+    engelsk: subbase
+  merknad: De engelske termene <i>base</i> og <i>basis</i> brukes ikke helt synonymt. For
+    eksempel vil <i>base</i> foretrekkes i topologi, mens <i>basis</i> brukes i lineær algebra.
+    Merk at begge oversettes til basis på norsk.
+- anbefalt:
+    bokmål: felt
+    nynorsk: felt
+    engelsk: field
+  merknad: Merk at oversettelsen av <i>field</i> er avhengig av kontekst. Oversettelsen felt
+    brukes for eksempel i forbindelse med vektorfelt.
+- anbefalt:
+    bokmål: basis
+    nynorsk: basis
+    engelsk: base
+  merknad: De engelske termene <i>base</i> og <i>basis</i> brukes ikke helt synonymt. For
+    eksempel vil <i>base</i> foretrekkes i topologi, mens <i>basis</i> brukes i lineær algebra.
+    Merk at begge oversettes til basis på norsk.
+- anbefalt:
+    bokmål: typetall
+    nynorsk: typetal
+    engelsk: mode
+  tillatt:
+    bokmål: modalverdi
+    nynorsk: modalverdi
+  bruksområde: statistikk
+  merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes
+    ulikt i andre sammenhenger. Typetall (bokmål) og typetal (nynorsk) anbefales.
+- anbefalt:
+    bokmål: aritmetisk
+    nynorsk: aritmetisk
+    engelsk: arithmetic
+  ordklasse: adjektiv
+- anbefalt:
+    bokmål: nullrom
+    nynorsk: nullrom
+    engelsk: null space
+  merknad: I mange tilfeller kan termene nullrom og kjerne brukes synonymt. Hva som er vanlig
+    ordvalg, avhenger av kontekst.
+- anbefalt:
+    bokmål: avbildning
+    nynorsk: avbilding
+  tillatt:
+    engelsk:
+    - map
+    - mapping
+  ordklasse: substantiv
+- anbefalt:
+    bokmål: underbasis
+    nynorsk: underbasis
+    engelsk: subbasis
+  merknad: De engelske termene <i>base</i> og <i>basis</i> brukes ikke helt synonymt. For
+    eksempel vil <i>base</i> foretrekkes i topologi, mens <i>basis</i> brukes i lineær algebra.
+    Merk at begge oversettes til basis på norsk.
+- anbefalt:
+    bokmål: jacobideterminant
+    nynorsk: jacobideterminant
+  tillatt:
+    engelsk:
+    - Jacobian
+    - Jacobian determinant
+  merknad: Jacobideterminant kalles ofte bare <i>Jacobian</i> på engelsk.
+- anbefalt:
+    bokmål: pivotrad
+    nynorsk: pivotrad
+  tillatt:
+    engelsk:
+    - pivot row
+    - pivotal row
+  merknad: Forstavelsen pivot uttales [pivå:’].
+- anbefalt:
+    bokmål: supplementvinkel
+    nynorsk: supplementvinkel
+    engelsk: supplementary angle
+  tillatt:
+    bokmål: supplementær vinkel
+    nynorsk: supplementær vinkel
+  merknad: Supplementvinkler kan også omtales som supplementære vinkler (bokmål) og supplementære
+    vinklar (nynorsk).
+- anbefalt:
+    bokmål: briggsk logaritme
+    nynorsk: briggsk logaritme
+  tillatt:
+    engelsk:
+    - base ten logarithm
+    - common logarithm
+  merknad: Briggsk logaritme kalles noen ganger <i>Briggsian logarithm</i> på engelsk, og
+    den norske oversettelsen stammer fra dette.
+- anbefalt:
+    bokmål: forsøksplan
+    nynorsk: forsøksplan
+    engelsk: design
+  bruksområde: statistikk
+  merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes
+    ulikt i andre sammenhenger.
+- anbefalt:
+    bokmål: klasseskille
+    nynorsk: klasseskilje
+    engelsk: class boundary
+  bruksområde: statistikk
+  merknad: Oversettelsen gjelder bruk i statistikk og utelukker ikke at termen kan benyttes
+    ulikt i andre sammenhenger.
+- anbefalt:
+    bokmål: eksponentiell
+    nynorsk: eksponentiell
+    engelsk: exponential
+  ordklasse: adjektiv
+  merknad: 'Uttale: [eksponentsie´l:]'
+- anbefalt:
+    bokmål: konjugere
+    nynorsk: konjugere
+    engelsk: conjugate
+  ordklasse: verb
+- anbefalt:
+    bokmål: komplementvinkel
+    nynorsk: komplementvinkel
+    engelsk: complementary angle
+  tillatt:
+    bokmål: komplementær vinkel
+    nynorsk: komplementær vinkel
+  merknad: Komplementvinkler kan også omtales som komplementære vinkler (bokmål) og komplementære
+    vinklar (nynorsk).
+- anbefalt:
+    bokmål: kolineær
+    nynorsk: kolineær
+  tillatt:
+    bokmål: kollineær
+    nynorsk: kollineær
+    engelsk:
+    - colinear
+    - collinear
+  merknad: Begge skrivemåtene brukes på norsk, men kolineær anbefales.
+- anbefalt:
+    bokmål: binom
+    nynorsk: binom
+    engelsk: binomial
+  ordklasse: substantiv
+- anbefalt:
+    engelsk: one-to-one correspondence
+  tillatt:
+    bokmål:
+    - én-entydig korrespondanse
+    - én-til-én-korrespondanse
+    nynorsk:
+    - éin-eintydig korrespondanse
+    - éin-til-éin-korrespondanse
+  merknad: I mange tilfeller kan termene én-entydig korrespondanse og bijeksjon brukes synonymt.
+    Hva som er vanlig ordvalg, avhenger av kontekst.
+- anbefalt:
+    bokmål: bijeksjon
+    nynorsk: bijeksjon
+    engelsk: bijection
+  merknad: I mange tilfeller kan termene bijeksjon og én-entydig korrespondanse brukes synonymt.
+    Hva som er vanlig ordvalg, avhenger av kontekst.
+- tillatt:
+    bokmål:
+    - injektiv
+    - én-til-én
+    nynorsk:
+    - injektiv
+    - éin-til-éin
+    engelsk:
+    - injective
+    - one-to-one
+  bruksområde: funksjoner
+  merknad: I mange tilfeller kan termene én-til-én og én-entydig brukes synonymt. Hva som
+    er vanlig ordvalg, avhenger av kontekst.
+- anbefalt:
+    bokmål: basal algebra
+    nynorsk: basal algebra
+    engelsk: basic algebra
+  bruksområde: representasjonsteori
+  merknad: Oversettelsen gjelder bruk i representasjonsteori og utelukker ikke at termen kan
+    benyttes ulikt i andre sammenhenger.

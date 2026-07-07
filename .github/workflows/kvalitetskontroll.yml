@@ -1,0 +1,29 @@
+name: Termbase kvalitetskontroll
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  qc:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hent kode
+        uses: actions/checkout@v6
+
+      - name: Sett opp Python 3
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      - name: Installer Python bibliotek
+        run: |
+          pip install pyyaml jsonschema
+
+      - name: Kvalitetssjekk termbase
+        run: python ./skript/kvalitetssjekk_termbase.py ./termbase_skjema.json ./termbase.yaml

@@ -7,7 +7,9 @@ about: Velg denne dersom du vil lufte et forslag til en ny term/oversettelse.
 La overskriften (title) være termen på enten bokmål, nynorsk eller engelsk. Fjern denne linja.
 
 **Forslag:**
-bokmål,nynorsk,engelsk
+Bokmål:
+Nynorsk:
+Engelsk:
 
 **Merknad:**
 Skriv inn en merknad hvis du synes termen din trenger det. Hvis ikke, fjern dette.
