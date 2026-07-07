@@ -26,10 +26,6 @@ jobs:
         run: |
           python ./skript/yaml_til_json.py ./termbase.yaml ./termbase.json
 
-      - name: Generer CSV
-        run: |
-          python ./skript/termbase_yaml_til_csv.py ./termbase_skjema.json ./termbase.yaml ./verifiserte_termer.csv
-
       - name: Opprett GitHub-release
         id: release
         uses: softprops/action-gh-release@v1
@@ -39,6 +35,5 @@ jobs:
           files: |
             termbase.yaml
             termbase.json
-            verifiserte_termer.csv
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
