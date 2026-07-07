@@ -5,10 +5,11 @@ viktigste er, der det foreligger en norsk og en engelsk eller engelskbasert
 term, å bruke den norske varianten av termen. Anbefaling av termer er også nært
 knyttet til _danning av termer_. I tilfeller hvor det foreligger flere synonyme
 termer for ett begrep skal man anbefale den som i størst grad oppfyller
-prinsippene under for danning av termer, tatt fra standarden for
-terminologiarbeid. I tillegg til disse prinsippene er det slik at veletablert
-bruk skal respekteres: etablerte og utbredte termer skal ikke endres selv om de
-er dårlige eller uklare.
+prinsippene under for danning av termer. Disse er basert på beskrivelsene i
+standarden NS-ISO 704:2022 _Terminologiarbeid – Prinsipp og metodar_. I tillegg
+til disse prinsippene er det slik at veletablert bruk skal respekteres:
+etablerte og utbredte termer skal ikke endres selv om de er dårlige eller
+uklare.
 
 > - **Transparens (gjennomsiktighet).** Termen er transparent når det termen
 >   viser til kan utledes fra selve ordet. For eksempel er sekskantnøkkel mer
